@@ -1,0 +1,214 @@
+{
+ "frozen_at": "2026-09-24T23:34:37+05:30",
+ "draw_fetched_at": "2026-09-24T13:47:40",
+ "n_sims": 20000,
+ "model": {
+  "beta": 0.08509751521399517,
+  "lam": 32.0,
+  "train_matches": 449
+ },
+ "matches_with_prediction": 156,
+ "already_played_at_freeze": 36,
+ "in_scorecard": 120,
+ "files": [
+  "match_predictions_20260924T233437.csv",
+  "title_odds_20260924T233437.csv"
+ ],
+ "favourites": [
+  {
+   "division": "Men's 40+",
+   "team": "Akshay Jalan / Ankit Agarwal",
+   "team_points": 1788.0,
+   "p_title": 0.97905
+  },
+  {
+   "division": "Women's Beginner",
+   "team": "Arnavaz Kollah / Ustat Kharbanda",
+   "team_points": 50.0,
+   "p_title": 0.5788
+  },
+  {
+   "division": "Men's Advance",
+   "team": "Aditya Jagtap / Rahul Motwani",
+   "team_points": 6598.0,
+   "p_title": 0.57115
+  },
+  {
+   "division": "Men's Beginner",
+   "team": "Gautam Kaushal / Suvir Singh",
+   "team_points": 45.0,
+   "p_title": 0.5384
+  },
+  {
+   "division": "Men's Advance",
+   "team": "Samar Malhotra / Paramveer Singh Bajwa",
+   "team_points": 4936.0,
+   "p_title": 0.3652
+  },
+  {
+   "division": "Women's Beginner",
+   "team": "Dishita Aggarwal / Avreet Dhillon",
+   "team_points": 50.0,
+   "p_title": 0.2245
+  },
+  {
+   "division": "Men's Intermediate",
+   "team": "Pruthvi Patel / Harshil Sheth",
+   "team_points": 168.0,
+   "p_title": 0.1718
+  },
+  {
+   "division": "Men's Intermediate",
+   "team": "Madhav Bajaj / Divanshu Nayyar",
+   "team_points": 100.0,
+   "p_title": 0.16595
+  },
+  {
+   "division": "Men's Beginner",
+   "team": "Shray Mehta / Atin Gupta",
+   "team_points": 30.0,
+   "p_title": 0.161
+  },
+  {
+   "division": "Men's Intermediate",
+   "team": "Mehul Bansal / Lakshay Bharti",
+   "team_points": 85.0,
+   "p_title": 0.15965
+  },
+  {
+   "division": "Women's Beginner",
+   "team": "Armaan Mann / Amanat Mann",
+   "team_points": 18.0,
+   "p_title": 0.0967
+  },
+  {
+   "division": "Men's Beginner",
+   "team": "Ajitesh Kaushal / Vidur Ahuja",
+   "team_points": 0.0,
+   "p_title": 0.0518
+  },
+  {
+   "division": "Men's Advance",
+   "team": "Arjun Kapoor / Rohit Dhiman",
+   "team_points": 1240.0,
+   "p_title": 0.02055
+  },
+  {
+   "division": "Men's 40+",
+   "team": "Prabhas Sharma / Muizz Khan",
+   "team_points": 0.0,
+   "p_title": 0.00455
+  },
+  {
+   "division": "Men's 40+",
+   "team": "Utsav Khanna / Supan Kalucha",
+   "team_points": 0.0,
+   "p_title": 0.00345
+  }
+ ],
+ "closest_upcoming": [
+  {
+   "division": "Men's 40+",
+   "round": "GROUP B",
+   "team1": "Utsav Khanna / Supan Kalucha",
+   "team2": "Sidharth Daluja / Avish Sharma",
+   "p_team1": 0.5
+  },
+  {
+   "division": "Women's Beginner",
+   "round": "GROUP B",
+   "team1": "Sara Daluja / Shuchi Bakshi",
+   "team2": "Muskaan Sundra / Hasrat Kaushal",
+   "p_team1": 0.5
+  },
+  {
+   "division": "Men's 40+",
+   "round": "GROUP A",
+   "team1": "Mukul Kumar / Kanwar Dhillon",
+   "team2": "Sidharth Garg / Anuj Mehndiratta",
+   "p_team1": 0.5
+  },
+  {
+   "division": "Women's Beginner",
+   "round": "GROUP B",
+   "team1": "Tasveer Sohi / Prabhsifat Kaur",
+   "team2": "Muskaan Sundra / Hasrat Kaushal",
+   "p_team1": 0.5
+  },
+  {
+   "division": "Women's Beginner",
+   "round": "GROUP B",
+   "team1": "Tasveer Sohi / Prabhsifat Kaur",
+   "team2": "Bhavya Wadhawan / Shrawasti Kundilya",
+   "p_team1": 0.5
+  },
+  {
+   "division": "Men's Intermediate",
+   "round": "GROUP H",
+   "team1": "Ankush Puri / Sehaj Sehgal",
+   "team2": "Japnaam Singh / Meet Ohlyan",
+   "p_team1": 0.5
+  },
+  {
+   "division": "Women's Beginner",
+   "round": "GROUP B",
+   "team1": "Sara Daluja / Shuchi Bakshi",
+   "team2": "Bhavya Wadhawan / Shrawasti Kundilya",
+   "p_team1": 0.5
+  },
+  {
+   "division": "Men's 40+",
+   "round": "GROUP A",
+   "team1": "Sidharth Garg / Anuj Mehndiratta",
+   "team2": "Gagandeep Singh Wasu / Vikas Nayar",
+   "p_team1": 0.5
+  }
+ ],
+ "model_vs_points_disagreements": [
+  {
+   "division": "Men's Intermediate",
+   "round": "GROUP A",
+   "team1": "Manav Malhotra / Varun Dattani",
+   "team2": "Raghav Garg / Sachit Nayyar",
+   "team1_points": 301.0,
+   "team2_points": 44.0,
+   "p_team1": 0.4429
+  },
+  {
+   "division": "Men's Intermediate",
+   "round": "GROUP H",
+   "team1": "Nikhil Bansal / Jansher Waraich",
+   "team2": "Vansh Bhagtani / Yash Nagdev",
+   "team1_points": 51.0,
+   "team2_points": 18.0,
+   "p_team1": 0.3251
+  },
+  {
+   "division": "Men's Intermediate",
+   "round": "GROUP F",
+   "team1": "Rishabh Gupta / Rijul Jain",
+   "team2": "Arjun Dhanda / Akhil Bansal",
+   "team1_points": 20.0,
+   "team2_points": 18.0,
+   "p_team1": 0.4851
+  },
+  {
+   "division": "Men's Intermediate",
+   "round": "GROUP G",
+   "team1": "Ramit Bhargava / Manjot Singh Ahuja",
+   "team2": "Udhay Mahajan / Hari Singh",
+   "team1_points": 20.0,
+   "team2_points": 18.0,
+   "p_team1": 0.4307
+  },
+  {
+   "division": "Men's Advance",
+   "round": "GROUP D",
+   "team1": "Advait Bahl / Kabir Anand",
+   "team2": "Pranav Chopra / Raghuraj Dewan",
+   "team1_points": 213.0,
+   "team2_points": 178.0,
+   "p_team1": 0.2541
+  }
+ ]
+}
