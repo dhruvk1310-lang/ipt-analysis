@@ -1,0 +1,10 @@
+# raw page cache: a copy of the site's HTML, kept locally only (rebuild with ipt_scraper.py)
+raw/
+logs/
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+report/preview/
+report/*.pdf
+~$*.docx
