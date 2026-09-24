@@ -9,9 +9,10 @@ from __future__ import annotations
 import json
 import shutil
 
+import numpy as np
 import pandas as pd
 
-from common import CATEGORIES, OUT as OUTPUTS, ROOT
+from common import CATEGORIES, OUT as OUTPUTS, ROOT, player_main_category
 
 A1, A2, A3, A4 = (OUTPUTS / d for d in ("a1_ranking_forecast", "a2_match_model", "a3_chandigarh", "a4_chandigarh_scorecard"))
 DOCS = ROOT / "docs"
@@ -71,6 +72,33 @@ def main():
         "calendar": records(upcoming[["name", "type", "start_date", "city"]]),
     }
     (DOCS / "data.json").write_text(json.dumps(data, separators=(",", ":"), default=str))
+
+    # ---- predictions page
+    model = js(A2 / "final_model.json")
+    structure = js(A3 / "structure.json")
+    main_cat = player_main_category()
+    ranks = pd.read_csv(ROOT / "ipt_data/Rankings.csv")
+    best = (ranks.assign(o=ranks["category"].map({"Men's": 0, "Women's": 0, "Men's 40+": 1}))
+            .sort_values(["o", "rank"]).drop_duplicates("player_id"))
+    players = [{"name": r["name"], "cat": r["category"], "points": int(r["points"]),
+                "theta": round(model["beta"] * float(np.log1p(r["points"])) + model["u"].get(r["player_id"], 0.0), 4)}
+               for _, r in best.iterrows()]
+    known = {x["name"] for x in players}
+    pl = pd.read_csv(ROOT / "ipt_data/Players.csv")
+    for _, r in pl[pl["player_id"].isin(model["u"].keys()) & ~pl["name"].isin(known)].iterrows():
+        players.append({"name": r["name"], "cat": "Unranked", "points": 0, "theta": round(model["u"][r["player_id"]], 4)})
+    pred = {
+        "as_of": s1["as_of"], "frozen_at": s3["frozen_at"], "n_sims": s3["n_sims"],
+        "already_played": s3["already_played_at_freeze"], "in_scorecard": s3["in_scorecard"],
+        "model": {"pooled": s2["pooled_AB"], "calibration": records(cal), "backtest": records(back),
+                  "matches_used": s2["matches_used"], "beta": model["beta"]},
+        "odds": records(odds.fillna(-1)),
+        "divisions": structure["divisions"], "teams": structure["teams"], "players": players,
+        "matches": data["chandigarh"]["matches"], "scorecard": s4,
+    }
+    (DOCS / "predictions.json").write_text(json.dumps(pred, separators=(",", ":"), default=str))
+    print(f"wrote {DOCS / 'predictions.json'} ({(DOCS / 'predictions.json').stat().st_size / 1024:.0f} KB, "
+          f"{len(players)} player ratings)")
     shutil.copy(ROOT / "report/IPT_Analysis_Report.docx", DOCS / "IPT_Analysis_Report.docx")
     print(f"wrote {DOCS / 'data.json'} ({(DOCS / 'data.json').stat().st_size / 1024:.0f} KB)")
 

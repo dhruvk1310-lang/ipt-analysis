@@ -35,6 +35,14 @@ OUT = out_dir("a3_chandigarh")
 N_SIMS = 20000
 SIM_DIVISIONS = ["Men's Advance", "Men's Intermediate", "Men's Beginner", "Men's 40+", "Women's Beginner"]
 rng = np.random.default_rng(20260924)
+EXTRA: dict = {}  # per division: bracket slot odds + structure for the website's simulator
+
+
+def top_share(idx: np.ndarray, names: list, k: int = 5) -> list:
+    """Most frequent occupants of a bracket slot across simulations."""
+    c = np.bincount(idx, minlength=len(names)) / len(idx)
+    order = np.argsort(-c)[:k]
+    return [{"team": names[i], "p": round(float(c[i]), 4)} for i in order if c[i] > 0]
 
 
 def norm(s):
@@ -149,6 +157,7 @@ def simulate_division(div: str, matches: pd.DataFrame, standings: pd.DataFrame, 
     reached = defaultdict(lambda: np.zeros(T))
     stage_name = {0: "reached_R16", 1: "reached_QF", 2: "reached_SF", 3: "reached_final"}
     champion = np.zeros(T)
+    ko_slots = []
 
     def resolve(label):
         n = norm(label)
@@ -177,6 +186,9 @@ def simulate_division(div: str, matches: pd.DataFrame, standings: pd.DataFrame, 
         slot[f"winner:{norm(m['round'])}"] = win
         if m["stage"] == 3:
             np.add.at(champion, win, 1)
+        disp = [book[t]["team"] if t in book else t for t in teams]
+        ko_slots.append({"round": m["round"], "stage": int(m["stage"]),
+                         "team1": top_share(a, disp), "team2": top_share(b, disp), "winner": top_share(win, disp)})
 
     rows = []
     for t in teams:
@@ -189,11 +201,40 @@ def simulate_division(div: str, matches: pd.DataFrame, standings: pd.DataFrame, 
             if k in reached:
                 row[k] = reached[k][i] / N_SIMS
         row["p_title"] = champion[i] / N_SIMS
+        for place in sorted(pos_count):
+            row[f"p_pos_{place + 1}"] = pos_count[place][i] / N_SIMS
         rows.append(row)
+
+    # structure for the website's in-browser simulator (same rules as above)
+    def label(x):
+        n = norm(x)
+        return book[n]["team"] if n in book else str(x).strip()
+    EXTRA[div] = {
+        "ko_slots": ko_slots,
+        "groups": {g: [label(t) for t in ms] for g, ms in groups.items()},
+        "standings": [{"group": r["group"], "team": label(r["team"]), "played": int(r["played"]),
+                       "wins": int(r["wins"]), "points": int(r["points"]), "difference": r["difference"]}
+                      for _, r in standings[standings["division"] == div].iterrows()],
+        "group_matches": [{"t1": label(r["team1"]), "t2": label(r["team2"]), "format": r["format"],
+                           "status": r["status"], "winner": (int(r["winner"]) if r["status"] == "completed" else None),
+                           "games": (games_from_score(r["score_team1_first"], r["format"])
+                                     if r["status"] == "completed" else None)}
+                          for _, r in dm[dm["match_kind"] == "group"].iterrows()],
+        "ko": [{"round": r["round"], "stage": int(r["stage"]), "t1": label(r["team1"]), "t2": label(r["team2"]),
+                "format": r["format"], "status": r["status"],
+                "winner": (int(r["winner"]) if r["status"] == "completed" else None)}
+               for _, r in ko.sort_values("stage").iterrows()],
+        "strength": {book[t]["team"]: round(float(strength[tix[t]]), 4) for t in teams if t in book},
+    }
     return pd.DataFrame(rows).sort_values("p_title", ascending=False)
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--freeze", action="store_true",
+                    help="lock these predictions as the official forecast (only before matches are played)")
+    freeze = ap.parse_args().freeze
     model = load_model()
     t = load("Tournaments").set_index("slug").loc[LIVE]
     m = load("Matches")
@@ -234,18 +275,32 @@ def main():
     sims = pd.concat([simulate_division(d, m, standings, book) for d in SIM_DIVISIONS], ignore_index=True)
     sims.to_csv(OUT / "title_odds.csv", index=False)
 
-    # ---- freeze
+    # ---- website extras: bracket slot odds and simulator structure
+    teams_out = [{"team": b["team"], "division": b["division"], "points": b["points"],
+                  "strength": round(float(b["strength"]), 4),
+                  "players": [{"name": x["name"], "points": x["points"], "theta": round(float(x["theta"]), 4)}
+                              for x in b["players"]]} for b in book.values()]
+    save_json({"divisions": EXTRA, "teams": teams_out}, OUT / "structure.json")
+
+    # ---- freeze (only with --freeze); otherwise keep the existing lock untouched
     frozen = OUT / "frozen"
     frozen.mkdir(exist_ok=True)
-    stamp = frozen_at[:19].replace(":", "").replace("-", "")
-    preds.to_csv(frozen / f"match_predictions_{stamp}.csv", index=False)
-    sims.to_csv(frozen / f"title_odds_{stamp}.csv", index=False)
-    meta = {"frozen_at": frozen_at, "draw_fetched_at": fetched_at, "n_sims": N_SIMS,
-            "model": {"beta": model["beta"], "lam": model["lam"], "train_matches": model["train_matches"]},
-            "matches_with_prediction": len(preds), "already_played_at_freeze": int((~preds["in_scorecard"]).sum()),
-            "in_scorecard": int(preds["in_scorecard"].sum()),
-            "files": [f"match_predictions_{stamp}.csv", f"title_odds_{stamp}.csv"]}
-    save_json(meta, frozen / "LATEST.json")
+    if freeze:
+        stamp = frozen_at[:19].replace(":", "").replace("-", "")
+        preds.to_csv(frozen / f"match_predictions_{stamp}.csv", index=False)
+        sims.to_csv(frozen / f"title_odds_{stamp}.csv", index=False)
+        meta = {"frozen_at": frozen_at, "draw_fetched_at": fetched_at, "n_sims": N_SIMS,
+                "model": {"beta": model["beta"], "lam": model["lam"], "train_matches": model["train_matches"]},
+                "matches_with_prediction": len(preds), "already_played_at_freeze": int((~preds["in_scorecard"]).sum()),
+                "in_scorecard": int(preds["in_scorecard"].sum()),
+                "files": [f"match_predictions_{stamp}.csv", f"title_odds_{stamp}.csv"]}
+        save_json(meta, frozen / "LATEST.json")
+    else:
+        meta = json.loads((frozen / "LATEST.json").read_text())
+        locked = pd.read_csv(frozen / meta["files"][1])
+        same = locked.merge(sims, on=["division", "team"], suffixes=("_locked", ""))
+        drift = float((same["p_title_locked"] - same["p_title"]).abs().max())
+        print(f"not re-freezing; max difference from the locked title odds: {drift:.6f}")
 
     # ---- headline facts
     fav = sims.sort_values("p_title", ascending=False).groupby("division").head(3)
