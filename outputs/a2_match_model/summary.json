@@ -1,0 +1,90 @@
+{
+ "lam": 32.0,
+ "beta_final": 0.08509751521399517,
+ "matches_used": {
+  "mumbai-city-open-5-01": 139,
+  "ipt-goa-grandslam-11-0": 176,
+  "ipt-kochi-city-open-2-0": 101,
+  "ipt-chandigarh-city-open-2-0": 33
+ },
+ "pooled_AB": {
+  "coin flip": {
+   "matches": 277,
+   "log_loss": 0.6931471805599453,
+   "brier": 0.25,
+   "accuracy": 0.5
+  },
+  "points only": {
+   "matches": 277,
+   "log_loss": 0.5669924544305387,
+   "brier": 0.19642761943640136,
+   "accuracy": 0.6841155234657039
+  },
+  "results only": {
+   "matches": 277,
+   "log_loss": 0.6510891635392846,
+   "brier": 0.23037288981361378,
+   "accuracy": 0.5974729241877257
+  },
+  "points + results": {
+   "matches": 277,
+   "log_loss": 0.554136722444159,
+   "brier": 0.19184133829962643,
+   "accuracy": 0.6931407942238267
+  }
+ },
+ "calibration": [
+  {
+   "bin": "[0.5, 0.6)",
+   "predicted": 0.5118548971926218,
+   "actual": 0.5789473684210527,
+   "matches": 95
+  },
+  {
+   "bin": "[0.6, 0.7)",
+   "predicted": 0.657907504348638,
+   "actual": 0.62,
+   "matches": 50
+  },
+  {
+   "bin": "[0.7, 0.8)",
+   "predicted": 0.73966466749742,
+   "actual": 0.6981132075471698,
+   "matches": 53
+  },
+  {
+   "bin": "[0.8, 0.9)",
+   "predicted": 0.853920485962813,
+   "actual": 0.825,
+   "matches": 40
+  },
+  {
+   "bin": "[0.9, 1.0)",
+   "predicted": 0.9637901245303545,
+   "actual": 0.9743589743589743,
+   "matches": 39
+  }
+ ],
+ "biggest_positive_adjustments": [
+  [
+   "2ecd3163-09e3-40b5-bd3b-d817112479b0",
+   0.23933883216104018
+  ],
+  [
+   "91d8198e-2679-4c96-9b3e-4da14d39b69e",
+   0.23788861930606617
+  ],
+  [
+   "ae03412d-d2a1-4b89-a934-a895d52f8a9d",
+   0.23788861930606617
+  ],
+  [
+   "f455fd74-d0ee-4f00-b838-363eff4730e6",
+   0.2218275165881436
+  ],
+  [
+   "9db40aca-2be2-4bdd-b807-02ad8bb8bf77",
+   0.2171318980289155
+  ]
+ ]
+}
