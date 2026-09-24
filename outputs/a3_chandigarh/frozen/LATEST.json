@@ -1,0 +1,17 @@
+{
+ "frozen_at": "2026-09-24T23:34:37+05:30",
+ "draw_fetched_at": "2026-09-24T13:47:40",
+ "n_sims": 20000,
+ "model": {
+  "beta": 0.08509751521399517,
+  "lam": 32.0,
+  "train_matches": 449
+ },
+ "matches_with_prediction": 156,
+ "already_played_at_freeze": 36,
+ "in_scorecard": 120,
+ "files": [
+  "match_predictions_20260924T233437.csv",
+  "title_odds_20260924T233437.csv"
+ ]
+}
