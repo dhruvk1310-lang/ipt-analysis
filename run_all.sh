@@ -14,7 +14,9 @@ cd analysis
 python3 a1_ranking_forecast.py                # analysis 1: ranking forecast
 python3 a2_match_model.py                     # analysis 2: model backtest + final fit
 if [ "${FREEZE:-0}" = 1 ]; then
-  python3 a3_chandigarh_forecast.py           # analysis 3: freeze Chandigarh predictions
+  python3 a3_chandigarh_forecast.py --freeze  # analysis 3: lock new Chandigarh predictions
+else
+  python3 a3_chandigarh_forecast.py           # analysis 3: website extras, keeps the existing lock
 fi
 python3 a4_evaluate_chandigarh.py --no-fetch  # scorecard (says "no scored matches yet" until results exist)
 python3 build_report.py                       # report/IPT_Analysis_Report.docx

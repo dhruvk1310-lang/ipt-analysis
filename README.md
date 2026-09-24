@@ -21,12 +21,12 @@ Independent analysis of the Indian Padel Tour (indianpadeltour.in), built from t
 | `analysis/a1_ranking_forecast.py` | Analysis 1. |
 | `analysis/padel_model.py` | The strength model and match-format maths. |
 | `analysis/a2_match_model.py` | Analysis 2: backtest and final model. |
-| `analysis/a3_chandigarh_forecast.py` | Analysis 3: Chandigarh odds, frozen with a timestamp. |
+| `analysis/a3_chandigarh_forecast.py` | Analysis 3: Chandigarh odds and bracket; `--freeze` locks a new official forecast (a normal run keeps the existing lock). |
 | `analysis/a4_evaluate_chandigarh.py` | Scores the frozen forecast after the event. |
 | `analysis/build_report.py` | Builds the Word report. |
 | `analysis/build_site.py` | Builds `docs/data.json` for the website. |
 | `outputs/` | Every table (CSV), chart (PNG) and summary (JSON) the report and site use. |
-| `docs/` | The website (GitHub Pages). |
+| `docs/` | The website (GitHub Pages): `index.html` (overview) and `predictions.html` (title odds, group heatmaps, bracket, in-browser simulator, match predictor). Shared `style.css` and `common.js`; data in `data.json` and `predictions.json`. |
 
 ## Run it
 
