@@ -1,0 +1,17 @@
+check,result,detail
+Rankings points = sum of counting event points,PASS,916/916 rows reconcile
+Players points = sum of counting event points,PASS,"896 pass, 0 fail"
+Profile page agrees with rankings (info),PASS,"17 players flagged: ['Mayank Daga', 'Suhani Sabharwal', 'Parth Bhatia', 'Amaya Kothari', 'Namita Bal', 'Anmol Malhotra', 'Karan Mehrotra', 'Bhagya Popat', 'Rhea Mathews', 'Ryan Carroll', 'Yugantar Malhotra', 'Samar Malhotra', 'Mikhail Mehra', 'Sonashe Bhatnagar', 'Siddharth Satheesan', 'Tulsi Mehta', 'Kyra Pereira']"
+match_id unique and non-empty,PASS,"635 matches, 635 unique, 0 empty"
+every completed match has winner 1 or 2,PASS,"478 completed, 0 without winner"
+set counts agree with winner,PASS,"471 scored matches checked, 0 disagree; 7 completed without a score (walkovers)"
+summary score agrees with score segments,PASS,471/471 agree
+match players resolved to player_id,PASS,2392/2392 player slots have an id; the rest appear nowhere else on the site and are listed in Unmatched_Names
+ranked players in completed draws have a ranking result for that event,PASS,476/476 player-tournament links confirmed by rankings
+how match players were linked to ids (info),PASS,"{'api_member_ids': 473, 'exact_name_guest_record': 3}"
+player-page match cards agree with tournament schedule,PASS,"1496 cards on known matches: 710 list teams in schedule order, 1493 put the profile owner first, 0 Win/Loss labels disagree with the schedule winner"
+all three ranking categories present,PASS,"[""Men's"", ""Men's 40+"", ""Women's""]"
+ranks contiguous apart from ties (competition ranking),PASS,ok
+spot check: Krishiv Patel vs values quoted in brief,PASS,"17/17 fields match. IPT_Scraped_Data.xlsx was not available, so the other ground-truth players are unchecked"
+every ranked player has a Players row,PASS,896/896 covered
+ID forms (info),PASS,"{'uuid': 454, 'slug': 449, 'api_player': 137, 'draw_entry': 19}"

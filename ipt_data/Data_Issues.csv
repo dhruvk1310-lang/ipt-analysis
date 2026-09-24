@@ -1,0 +1,40 @@
+type,player_id,detail
+profile_differs_from_rankings,15061bb7-8b57-4367-b302-35d512b70b74,Mayank Daga: profile says Men's Intermediate #8 0 pts; rankings say Men's #90 112 pts
+profile_differs_from_rankings,1b914254-ef80-4aa1-aae6-196986d10121,Suhani Sabharwal: profile says Women's Advance #6 216 pts; rankings say Women's #36 84 pts
+profile_differs_from_rankings,1fe46b92-d550-4c02-81f6-489cb553411b,Parth Bhatia: profile says Men's Intermediate #8 0 pts; rankings say Men's #459 0 pts
+profile_differs_from_rankings,214fa58d-dcf2-4b0b-888f-f2a2341ae45b,Amaya Kothari: profile says Women's Intermediate #8 0 pts; rankings say Women's #115 0 pts
+profile_differs_from_rankings,2ecd3163-09e3-40b5-bd3b-d817112479b0,Vaibhavi Deshmukh: profile says Women's Advance #4 360 pts; rankings say Women's #22 216 pts
+profile_differs_from_rankings,553e7592-683c-4750-be8f-57098fc7d7bd,Anmol Malhotra: profile says Women's Intermediate #3 432 pts; rankings say Women's #115 0 pts
+profile_differs_from_rankings,65b6eb21-de8a-4528-8567-d6834dcfb20b,Karan Mehrotra: profile says Men's 40+ #8 0 pts; rankings say Men's 40+ #35 0 pts
+profile_differs_from_rankings,7078cecf-5699-43ef-aefe-dd1c239e92ba,Bhagya Popat: profile says Men's Advance #6 216 pts; rankings say Men's #70 124 pts
+profile_differs_from_rankings,7d346033-c0e1-4672-8fd9-7d3361dc8f12,Rhea Mathews: profile says Women's Beginner #8 0 pts; rankings say Women's #79 18 pts
+profile_differs_from_rankings,8999c06a-bd38-4d01-bfa6-016c506be79d,Ryan Carroll: profile says Mixed Open #8 0 pts; rankings say Men's #362 12 pts
+profile_differs_from_rankings,8f0e0463-82c3-4822-8b7e-58ec37cde83e,Yugantar Malhotra: profile says Men's Intermediate #3 432 pts; rankings say Men's #276 18 pts
+profile_differs_from_rankings,a57ef4ab-a62e-4b71-a4d2-0f267dea2626,Samar Malhotra: profile says Men's Advance #1 600 pts; rankings say Men's #2 3660 pts
+profile_differs_from_rankings,acfa1b86-681a-4b86-91f3-09eba5e486f5,Mikhail Mehra: profile says Men's Intermediate #8 0 pts; rankings say Men's #276 18 pts
+profile_differs_from_rankings,ba0bebb9-bb83-4bfc-9c39-a96387beae44,Sonashe Bhatnagar: profile says Women's Advance #8 0 pts; rankings say Women's #13 276 pts
+profile_differs_from_rankings,c1fac66c-3ce8-43d8-8c0c-85d463264584,Siddharth Satheesan: profile says Men's Intermediate #8 0 pts; rankings say Men's #276 18 pts
+profile_differs_from_rankings,e190ca21-bb25-46b3-965e-bcb2ffcc3fd3,Tulsi Mehta: profile says Women's Advance #1 600 pts; rankings say Women's #5 1420 pts
+profile_differs_from_rankings,ebb05833-4e36-4fbc-977b-1973a5845aba,Amaya Kothari: profile says Women's Advance #8 0 pts; rankings say Women's #115 0 pts
+match_listed_in_linked_divisions,,15 duplicate listings dropped (same match_id under linked divisions); see Matches.listed_under
+stale_player_page_match_ids,,148 recent-match cards point to ipt-chandigarh-city-open-2-0 match ids that its draw no longer lists (draw republished after those profiles were fetched); ignored
+id_link_conflict,8f0e0463-82c3-4822-8b7e-58ec37cde83e,"Anmol Malhotra: entry 314f65d3-a047-478d-b792-f8d4e529ca67 belongs to 8f0e0463-82c3-4822-8b7e-58ec37cde83e per API member_ids, but the printed name is ranked player 553e7592-683c-4750-be8f-57098fc7d7bd; name used"
+id_link_conflict,553e7592-683c-4750-be8f-57098fc7d7bd,"Yugantar Malhotra: entry 687f0efd-f53e-4611-8264-8efc703cc939 belongs to 553e7592-683c-4750-be8f-57098fc7d7bd per API member_ids, but the printed name is ranked player 8f0e0463-82c3-4822-8b7e-58ec37cde83e; name used"
+account_name_differs,15061bb7-8b57-4367-b302-35d512b70b74,"one id, two names: rankings say 'Mayank Daga', the API and newer draws say 'Joel Duarte'. Kept as one player_id (the site links them); whether this is a rename or a reused account is not knowable from the site"
+account_name_differs,213df946-7be9-4fcb-98c8-e0d6ba33789d,"one id, two names: rankings say 'Ziaan Talab', the API and newer draws say 'Tushar Jagota'. Kept as one player_id (the site links them); whether this is a rename or a reused account is not knowable from the site"
+event_name_variant,,rankings name the same event two ways: 'BENGALURU CITY OPEN 2.0' (8 rows) and 'BANGALORE CITY OPEN 2.0'; see Event_Results.event_canonical
+person_has_several_ids,0346bf27-30fb-409c-8bd4-bdbb1f7119cd,Yash Nagdev: 0346bf27-30fb-409c-8bd4-bdbb1f7119cd (api_player); 6f589d0e-9315-4585-864e-1d053738b70b (api_player); 0346bf27-30fb-409c-8bd4-bdbb1f7119cd (rankings_profile)
+person_has_several_ids,15061bb7-8b57-4367-b302-35d512b70b74,"Mayank Daga: 15061bb7-8b57-4367-b302-35d512b70b74 (api_player); eb244c48-db34-40f6-9c22-5d8b505985f5 (api_player, guest); 15061bb7-8b57-4367-b302-35d512b70b74 (rankings_profile)"
+person_has_several_ids,25302fe3-7403-440f-bd2a-3d5be3a3f0a1,Chirag Gaikwad: 25302fe3-7403-440f-bd2a-3d5be3a3f0a1 (api_player); b2b01f43-5351-4ac9-a3ff-f49285bac3d4 (api_player); 25302fe3-7403-440f-bd2a-3d5be3a3f0a1 (rankings_profile)
+person_has_several_ids,5602dbe5-4321-43e1-8b1c-e558a9fed127,Saurabh Vijewargia: 5602dbe5-4321-43e1-8b1c-e558a9fed127 (api_player); ff4729c3-2144-4f1a-9d91-4cb391b01d8a (api_player); 5602dbe5-4321-43e1-8b1c-e558a9fed127 (rankings_profile)
+person_has_several_ids,5b3d8985-ba2b-4840-96cb-df23c6bd1347,"Krishiv Patel: 5b3d8985-ba2b-4840-96cb-df23c6bd1347 (api_player); 2ebd365e-6443-4355-8dab-fcb20aa3c16d (api_player, guest); 5b3d8985-ba2b-4840-96cb-df23c6bd1347 (rankings_profile)"
+person_has_several_ids,787505dd-9f13-4ef2-a4ae-eb81af687abf,Manan Gupta: 787505dd-9f13-4ef2-a4ae-eb81af687abf (api_player); 120aacd3-a224-4639-ba5b-5adcea122f16 (api_player); 787505dd-9f13-4ef2-a4ae-eb81af687abf (rankings_profile)
+person_has_several_ids,7d346033-c0e1-4672-8fd9-7d3361dc8f12,Rhea Mathews: 7d346033-c0e1-4672-8fd9-7d3361dc8f12 (api_player); 2f3ffda4-ae67-4e34-8714-7578ee590a55 (api_player); 7d346033-c0e1-4672-8fd9-7d3361dc8f12 (rankings_profile)
+person_has_several_ids,808e72ea-16d9-41ac-88af-cdc80de35aa4,"Aashna Mehra: 808e72ea-16d9-41ac-88af-cdc80de35aa4 (api_player); ce926e54-5800-41ce-9164-13aa7ab056e6 (api_player, guest); 808e72ea-16d9-41ac-88af-cdc80de35aa4 (rankings_profile)"
+person_has_several_ids,9140618c-3629-4b96-9a53-39084fc8aa5e,"Abhishek Gupta: 9140618c-3629-4b96-9a53-39084fc8aa5e (api_player); 4b46f212-8d14-4870-bfb6-416b266d4975 (api_player, guest); 9140618c-3629-4b96-9a53-39084fc8aa5e (rankings_profile)"
+person_has_several_ids,ranked-jasmer-kapany,"Jasmer Kapany: 3e23c615-d0b7-429a-99fb-df673798c674 (api_player); dab712b4-bea8-47ce-9439-f32851fcb5ec (api_player, guest); ranked-jasmer-kapany (rankings_profile)"
+person_has_several_ids,ranked-kaustubh-thakur,"Kaustubh Thakur: 2b351dd1-c42d-416d-ac95-2084d074dc39 (api_player); b2b3606b-575f-4761-a3ef-819898f6cac0 (api_player, guest); ranked-kaustubh-thakur (rankings_profile)"
+placeholder_player_name,,draw lists 'Joshua Lobo Partner' (partner not named)
+placeholder_player_name,,draw lists 'Mukund Muthanna Partner' (partner not named)
+placeholder_player_name,,draw lists 'Ryan Carroll Partner' (partner not named)
+profile_shows_other_players_match,a13eb3e0-3914-4555-b6be-287c89850654,Aryan Manchanda: 3 recent-match card(s) for matches this player is not listed in (e.g. Ziaan Talab / Madhu Samtani); likely a substitution or a registration linked to the wrong profile

@@ -1,0 +1,917 @@
+category,rank,rank_overall,player_id,user_uuid,name,points,points_overall,move,events,gender,window_start,url
+Men's,1,1,9db40aca-2be2-4bdd-b807-02ad8bb8bf77,9db40aca-2be2-4bdd-b807-02ad8bb8bf77,Aditya Jagtap,4168,4888,0.0,16,male,2025-07-01,https://indianpadeltour.in/players/9db40aca-2be2-4bdd-b807-02ad8bb8bf77
+Men's,2,2,a57ef4ab-a62e-4b71-a4d2-0f267dea2626,a57ef4ab-a62e-4b71-a4d2-0f267dea2626,Samar Malhotra,3660,3720,0.0,13,male,2025-07-01,https://indianpadeltour.in/players/a57ef4ab-a62e-4b71-a4d2-0f267dea2626
+Men's,3,7,5b3d8985-ba2b-4840-96cb-df23c6bd1347,5b3d8985-ba2b-4840-96cb-df23c6bd1347,Krishiv Patel,2460,2820,1.0,10,male,2025-07-01,https://indianpadeltour.in/players/5b3d8985-ba2b-4840-96cb-df23c6bd1347
+Men's,4,4,5854e023-8f2c-4811-82ed-0e54efaf63ec,5854e023-8f2c-4811-82ed-0e54efaf63ec,Rahul Motwani,2430,3090,-1.0,13,male,2025-07-01,https://indianpadeltour.in/players/5854e023-8f2c-4811-82ed-0e54efaf63ec
+Men's,5,5,46d8e856-a32f-4060-bf62-6b24fb9e6a8d,46d8e856-a32f-4060-bf62-6b24fb9e6a8d,Aryan Goveas,2354,3014,0.0,12,male,2025-07-01,https://indianpadeltour.in/players/46d8e856-a32f-4060-bf62-6b24fb9e6a8d
+Men's,6,8,531b4b75-e3cf-439f-a0fb-5e83867deff8,531b4b75-e3cf-439f-a0fb-5e83867deff8,Aryan Hemdev,1868,2588,0.0,9,male,2025-07-01,https://indianpadeltour.in/players/531b4b75-e3cf-439f-a0fb-5e83867deff8
+Men's,7,3,5efe3810-7452-45ba-9911-ef58eb490a3f,5efe3810-7452-45ba-9911-ef58eb490a3f,Chaitanya Shah,1468,3268,0.0,10,male,2025-07-01,https://indianpadeltour.in/players/5efe3810-7452-45ba-9911-ef58eb490a3f
+Men's,8,13,29e75609-025c-485b-a40a-969d2ce6e6bc,29e75609-025c-485b-a40a-969d2ce6e6bc,Paramveer Singh Bajwa,1276,1276,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/29e75609-025c-485b-a40a-969d2ce6e6bc
+Men's,9,12,e9aef618-db1c-42e9-a0ed-c3050a376e4f,e9aef618-db1c-42e9-a0ed-c3050a376e4f,Manav Sreekumar,1220,1340,0.0,8,male,2025-07-01,https://indianpadeltour.in/players/e9aef618-db1c-42e9-a0ed-c3050a376e4f
+Men's,10,6,ranked-vikram-shah,,Vikram Shah,1160,2960,0.0,7,male,2025-07-01,https://indianpadeltour.in/players/ranked-vikram-shah
+Men's,11,9,ranked-arjun-kochhar,,Arjun Kochhar,1060,1600,0.0,10,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-kochhar
+Men's,12,10,3f2fcf21-952f-4b68-9b43-539d6b1ade27,,Navin Shewakramani,1020,1380,0.0,6,male,2025-07-01,https://indianpadeltour.in/players/3f2fcf21-952f-4b68-9b43-539d6b1ade27
+Men's,12,16,ranked-adil-kalyanpur,,Adil Kalyanpur,1020,1020,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-adil-kalyanpur
+Men's,12,16,bf973053-492f-4dca-a909-7310fa8693f9,bf973053-492f-4dca-a909-7310fa8693f9,Parikshit Somani,1020,1020,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/bf973053-492f-4dca-a909-7310fa8693f9
+Men's,12,16,ranked-rishi-reddy,,Rishi Reddy,1020,1020,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-rishi-reddy
+Men's,16,11,ranked-aneesh-sanghai,,Aneesh Sanghai,1000,1360,0.0,8,male,2025-07-01,https://indianpadeltour.in/players/ranked-aneesh-sanghai
+Men's,17,20,a9d1cebf-249f-4801-ac1c-dc757ebd99a3,,Arjun Kapoor,880,880,0.0,6,male,2025-07-01,https://indianpadeltour.in/players/a9d1cebf-249f-4801-ac1c-dc757ebd99a3
+Men's,18,24,433ad480-92da-44d3-b432-953719fa8ea3,433ad480-92da-44d3-b432-953719fa8ea3,Taran Mundkar,780,780,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/433ad480-92da-44d3-b432-953719fa8ea3
+Men's,19,14,ranked-shashank-narde,,Shashank Narde,760,1240,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/ranked-shashank-narde
+Men's,20,28,ranked-purav-raja,,Purav Raja,700,700,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-purav-raja
+Men's,20,28,83c9faf7-5bd4-4e29-84c2-c2d809c9235b,,Samin Bhargava,700,700,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/83c9faf7-5bd4-4e29-84c2-c2d809c9235b
+Men's,22,30,ranked-jasmer-kapany,,Jasmer Kapany,676,676,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-jasmer-kapany
+Men's,23,23,cdd858a3-1533-4a7b-bf8b-1b94f0f3b868,cdd858a3-1533-4a7b-bf8b-1b94f0f3b868,Adit Patel,628,788,2.0,8,male,2025-07-01,https://indianpadeltour.in/players/cdd858a3-1533-4a7b-bf8b-1b94f0f3b868
+Men's,24,24,ranked-aditya-bakshi,,Aditya Bakshi,600,780,-1.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-bakshi
+Men's,25,19,d1274dd2-48b5-46b9-9049-6a6bcc38fd2e,d1274dd2-48b5-46b9-9049-6a6bcc38fd2e,Porus Shroff,588,888,-1.0,6,male,2025-07-01,https://indianpadeltour.in/players/d1274dd2-48b5-46b9-9049-6a6bcc38fd2e
+Men's,26,31,d53736bd-2d26-4977-9d4f-edb8ddc49ffb,d53736bd-2d26-4977-9d4f-edb8ddc49ffb,Swaraj D,570,570,1.0,6,male,2025-07-01,https://indianpadeltour.in/players/d53736bd-2d26-4977-9d4f-edb8ddc49ffb
+Men's,27,32,ranked-viren-thakur,,Viren Thakur,540,540,-1.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-viren-thakur
+Men's,28,15,33da4499-d5cc-4c4c-9002-f405f2051d1b,33da4499-d5cc-4c4c-9002-f405f2051d1b,Ishaan Choubal,456,1176,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/33da4499-d5cc-4c4c-9002-f405f2051d1b
+Men's,29,36,ranked-arjun-shah,,Arjun Shah,420,420,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-shah
+Men's,30,20,ranked-shyam-utamsingh,,Shyam Utamsingh,400,880,0.0,6,male,2025-07-01,https://indianpadeltour.in/players/ranked-shyam-utamsingh
+Men's,31,26,ranked-aksshaye-singhania,,Aksshaye Singhania,360,720,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/ranked-aksshaye-singhania
+Men's,31,39,ranked-himanshu-mali,,Himanshu Mali,360,360,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-himanshu-mali
+Men's,31,39,4f889960-3cf4-48c0-83f2-0ddc73c9c8b3,,Rohit Dhiman,360,360,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/4f889960-3cf4-48c0-83f2-0ddc73c9c8b3
+Men's,34,43,6b49f7ef-e989-4036-816e-f0267d3c3ef0,6b49f7ef-e989-4036-816e-f0267d3c3ef0,Saish Shelar,346,346,3.0,6,male,2025-07-01,https://indianpadeltour.in/players/6b49f7ef-e989-4036-816e-f0267d3c3ef0
+Men's,35,45,2d665cd5-8589-4301-81c6-25e0ba95fe1a,2d665cd5-8589-4301-81c6-25e0ba95fe1a,Naesar Jewoor,340,340,-1.0,3,male,2025-07-01,https://indianpadeltour.in/players/2d665cd5-8589-4301-81c6-25e0ba95fe1a
+Men's,36,46,783fd411-3a52-446e-90cc-2fcef2baaa51,783fd411-3a52-446e-90cc-2fcef2baaa51,Varshil Trambadiya,330,330,11.0,6,male,2025-07-01,https://indianpadeltour.in/players/783fd411-3a52-446e-90cc-2fcef2baaa51
+Men's,37,35,5b6730d4-a1a1-4cd3-97ec-3423545be5cd,5b6730d4-a1a1-4cd3-97ec-3423545be5cd,Varun Dattani,301,431,0.0,9,male,2025-07-01,https://indianpadeltour.in/players/5b6730d4-a1a1-4cd3-97ec-3423545be5cd
+Men's,38,26,ranked-amay-merchant,,Amay Merchant,300,720,-3.0,5,male,2025-07-01,https://indianpadeltour.in/players/ranked-amay-merchant
+Men's,38,49,b0ab65aa-1c74-4f18-943e-2e151c440ef4,b0ab65aa-1c74-4f18-943e-2e151c440ef4,Omar Sumar,300,300,-3.0,3,male,2025-07-01,https://indianpadeltour.in/players/b0ab65aa-1c74-4f18-943e-2e151c440ef4
+Men's,40,53,06a4aeef-aaca-45ef-a83a-cb3c703c9789,06a4aeef-aaca-45ef-a83a-cb3c703c9789,Mihir Akolkar,286,292,6.0,6,male,2025-07-01,https://indianpadeltour.in/players/06a4aeef-aaca-45ef-a83a-cb3c703c9789
+Men's,41,37,6dc1ecef-b2d9-4579-a1d0-c69e2553a65c,6dc1ecef-b2d9-4579-a1d0-c69e2553a65c,Tanay Mehta,282,402,-2.0,4,male,2025-07-01,https://indianpadeltour.in/players/6dc1ecef-b2d9-4579-a1d0-c69e2553a65c
+Men's,42,54,ranked-josh-bhasin,,Josh Bhasin,280,280,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-josh-bhasin
+Men's,42,54,ranked-soli-colah,,Soli Colah,280,280,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-soli-colah
+Men's,42,54,ranked-vishnu-pullela,,Vishnu Pullela,280,280,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-vishnu-pullela
+Men's,45,58,8730ad11-d9e2-4028-bd65-065e792eee00,8730ad11-d9e2-4028-bd65-065e792eee00,Antariksh Mohandas,276,276,10.0,4,male,2025-07-01,https://indianpadeltour.in/players/8730ad11-d9e2-4028-bd65-065e792eee00
+Men's,46,59,182f09bb-25ba-4086-99ca-a7f5a52303bf,182f09bb-25ba-4086-99ca-a7f5a52303bf,Kaivalya Kalamse,270,270,10.0,3,male,2025-07-01,https://indianpadeltour.in/players/182f09bb-25ba-4086-99ca-a7f5a52303bf
+Men's,47,22,ranked-hussain-badri,,Hussain Badri,240,840,-4.0,5,male,2025-07-01,https://indianpadeltour.in/players/ranked-hussain-badri
+Men's,47,39,ranked-arjun-agarwal,,Arjun Agarwal,240,360,-4.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-agarwal
+Men's,47,61,ranked-austin-varghese,,Austin Varghese,240,240,-4.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-austin-varghese
+Men's,50,67,13d6188c-cd2e-4152-a5c2-0b82573143b9,13d6188c-cd2e-4152-a5c2-0b82573143b9,Advait Bahl,204,210,-2.0,8,male,2025-07-01,https://indianpadeltour.in/players/13d6188c-cd2e-4152-a5c2-0b82573143b9
+Men's,51,69,db4244f2-196a-41e4-bd02-f90ae3ea565b,db4244f2-196a-41e4-bd02-f90ae3ea565b,Hritesh Agarwal,186,186,-2.0,3,male,2025-07-01,https://indianpadeltour.in/players/db4244f2-196a-41e4-bd02-f90ae3ea565b
+Men's,52,70,ranked-aniket-patel,,Aniket Patel,180,180,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aniket-patel
+Men's,52,70,ranked-kashyap-ashok,,Kashyap Ashok,180,180,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kashyap-ashok
+Men's,52,70,ranked-megh-patel,,Megh Patel,180,180,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-megh-patel
+Men's,52,70,a7157d78-91c3-4c0a-9444-a4e402f56e73,,Rohan Jain,180,180,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/a7157d78-91c3-4c0a-9444-a4e402f56e73
+Men's,56,81,7f57a645-a475-4ec7-9b29-0b7812a9931d,7f57a645-a475-4ec7-9b29-0b7812a9931d,Kunal Premnarayan,174,174,13.0,2,male,2025-07-01,https://indianpadeltour.in/players/7f57a645-a475-4ec7-9b29-0b7812a9931d
+Men's,56,81,b4c1f987-ed1c-41b2-bed1-839e3b47d5ff,b4c1f987-ed1c-41b2-bed1-839e3b47d5ff,Syed Imran Yusoof,174,174,13.0,2,male,2025-07-01,https://indianpadeltour.in/players/b4c1f987-ed1c-41b2-bed1-839e3b47d5ff
+Men's,58,84,7a806e55-76b1-406f-b870-2ed511dccdc9,7a806e55-76b1-406f-b870-2ed511dccdc9,Nandish Shah,170,170,-4.0,2,male,2025-07-01,https://indianpadeltour.in/players/7a806e55-76b1-406f-b870-2ed511dccdc9
+Men's,59,54,ranked-aarav-mehta,,Aarav Mehta,160,280,-2.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-aarav-mehta
+Men's,59,86,ranked-anurag-rao,,Anurag Rao,160,160,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-anurag-rao
+Men's,59,86,ranked-manav-peshwani,,Manav Peshwani,160,160,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-manav-peshwani
+Men's,59,86,87abe235-1461-4646-936a-96f9332bf256,,Pranav Chopra,160,160,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/87abe235-1461-4646-936a-96f9332bf256
+Men's,59,86,604edc4e-0143-476a-aec6-c89b715f6949,604edc4e-0143-476a-aec6-c89b715f6949,Siddharth Dabrai,160,160,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/604edc4e-0143-476a-aec6-c89b715f6949
+Men's,59,86,8b41cccf-1066-4688-b02b-cdc037ee1430,,Yuvraj Singh Kooka,160,160,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/8b41cccf-1066-4688-b02b-cdc037ee1430
+Men's,65,48,ce749702-5f83-4cd5-b821-45aeaf7f9848,ce749702-5f83-4cd5-b821-45aeaf7f9848,Neville Wadia,159,329,-2.0,8,male,2025-07-01,https://indianpadeltour.in/players/ce749702-5f83-4cd5-b821-45aeaf7f9848
+Men's,66,94,ranked-deepak-chugh,,Deepak Chugh,150,150,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-deepak-chugh
+Men's,66,94,4a24bb98-4925-4def-ac6a-f794287f8ef6,,Harshil Sheth,150,150,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/4a24bb98-4925-4def-ac6a-f794287f8ef6
+Men's,66,94,32e72a90-6fbd-4ccc-bdc5-93be13a6f158,,Shanu Hazra,150,150,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/32e72a90-6fbd-4ccc-bdc5-93be13a6f158
+Men's,69,98,ea36ad45-24c2-4b1d-b812-8ebcf72eb5b2,ea36ad45-24c2-4b1d-b812-8ebcf72eb5b2,Rahul Chandwani,136,136,-2.0,3,male,2025-07-01,https://indianpadeltour.in/players/ea36ad45-24c2-4b1d-b812-8ebcf72eb5b2
+Men's,70,100,7078cecf-5699-43ef-aefe-dd1c239e92ba,7078cecf-5699-43ef-aefe-dd1c239e92ba,Bhagya Popat,124,124,-2.0,7,male,2025-07-01,https://indianpadeltour.in/players/7078cecf-5699-43ef-aefe-dd1c239e92ba
+Men's,71,33,86de48da-644d-40da-9978-08b3b06f6cd6,,Nikhil sai Kodali,120,520,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/86de48da-644d-40da-9978-08b3b06f6cd6
+Men's,71,34,ranked-jay-dalal,,Jay Dalal,120,480,-2.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-jay-dalal
+Men's,71,49,5df49a33-22cb-4ac4-b03a-a075acfb5390,5df49a33-22cb-4ac4-b03a-a075acfb5390,Ashish Khemlani,120,300,-2.0,3,male,2025-07-01,https://indianpadeltour.in/players/5df49a33-22cb-4ac4-b03a-a075acfb5390
+Men's,71,61,ranked-amal-hosangady,,Amal Hosangady,120,240,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-amal-hosangady
+Men's,71,61,310f748b-4718-461d-aa46-f7537fcfa9e5,310f748b-4718-461d-aa46-f7537fcfa9e5,Tanay Gabhawala,120,240,-2.0,3,male,2025-07-01,https://indianpadeltour.in/players/310f748b-4718-461d-aa46-f7537fcfa9e5
+Men's,71,101,ranked-aniket-nathvani,,Aniket Nathvani,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aniket-nathvani
+Men's,71,101,ranked-diyaan-chheda,,Diyaan Chheda,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-diyaan-chheda
+Men's,71,101,ranked-govind-mohan,,Govind Mohan,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-govind-mohan
+Men's,71,101,ranked-harshal-rukhaiyar,,Harshal Rukhaiyar,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-harshal-rukhaiyar
+Men's,71,101,7818fd9a-1675-4d45-acd5-dfc6eff38028,7818fd9a-1675-4d45-acd5-dfc6eff38028,Madhu Samtani,120,120,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/7818fd9a-1675-4d45-acd5-dfc6eff38028
+Men's,71,101,ranked-mohit-dahiya,,Mohit Dahiya,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mohit-dahiya
+Men's,71,101,ranked-muhammed-miras,,Muhammed Miras,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-muhammed-miras
+Men's,71,101,ranked-parth-jindal,,Parth Jindal,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-parth-jindal
+Men's,71,101,ranked-prasham-mody,,Prasham Mody,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-prasham-mody
+Men's,71,101,ranked-raghav-agarwal,,Raghav Agarwal,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-raghav-agarwal
+Men's,71,101,ranked-sameer-ahammed,,Sameer Ahammed,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sameer-ahammed
+Men's,71,101,25361116-4f57-4024-b424-a8246e491c54,25361116-4f57-4024-b424-a8246e491c54,Shashank Mittal,120,120,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/25361116-4f57-4024-b424-a8246e491c54
+Men's,71,101,b90b8354-8c54-43e4-9ff4-e064e26f5d51,,Siddharth Nandal,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/b90b8354-8c54-43e4-9ff4-e064e26f5d51
+Men's,71,101,ranked-yesh-bafna,,Yesh Bafna,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-yesh-bafna
+Men's,90,138,15061bb7-8b57-4367-b302-35d512b70b74,15061bb7-8b57-4367-b302-35d512b70b74,Mayank Daga,112,112,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/15061bb7-8b57-4367-b302-35d512b70b74
+Men's,91,85,ranked-neil-kadakia,,Neil Kadakia,108,168,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/ranked-neil-kadakia
+Men's,91,139,38c72183-eb38-4e6f-a490-fe738e55a30a,38c72183-eb38-4e6f-a490-fe738e55a30a,Arjun Jashani,108,108,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/38c72183-eb38-4e6f-a490-fe738e55a30a
+Men's,93,140,ranked-dhruv-chugh,,Dhruv Chugh,100,100,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-dhruv-chugh
+Men's,93,140,3f67e6f5-c192-474b-ab22-b0a87f98535d,,Sanket Gandhi,100,100,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/3f67e6f5-c192-474b-ab22-b0a87f98535d
+Men's,93,140,36726a92-ec56-44b3-9a19-4dc479afc322,36726a92-ec56-44b3-9a19-4dc479afc322,Tammineedi Jayanth,100,100,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/36726a92-ec56-44b3-9a19-4dc479afc322
+Men's,93,140,2cf42324-1463-4d64-b9e2-1a6b89ead090,2cf42324-1463-4d64-b9e2-1a6b89ead090,Vineeth Mutyala,100,100,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/2cf42324-1463-4d64-b9e2-1a6b89ead090
+Men's,97,97,ranked-dhruv-sanghai,,Dhruv Sanghai,96,146,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/ranked-dhruv-sanghai
+Men's,98,99,cc2048b8-ce98-46c7-9918-b3dbdf5b0385,cc2048b8-ce98-46c7-9918-b3dbdf5b0385,Annanya Agarwal,95,125,0.0,6,male,2025-07-01,https://indianpadeltour.in/players/cc2048b8-ce98-46c7-9918-b3dbdf5b0385
+Men's,99,148,ranked-suraj-sadanah,,Suraj Sadanah,94,94,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-suraj-sadanah
+Men's,100,149,a66e6971-acb3-41a9-afd1-95c516c348ea,,Atul Gupta,90,90,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/a66e6971-acb3-41a9-afd1-95c516c348ea
+Men's,100,149,f20c5650-e73d-4731-a1b5-5b89be6d623d,f20c5650-e73d-4731-a1b5-5b89be6d623d,Karan Tandon,90,90,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/f20c5650-e73d-4731-a1b5-5b89be6d623d
+Men's,102,152,61d2b099-ebaa-47de-8a92-2a080317a0a7,61d2b099-ebaa-47de-8a92-2a080317a0a7,Siddharth Kadam,78,84,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/61d2b099-ebaa-47de-8a92-2a080317a0a7
+Men's,102,154,3cfbe0a0-f37c-4129-b3a5-157f4bf5b859,,James Darbar,78,78,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/3cfbe0a0-f37c-4129-b3a5-157f4bf5b859
+Men's,104,159,ranked-siddharth-sah,,Siddharth Sah,72,72,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-siddharth-sah
+Men's,105,68,ranked-pranav-vakharia,,Pranav Vakharia,68,208,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/ranked-pranav-vakharia
+Men's,106,158,6bfd1277-761c-46c8-9e40-cbce3df40c13,6bfd1277-761c-46c8-9e40-cbce3df40c13,Arnav Tanna,67,73,2.0,7,male,2025-07-01,https://indianpadeltour.in/players/6bfd1277-761c-46c8-9e40-cbce3df40c13
+Men's,107,147,ranked-rohaan-dalwani,,Rohaan Dalwani,66,96,-1.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohaan-dalwani
+Men's,108,165,ranked-anuj-vagha,,Anuj Vagha,64,64,-1.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-anuj-vagha
+Men's,109,46,d4d1cf44-7849-4baa-b956-c56e4613995b,d4d1cf44-7849-4baa-b956-c56e4613995b,Ankit Agarwal,60,330,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/d4d1cf44-7849-4baa-b956-c56e4613995b
+Men's,109,70,ranked-devrath-sagar,,Devrath Sagar,60,180,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-devrath-sagar
+Men's,109,164,fdd501f4-fc04-4991-b817-c6464e1ac492,,Varun Reddy,60,69,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/fdd501f4-fc04-4991-b817-c6464e1ac492
+Men's,109,167,ranked-arun-chery,,Arun Chery,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arun-chery
+Men's,109,167,ranked-ayush-grover,,Ayush Grover,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ayush-grover
+Men's,109,167,ranked-karan-parekh,,Karan Parekh,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karan-parekh
+Men's,109,167,ranked-lokesh-pun,,Lokesh Pun,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-lokesh-pun
+Men's,109,167,4a6e40bd-2cd4-4535-95f1-ba51a03f719d,4a6e40bd-2cd4-4535-95f1-ba51a03f719d,Nishad Shevde,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/4a6e40bd-2cd4-4535-95f1-ba51a03f719d
+Men's,109,167,ranked-siddharth-abraham,,Siddharth Abraham,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-siddharth-abraham
+Men's,109,167,99aa5ae0-7537-4b6b-b6c3-e13ea17a8127,99aa5ae0-7537-4b6b-b6c3-e13ea17a8127,Tejas Shevde,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/99aa5ae0-7537-4b6b-b6c3-e13ea17a8127
+Men's,109,167,ranked-thomas-jacob,,Thomas Jacob,60,60,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-thomas-jacob
+Men's,120,182,ranked-abhijeet-kaji,,Abhijeet Kaji,58,58,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-abhijeet-kaji
+Men's,120,182,ranked-rohin-gajree,,Rohin Gajree,58,58,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohin-gajree
+Men's,122,166,5fb018f5-d23c-474c-9d85-c7acd4b03f0f,5fb018f5-d23c-474c-9d85-c7acd4b03f0f,Anshul Gosavi,57,63,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/5fb018f5-d23c-474c-9d85-c7acd4b03f0f
+Men's,123,81,5864aa85-bcf0-49c8-b62e-15c7d244e576,5864aa85-bcf0-49c8-b62e-15c7d244e576,Jehan Mehta,54,174,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/5864aa85-bcf0-49c8-b62e-15c7d244e576
+Men's,123,157,ranked-rohan-ahuja,,Rohan Ahuja,54,74,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohan-ahuja
+Men's,123,185,9140618c-3629-4b96-9a53-39084fc8aa5e,9140618c-3629-4b96-9a53-39084fc8aa5e,Abhishek Gupta,54,54,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/9140618c-3629-4b96-9a53-39084fc8aa5e
+Men's,123,185,26582647-4a0f-456e-86d7-98b5087f3875,26582647-4a0f-456e-86d7-98b5087f3875,Amit Krishnan,54,54,88.0,2,male,2025-07-01,https://indianpadeltour.in/players/26582647-4a0f-456e-86d7-98b5087f3875
+Men's,123,185,bb9f96a3-0f86-46a8-8484-3d7057fcca01,,Anav Shrish,54,54,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/bb9f96a3-0f86-46a8-8484-3d7057fcca01
+Men's,123,185,09ce181d-c08d-4189-ab36-4d4a706f1bcb,09ce181d-c08d-4189-ab36-4d4a706f1bcb,Karan Medappa,54,54,300.0,2,male,2025-07-01,https://indianpadeltour.in/players/09ce181d-c08d-4189-ab36-4d4a706f1bcb
+Men's,123,185,d08e2513-3bf5-441c-aace-831129099cc4,d08e2513-3bf5-441c-aace-831129099cc4,Kavin Vendan,54,54,300.0,2,male,2025-07-01,https://indianpadeltour.in/players/d08e2513-3bf5-441c-aace-831129099cc4
+Men's,123,185,fde56650-1b21-4853-b436-dd3221ff502d,fde56650-1b21-4853-b436-dd3221ff502d,Shane Biddaiah,54,54,300.0,2,male,2025-07-01,https://indianpadeltour.in/players/fde56650-1b21-4853-b436-dd3221ff502d
+Men's,131,191,e4099cdf-1b05-4993-afa7-214dcbc071b1,e4099cdf-1b05-4993-afa7-214dcbc071b1,Tabrez Sopariwala,52,52,-4.0,4,male,2025-07-01,https://indianpadeltour.in/players/e4099cdf-1b05-4993-afa7-214dcbc071b1
+Men's,132,192,ab58ef43-8f50-4f4e-a45b-1087ae59ee35,ab58ef43-8f50-4f4e-a45b-1087ae59ee35,Nikhil Bansal,51,51,40.0,3,male,2025-07-01,https://indianpadeltour.in/players/ab58ef43-8f50-4f4e-a45b-1087ae59ee35
+Men's,133,184,9809aae4-939b-4443-9dd8-bfe1d06ca943,9809aae4-939b-4443-9dd8-bfe1d06ca943,Qahhar Padamsee,50,56,-5.0,5,male,2025-07-01,https://indianpadeltour.in/players/9809aae4-939b-4443-9dd8-bfe1d06ca943
+Men's,133,194,2fc76920-fbc0-4f8b-b8cc-cc92661a5f3e,2fc76920-fbc0-4f8b-b8cc-cc92661a5f3e,Abhi Panchu,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/2fc76920-fbc0-4f8b-b8cc-cc92661a5f3e
+Men's,133,194,ranked-arjun-melwani,,Arjun Melwani,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-melwani
+Men's,133,194,ranked-atiff-bham,,Atiff Bham,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-atiff-bham
+Men's,133,194,645bea63-c782-48f3-9687-7887da354b08,,Divanshu Nayyar,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/645bea63-c782-48f3-9687-7887da354b08
+Men's,133,194,7af61236-508f-4495-a2ee-a840e590d19a,7af61236-508f-4495-a2ee-a840e590d19a,Farhan Patrawala,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/7af61236-508f-4495-a2ee-a840e590d19a
+Men's,133,194,a0b09769-2ade-400c-ad97-c3f1d6ada866,a0b09769-2ade-400c-ad97-c3f1d6ada866,George Pottamkulam,50,50,99.0,2,male,2025-07-01,https://indianpadeltour.in/players/a0b09769-2ade-400c-ad97-c3f1d6ada866
+Men's,133,194,716df803-2711-44e0-99a3-c5d59dfde298,716df803-2711-44e0-99a3-c5d59dfde298,Habib Latif,50,50,-5.0,3,male,2025-07-01,https://indianpadeltour.in/players/716df803-2711-44e0-99a3-c5d59dfde298
+Men's,133,194,ranked-ishaan-maitreya,,Ishaan Maitreya,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ishaan-maitreya
+Men's,133,194,ranked-jeet-desai,,Jeet Desai,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-jeet-desai
+Men's,133,194,0fd115b3-0fce-4f9b-93c9-13e6c268e5cb,,Madhav Bajaj,50,50,-5.0,1,male,2025-07-01,https://indianpadeltour.in/players/0fd115b3-0fce-4f9b-93c9-13e6c268e5cb
+Men's,133,194,b1863a39-a660-43dd-8e1c-830d77223fe7,b1863a39-a660-43dd-8e1c-830d77223fe7,Mukund Muthanna,50,50,-5.0,2,male,2025-07-01,https://indianpadeltour.in/players/b1863a39-a660-43dd-8e1c-830d77223fe7
+Men's,133,194,523ad7a9-7183-4c35-ab10-58045485d4bb,523ad7a9-7183-4c35-ab10-58045485d4bb,Pratik Bhatia,50,50,-5.0,2,male,2025-07-01,https://indianpadeltour.in/players/523ad7a9-7183-4c35-ab10-58045485d4bb
+Men's,133,194,ae03412d-d2a1-4b89-a934-a895d52f8a9d,ae03412d-d2a1-4b89-a934-a895d52f8a9d,Raaghav Sharma Bagga,50,50,,1,male,2025-07-01,https://indianpadeltour.in/players/ae03412d-d2a1-4b89-a934-a895d52f8a9d
+Men's,133,194,91d8198e-2679-4c96-9b3e-4da14d39b69e,91d8198e-2679-4c96-9b3e-4da14d39b69e,Yuvraj mehta,50,50,,1,male,2025-07-01,https://indianpadeltour.in/players/91d8198e-2679-4c96-9b3e-4da14d39b69e
+Men's,148,213,cebed5c0-9f8f-4458-aaa4-0ee2b6f25f10,cebed5c0-9f8f-4458-aaa4-0ee2b6f25f10,Mehul Bansal,49,49,-8.0,2,male,2025-07-01,https://indianpadeltour.in/players/cebed5c0-9f8f-4458-aaa4-0ee2b6f25f10
+Men's,149,159,ranked-arhaan-shah,,Arhaan Shah,48,72,-8.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-arhaan-shah
+Men's,150,192,042630ef-be7b-401e-9a56-2bdbd27b005b,042630ef-be7b-401e-9a56-2bdbd27b005b,Ronak Talati,45,51,-8.0,4,male,2025-07-01,https://indianpadeltour.in/players/042630ef-be7b-401e-9a56-2bdbd27b005b
+Men's,151,214,ranked-kashish-malkani,,Kashish Malkani,44,44,-8.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-kashish-malkani
+Men's,152,44,888d1ad6-14e8-4deb-92d1-40d24f2cb4f1,888d1ad6-14e8-4deb-92d1-40d24f2cb4f1,Aakarsh Gulati,42,342,-8.0,5,male,2025-07-01,https://indianpadeltour.in/players/888d1ad6-14e8-4deb-92d1-40d24f2cb4f1
+Men's,152,215,ranked-ranbir-singh,,Ranbir Singh,42,42,-8.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-ranbir-singh
+Men's,154,194,fb63a62c-b1a0-4af6-b540-9ba4ba276976,fb63a62c-b1a0-4af6-b540-9ba4ba276976,Anirudh Jain,41,50,-8.0,5,male,2025-07-01,https://indianpadeltour.in/players/fb63a62c-b1a0-4af6-b540-9ba4ba276976
+Men's,155,163,ranked-aditya-doshi,,Aditya Doshi,40,70,-8.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-doshi
+Men's,155,217,ranked-eran-sai-teja,,Eran Sai Teja,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-eran-sai-teja
+Men's,155,217,ranked-kabbir-sukhwani,,Kabbir Sukhwani,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kabbir-sukhwani
+Men's,155,217,ranked-mir-mehta,,Mir Mehta,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mir-mehta
+Men's,155,217,29ce2928-dce1-42de-9eb6-43363196ee5f,,Rajkanwar Bhangoo,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/29ce2928-dce1-42de-9eb6-43363196ee5f
+Men's,155,217,ranked-sahil-sahgal,,Sahil Sahgal,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sahil-sahgal
+Men's,155,217,ranked-sai-saran,,Sai Saran,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sai-saran
+Men's,155,217,ranked-sandeep-sanjay-chawla,,Sandeep Sanjay Chawla,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sandeep-sanjay-chawla
+Men's,155,217,ranked-tanish-bajaj,,Tanish Bajaj,40,40,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-tanish-bajaj
+Men's,164,237,c1023ad9-075c-47e5-b684-c5bdb4bbf31a,c1023ad9-075c-47e5-b684-c5bdb4bbf31a,Gandharv Bajaj,39,39,-8.0,2,male,2025-07-01,https://indianpadeltour.in/players/c1023ad9-075c-47e5-b684-c5bdb4bbf31a
+Men's,164,237,ddb10849-80d7-4445-a21f-8b51010f3dee,ddb10849-80d7-4445-a21f-8b51010f3dee,Tanveer Singh,39,39,-8.0,2,male,2025-07-01,https://indianpadeltour.in/players/ddb10849-80d7-4445-a21f-8b51010f3dee
+Men's,166,151,ranked-avinash-mansukhani,,Avinash Mansukhani,38,88,-8.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-avinash-mansukhani
+Men's,166,154,6cdc4da7-096f-4c21-a48e-4183e606d2ef,6cdc4da7-096f-4c21-a48e-4183e606d2ef,Samkit Shah,38,78,-8.0,4,male,2025-07-01,https://indianpadeltour.in/players/6cdc4da7-096f-4c21-a48e-4183e606d2ef
+Men's,168,240,ranked-akash-mahna,,Akash Mahna,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-akash-mahna
+Men's,168,240,ranked-ansh-shah,,Ansh Shah,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ansh-shah
+Men's,168,240,ranked-anuj-rakyan,,Anuj Rakyan,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-anuj-rakyan
+Men's,168,240,74a7e384-3f53-44ee-80d0-059e3fa60e1c,74a7e384-3f53-44ee-80d0-059e3fa60e1c,Arjun Raju,36,36,39.0,3,male,2025-07-01,https://indianpadeltour.in/players/74a7e384-3f53-44ee-80d0-059e3fa60e1c
+Men's,168,240,ranked-bhishma-desai,,Bhishma Desai,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-bhishma-desai
+Men's,168,240,ranked-karan-goenka,,Karan Goenka,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karan-goenka
+Men's,168,240,229df8e2-1349-4ee0-a15a-e46df0dc770f,,Lakshay Bharti,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/229df8e2-1349-4ee0-a15a-e46df0dc770f
+Men's,168,240,ranked-nasir-masood,,Nasir Masood,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nasir-masood
+Men's,168,240,3e4cd9d1-4aaf-4f21-b6ff-75e43cbac6e4,3e4cd9d1-4aaf-4f21-b6ff-75e43cbac6e4,Pratham Jain,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/3e4cd9d1-4aaf-4f21-b6ff-75e43cbac6e4
+Men's,168,240,ranked-sanat-goyal,,Sanat Goyal,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sanat-goyal
+Men's,168,240,a791964a-f0c5-42b4-8325-828bd695b346,a791964a-f0c5-42b4-8325-828bd695b346,Shikhar Kumar,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/a791964a-f0c5-42b4-8325-828bd695b346
+Men's,168,240,ranked-siddhanth-shah,,Siddhanth Shah,36,36,-8.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-siddhanth-shah
+Men's,180,253,63668ef8-aaa9-4524-9827-c84f3f2d757e,63668ef8-aaa9-4524-9827-c84f3f2d757e,Priyank Makwana,35,35,-9.0,2,male,2025-07-01,https://indianpadeltour.in/players/63668ef8-aaa9-4524-9827-c84f3f2d757e
+Men's,181,254,f455fd74-d0ee-4f00-b838-363eff4730e6,f455fd74-d0ee-4f00-b838-363eff4730e6,Siddhant Gupta,34,34,190.0,3,male,2025-07-01,https://indianpadeltour.in/players/f455fd74-d0ee-4f00-b838-363eff4730e6
+Men's,182,255,5e22ce04-3d81-4d0a-ae6b-7fba4bcea448,5e22ce04-3d81-4d0a-ae6b-7fba4bcea448,John Paul,33,33,29.0,2,male,2025-07-01,https://indianpadeltour.in/players/5e22ce04-3d81-4d0a-ae6b-7fba4bcea448
+Men's,183,159,ranked-chirag-pangoriya,,Chirag Pangoriya,32,72,-10.0,4,male,2025-07-01,https://indianpadeltour.in/players/ranked-chirag-pangoriya
+Men's,183,194,e8bb7691-632b-4e35-afe3-cad46e672610,e8bb7691-632b-4e35-afe3-cad46e672610,Arjun Gupta,32,50,-10.0,4,male,2025-07-01,https://indianpadeltour.in/players/e8bb7691-632b-4e35-afe3-cad46e672610
+Men's,183,256,a74d7503-db0f-4bca-a110-dd6096dd51a3,a74d7503-db0f-4bca-a110-dd6096dd51a3,Ankit Bhalwankar,32,32,-10.0,3,male,2025-07-01,https://indianpadeltour.in/players/a74d7503-db0f-4bca-a110-dd6096dd51a3
+Men's,183,256,ranked-mohammed-talha-gigani,,Mohammed Talha Gigani,32,32,-10.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-mohammed-talha-gigani
+Men's,183,256,ranked-rohan-seolekar,,Rohan Seolekar,32,32,-10.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohan-seolekar
+Men's,188,260,ranked-aashay-doshi,,Aashay Doshi,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aashay-doshi
+Men's,188,260,ranked-aasim-attarwala,,Aasim Attarwala,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aasim-attarwala
+Men's,188,260,ranked-akhil-agarwal,,Akhil Agarwal,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-akhil-agarwal
+Men's,188,260,ranked-angad-dev-singh,,Angad Dev Singh,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-angad-dev-singh
+Men's,188,260,a855af93-c390-4b32-9887-e39a874377df,a855af93-c390-4b32-9887-e39a874377df,Arnav Sanjeev,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/a855af93-c390-4b32-9887-e39a874377df
+Men's,188,260,ranked-aryan-sanghvi,,Aryan Sanghvi,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aryan-sanghvi
+Men's,188,260,ranked-bhargav-kodali,,Bhargav Kodali,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-bhargav-kodali
+Men's,188,260,ranked-gurangad-malik,,Gurangad Malik,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-gurangad-malik
+Men's,188,260,ranked-hardik-vardhan,,Hardik Vardhan,30,30,-10.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-hardik-vardhan
+Men's,188,260,08c756f4-9b1a-41af-96b5-b7041d812156,,Ikrab Ghai,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/08c756f4-9b1a-41af-96b5-b7041d812156
+Men's,188,260,ranked-jaanav-reddy,,Jaanav Reddy,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-jaanav-reddy
+Men's,188,260,ranked-jason-varghese,,Jason Varghese,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-jason-varghese
+Men's,188,260,7f46ff27-3043-4e9f-bdc5-c97c8b590e83,7f46ff27-3043-4e9f-bdc5-c97c8b590e83,Karan Bansal,30,30,-10.0,2,male,2025-07-01,https://indianpadeltour.in/players/7f46ff27-3043-4e9f-bdc5-c97c8b590e83
+Men's,188,260,ranked-karthikeyan-polavarapu,,Karthikeyan Polavarapu,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karthikeyan-polavarapu
+Men's,188,260,ranked-kaustubh-thakur,,Kaustubh Thakur,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kaustubh-thakur
+Men's,188,260,ranked-mangesh-iname,,Mangesh Iname,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mangesh-iname
+Men's,188,260,ranked-mohammed-rushnaiwala,,Mohammed Rushnaiwala,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mohammed-rushnaiwala
+Men's,188,260,ranked-rachit-motani,,Rachit Motani,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rachit-motani
+Men's,188,260,6a3070aa-afd1-4319-9aa8-8376abb53ec0,6a3070aa-afd1-4319-9aa8-8376abb53ec0,Raghav Bansal,30,30,-10.0,2,male,2025-07-01,https://indianpadeltour.in/players/6a3070aa-afd1-4319-9aa8-8376abb53ec0
+Men's,188,260,ranked-raj-sheth,,Raj Sheth,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-raj-sheth
+Men's,188,260,938c8f3a-d36f-47ea-b7bf-7fcd7aabacdd,938c8f3a-d36f-47ea-b7bf-7fcd7aabacdd,Sahil Kaushal,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/938c8f3a-d36f-47ea-b7bf-7fcd7aabacdd
+Men's,188,260,ranked-sanyam-mittal,,Sanyam Mittal,30,30,-10.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-sanyam-mittal
+Men's,188,260,ranked-tejas-raju,,Tejas Raju,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-tejas-raju
+Men's,188,260,ranked-thejal-kr,,Thejal Kr,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-thejal-kr
+Men's,188,260,ranked-vihaan-anand,,Vihaan Anand,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vihaan-anand
+Men's,188,260,01641f10-7928-42b3-ae2d-6c62c67c9b7a,,Viraj Bhargava,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/01641f10-7928-42b3-ae2d-6c62c67c9b7a
+Men's,188,260,ranked-viren-thapar,,Viren Thapar,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-viren-thapar
+Men's,188,260,ranked-yug-oberoie,,Yug Oberoie,30,30,-10.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-yug-oberoie
+Men's,216,296,33e396ff-a084-4b28-b360-ff47e5b98714,33e396ff-a084-4b28-b360-ff47e5b98714,Yashvardhan Sarda,29,29,-10.0,3,male,2025-07-01,https://indianpadeltour.in/players/33e396ff-a084-4b28-b360-ff47e5b98714
+Men's,217,298,b1c844a3-4542-40b3-8abc-7bd5de93f10b,b1c844a3-4542-40b3-8abc-7bd5de93f10b,Aadil Abdul Azeez,27,27,48.0,2,male,2025-07-01,https://indianpadeltour.in/players/b1c844a3-4542-40b3-8abc-7bd5de93f10b
+Men's,217,298,4abc41a6-8e24-4eaa-a669-eadf2b1b7365,4abc41a6-8e24-4eaa-a669-eadf2b1b7365,Gautam Kaushal,27,27,-10.0,2,male,2025-07-01,https://indianpadeltour.in/players/4abc41a6-8e24-4eaa-a669-eadf2b1b7365
+Men's,219,301,8d79c420-b857-43a4-848f-c52aa91153e7,8d79c420-b857-43a4-848f-c52aa91153e7,Rajveer Patel,26,26,12.0,4,male,2025-07-01,https://indianpadeltour.in/players/8d79c420-b857-43a4-848f-c52aa91153e7
+Men's,220,303,501de0a7-5fb6-460c-9209-2cb9e1c6ab7d,501de0a7-5fb6-460c-9209-2cb9e1c6ab7d,Aman Makan,25,25,,1,male,2025-07-01,https://indianpadeltour.in/players/501de0a7-5fb6-460c-9209-2cb9e1c6ab7d
+Men's,220,303,25302fe3-7403-440f-bd2a-3d5be3a3f0a1,25302fe3-7403-440f-bd2a-3d5be3a3f0a1,Chirag Gaikwad,25,25,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/25302fe3-7403-440f-bd2a-3d5be3a3f0a1
+Men's,220,303,7c42f3a3-ec0a-44a1-8fa3-3cd5b58569c0,7c42f3a3-ec0a-44a1-8fa3-3cd5b58569c0,Harman Singh Tur,25,25,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/7c42f3a3-ec0a-44a1-8fa3-3cd5b58569c0
+Men's,223,306,ranked-aalap-sharma,,Aalap Sharma,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aalap-sharma
+Men's,223,306,ranked-aarush-sharma,,Aarush Sharma,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aarush-sharma
+Men's,223,306,ranked-alexander-markos,,Alexander Markos,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-alexander-markos
+Men's,223,306,ranked-ali-uvais,,Ali Uvais,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ali-uvais
+Men's,223,306,ranked-arjun-krisson,,Arjun Krisson,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-krisson
+Men's,223,306,ranked-bhanu-arora,,Bhanu Arora,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-bhanu-arora
+Men's,223,306,56d2d7ff-1ad3-488b-9496-772430716c16,56d2d7ff-1ad3-488b-9496-772430716c16,Bhavik Talreja,24,24,-12.0,2,male,2025-07-01,https://indianpadeltour.in/players/56d2d7ff-1ad3-488b-9496-772430716c16
+Men's,223,306,ranked-keenan-tham,,Keenan Tham,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-keenan-tham
+Men's,223,306,ranked-mankaran-talwar,,Mankaran Talwar,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mankaran-talwar
+Men's,223,306,ranked-neil-walter,,Neil Walter,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-neil-walter
+Men's,223,306,ranked-rohan-mammen,,Rohan Mammen,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohan-mammen
+Men's,223,306,b5542378-9f9f-457b-a71a-d59aef310080,b5542378-9f9f-457b-a71a-d59aef310080,Rohan Maniar,24,24,-12.0,2,male,2025-07-01,https://indianpadeltour.in/players/b5542378-9f9f-457b-a71a-d59aef310080
+Men's,223,306,e3869e84-3ac2-4379-98af-296be1b0d317,e3869e84-3ac2-4379-98af-296be1b0d317,Ronak Daftary,24,24,-12.0,3,male,2025-07-01,https://indianpadeltour.in/players/e3869e84-3ac2-4379-98af-296be1b0d317
+Men's,223,306,360581d4-b031-4e4f-b758-6ec519464571,,Sachit Nayyar,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/360581d4-b031-4e4f-b758-6ec519464571
+Men's,223,306,4f02042c-7cbe-4536-8a96-d529346d901c,,Sahil Parikh,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/4f02042c-7cbe-4536-8a96-d529346d901c
+Men's,223,306,ranked-satyavrat-rana,,Satyavrat Rana,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-satyavrat-rana
+Men's,223,306,ranked-sid-k,,Sid K,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sid-k
+Men's,223,306,ranked-spiro-grana,,Spiro Grana,24,24,-12.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-spiro-grana
+Men's,241,326,68516614-5b90-40ce-b11e-09ad9353da5a,68516614-5b90-40ce-b11e-09ad9353da5a,Mithun Prabhu,23,23,24.0,2,male,2025-07-01,https://indianpadeltour.in/players/68516614-5b90-40ce-b11e-09ad9353da5a
+Men's,242,327,fc6dc5ba-b4e3-4b91-983b-fdfb62b164f5,fc6dc5ba-b4e3-4b91-983b-fdfb62b164f5,Kaiz Jaffer,21,21,106.0,2,male,2025-07-01,https://indianpadeltour.in/players/fc6dc5ba-b4e3-4b91-983b-fdfb62b164f5
+Men's,243,194,ranked-aurangzeb-anabagil,,Aurangzeb Anabagil,20,50,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-aurangzeb-anabagil
+Men's,243,194,8b01652a-7f96-41a5-9402-e3404a390669,8b01652a-7f96-41a5-9402-e3404a390669,Nikhil Kalro,20,50,-11.0,3,male,2025-07-01,https://indianpadeltour.in/players/8b01652a-7f96-41a5-9402-e3404a390669
+Men's,243,217,ranked-anosh-paghdiwalla,,Anosh Paghdiwalla,20,40,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-anosh-paghdiwalla
+Men's,243,217,ranked-dev-singh,,Dev Singh,20,40,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-dev-singh
+Men's,243,217,ranked-jigar-doshi,,Jigar Doshi,20,40,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-jigar-doshi
+Men's,243,217,ranked-pulkit-khurana,,Pulkit Khurana,20,40,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-pulkit-khurana
+Men's,243,256,ranked-suhrid-thacker,,Suhrid Thacker,20,32,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-suhrid-thacker
+Men's,243,328,ranked-abdul-haadi,,Abdul Haadi,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abdul-haadi
+Men's,243,328,ranked-abhijith-s,,Abhijith S,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abhijith-s
+Men's,243,328,ad7a226c-306a-42ae-ad22-7cdd8beb4077,ad7a226c-306a-42ae-ad22-7cdd8beb4077,Ahmed Merchant,20,20,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ad7a226c-306a-42ae-ad22-7cdd8beb4077
+Men's,243,328,ranked-ashish-kumar,,Ashish Kumar,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ashish-kumar
+Men's,243,328,ranked-inder-prakash-khatri,,Inder Prakash Khatri,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-inder-prakash-khatri
+Men's,243,328,33c37317-e796-4dae-9697-19aa9df046bd,33c37317-e796-4dae-9697-19aa9df046bd,Jatin Dhingra,20,20,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/33c37317-e796-4dae-9697-19aa9df046bd
+Men's,243,328,a7782cc0-4fe4-4e19-a563-237bb9090168,,Manjot Singh Ahuja,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/a7782cc0-4fe4-4e19-a563-237bb9090168
+Men's,243,328,ranked-medhansh-nagpal,,Medhansh Nagpal,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-medhansh-nagpal
+Men's,243,328,5204bb34-67a8-4521-8743-b83d86905309,,Mohammed Atif Hyder,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/5204bb34-67a8-4521-8743-b83d86905309
+Men's,243,328,ranked-mudit-sanghavi,,Mudit Sanghavi,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mudit-sanghavi
+Men's,243,328,ranked-nandish-vasa,,Nandish Vasa,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nandish-vasa
+Men's,243,328,870d9d70-99b8-453a-8f6f-5d5fc1279646,,Parimal Barot,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/870d9d70-99b8-453a-8f6f-5d5fc1279646
+Men's,243,328,ranked-pratap-pandit,,Pratap Pandit,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-pratap-pandit
+Men's,243,328,ranked-praveen-pundareekaksha,,Praveen Pundareekaksha,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-praveen-pundareekaksha
+Men's,243,328,fdb26ab4-790d-4401-8a7d-80b071cd0b6b,,Raghav Garg,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/fdb26ab4-790d-4401-8a7d-80b071cd0b6b
+Men's,243,328,ranked-rahul-joseph,,Rahul Joseph,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rahul-joseph
+Men's,243,328,ranked-raiyan-moidu,,Raiyan Moidu,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-raiyan-moidu
+Men's,243,328,c8c5d555-7efd-4029-bcb6-0973f8bb4e97,,Rishabh Gupta,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/c8c5d555-7efd-4029-bcb6-0973f8bb4e97
+Men's,243,328,ranked-rushil-john,,Rushil John,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rushil-john
+Men's,243,328,22f71241-5bf4-4dc7-ba33-683a2ea0f75b,22f71241-5bf4-4dc7-ba33-683a2ea0f75b,Sandip Sabharwal,20,20,84.0,2,male,2025-07-01,https://indianpadeltour.in/players/22f71241-5bf4-4dc7-ba33-683a2ea0f75b
+Men's,243,328,ranked-sathish-kumar-p,,Sathish Kumar P,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sathish-kumar-p
+Men's,243,328,ranked-shakti-ruia,,Shakti Ruia,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shakti-ruia
+Men's,243,328,ranked-shiva-datwani,,Shiva Datwani,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shiva-datwani
+Men's,243,328,ranked-siddharth-kothari,,Siddharth Kothari,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-siddharth-kothari
+Men's,243,328,ranked-vishesh-hemwani,,Vishesh Hemwani,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vishesh-hemwani
+Men's,243,328,ranked-zahaan-ladak,,Zahaan Ladak,20,20,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-zahaan-ladak
+Men's,276,137,ranked-suyash-goenka,,Suyash Goenka,18,118,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-suyash-goenka
+Men's,276,154,1ef2542e-4b4d-481d-ad8f-dc4e9fde3982,1ef2542e-4b4d-481d-ad8f-dc4e9fde3982,Rahul Khanna,18,78,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/1ef2542e-4b4d-481d-ad8f-dc4e9fde3982
+Men's,276,239,ranked-nihal-warawdekar,,Nihal Warawdekar,18,38,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-nihal-warawdekar
+Men's,276,260,ranked-karn-shukla,,Karn Shukla,18,30,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-karn-shukla
+Men's,276,384,ranked-aarav-jain,,Aarav Jain,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aarav-jain
+Men's,276,384,ranked-abir-sharma,,Abir Sharma,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abir-sharma
+Men's,276,384,ranked-aditya-berry,,Aditya Berry,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-berry
+Men's,276,384,ranked-aditya-kumar,,Aditya Kumar,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-kumar
+Men's,276,384,a54ba179-7fc9-4533-9eaa-c2c09da3f061,a54ba179-7fc9-4533-9eaa-c2c09da3f061,Akhil Bansal,18,18,,1,male,2025-07-01,https://indianpadeltour.in/players/a54ba179-7fc9-4533-9eaa-c2c09da3f061
+Men's,276,384,571b61a2-7bb2-4709-8d08-7dcc6e91d02d,,Akshay Dhawan,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/571b61a2-7bb2-4709-8d08-7dcc6e91d02d
+Men's,276,384,402747a2-1ebf-400b-8f55-50dcfee08030,402747a2-1ebf-400b-8f55-50dcfee08030,Aldrith Fernandez,18,18,147.0,2,male,2025-07-01,https://indianpadeltour.in/players/402747a2-1ebf-400b-8f55-50dcfee08030
+Men's,276,384,ranked-amanvir-patel,,Amanvir Patel,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-amanvir-patel
+Men's,276,384,ranked-angadveer-s,,Angadveer S,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-angadveer-s
+Men's,276,384,a49f1be2-0fd0-4ea7-81e9-c04f42d129ed,a49f1be2-0fd0-4ea7-81e9-c04f42d129ed,Anuj Vaghani,18,18,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/a49f1be2-0fd0-4ea7-81e9-c04f42d129ed
+Men's,276,384,ranked-anurag-barmecha,,Anurag Barmecha,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-anurag-barmecha
+Men's,276,384,d647ebc2-b81c-41ed-a991-3bdac08e4f0b,d647ebc2-b81c-41ed-a991-3bdac08e4f0b,Aravind Kannan,18,18,95.0,2,male,2025-07-01,https://indianpadeltour.in/players/d647ebc2-b81c-41ed-a991-3bdac08e4f0b
+Men's,276,384,460350b9-79b8-43e3-9b0a-6856d9056bda,460350b9-79b8-43e3-9b0a-6856d9056bda,Arjun Chalotra,18,18,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/460350b9-79b8-43e3-9b0a-6856d9056bda
+Men's,276,384,ranked-arnav-ghai,,Arnav Ghai,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arnav-ghai
+Men's,276,384,ranked-chait-advani,,Chait Advani,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-chait-advani
+Men's,276,384,ranked-dev-mehta,,Dev Mehta,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-dev-mehta
+Men's,276,384,f10361b9-af81-48db-8dc6-5bdb33b72c6a,f10361b9-af81-48db-8dc6-5bdb33b72c6a,Eshant Uppal,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/f10361b9-af81-48db-8dc6-5bdb33b72c6a
+Men's,276,384,ranked-gaurav-d,,Gaurav D,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-gaurav-d
+Men's,276,384,ranked-harsh-seth,,Harsh Seth,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-harsh-seth
+Men's,276,384,e9405a6b-358f-49d5-8f1e-b1104d1f6a95,e9405a6b-358f-49d5-8f1e-b1104d1f6a95,Ishan Jindal,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/e9405a6b-358f-49d5-8f1e-b1104d1f6a95
+Men's,276,384,5938a1b7-dfbe-4c9a-8eb1-4debd778d000,5938a1b7-dfbe-4c9a-8eb1-4debd778d000,Ishan Maitreya,18,18,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/5938a1b7-dfbe-4c9a-8eb1-4debd778d000
+Men's,276,384,ranked-jash-shah,,Jash Shah,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-jash-shah
+Men's,276,384,ranked-joseph-palal,,Joseph Palal,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-joseph-palal
+Men's,276,384,ranked-k-k-cherian,,K K Cherian,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-k-k-cherian
+Men's,276,384,975f7879-28fb-4394-b703-b224787487bf,,Manav Jain,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/975f7879-28fb-4394-b703-b224787487bf
+Men's,276,384,ranked-manik-oberoi,,Manik Oberoi,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-manik-oberoi
+Men's,276,384,ranked-matt-shaw,,Matt Shaw,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-matt-shaw
+Men's,276,384,3767fb18-b855-41eb-88d4-701e4cb81126,3767fb18-b855-41eb-88d4-701e4cb81126,Mayank Oberoi,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/3767fb18-b855-41eb-88d4-701e4cb81126
+Men's,276,384,acfa1b86-681a-4b86-91f3-09eba5e486f5,acfa1b86-681a-4b86-91f3-09eba5e486f5,Mikhail Mehra,18,18,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/acfa1b86-681a-4b86-91f3-09eba5e486f5
+Men's,276,384,ranked-muhsin-abdulrahiman,,Muhsin Abdulrahiman,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-muhsin-abdulrahiman
+Men's,276,384,6920ba87-de99-461a-9af7-74a07b08c305,6920ba87-de99-461a-9af7-74a07b08c305,Naeem Shahul,18,18,-11.0,2,male,2025-07-01,https://indianpadeltour.in/players/6920ba87-de99-461a-9af7-74a07b08c305
+Men's,276,384,ranked-nivaan-choksi,,Nivaan Choksi,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nivaan-choksi
+Men's,276,384,ranked-param-jain,,Param Jain,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-param-jain
+Men's,276,384,ranked-poojan-dodhiya,,Poojan Dodhiya,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-poojan-dodhiya
+Men's,276,384,30155bc6-d483-414d-8d5e-17eef06c9f9e,30155bc6-d483-414d-8d5e-17eef06c9f9e,Pranav Erinjery,18,18,,1,male,2025-07-01,https://indianpadeltour.in/players/30155bc6-d483-414d-8d5e-17eef06c9f9e
+Men's,276,384,9dfae00e-eb77-4ee8-9f32-fb38a9a5cb3a,9dfae00e-eb77-4ee8-9f32-fb38a9a5cb3a,Prateek Gambhir,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/9dfae00e-eb77-4ee8-9f32-fb38a9a5cb3a
+Men's,276,384,33ba8a38-6ea6-4a24-a6c2-539cda4a6089,,Priyesh Desai,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/33ba8a38-6ea6-4a24-a6c2-539cda4a6089
+Men's,276,384,8b59dc20-8434-4323-9df5-72b9bcb10d6b,,Pruthvi Patel,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/8b59dc20-8434-4323-9df5-72b9bcb10d6b
+Men's,276,384,953b53cb-dcf0-4d4b-a3c3-9bd95488b0d4,953b53cb-dcf0-4d4b-a3c3-9bd95488b0d4,R S Abhishek,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/953b53cb-dcf0-4d4b-a3c3-9bd95488b0d4
+Men's,276,384,d7b4cb8b-ad06-471e-a741-5873a52775a5,,Raghuraj Dewan,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/d7b4cb8b-ad06-471e-a741-5873a52775a5
+Men's,276,384,ranked-rahul-mammen,,Rahul Mammen,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rahul-mammen
+Men's,276,384,ranked-rahul-nahar,,Rahul Nahar,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rahul-nahar
+Men's,276,384,ranked-rahul-sayal,,Rahul Sayal,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rahul-sayal
+Men's,276,384,ranked-rishi-lilani,,Rishi Lilani,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rishi-lilani
+Men's,276,384,ranked-rudy-maheshwari,,Rudy Maheshwari,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rudy-maheshwari
+Men's,276,384,ranked-sachiv-sharath,,Sachiv Sharath,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sachiv-sharath
+Men's,276,384,ranked-shashwat-jain,,Shashwat Jain,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shashwat-jain
+Men's,276,384,5b4e9c11-4974-4fcc-bd97-31bf8e12050d,5b4e9c11-4974-4fcc-bd97-31bf8e12050d,Sheriar Mazda,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/5b4e9c11-4974-4fcc-bd97-31bf8e12050d
+Men's,276,384,ranked-shivin-sardana,,Shivin Sardana,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shivin-sardana
+Men's,276,384,ranked-siddharth-bhargava,,Siddharth Bhargava,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-siddharth-bhargava
+Men's,276,384,c1fac66c-3ce8-43d8-8c0c-85d463264584,c1fac66c-3ce8-43d8-8c0c-85d463264584,Siddharth Satheesan,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/c1fac66c-3ce8-43d8-8c0c-85d463264584
+Men's,276,384,98307ab5-02a0-409d-b320-7c77b38a3c53,98307ab5-02a0-409d-b320-7c77b38a3c53,Suvir Singh,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/98307ab5-02a0-409d-b320-7c77b38a3c53
+Men's,276,384,2fb6f01b-24d6-44e9-95d3-7eca645d317e,2fb6f01b-24d6-44e9-95d3-7eca645d317e,Teyjas Chaudhary,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/2fb6f01b-24d6-44e9-95d3-7eca645d317e
+Men's,276,384,10a7cfb7-155c-48d3-b2a2-8c2bde421e4e,10a7cfb7-155c-48d3-b2a2-8c2bde421e4e,Udhay Mahajan,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/10a7cfb7-155c-48d3-b2a2-8c2bde421e4e
+Men's,276,384,ranked-varoon-parwani,,Varoon Parwani,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-varoon-parwani
+Men's,276,384,ranked-varun-ramani,,Varun Ramani,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-varun-ramani
+Men's,276,384,ranked-vishnu-h-n,,Vishnu H N,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vishnu-h-n
+Men's,276,384,ranked-yash-halani,,Yash Halani,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-yash-halani
+Men's,276,384,8f0e0463-82c3-4822-8b7e-58ec37cde83e,8f0e0463-82c3-4822-8b7e-58ec37cde83e,Yugantar Malhotra,18,18,-11.0,1,male,2025-07-01,https://indianpadeltour.in/players/8f0e0463-82c3-4822-8b7e-58ec37cde83e
+Men's,339,448,6892cafd-242b-468e-a1aa-cd2523e083a6,6892cafd-242b-468e-a1aa-cd2523e083a6,Kushe Bahl,17,17,-13.0,3,male,2025-07-01,https://indianpadeltour.in/players/6892cafd-242b-468e-a1aa-cd2523e083a6
+Men's,340,449,ranked-abhinn-kothari,,Abhinn Kothari,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abhinn-kothari
+Men's,340,449,94c4c35e-7619-4848-99bc-6a986912e931,94c4c35e-7619-4848-99bc-6a986912e931,Abhishek Yadev,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/94c4c35e-7619-4848-99bc-6a986912e931
+Men's,340,449,ranked-aman-jain,,Aman Jain,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aman-jain
+Men's,340,449,ranked-anant-khaitan,,Anant Khaitan,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-anant-khaitan
+Men's,340,449,bee8d4fd-f40c-486b-942b-5a4fdfc3306f,bee8d4fd-f40c-486b-942b-5a4fdfc3306f,Ananth Menon,15,15,,1,male,2025-07-01,https://indianpadeltour.in/players/bee8d4fd-f40c-486b-942b-5a4fdfc3306f
+Men's,340,449,ranked-arihant-jhaveri,,Arihant Jhaveri,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arihant-jhaveri
+Men's,340,449,ranked-arsh-jairath,,Arsh Jairath,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arsh-jairath
+Men's,340,449,ranked-arshay-jain,,Arshay Jain,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arshay-jain
+Men's,340,449,4326c4fd-cc21-41e2-a50c-dea545efbf2f,4326c4fd-cc21-41e2-a50c-dea545efbf2f,Arvind Sriram,15,15,,1,male,2025-07-01,https://indianpadeltour.in/players/4326c4fd-cc21-41e2-a50c-dea545efbf2f
+Men's,340,449,ranked-aryan-budhiraja,,Aryan Budhiraja,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aryan-budhiraja
+Men's,340,449,d0b763e8-69c1-496a-8a5f-5802e4f9eb88,,Atin Gupta,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/d0b763e8-69c1-496a-8a5f-5802e4f9eb88
+Men's,340,449,ranked-harsh-chauhan,,Harsh Chauhan,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-harsh-chauhan
+Men's,340,449,ranked-harsh-keswani,,Harsh Keswani,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-harsh-keswani
+Men's,340,449,ranked-nihal-hemdev,,Nihal Hemdev,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nihal-hemdev
+Men's,340,449,ranked-prateek-mago,,Prateek Mago,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-prateek-mago
+Men's,340,449,ranked-raj-shah,,Raj Shah,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-raj-shah
+Men's,340,449,26ba9e18-b56b-4e13-b403-bd9cce25671d,26ba9e18-b56b-4e13-b403-bd9cce25671d,Sahil Sharma,15,15,-13.0,2,male,2025-07-01,https://indianpadeltour.in/players/26ba9e18-b56b-4e13-b403-bd9cce25671d
+Men's,340,449,ffcf99be-96dd-434c-984f-70de62a8348d,,Shray Mehta,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ffcf99be-96dd-434c-984f-70de62a8348d
+Men's,340,449,222a0e4a-457f-42ef-bedc-cea1892b3280,222a0e4a-457f-42ef-bedc-cea1892b3280,Umesh Padwal,15,15,-13.0,2,male,2025-07-01,https://indianpadeltour.in/players/222a0e4a-457f-42ef-bedc-cea1892b3280
+Men's,340,449,ranked-yash-merchant,,Yash Merchant,15,15,-13.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-yash-merchant
+Men's,360,301,92c80f2d-5dc8-4614-b205-953fbef21e55,92c80f2d-5dc8-4614-b205-953fbef21e55,Rashank Kuckreja,14,26,-14.0,4,male,2025-07-01,https://indianpadeltour.in/players/92c80f2d-5dc8-4614-b205-953fbef21e55
+Men's,360,328,f890ec3e-8c23-439c-9ea1-cbb778891771,f890ec3e-8c23-439c-9ea1-cbb778891771,Arjun Malhotra,14,20,-14.0,3,male,2025-07-01,https://indianpadeltour.in/players/f890ec3e-8c23-439c-9ea1-cbb778891771
+Men's,362,159,ranked-madhav-kotak,,Madhav Kotak,12,72,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-madhav-kotak
+Men's,362,215,ranked-vishal-jhunjhunwala,,Vishal Jhunjhunwala,12,42,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-vishal-jhunjhunwala
+Men's,362,306,ranked-akshay-popawala,,Akshay Popawala,12,24,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-akshay-popawala
+Men's,362,306,ranked-yashodhan-goenka,,Yashodhan Goenka,12,24,-14.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-yashodhan-goenka
+Men's,362,470,ranked-abhishek-bharara,,Abhishek Bharara,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abhishek-bharara
+Men's,362,470,ranked-aditya-khilnani,,Aditya Khilnani,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-khilnani
+Men's,362,470,ranked-dashrath-somashekar,,Dashrath Somashekar,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-dashrath-somashekar
+Men's,362,470,ranked-karan-singh,,Karan Singh,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karan-singh
+Men's,362,470,ranked-krishna-chawla,,Krishna Chawla,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-krishna-chawla
+Men's,362,470,ranked-krishna-daryanani,,Krishna Daryanani,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-krishna-daryanani
+Men's,362,470,ranked-nikhil-sahni,,Nikhil Sahni,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nikhil-sahni
+Men's,362,470,ranked-rahil-fazelbhoy,,Rahil Fazelbhoy,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rahil-fazelbhoy
+Men's,362,470,2bde84bf-0871-496d-836c-05d90139b08d,2bde84bf-0871-496d-836c-05d90139b08d,Rohan Dhoot,12,12,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/2bde84bf-0871-496d-836c-05d90139b08d
+Men's,362,470,ranked-rohan-sadarangani,,Rohan Sadarangani,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohan-sadarangani
+Men's,362,470,ranked-ronnie-fernandes,,Ronnie Fernandes,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ronnie-fernandes
+Men's,362,470,8999c06a-bd38-4d01-bfa6-016c506be79d,,Ryan Carroll,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/8999c06a-bd38-4d01-bfa6-016c506be79d
+Men's,362,470,ranked-shreya-dugar,,Shreya Dugar,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shreya-dugar
+Men's,362,470,ranked-sovin-hegde,,Sovin Hegde,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sovin-hegde
+Men's,362,470,ranked-suraj-bishoni,,Suraj Bishoni,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-suraj-bishoni
+Men's,362,470,65e48ebf-0f26-4abe-b2c3-6629ab689249,65e48ebf-0f26-4abe-b2c3-6629ab689249,Tanmay Anand,12,12,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/65e48ebf-0f26-4abe-b2c3-6629ab689249
+Men's,362,470,6023f7fb-b00d-4093-ab62-cc6d12726cce,6023f7fb-b00d-4093-ab62-cc6d12726cce,Virel Agarwal,12,12,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/6023f7fb-b00d-4093-ab62-cc6d12726cce
+Men's,362,470,ranked-vivek-kotak,,Vivek Kotak,12,12,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vivek-kotak
+Men's,384,497,8c72bdc2-6eff-4537-ba3a-ad4eaadd542d,8c72bdc2-6eff-4537-ba3a-ad4eaadd542d,Shaan Shah,10,10,34.0,3,male,2025-07-01,https://indianpadeltour.in/players/8c72bdc2-6eff-4537-ba3a-ad4eaadd542d
+Men's,385,60,9a0ca379-deee-41c9-ad19-ab63a46719c4,9a0ca379-deee-41c9-ad19-ab63a46719c4,Ganesh Raj,9,249,38.0,2,male,2025-07-01,https://indianpadeltour.in/players/9a0ca379-deee-41c9-ad19-ab63a46719c4
+Men's,385,296,b45f586c-585b-494e-a806-5f9abfe242fb,b45f586c-585b-494e-a806-5f9abfe242fb,Siddharth Sanghai,9,29,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/b45f586c-585b-494e-a806-5f9abfe242fb
+Men's,385,298,ranked-neeraj-janthly,,Neeraj Janthly,9,27,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-neeraj-janthly
+Men's,385,384,ranked-riyan-shetty,,Riyan Shetty,9,18,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-riyan-shetty
+Men's,385,384,ranked-sanketh-prakash,,Sanketh Prakash,9,18,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-sanketh-prakash
+Men's,385,449,ranked-pranav-mehra,,Pranav Mehra,9,15,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-pranav-mehra
+Men's,385,498,821bda69-7b49-49ce-96f9-425f549eab3f,821bda69-7b49-49ce-96f9-425f549eab3f,Aarman Kler,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/821bda69-7b49-49ce-96f9-425f549eab3f
+Men's,385,498,f6c641f1-29cd-45ed-b4df-1421d76f48d3,f6c641f1-29cd-45ed-b4df-1421d76f48d3,Abhinav Grover,9,9,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/f6c641f1-29cd-45ed-b4df-1421d76f48d3
+Men's,385,498,ranked-adarsh-hegde,,Adarsh Hegde,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-adarsh-hegde
+Men's,385,498,ranked-adnan-attarwala,,Adnan Attarwala,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-adnan-attarwala
+Men's,385,498,ranked-agisilaos-demetriades,,Agisilaos Demetriades,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-agisilaos-demetriades
+Men's,385,498,7ae56644-dbba-41d5-a04d-ed0a503595f6,7ae56644-dbba-41d5-a04d-ed0a503595f6,Akshay Rai,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/7ae56644-dbba-41d5-a04d-ed0a503595f6
+Men's,385,498,8b5f340d-6e89-4c2e-b8e5-d2a300ca3f85,8b5f340d-6e89-4c2e-b8e5-d2a300ca3f85,Akshit Chaudhary,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/8b5f340d-6e89-4c2e-b8e5-d2a300ca3f85
+Men's,385,498,6c67db09-ad9a-46d3-a0a3-5c4e7687587d,6c67db09-ad9a-46d3-a0a3-5c4e7687587d,Aman Goyal,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/6c67db09-ad9a-46d3-a0a3-5c4e7687587d
+Men's,385,498,fee9acbd-1e47-4ec5-a495-f49bad8748e6,fee9acbd-1e47-4ec5-a495-f49bad8748e6,Angad Puar,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/fee9acbd-1e47-4ec5-a495-f49bad8748e6
+Men's,385,498,facc6960-33ef-4c75-ab10-4a2a8ad00b6c,,Ashwin Saksena,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/facc6960-33ef-4c75-ab10-4a2a8ad00b6c
+Men's,385,498,ranked-bharat-singh,,Bharat Singh,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-bharat-singh
+Men's,385,498,ranked-dhruv-nath,,Dhruv Nath,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-dhruv-nath
+Men's,385,498,1dfc79f8-119b-4349-a2f9-a6e7c425a8e9,1dfc79f8-119b-4349-a2f9-a6e7c425a8e9,Dirsha Kalliyath,9,9,,1,male,2025-07-01,https://indianpadeltour.in/players/1dfc79f8-119b-4349-a2f9-a6e7c425a8e9
+Men's,385,498,5ff0e80a-e07e-4469-a2a2-01d6a9c3f00b,5ff0e80a-e07e-4469-a2a2-01d6a9c3f00b,Falib Jaleel,9,9,,1,male,2025-07-01,https://indianpadeltour.in/players/5ff0e80a-e07e-4469-a2a2-01d6a9c3f00b
+Men's,385,498,f0f37d22-d27a-4f1a-afed-0f5d3d55f3e0,f0f37d22-d27a-4f1a-afed-0f5d3d55f3e0,Junaiz Odakkal,9,9,,1,male,2025-07-01,https://indianpadeltour.in/players/f0f37d22-d27a-4f1a-afed-0f5d3d55f3e0
+Men's,385,498,3354c5a3-1dbf-47e7-a264-7a573cd0b8e5,3354c5a3-1dbf-47e7-a264-7a573cd0b8e5,Kabir Anand,9,9,-14.0,2,male,2025-07-01,https://indianpadeltour.in/players/3354c5a3-1dbf-47e7-a264-7a573cd0b8e5
+Men's,385,498,ranked-kamran-attarwala,,Kamran Attarwala,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kamran-attarwala
+Men's,385,498,ranked-kannan-rahul,,Kannan Rahul,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kannan-rahul
+Men's,385,498,ranked-karan-bhangay,,Karan Bhangay,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karan-bhangay
+Men's,385,498,8bb372e9-13f6-40be-9f1d-add1395ec813,8bb372e9-13f6-40be-9f1d-add1395ec813,Kriday Sethi,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/8bb372e9-13f6-40be-9f1d-add1395ec813
+Men's,385,498,787505dd-9f13-4ef2-a4ae-eb81af687abf,787505dd-9f13-4ef2-a4ae-eb81af687abf,Manan Gupta,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/787505dd-9f13-4ef2-a4ae-eb81af687abf
+Men's,385,498,fed73115-d438-4ece-b3bc-833a35c0af2e,fed73115-d438-4ece-b3bc-833a35c0af2e,Mohamed Anzar,9,9,,1,male,2025-07-01,https://indianpadeltour.in/players/fed73115-d438-4ece-b3bc-833a35c0af2e
+Men's,385,498,ranked-mohammed-junaid,,Mohammed Junaid,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mohammed-junaid
+Men's,385,498,496acea5-21ec-4eba-8eac-68cc9821538c,496acea5-21ec-4eba-8eac-68cc9821538c,Muhammed Ajmal,9,9,,1,male,2025-07-01,https://indianpadeltour.in/players/496acea5-21ec-4eba-8eac-68cc9821538c
+Men's,385,498,ranked-muhammed-hussain,,Muhammed Hussain,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-muhammed-hussain
+Men's,385,498,82aba01f-d352-48ba-a4dc-7f5974a5ffde,82aba01f-d352-48ba-a4dc-7f5974a5ffde,Naville Prakash,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/82aba01f-d352-48ba-a4dc-7f5974a5ffde
+Men's,385,498,ranked-nishant-walimbe,,Nishant Walimbe,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nishant-walimbe
+Men's,385,498,ranked-pranav-uppal,,Pranav Uppal,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-pranav-uppal
+Men's,385,498,ranked-pratik-kalaria,,Pratik Kalaria,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-pratik-kalaria
+Men's,385,498,d55bd4eb-f316-443e-bc77-b4223089bb9b,d55bd4eb-f316-443e-bc77-b4223089bb9b,Rishabh Kalokhe,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/d55bd4eb-f316-443e-bc77-b4223089bb9b
+Men's,385,498,ranked-rishabh-nayyar,,Rishabh Nayyar,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rishabh-nayyar
+Men's,385,498,ranked-rutvik-kalaria,,Rutvik Kalaria,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rutvik-kalaria
+Men's,385,498,ranked-sarfraz-farooquee,,Sarfraz Farooquee,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sarfraz-farooquee
+Men's,385,498,6677f696-648f-478e-b018-13a839d6a34e,6677f696-648f-478e-b018-13a839d6a34e,Shashank Tiwari,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/6677f696-648f-478e-b018-13a839d6a34e
+Men's,385,498,4fd7e826-a45c-45c1-974d-781f0cfc0621,4fd7e826-a45c-45c1-974d-781f0cfc0621,Shelton Mathew,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/4fd7e826-a45c-45c1-974d-781f0cfc0621
+Men's,385,498,ranked-shreyas-krishnaswamy,,Shreyas Krishnaswamy,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shreyas-krishnaswamy
+Men's,385,498,cb8b4fb5-f72f-42c7-94c1-b7963e5c6e68,cb8b4fb5-f72f-42c7-94c1-b7963e5c6e68,Suyash Vishnoi,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/cb8b4fb5-f72f-42c7-94c1-b7963e5c6e68
+Men's,385,498,8850ef35-01ed-405d-acb6-6bd23a45b747,8850ef35-01ed-405d-acb6-6bd23a45b747,Vaibhav Sahni,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/8850ef35-01ed-405d-acb6-6bd23a45b747
+Men's,385,498,b8eb1e10-ea5c-4422-835e-d6b7bf8f381f,b8eb1e10-ea5c-4422-835e-d6b7bf8f381f,Vansh Bhagtani,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/b8eb1e10-ea5c-4422-835e-d6b7bf8f381f
+Men's,385,498,ranked-ved-bidri,,Ved Bidri,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ved-bidri
+Men's,385,498,3f741097-060e-44be-8402-0bb7f42b5b7e,3f741097-060e-44be-8402-0bb7f42b5b7e,Vijay Aakash Nemakal,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/3f741097-060e-44be-8402-0bb7f42b5b7e
+Men's,385,498,a821843c-1fe8-46ab-a563-39a2ac3b982e,a821843c-1fe8-46ab-a563-39a2ac3b982e,Vishnu Shetty,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/a821843c-1fe8-46ab-a563-39a2ac3b982e
+Men's,385,498,ranked-vivek-somani,,Vivek Somani,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vivek-somani
+Men's,385,498,ranked-vrithik-mehta,,Vrithik Mehta,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vrithik-mehta
+Men's,385,498,0346bf27-30fb-409c-8bd4-bdbb1f7119cd,0346bf27-30fb-409c-8bd4-bdbb1f7119cd,Yash Nagdev,9,9,-14.0,1,male,2025-07-01,https://indianpadeltour.in/players/0346bf27-30fb-409c-8bd4-bdbb1f7119cd
+Men's,436,580,423c210f-fe3b-42eb-8542-5969c9fa6eec,423c210f-fe3b-42eb-8542-5969c9fa6eec,Adarsh S,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/423c210f-fe3b-42eb-8542-5969c9fa6eec
+Men's,436,580,0a0db4ab-db0a-4dd7-a8d3-7a40715b83bd,0a0db4ab-db0a-4dd7-a8d3-7a40715b83bd,Advaith Anoop,5,5,-18.0,1,male,2025-07-01,https://indianpadeltour.in/players/0a0db4ab-db0a-4dd7-a8d3-7a40715b83bd
+Men's,436,580,2bb102f2-5c3a-48b1-ae95-ce7f8d38b17f,2bb102f2-5c3a-48b1-ae95-ce7f8d38b17f,Akshith Thomas,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/2bb102f2-5c3a-48b1-ae95-ce7f8d38b17f
+Men's,436,580,3c822f5d-2200-464d-bc72-f04612b2ee19,3c822f5d-2200-464d-bc72-f04612b2ee19,Anoop KR,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/3c822f5d-2200-464d-bc72-f04612b2ee19
+Men's,436,580,689f12ba-b99c-4d69-b6f4-80c07ed7ce92,689f12ba-b99c-4d69-b6f4-80c07ed7ce92,Anthony Grace Fernandes,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/689f12ba-b99c-4d69-b6f4-80c07ed7ce92
+Men's,436,580,34db59dd-7f59-4b2a-8403-070df3a50fd9,34db59dd-7f59-4b2a-8403-070df3a50fd9,Arun Ratnakaran,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/34db59dd-7f59-4b2a-8403-070df3a50fd9
+Men's,436,580,c2ae75e9-a8ea-43e9-89b0-df5d44f5fa61,c2ae75e9-a8ea-43e9-89b0-df5d44f5fa61,Ayaan Mishra,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/c2ae75e9-a8ea-43e9-89b0-df5d44f5fa61
+Men's,436,580,8fc2da14-7503-4602-82ca-a8a418e43d9a,8fc2da14-7503-4602-82ca-a8a418e43d9a,Azhar Seyad,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/8fc2da14-7503-4602-82ca-a8a418e43d9a
+Men's,436,580,0e3ade05-7d67-414c-8e20-c2bbae3a5778,0e3ade05-7d67-414c-8e20-c2bbae3a5778,Azim Yasir,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/0e3ade05-7d67-414c-8e20-c2bbae3a5778
+Men's,436,580,16b8462e-31e2-4614-9a5f-57ee20aefb03,16b8462e-31e2-4614-9a5f-57ee20aefb03,Burhan Contractor,5,5,-18.0,1,male,2025-07-01,https://indianpadeltour.in/players/16b8462e-31e2-4614-9a5f-57ee20aefb03
+Men's,436,580,b0670242-4895-4197-85fa-31c10b0953e7,b0670242-4895-4197-85fa-31c10b0953e7,James Joseph,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/b0670242-4895-4197-85fa-31c10b0953e7
+Men's,436,580,66f6024c-cf6b-4775-a2ef-3f7f1b0405b3,66f6024c-cf6b-4775-a2ef-3f7f1b0405b3,Mohammed Farhan,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/66f6024c-cf6b-4775-a2ef-3f7f1b0405b3
+Men's,436,580,ce5800f0-729e-44e9-a12d-a83a5b771244,ce5800f0-729e-44e9-a12d-a83a5b771244,Muhammed Saleem V,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/ce5800f0-729e-44e9-a12d-a83a5b771244
+Men's,436,580,57a2141d-40d8-46f5-80e4-11670644aaca,57a2141d-40d8-46f5-80e4-11670644aaca,Parthiv Anilkumar,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/57a2141d-40d8-46f5-80e4-11670644aaca
+Men's,436,580,bf1b649e-2d63-4872-979d-273bc66eb576,bf1b649e-2d63-4872-979d-273bc66eb576,Pratikraj Singh,5,5,-18.0,1,male,2025-07-01,https://indianpadeltour.in/players/bf1b649e-2d63-4872-979d-273bc66eb576
+Men's,436,580,8a61e384-5702-4e17-b42e-f75ce4a27013,8a61e384-5702-4e17-b42e-f75ce4a27013,Revano Wilson,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/8a61e384-5702-4e17-b42e-f75ce4a27013
+Men's,436,580,3a4284ac-76b1-42ec-b6e3-a5c4bb489432,3a4284ac-76b1-42ec-b6e3-a5c4bb489432,Royce Raju Beena,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/3a4284ac-76b1-42ec-b6e3-a5c4bb489432
+Men's,436,580,ee0a9dcc-acb3-4a06-a301-ba31f2f6c134,ee0a9dcc-acb3-4a06-a301-ba31f2f6c134,Sachin Thomas,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/ee0a9dcc-acb3-4a06-a301-ba31f2f6c134
+Men's,436,580,57930f5b-8782-4de1-b779-d757f0540e52,57930f5b-8782-4de1-b779-d757f0540e52,Shaan Javeri,5,5,-18.0,1,male,2025-07-01,https://indianpadeltour.in/players/57930f5b-8782-4de1-b779-d757f0540e52
+Men's,436,580,5d868212-b694-4b7c-9e87-8bbcdff3a37e,5d868212-b694-4b7c-9e87-8bbcdff3a37e,Terence Thomas,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/5d868212-b694-4b7c-9e87-8bbcdff3a37e
+Men's,436,580,b7281057-4ccf-42d7-bd24-71acc1edaac2,b7281057-4ccf-42d7-bd24-71acc1edaac2,Varghese Paul,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/b7281057-4ccf-42d7-bd24-71acc1edaac2
+Men's,436,580,1f8700c4-6a62-4646-95cd-9b2d456baf65,1f8700c4-6a62-4646-95cd-9b2d456baf65,Viraj Dewan,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/1f8700c4-6a62-4646-95cd-9b2d456baf65
+Men's,436,580,062f6e2d-dd0e-47b8-a338-386ae1e7ddc2,062f6e2d-dd0e-47b8-a338-386ae1e7ddc2,Vishal Thomas,5,5,,1,male,2025-07-01,https://indianpadeltour.in/players/062f6e2d-dd0e-47b8-a338-386ae1e7ddc2
+Men's,459,38,ranked-manjunath-nanjundashetty,,Manjunath Nanjundashetty,0,400,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-manjunath-nanjundashetty
+Men's,459,39,ranked-felippe-trujillo,,Felippe Trujillo,0,360,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-felippe-trujillo
+Men's,459,49,0df50617-268c-477d-8351-fd6f8ed84a71,,Aditya Maheshwari,0,300,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/0df50617-268c-477d-8351-fd6f8ed84a71
+Men's,459,49,ranked-arpit-tibrewala,,Arpit Tibrewala,0,300,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-arpit-tibrewala
+Men's,459,61,f627335f-f154-4e08-9481-07dffc3a7d35,f627335f-f154-4e08-9481-07dffc3a7d35,Famaz Shanavas,0,240,-36.0,4,male,2025-07-01,https://indianpadeltour.in/players/f627335f-f154-4e08-9481-07dffc3a7d35
+Men's,459,61,ranked-gagan-ps,,Gagan PS,0,240,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-gagan-ps
+Men's,459,61,ranked-varun-motasha,,Varun Motasha,0,240,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-varun-motasha
+Men's,459,70,ranked-abhimanyu-shah,,Abhimanyu Shah,0,180,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abhimanyu-shah
+Men's,459,70,ranked-ishaan-datta,,Ishaan Datta,0,180,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ishaan-datta
+Men's,459,70,ranked-jehan-daruvala,,Jehan Daruvala,0,180,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-jehan-daruvala
+Men's,459,70,ranked-prem-matlani,,Prem Matlani,0,180,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-prem-matlani
+Men's,459,70,c6ad7320-117c-4e7a-a4a6-e4c99fb34e23,,Rupen Jhaveri,0,180,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/c6ad7320-117c-4e7a-a4a6-e4c99fb34e23
+Men's,459,70,ranked-viren-chauhan,,Viren Chauhan,0,180,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-viren-chauhan
+Men's,459,86,ranked-abhilash-kumar,,Abhilash Kumar,0,160,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abhilash-kumar
+Men's,459,86,ranked-maanav-jain,,Maanav Jain,0,160,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-maanav-jain
+Men's,459,86,ranked-viraaj-anandkumar,,Viraaj Anandkumar,0,160,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-viraaj-anandkumar
+Men's,459,101,ranked-aadit-zaveri,,Aadit Zaveri,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aadit-zaveri
+Men's,459,101,ranked-abrar-siraj,,Abrar Siraj,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abrar-siraj
+Men's,459,101,ranked-akbar-khan,,Akbar Khan,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-akbar-khan
+Men's,459,101,16def632-d48e-4678-81b5-1316aedb049c,,Akshay Jalan,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/16def632-d48e-4678-81b5-1316aedb049c
+Men's,459,101,ranked-amit-lala,,Amit Lala,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-amit-lala
+Men's,459,101,8e2d5864-afb0-4dac-88da-4ff402bee428,,Anand Kothari,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/8e2d5864-afb0-4dac-88da-4ff402bee428
+Men's,459,101,ranked-cyrus-sethna,,Cyrus Sethna,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-cyrus-sethna
+Men's,459,101,ranked-deepak-jaitly,,Deepak Jaitly,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-deepak-jaitly
+Men's,459,101,ranked-divyang-kumar,,Divyang Kumar,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-divyang-kumar
+Men's,459,101,ranked-girish-singhania,,Girish Singhania,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-girish-singhania
+Men's,459,101,6ec925af-f358-475a-9fd4-37dfcbb1795d,,Harsh Parekh,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/6ec925af-f358-475a-9fd4-37dfcbb1795d
+Men's,459,101,ranked-jay-mehta,,Jay Mehta,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-jay-mehta
+Men's,459,101,ranked-kanishq-mahida,,Kanishq Mahida,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kanishq-mahida
+Men's,459,101,3ede0ffc-93a8-4fc8-b30b-11c2c07a8598,3ede0ffc-93a8-4fc8-b30b-11c2c07a8598,Khushish Jain,0,120,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/3ede0ffc-93a8-4fc8-b30b-11c2c07a8598
+Men's,459,101,ranked-kunal-chadha,,Kunal Chadha,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kunal-chadha
+Men's,459,101,ranked-mirish-shah,,Mirish Shah,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mirish-shah
+Men's,459,101,ranked-pankaj-thapa,,Pankaj Thapa,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-pankaj-thapa
+Men's,459,101,ranked-parth-yadav,,Parth Yadav,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-parth-yadav
+Men's,459,101,ranked-prakhyath-kc,,Prakhyath KC,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-prakhyath-kc
+Men's,459,101,ranked-prash-elam,,Prash Elam,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-prash-elam
+Men's,459,101,3b3fe796-88b7-4a76-a7e3-e67f0a4a5b7a,,Pratik Doshi,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/3b3fe796-88b7-4a76-a7e3-e67f0a4a5b7a
+Men's,459,101,ranked-yan-duriepe,,Yan Duriepe,0,120,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-yan-duriepe
+Men's,459,140,ranked-ashish-shetty,,Ashish Shetty,0,100,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ashish-shetty
+Men's,459,140,ranked-george-poonnen,,George Poonnen,0,100,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-george-poonnen
+Men's,459,140,ranked-sinan-kader,,Sinan Kader,0,100,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sinan-kader
+Men's,459,153,ranked-adheesh-borkar,,Adheesh Borkar,0,80,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-adheesh-borkar
+Men's,459,167,ranked-anish-gupta,,Anish Gupta,0,60,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-anish-gupta
+Men's,459,167,ranked-kavish-moriani,,Kavish Moriani,0,60,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-kavish-moriani
+Men's,459,167,ranked-mohamed-ali-furniturewala,,Mohamed Ali Furniturewala,0,60,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-mohamed-ali-furniturewala
+Men's,459,167,ranked-rishab-kochhar,,Rishab Kochhar,0,60,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-rishab-kochhar
+Men's,459,167,ranked-sooraj-mehta,,Sooraj Mehta,0,60,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sooraj-mehta
+Men's,459,167,ranked-vedant-arora,,Vedant Arora,0,60,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vedant-arora
+Men's,459,167,ranked-viraj-kelekar,,Viraj Kelekar,0,60,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-viraj-kelekar
+Men's,459,194,ranked-varun-gupta,,Varun Gupta,0,50,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-varun-gupta
+Men's,459,217,ranked-angad-marwah,,Angad Marwah,0,40,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-angad-marwah
+Men's,459,217,ranked-everl-dsouza,,Everl Dsouza,0,40,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-everl-dsouza
+Men's,459,217,ranked-harshil-thakker,,Harshil Thakker,0,40,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-harshil-thakker
+Men's,459,217,ranked-sahib-singh-lamba,,Sahib Singh Lamba,0,40,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sahib-singh-lamba
+Men's,459,217,ranked-samyak-kohari,,Samyak Kohari,0,40,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-samyak-kohari
+Men's,459,217,ranked-santino-morea,,Santino Morea,0,40,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-santino-morea
+Men's,459,217,ranked-tushar-sukhwani,,Tushar Sukhwani,0,40,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-tushar-sukhwani
+Men's,459,217,ranked-vedant-ruia,,Vedant Ruia,0,40,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-vedant-ruia
+Men's,459,240,ranked-aditya-shrimankar,,Aditya Shrimankar,0,36,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-shrimankar
+Men's,459,260,ranked-aditya-rajani,,Aditya Rajani,0,30,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-rajani
+Men's,459,260,ranked-bhavik-thakker,,Bhavik Thakker,0,30,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-bhavik-thakker
+Men's,459,260,ranked-bhuveer-kodani,,Bhuveer Kodani,0,30,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-bhuveer-kodani
+Men's,459,260,ranked-hashim-dsouza,,Hashim Dsouza,0,30,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-hashim-dsouza
+Men's,459,260,ranked-rohan-padhye,,Rohan Padhye,0,30,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohan-padhye
+Men's,459,260,ranked-rohin-bachwani,,Rohin Bachwani,0,30,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohin-bachwani
+Men's,459,260,ranked-zarir-aibara,,Zarir Aibara,0,30,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-zarir-aibara
+Men's,459,328,ranked-aayush-kedia,,Aayush Kedia,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aayush-kedia
+Men's,459,328,ranked-ahan-rajgor,,Ahan Rajgor,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ahan-rajgor
+Men's,459,328,ranked-akhil-agrawal,,Akhil Agrawal,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-akhil-agrawal
+Men's,459,328,ranked-aniket-pol,,Aniket Pol,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aniket-pol
+Men's,459,328,ranked-anirudh-gupta,,Anirudh Gupta,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-anirudh-gupta
+Men's,459,328,ranked-arjun-jashnani,,Arjun Jashnani,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-jashnani
+Men's,459,328,ranked-ayush-kapur,,Ayush Kapur,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ayush-kapur
+Men's,459,328,ranked-chirag-nihalani,,Chirag Nihalani,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-chirag-nihalani
+Men's,459,328,ranked-himanshu-kumar-singh,,Himanshu Kumar Singh,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-himanshu-kumar-singh
+Men's,459,328,ranked-kabir-seth,,Kabir Seth,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kabir-seth
+Men's,459,328,ranked-karmanya-ahuja,,Karmanya Ahuja,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karmanya-ahuja
+Men's,459,328,ranked-krish-khetwani,,Krish Khetwani,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-krish-khetwani
+Men's,459,328,ranked-kunal-bhatia,,Kunal Bhatia,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kunal-bhatia
+Men's,459,328,ranked-kyan-bharucha,,Kyan Bharucha,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kyan-bharucha
+Men's,459,328,ranked-mohammed-m,,Mohammed M,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mohammed-m
+Men's,459,328,ranked-mudit-kapoor,,Mudit Kapoor,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mudit-kapoor
+Men's,459,328,ranked-neel-kothari,,Neel Kothari,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-neel-kothari
+Men's,459,328,ranked-nikhil-gonsalves,,Nikhil Gonsalves,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nikhil-gonsalves
+Men's,459,328,ranked-nirav-bakshi,,Nirav Bakshi,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nirav-bakshi
+Men's,459,328,ranked-prateek-kumar,,Prateek Kumar,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-prateek-kumar
+Men's,459,328,f98b87d6-af21-4087-a820-178b4220e325,f98b87d6-af21-4087-a820-178b4220e325,Prem Mirchandani,0,20,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/f98b87d6-af21-4087-a820-178b4220e325
+Men's,459,328,ranked-rishi-sharma,,Rishi Sharma,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rishi-sharma
+Men's,459,328,ranked-rithik-sinha,,Rithik Sinha,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rithik-sinha
+Men's,459,328,ranked-rohan-manglani,,Rohan Manglani,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rohan-manglani
+Men's,459,328,ranked-shoumik-shetty,,Shoumik Shetty,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shoumik-shetty
+Men's,459,328,ranked-showik-chakraborty,,Showik Chakraborty,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-showik-chakraborty
+Men's,459,328,ranked-swayam-doshi,,Swayam Doshi,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-swayam-doshi
+Men's,459,328,ranked-vignesh-swamy,,Vignesh Swamy,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vignesh-swamy
+Men's,459,328,ranked-yashvardhan-goenka,,Yashvardhan Goenka,0,20,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-yashvardhan-goenka
+Men's,459,384,ranked-aryan-jajodia,,Aryan Jajodia,0,18,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aryan-jajodia
+Men's,459,384,ranked-madhavakrishnan-s,,MadhavaKrishnan S,0,18,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-madhavakrishnan-s
+Men's,459,384,ranked-rishabh-kumar,,Rishabh Kumar,0,18,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rishabh-kumar
+Men's,459,470,ranked-aadit-somil-zaveri,,Aadit Somil Zaveri,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aadit-somil-zaveri
+Men's,459,470,ranked-arjun-anand,,Arjun Anand,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-anand
+Men's,459,470,ranked-arjun-chande,,Arjun Chande,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arjun-chande
+Men's,459,470,ranked-rudhir-barma,,Rudhir Barma,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rudhir-barma
+Men's,459,470,ranked-shantanu-chopra,,Shantanu Chopra,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shantanu-chopra
+Men's,459,470,ranked-sharan-chandrashekar,,Sharan Chandrashekar,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sharan-chandrashekar
+Men's,459,470,ranked-shasaank-g,,Shasaank G,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shasaank-g
+Men's,459,470,ranked-siddhant-deshpande,,Siddhant Deshpande,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-siddhant-deshpande
+Men's,459,470,ranked-yash-r-sippy,,Yash R Sippy,0,12,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-yash-r-sippy
+Men's,459,498,ranked-akhil-chopra,,Akhil Chopra,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-akhil-chopra
+Men's,459,498,ranked-akshay-gurnani,,Akshay Gurnani,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-akshay-gurnani
+Men's,459,498,d0df0275-050d-4a5d-b540-78b2357d7697,,Anant Bothra,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/d0df0275-050d-4a5d-b540-78b2357d7697
+Men's,459,498,ranked-anant-goenka,,Anant Goenka,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-anant-goenka
+Men's,459,498,ranked-aniket-sheth,,Aniket Sheth,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aniket-sheth
+Men's,459,498,ranked-dhruv-jatti,,Dhruv Jatti,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-dhruv-jatti
+Men's,459,498,ranked-karan-chahal,,Karan Chahal,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karan-chahal
+Men's,459,498,ranked-kunal-virwan,,Kunal Virwan,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kunal-virwan
+Men's,459,498,1dbeeee2-b41a-4bec-8948-8f661c573861,1dbeeee2-b41a-4bec-8948-8f661c573861,Mishal Mehta,0,9,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/1dbeeee2-b41a-4bec-8948-8f661c573861
+Men's,459,498,ranked-mithun-sheth,,Mithun Sheth,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mithun-sheth
+Men's,459,498,ranked-nakul-vengsarkar,,Nakul Vengsarkar,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nakul-vengsarkar
+Men's,459,498,ranked-neel-shah,,Neel Shah,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-neel-shah
+Men's,459,498,ranked-nikhil-menda,,Nikhil Menda,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-nikhil-menda
+Men's,459,498,ranked-rahil-peris,,Rahil Peris,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rahil-peris
+Men's,459,498,ranked-ronak-sanghvi,,Ronak Sanghvi,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ronak-sanghvi
+Men's,459,498,ranked-sailesh-mundra,,Sailesh Mundra,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sailesh-mundra
+Men's,459,498,ranked-saksham-sharma,,Saksham Sharma,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-saksham-sharma
+Men's,459,498,ranked-trishank-b,,Trishank B,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-trishank-b
+Men's,459,498,ranked-vikramjit-garewal,,Vikramjit Garewal,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vikramjit-garewal
+Men's,459,498,ranked-vishal-pattabiraman,,Vishal Pattabiraman,0,9,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vishal-pattabiraman
+Men's,459,563,ranked-aakash-agarwal,,Aakash Agarwal,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aakash-agarwal
+Men's,459,563,ranked-aakash-shah,,Aakash Shah,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aakash-shah
+Men's,459,563,ranked-abhishek-gamre,,Abhishek Gamre,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-abhishek-gamre
+Men's,459,563,ranked-aditya-shah,,Aditya Shah,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aditya-shah
+Men's,459,563,ranked-aman-doshi,,Aman Doshi,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-aman-doshi
+Men's,459,563,ranked-arun-balajee,,Arun Balajee,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-arun-balajee
+Men's,459,563,ranked-bruno-rauis,,Bruno Rauis,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-bruno-rauis
+Men's,459,563,ranked-kushhal-kela,,Kushhal Kela,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-kushhal-kela
+Men's,459,563,ranked-mahir-chadha,,Mahir Chadha,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-mahir-chadha
+Men's,459,563,ranked-pradeep-shahani,,Pradeep Shahani,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-pradeep-shahani
+Men's,459,563,ranked-prateek-khubchandani,,Prateek Khubchandani,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-prateek-khubchandani
+Men's,459,563,ranked-rishabh-sharma,,Rishabh Sharma,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-rishabh-sharma
+Men's,459,563,ranked-sachit-bajoria,,Sachit Bajoria,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sachit-bajoria
+Men's,459,563,ranked-shankar-menon,,Shankar Menon,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shankar-menon
+Men's,459,563,ranked-shivam-singh,,Shivam Singh,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-shivam-singh
+Men's,459,563,ranked-tarun-amirtharaj,,Tarun Amirtharaj,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-tarun-amirtharaj
+Men's,459,563,ranked-vishesh-agrawal,,Vishesh Agrawal,0,6,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-vishesh-agrawal
+Men's,459,603,c83a9f33-0d4f-4f6d-b21f-1cfc425dfe69,c83a9f33-0d4f-4f6d-b21f-1cfc425dfe69,Aahan Jhaveri,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/c83a9f33-0d4f-4f6d-b21f-1cfc425dfe69
+Men's,459,603,30ab2db4-b8de-4717-9c08-286cea50609e,30ab2db4-b8de-4717-9c08-286cea50609e,Aakash Lalith,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/30ab2db4-b8de-4717-9c08-286cea50609e
+Men's,459,603,ab6b85a1-dd20-44e5-893f-e488cc31bb88,ab6b85a1-dd20-44e5-893f-e488cc31bb88,Abdul Rehman,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ab6b85a1-dd20-44e5-893f-e488cc31bb88
+Men's,459,603,bb5b11da-7bc4-4fed-bcbd-3fa6da36fe28,bb5b11da-7bc4-4fed-bcbd-3fa6da36fe28,Abhay Biswakarma,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/bb5b11da-7bc4-4fed-bcbd-3fa6da36fe28
+Men's,459,603,2890603e-2ceb-476a-ac9d-a06c6c37dd8b,2890603e-2ceb-476a-ac9d-a06c6c37dd8b,Afdhel Abdul Wahab,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/2890603e-2ceb-476a-ac9d-a06c6c37dd8b
+Men's,459,603,c8b84750-cba5-4022-8c4a-b6934fc472ff,c8b84750-cba5-4022-8c4a-b6934fc472ff,Akash Wagh,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/c8b84750-cba5-4022-8c4a-b6934fc472ff
+Men's,459,603,c440118a-4188-4779-ac49-e31b9bd9398d,c440118a-4188-4779-ac49-e31b9bd9398d,Anjan Vachhani,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/c440118a-4188-4779-ac49-e31b9bd9398d
+Men's,459,603,79665684-6161-45de-af8d-bff8b2fb798a,79665684-6161-45de-af8d-bff8b2fb798a,Arik Badami,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/79665684-6161-45de-af8d-bff8b2fb798a
+Men's,459,603,27f580ae-22a7-4519-a7e9-f48e69c6eed0,27f580ae-22a7-4519-a7e9-f48e69c6eed0,Arjun Batra,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/27f580ae-22a7-4519-a7e9-f48e69c6eed0
+Men's,459,603,2973535a-1a87-4eb9-85af-f8d5c2f523c2,2973535a-1a87-4eb9-85af-f8d5c2f523c2,Aryaman Jajodia,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/2973535a-1a87-4eb9-85af-f8d5c2f523c2
+Men's,459,603,68c7916e-0da4-4940-a068-eda6255290cc,68c7916e-0da4-4940-a068-eda6255290cc,Basudev Rai,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/68c7916e-0da4-4940-a068-eda6255290cc
+Men's,459,603,3ebc54e6-ec4a-42bc-bfcb-67c21e71616a,3ebc54e6-ec4a-42bc-bfcb-67c21e71616a,Bijon Kanabar,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/3ebc54e6-ec4a-42bc-bfcb-67c21e71616a
+Men's,459,603,3480aff3-e63a-4c82-bc4d-d37555b3f964,3480aff3-e63a-4c82-bc4d-d37555b3f964,Bipin Grewal,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/3480aff3-e63a-4c82-bc4d-d37555b3f964
+Men's,459,603,b283a295-a9ab-473f-a8f5-ef3c3f5ab0b8,b283a295-a9ab-473f-a8f5-ef3c3f5ab0b8,Chacko Cherian,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/b283a295-a9ab-473f-a8f5-ef3c3f5ab0b8
+Men's,459,603,18098d77-da96-47f5-8a0d-23460d6bdca8,18098d77-da96-47f5-8a0d-23460d6bdca8,Devansh Somani,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/18098d77-da96-47f5-8a0d-23460d6bdca8
+Men's,459,603,c0f4df56-a4e6-4c62-a9da-90e308737ffc,c0f4df56-a4e6-4c62-a9da-90e308737ffc,Dhruva Madhavan,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/c0f4df56-a4e6-4c62-a9da-90e308737ffc
+Men's,459,603,9ea9d377-325c-4e5e-8973-2502b62cf1fa,9ea9d377-325c-4e5e-8973-2502b62cf1fa,Divy Kothari,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/9ea9d377-325c-4e5e-8973-2502b62cf1fa
+Men's,459,603,e6060460-a028-48da-8565-3f9ab0a3075f,e6060460-a028-48da-8565-3f9ab0a3075f,Frederick Williams,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/e6060460-a028-48da-8565-3f9ab0a3075f
+Men's,459,603,32a0b562-9232-4c9d-baa5-622161e0b903,32a0b562-9232-4c9d-baa5-622161e0b903,Glenn Renny,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/32a0b562-9232-4c9d-baa5-622161e0b903
+Men's,459,603,eae761c0-dc5e-44fc-acf1-5229a40242dd,eae761c0-dc5e-44fc-acf1-5229a40242dd,Gopal Mohan,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/eae761c0-dc5e-44fc-acf1-5229a40242dd
+Men's,459,603,88c95f46-866c-4554-9859-95dbb6693a81,88c95f46-866c-4554-9859-95dbb6693a81,Gopi Reddy,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/88c95f46-866c-4554-9859-95dbb6693a81
+Men's,459,603,cbb558aa-ee6a-4b58-8184-8b54946a838f,cbb558aa-ee6a-4b58-8184-8b54946a838f,Gundlapalle Yaswanth Reddy,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/cbb558aa-ee6a-4b58-8184-8b54946a838f
+Men's,459,603,7f9b1fbf-d6db-428b-9117-7a8b136e2a63,7f9b1fbf-d6db-428b-9117-7a8b136e2a63,Ishaan Choksi,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/7f9b1fbf-d6db-428b-9117-7a8b136e2a63
+Men's,459,603,88577d45-624b-4cdb-9557-13653e446860,88577d45-624b-4cdb-9557-13653e446860,Jai Sakhuja,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/88577d45-624b-4cdb-9557-13653e446860
+Men's,459,603,48e4e396-7184-498c-a7be-2edc05971b23,48e4e396-7184-498c-a7be-2edc05971b23,Jashan Singh Arora,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/48e4e396-7184-498c-a7be-2edc05971b23
+Men's,459,603,ef4d0083-3ad2-492d-8070-1d27cb8fa67d,ef4d0083-3ad2-492d-8070-1d27cb8fa67d,Jason Pereira,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ef4d0083-3ad2-492d-8070-1d27cb8fa67d
+Men's,459,603,c15288d2-2aa6-4007-b2f0-9871ff97b432,c15288d2-2aa6-4007-b2f0-9871ff97b432,Jimit Sanghani,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/c15288d2-2aa6-4007-b2f0-9871ff97b432
+Men's,459,603,ba51f861-6210-44a0-8210-b9192afbb259,ba51f861-6210-44a0-8210-b9192afbb259,Jinto Varghese,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/ba51f861-6210-44a0-8210-b9192afbb259
+Men's,459,603,8af8e92c-8ebb-49ed-80bd-694b441357f8,8af8e92c-8ebb-49ed-80bd-694b441357f8,Joseph Korah,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/8af8e92c-8ebb-49ed-80bd-694b441357f8
+Men's,459,603,ff05cc74-ed3a-4f11-b5c9-b91e71e5f39d,ff05cc74-ed3a-4f11-b5c9-b91e71e5f39d,Joshua Lobo,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ff05cc74-ed3a-4f11-b5c9-b91e71e5f39d
+Men's,459,603,b6fcd7bf-693d-40ad-adbc-a23632357bf9,,Joshua Lobo Partner,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/b6fcd7bf-693d-40ad-adbc-a23632357bf9
+Men's,459,603,c510921b-3d7b-42b1-8671-86a367a752e3,c510921b-3d7b-42b1-8671-86a367a752e3,Junaid Sopariwala,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/c510921b-3d7b-42b1-8671-86a367a752e3
+Men's,459,603,dacff7ad-842d-4f12-8adb-bf190bfb6eb2,dacff7ad-842d-4f12-8adb-bf190bfb6eb2,Karan Daftary,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/dacff7ad-842d-4f12-8adb-bf190bfb6eb2
+Men's,459,603,2891f3ff-442b-4b5b-b58c-cd458df7ea72,2891f3ff-442b-4b5b-b58c-cd458df7ea72,Kaushik Gummuluru,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/2891f3ff-442b-4b5b-b58c-cd458df7ea72
+Men's,459,603,628c5ffa-e7aa-4c81-99eb-542a07475659,628c5ffa-e7aa-4c81-99eb-542a07475659,Kriish Sakhuja,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/628c5ffa-e7aa-4c81-99eb-542a07475659
+Men's,459,603,1cff5d3c-6fd1-4502-a3c5-2b918f107eda,1cff5d3c-6fd1-4502-a3c5-2b918f107eda,Krishna Teja Ankam,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/1cff5d3c-6fd1-4502-a3c5-2b918f107eda
+Men's,459,603,8c14292c-7d3f-4075-9728-5ecdab778aef,8c14292c-7d3f-4075-9728-5ecdab778aef,Lokesh Chhabra,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/8c14292c-7d3f-4075-9728-5ecdab778aef
+Men's,459,603,8ebec8b6-ee3d-445c-ba14-05bc8879c4d3,,Manav Shah,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/8ebec8b6-ee3d-445c-ba14-05bc8879c4d3
+Men's,459,603,50389e26-ef8f-483a-a55a-97f02076536c,50389e26-ef8f-483a-a55a-97f02076536c,Maurya Nagpal,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/50389e26-ef8f-483a-a55a-97f02076536c
+Men's,459,603,c005054e-b3f8-434d-a338-10ba4fd1b0fb,,Mukund Muthanna Partner,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/c005054e-b3f8-434d-a338-10ba4fd1b0fb
+Men's,459,603,48382568-087c-4c34-ab92-46d2680916f1,,Nigel Paul,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/48382568-087c-4c34-ab92-46d2680916f1
+Men's,459,603,e7f18fca-e2a6-4ee7-9045-df813ab9fd91,e7f18fca-e2a6-4ee7-9045-df813ab9fd91,Nikhil George,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/e7f18fca-e2a6-4ee7-9045-df813ab9fd91
+Men's,459,603,1fe46b92-d550-4c02-81f6-489cb553411b,1fe46b92-d550-4c02-81f6-489cb553411b,Parth Bhatia,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/1fe46b92-d550-4c02-81f6-489cb553411b
+Men's,459,603,4c979aa0-e703-43c6-b4e0-1fb8e52cd678,4c979aa0-e703-43c6-b4e0-1fb8e52cd678,Piyush Bansal,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/4c979aa0-e703-43c6-b4e0-1fb8e52cd678
+Men's,459,603,03c0ac66-cca8-403b-956f-08fe4c08cebe,03c0ac66-cca8-403b-956f-08fe4c08cebe,Pranay Merchant,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/03c0ac66-cca8-403b-956f-08fe4c08cebe
+Men's,459,603,ff462e1c-14e0-4792-9215-29ecaeed1cfa,ff462e1c-14e0-4792-9215-29ecaeed1cfa,Pranay Shetty,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/ff462e1c-14e0-4792-9215-29ecaeed1cfa
+Men's,459,603,7ab2bcb6-be63-4241-a6d3-b1cf30b170f4,7ab2bcb6-be63-4241-a6d3-b1cf30b170f4,Pratik Makkar,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/7ab2bcb6-be63-4241-a6d3-b1cf30b170f4
+Men's,459,603,ac9d1c3d-1aac-4acc-8ad0-1325faa75e44,ac9d1c3d-1aac-4acc-8ad0-1325faa75e44,Priynash Kothari,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ac9d1c3d-1aac-4acc-8ad0-1325faa75e44
+Men's,459,603,db525122-7288-4cef-a60c-57d5465c23d2,db525122-7288-4cef-a60c-57d5465c23d2,Punit Chawla,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/db525122-7288-4cef-a60c-57d5465c23d2
+Men's,459,603,91fe8369-14e1-4871-b264-ff9edce13af8,91fe8369-14e1-4871-b264-ff9edce13af8,Raghul Arvind,0,0,-36.0,2,male,2025-07-01,https://indianpadeltour.in/players/91fe8369-14e1-4871-b264-ff9edce13af8
+Men's,459,603,8515d030-3139-4b21-95ed-d7f4cbe438ae,8515d030-3139-4b21-95ed-d7f4cbe438ae,Rahil Gala,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/8515d030-3139-4b21-95ed-d7f4cbe438ae
+Men's,459,603,7b2f6fd9-392c-477e-8c2e-ee3878c1f0e8,7b2f6fd9-392c-477e-8c2e-ee3878c1f0e8,Rahil Patel,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/7b2f6fd9-392c-477e-8c2e-ee3878c1f0e8
+Men's,459,603,75773700-bff1-4aaf-93a5-59442aac5c0d,75773700-bff1-4aaf-93a5-59442aac5c0d,Rahil Saboo,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/75773700-bff1-4aaf-93a5-59442aac5c0d
+Men's,459,603,c175f136-838a-48d3-9f95-cb8f568a8355,c175f136-838a-48d3-9f95-cb8f568a8355,Rahul Parkash,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/c175f136-838a-48d3-9f95-cb8f568a8355
+Men's,459,603,4f7ba08a-4a68-434d-9eeb-bec99296fe6f,4f7ba08a-4a68-434d-9eeb-bec99296fe6f,Rahul Sachdeva,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/4f7ba08a-4a68-434d-9eeb-bec99296fe6f
+Men's,459,603,fbb446a9-8fc0-419e-a122-968c42f06acf,fbb446a9-8fc0-419e-a122-968c42f06acf,Rajat Jain,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/fbb446a9-8fc0-419e-a122-968c42f06acf
+Men's,459,603,f5db5ed7-b6ba-4ce3-bce7-b0593ce1d8d5,f5db5ed7-b6ba-4ce3-bce7-b0593ce1d8d5,Rajesh Shing,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/f5db5ed7-b6ba-4ce3-bce7-b0593ce1d8d5
+Men's,459,603,5dd2f0f1-9e37-4f1b-9ed6-726f108ea1ea,5dd2f0f1-9e37-4f1b-9ed6-726f108ea1ea,Rayaprolu Sagar,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/5dd2f0f1-9e37-4f1b-9ed6-726f108ea1ea
+Men's,459,603,3c8b6bfa-05d8-417f-bd24-a3edf965c004,3c8b6bfa-05d8-417f-bd24-a3edf965c004,Rehan Malik,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/3c8b6bfa-05d8-417f-bd24-a3edf965c004
+Men's,459,603,cbb4f436-f8ad-44ca-b38e-fc9f7098ff97,cbb4f436-f8ad-44ca-b38e-fc9f7098ff97,Renny Chacko,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/cbb4f436-f8ad-44ca-b38e-fc9f7098ff97
+Men's,459,603,911948ff-358b-481e-aba0-d93156ba6b31,911948ff-358b-481e-aba0-d93156ba6b31,Rishabh Rajani,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/911948ff-358b-481e-aba0-d93156ba6b31
+Men's,459,603,ec5f0519-a767-4bff-976f-62cac2d931c5,ec5f0519-a767-4bff-976f-62cac2d931c5,Rohit S,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/ec5f0519-a767-4bff-976f-62cac2d931c5
+Men's,459,603,9dd10c8d-d850-4642-9043-7431470cebc9,9dd10c8d-d850-4642-9043-7431470cebc9,Ronak Bhojani,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/9dd10c8d-d850-4642-9043-7431470cebc9
+Men's,459,603,49e0b5fb-e92e-467e-b277-532aa91ecd88,49e0b5fb-e92e-467e-b277-532aa91ecd88,Rudresh Shetye,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/49e0b5fb-e92e-467e-b277-532aa91ecd88
+Men's,459,603,871ebc0d-cdac-4056-99c1-8181ed74b338,871ebc0d-cdac-4056-99c1-8181ed74b338,Sadic Ashraf,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/871ebc0d-cdac-4056-99c1-8181ed74b338
+Men's,459,603,d53d58f6-276e-46d7-b68f-122f5cffc310,d53d58f6-276e-46d7-b68f-122f5cffc310,Sagar Patodia,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/d53d58f6-276e-46d7-b68f-122f5cffc310
+Men's,459,603,2ca1e3d6-f039-4d35-8a77-2dc758f3f972,2ca1e3d6-f039-4d35-8a77-2dc758f3f972,Sahil Dhingra,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/2ca1e3d6-f039-4d35-8a77-2dc758f3f972
+Men's,459,603,c1bb2e34-e142-4eb8-b132-d84e8c734bb7,c1bb2e34-e142-4eb8-b132-d84e8c734bb7,Sai Ram Goud,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/c1bb2e34-e142-4eb8-b132-d84e8c734bb7
+Men's,459,603,58e20dcc-ea00-430a-b0bb-ca3e7f99ec7d,58e20dcc-ea00-430a-b0bb-ca3e7f99ec7d,Salman Damani,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/58e20dcc-ea00-430a-b0bb-ca3e7f99ec7d
+Men's,459,603,4c97d826-5756-4858-b292-b21827ad555e,4c97d826-5756-4858-b292-b21827ad555e,Salman Shaji,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/4c97d826-5756-4858-b292-b21827ad555e
+Men's,459,603,8bc488d5-c371-499a-b700-0d7a3b96367c,8bc488d5-c371-499a-b700-0d7a3b96367c,Sanal K M,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/8bc488d5-c371-499a-b700-0d7a3b96367c
+Men's,459,603,f3fe6938-52ee-41b1-af50-ec82c5c39f31,f3fe6938-52ee-41b1-af50-ec82c5c39f31,Sandeep Chawla,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/f3fe6938-52ee-41b1-af50-ec82c5c39f31
+Men's,459,603,8eacc1db-d346-4bac-94af-8e32b002d049,8eacc1db-d346-4bac-94af-8e32b002d049,Sanjay Davis Tony,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/8eacc1db-d346-4bac-94af-8e32b002d049
+Men's,459,603,f1ecb503-6fab-40e8-8bf8-c18947a0125f,f1ecb503-6fab-40e8-8bf8-c18947a0125f,Savio Zibi,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/f1ecb503-6fab-40e8-8bf8-c18947a0125f
+Men's,459,603,26603ce9-30f9-424b-91b6-14f9364429b6,26603ce9-30f9-424b-91b6-14f9364429b6,Sharad Kanadje,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/26603ce9-30f9-424b-91b6-14f9364429b6
+Men's,459,603,eb6e3572-7307-4365-8009-7450c28a8eae,eb6e3572-7307-4365-8009-7450c28a8eae,Sheehan Furtado,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/eb6e3572-7307-4365-8009-7450c28a8eae
+Men's,459,603,de44689c-c743-460c-a4f5-a04b2819a84b,de44689c-c743-460c-a4f5-a04b2819a84b,Sonu Vaidyan,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/de44689c-c743-460c-a4f5-a04b2819a84b
+Men's,459,603,b4cd5e27-cdcf-4200-82e0-7281922b0411,b4cd5e27-cdcf-4200-82e0-7281922b0411,Steve Jacob Franco,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/b4cd5e27-cdcf-4200-82e0-7281922b0411
+Men's,459,603,aef676e5-8cb2-47d3-a13f-4d68a9085e96,aef676e5-8cb2-47d3-a13f-4d68a9085e96,Subramanian Shivshankaran,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/aef676e5-8cb2-47d3-a13f-4d68a9085e96
+Men's,459,603,78ea93d2-90f5-4312-a0d6-737a0e704130,78ea93d2-90f5-4312-a0d6-737a0e704130,Suhail Kapur,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/78ea93d2-90f5-4312-a0d6-737a0e704130
+Men's,459,603,b178e479-c490-48b3-85f0-5c8443c1bad4,b178e479-c490-48b3-85f0-5c8443c1bad4,Tushar Jain,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/b178e479-c490-48b3-85f0-5c8443c1bad4
+Men's,459,603,5e02eee8-3dff-4b01-a9b2-62b430787c78,5e02eee8-3dff-4b01-a9b2-62b430787c78,Vaibhav Malik,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/5e02eee8-3dff-4b01-a9b2-62b430787c78
+Men's,459,603,d5e77120-edf1-4cae-b40a-26c7256c3252,d5e77120-edf1-4cae-b40a-26c7256c3252,Vedanth P Patel,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/d5e77120-edf1-4cae-b40a-26c7256c3252
+Men's,459,603,0179cc16-9672-4799-952f-5170933feabc,0179cc16-9672-4799-952f-5170933feabc,Venctexa Burye,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/0179cc16-9672-4799-952f-5170933feabc
+Men's,459,603,67831462-6847-49e1-bb2d-fea92e021af6,67831462-6847-49e1-bb2d-fea92e021af6,Venkatesh Anilkumar,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/67831462-6847-49e1-bb2d-fea92e021af6
+Men's,459,603,44dc8a9e-9f0a-4165-b2ce-c4932e2f9eac,44dc8a9e-9f0a-4165-b2ce-c4932e2f9eac,Vikaas Chhabria,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/44dc8a9e-9f0a-4165-b2ce-c4932e2f9eac
+Men's,459,603,c1049612-6cb9-4c49-bd48-2ffcd3389d45,c1049612-6cb9-4c49-bd48-2ffcd3389d45,Vinayak Kumar,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/c1049612-6cb9-4c49-bd48-2ffcd3389d45
+Men's,459,603,297053cf-9f92-4115-a09d-1a55c66b6433,297053cf-9f92-4115-a09d-1a55c66b6433,Yash Maliwal,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/297053cf-9f92-4115-a09d-1a55c66b6433
+Men's,459,603,98d6496b-f094-4f7b-abfa-811d3f4a34b6,98d6496b-f094-4f7b-abfa-811d3f4a34b6,Yash Shah,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/98d6496b-f094-4f7b-abfa-811d3f4a34b6
+Men's,459,603,6ce84d69-d4a3-4a09-91c3-ac921016a281,6ce84d69-d4a3-4a09-91c3-ac921016a281,Yugant Gupta,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/6ce84d69-d4a3-4a09-91c3-ac921016a281
+Men's,459,603,213df946-7be9-4fcb-98c8-e0d6ba33789d,213df946-7be9-4fcb-98c8-e0d6ba33789d,Ziaan Talab,0,0,-36.0,1,male,2025-07-01,https://indianpadeltour.in/players/213df946-7be9-4fcb-98c8-e0d6ba33789d
+Women's,1,3,c02126c6-4418-4f24-8895-867c3e3c89c2,c02126c6-4418-4f24-8895-867c3e3c89c2,Amy Bundhel,2920,2920,0.0,7,female,2025-07-01,https://indianpadeltour.in/players/c02126c6-4418-4f24-8895-867c3e3c89c2
+Women's,1,3,a8725d43-8928-4958-ace6-183c3a63c538,a8725d43-8928-4958-ace6-183c3a63c538,Steisha Buddhala,2920,2920,0.0,7,female,2025-07-01,https://indianpadeltour.in/players/a8725d43-8928-4958-ace6-183c3a63c538
+Women's,3,1,1c91795e-92c5-444b-aa99-d1e70e063c55,1c91795e-92c5-444b-aa99-d1e70e063c55,Vaibhavi Deshmukh,2668,3928,0.0,10,female,2025-07-01,https://indianpadeltour.in/players/1c91795e-92c5-444b-aa99-d1e70e063c55
+Women's,4,2,ranked-jenai-bilimoria,,Jenai Bilimoria,2452,3292,0.0,8,female,2025-07-01,https://indianpadeltour.in/players/ranked-jenai-bilimoria
+Women's,5,5,e190ca21-bb25-46b3-965e-bcb2ffcc3fd3,e190ca21-bb25-46b3-965e-bcb2ffcc3fd3,Tulsi Mehta,1420,2620,0.0,7,female,2025-07-01,https://indianpadeltour.in/players/e190ca21-bb25-46b3-965e-bcb2ffcc3fd3
+Women's,6,8,d7b11e8a-e252-4721-9b62-227fb11e43c2,d7b11e8a-e252-4721-9b62-227fb11e43c2,Shraddha Damani,1180,1180,0.0,4,female,2025-07-01,https://indianpadeltour.in/players/d7b11e8a-e252-4721-9b62-227fb11e43c2
+Women's,7,6,261c3899-f32d-4861-a046-8b36ccf6123a,261c3899-f32d-4861-a046-8b36ccf6123a,Tishya Sagar,516,1476,0.0,7,female,2025-07-01,https://indianpadeltour.in/players/261c3899-f32d-4861-a046-8b36ccf6123a
+Women's,7,10,ea8745f7-50a3-4a17-ae4e-5d13d042ceb4,ea8745f7-50a3-4a17-ae4e-5d13d042ceb4,Anisha Mirchandani,516,756,0.0,6,female,2025-07-01,https://indianpadeltour.in/players/ea8745f7-50a3-4a17-ae4e-5d13d042ceb4
+Women's,9,12,a8f6711d-8415-49af-afc4-f8f9a3913a3e,a8f6711d-8415-49af-afc4-f8f9a3913a3e,Estelle Mehta,480,480,0.0,4,female,2025-07-01,https://indianpadeltour.in/players/a8f6711d-8415-49af-afc4-f8f9a3913a3e
+Women's,10,13,ranked-aarti-pandit,,Aarti Pandit,400,460,0.0,4,female,2025-07-01,https://indianpadeltour.in/players/ranked-aarti-pandit
+Women's,11,15,ranked-priyanka-boghani,,Priyanka Boghani,364,364,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/ranked-priyanka-boghani
+Women's,12,18,ranked-diya-sanghi,,Diya Sanghi,296,296,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/ranked-diya-sanghi
+Women's,13,17,ba0bebb9-bb83-4bfc-9c39-a96387beae44,ba0bebb9-bb83-4bfc-9c39-a96387beae44,Sonashe Bhatnagar,276,336,0.0,4,female,2025-07-01,https://indianpadeltour.in/players/ba0bebb9-bb83-4bfc-9c39-a96387beae44
+Women's,13,19,7a0a5946-601b-4919-858d-8e3667bd4f77,7a0a5946-601b-4919-858d-8e3667bd4f77,Treta Bhattacharyya,276,276,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/7a0a5946-601b-4919-858d-8e3667bd4f77
+Women's,15,7,ranked-yasmin-latiff,,Yasmin Latiff,240,1200,0.0,4,female,2025-07-01,https://indianpadeltour.in/players/ranked-yasmin-latiff
+Women's,15,20,ranked-shanaya-naik,,Shanaya Naik,240,270,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/ranked-shanaya-naik
+Women's,15,21,ranked-radha-sadhra,,Radha Sadhra,240,240,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-radha-sadhra
+Women's,15,21,ranked-radhika-kanitkar,,Radhika Kanitkar,240,240,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-radhika-kanitkar
+Women's,15,21,124f1292-f3a9-4139-bd9d-f9fa8e1dd983,124f1292-f3a9-4139-bd9d-f9fa8e1dd983,Radhika Vasudeva,240,240,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/124f1292-f3a9-4139-bd9d-f9fa8e1dd983
+Women's,20,26,f5dad384-ffe0-451a-8d85-b6deaa46885b,f5dad384-ffe0-451a-8d85-b6deaa46885b,Pia Kothari,232,232,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/f5dad384-ffe0-451a-8d85-b6deaa46885b
+Women's,21,11,ranked-rashi-mehta,,Rashi Mehta,220,560,0.0,4,female,2025-07-01,https://indianpadeltour.in/players/ranked-rashi-mehta
+Women's,22,27,2ecd3163-09e3-40b5-bd3b-d817112479b0,2ecd3163-09e3-40b5-bd3b-d817112479b0,Namita Bal,216,216,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/2ecd3163-09e3-40b5-bd3b-d817112479b0
+Women's,23,28,84bbf8bb-72b8-4471-bb81-4899711ae519,84bbf8bb-72b8-4471-bb81-4899711ae519,Neha Mehta,198,198,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/84bbf8bb-72b8-4471-bb81-4899711ae519
+Women's,24,29,9f517b47-d5b5-40bf-b85e-7f0f4f5d3a31,9f517b47-d5b5-40bf-b85e-7f0f4f5d3a31,Nikhila Palat,168,168,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/9f517b47-d5b5-40bf-b85e-7f0f4f5d3a31
+Women's,25,30,cf8b7d94-b472-4c15-b10e-a112da1d3143,cf8b7d94-b472-4c15-b10e-a112da1d3143,Sanya Khan,146,146,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/cf8b7d94-b472-4c15-b10e-a112da1d3143
+Women's,25,30,76c439ce-ed6a-4d86-b384-38a843b6a4ee,76c439ce-ed6a-4d86-b384-38a843b6a4ee,Sonia Rathee,146,146,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/76c439ce-ed6a-4d86-b384-38a843b6a4ee
+Women's,27,32,f075566a-ec58-4d8e-b389-4380d75fba34,f075566a-ec58-4d8e-b389-4380d75fba34,Mansi Malhotra,140,140,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/f075566a-ec58-4d8e-b389-4380d75fba34
+Women's,28,33,dbd6997d-2211-4a51-9d0e-0676e2966060,dbd6997d-2211-4a51-9d0e-0676e2966060,Kimaya Mehta,138,138,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/dbd6997d-2211-4a51-9d0e-0676e2966060
+Women's,29,34,ranked-riddhi-kapadia,,Riddhi Kapadia,134,134,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/ranked-riddhi-kapadia
+Women's,30,35,f4728606-c9b2-4973-b3b5-68149311c1bc,f4728606-c9b2-4973-b3b5-68149311c1bc,Tanushri Biyani,126,126,0.0,4,female,2025-07-01,https://indianpadeltour.in/players/f4728606-c9b2-4973-b3b5-68149311c1bc
+Women's,31,13,ranked-alisha-chauhan,,Alisha Chauhan,120,460,0.0,5,female,2025-07-01,https://indianpadeltour.in/players/ranked-alisha-chauhan
+Women's,32,36,808e72ea-16d9-41ac-88af-cdc80de35aa4,808e72ea-16d9-41ac-88af-cdc80de35aa4,Aashna Mehra,100,100,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/808e72ea-16d9-41ac-88af-cdc80de35aa4
+Women's,32,36,89799665-84e8-4c12-bb0d-dd8b4dc58ca2,89799665-84e8-4c12-bb0d-dd8b4dc58ca2,Rubani Sidhu,100,100,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/89799665-84e8-4c12-bb0d-dd8b4dc58ca2
+Women's,32,36,ranked-samriti-punyani,,Samriti Punyani,100,100,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-samriti-punyani
+Women's,35,39,ranked-vasudha-shah,,Vasudha Shah,88,88,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/ranked-vasudha-shah
+Women's,36,40,1b914254-ef80-4aa1-aae6-196986d10121,1b914254-ef80-4aa1-aae6-196986d10121,Suhani Sabharwal,84,84,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/1b914254-ef80-4aa1-aae6-196986d10121
+Women's,37,41,591d607a-18da-4552-a761-0a66271a2718,591d607a-18da-4552-a761-0a66271a2718,Shireen Mahajan,80,80,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/591d607a-18da-4552-a761-0a66271a2718
+Women's,38,43,ranked-jagriti-choudhary,,Jagriti Choudhary,66,66,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/ranked-jagriti-choudhary
+Women's,39,45,b94c4804-ee1d-427a-a293-f0ab8400515c,b94c4804-ee1d-427a-a293-f0ab8400515c,Karina Phipps,60,60,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/b94c4804-ee1d-427a-a293-f0ab8400515c
+Women's,39,45,ranked-surbhi-dalmia,,Surbhi Dalmia,60,60,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-surbhi-dalmia
+Women's,41,42,481f14a2-6a1c-4826-a67c-e8c50be8bc51,481f14a2-6a1c-4826-a67c-e8c50be8bc51,Roshni Dadachanji,54,72,0.0,3,female,2025-07-01,https://indianpadeltour.in/players/481f14a2-6a1c-4826-a67c-e8c50be8bc51
+Women's,42,44,ranked-maitreyi-parikh,,Maitreyi Parikh,50,62,0.0,2,female,2025-07-01,https://indianpadeltour.in/players/ranked-maitreyi-parikh
+Women's,42,48,4b5c73b1-1d6c-4d72-9e13-3d93fbf93070,,Avreet Dhillon,50,50,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/4b5c73b1-1d6c-4d72-9e13-3d93fbf93070
+Women's,42,48,5b68e925-0f23-4eb8-9dc9-c3f13a8a8813,5b68e925-0f23-4eb8-9dc9-c3f13a8a8813,Deepthi J S,50,50,,1,female,2025-07-01,https://indianpadeltour.in/players/5b68e925-0f23-4eb8-9dc9-c3f13a8a8813
+Women's,42,48,f24493ea-3fe2-4286-839f-e2d9f227e629,f24493ea-3fe2-4286-839f-e2d9f227e629,Padma Veda Manikonda,50,50,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/f24493ea-3fe2-4286-839f-e2d9f227e629
+Women's,42,48,b50974c2-24ef-4080-bd3d-e76b22b7e05e,b50974c2-24ef-4080-bd3d-e76b22b7e05e,Rebecca Puthumana,50,50,,1,female,2025-07-01,https://indianpadeltour.in/players/b50974c2-24ef-4080-bd3d-e76b22b7e05e
+Women's,42,48,44b79474-da87-43ad-a4b8-204252d87b30,44b79474-da87-43ad-a4b8-204252d87b30,Sameeksha Annem,50,50,0.0,1,female,2025-07-01,https://indianpadeltour.in/players/44b79474-da87-43ad-a4b8-204252d87b30
+Women's,48,54,ranked-arohi-choksi,,Arohi Choksi,40,40,-2.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-arohi-choksi
+Women's,48,54,ranked-deeksha-kumar,,Deeksha Kumar,40,40,-2.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-deeksha-kumar
+Women's,48,54,ranked-rabiya-gill,,Rabiya Gill,40,40,-2.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-rabiya-gill
+Women's,48,54,3d21ad79-9d3f-46d7-92da-ef095250efaf,,Ridhi Gupta,40,40,-2.0,1,female,2025-07-01,https://indianpadeltour.in/players/3d21ad79-9d3f-46d7-92da-ef095250efaf
+Women's,52,58,0d1e6d6a-d91e-406e-9088-b28c062da1fc,0d1e6d6a-d91e-406e-9088-b28c062da1fc,Raksha Bhaskar,39,39,9.0,2,female,2025-07-01,https://indianpadeltour.in/players/0d1e6d6a-d91e-406e-9088-b28c062da1fc
+Women's,52,58,14a281a9-7a22-4c0a-bf96-f19abc4a6bd1,14a281a9-7a22-4c0a-bf96-f19abc4a6bd1,Rasha Sumar,39,39,-2.0,2,female,2025-07-01,https://indianpadeltour.in/players/14a281a9-7a22-4c0a-bf96-f19abc4a6bd1
+Women's,54,60,ccedebb9-64af-42b4-bca1-e01d0b2c1ef5,ccedebb9-64af-42b4-bca1-e01d0b2c1ef5,Prarthana Prathap,36,36,-3.0,2,female,2025-07-01,https://indianpadeltour.in/players/ccedebb9-64af-42b4-bca1-e01d0b2c1ef5
+Women's,54,60,8896ebce-7533-4862-a50a-1b22d9ee07fd,8896ebce-7533-4862-a50a-1b22d9ee07fd,Shivani Manjanna,36,36,-3.0,2,female,2025-07-01,https://indianpadeltour.in/players/8896ebce-7533-4862-a50a-1b22d9ee07fd
+Women's,54,60,27971b18-d7dd-4eff-8ce5-6ecc8ead85b0,27971b18-d7dd-4eff-8ce5-6ecc8ead85b0,Vera desai,36,36,-3.0,2,female,2025-07-01,https://indianpadeltour.in/players/27971b18-d7dd-4eff-8ce5-6ecc8ead85b0
+Women's,57,65,a7d52a88-016f-4920-b7e4-d1389cef635c,,Arnavaz Kollah,30,30,-3.0,1,female,2025-07-01,https://indianpadeltour.in/players/a7d52a88-016f-4920-b7e4-d1389cef635c
+Women's,57,65,ranked-kismet-singh,,Kismet Singh,30,30,-3.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-kismet-singh
+Women's,57,65,2063b58b-76ed-4ada-9d3d-31709f9a26db,2063b58b-76ed-4ada-9d3d-31709f9a26db,Sareeka John,30,30,,1,female,2025-07-01,https://indianpadeltour.in/players/2063b58b-76ed-4ada-9d3d-31709f9a26db
+Women's,57,65,ranked-shagun-gupta,,Shagun Gupta,30,30,-3.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-shagun-gupta
+Women's,57,65,f8b29fd9-6a1b-4c15-b501-63a633a7daa2,f8b29fd9-6a1b-4c15-b501-63a633a7daa2,Shahnaz Dubash,30,30,-3.0,1,female,2025-07-01,https://indianpadeltour.in/players/f8b29fd9-6a1b-4c15-b501-63a633a7daa2
+Women's,57,65,985b2093-d841-4049-8765-cc0340751f8c,985b2093-d841-4049-8765-cc0340751f8c,Shubha Abhilash,30,30,,1,female,2025-07-01,https://indianpadeltour.in/players/985b2093-d841-4049-8765-cc0340751f8c
+Women's,57,65,a6242ca3-df1f-43fa-bde1-8577a761d180,a6242ca3-df1f-43fa-bde1-8577a761d180,Sukhmani Grewal,30,30,-3.0,1,female,2025-07-01,https://indianpadeltour.in/players/a6242ca3-df1f-43fa-bde1-8577a761d180
+Women's,64,76,ed4faf6e-8a73-488d-a79c-8333c5c5b276,ed4faf6e-8a73-488d-a79c-8333c5c5b276,Alisha Aggarwal,25,25,,1,female,2025-07-01,https://indianpadeltour.in/players/ed4faf6e-8a73-488d-a79c-8333c5c5b276
+Women's,64,76,cc0d0226-d2bc-4c4a-ab6f-9225b03becc6,cc0d0226-d2bc-4c4a-ab6f-9225b03becc6,Gehna Datwani,25,25,-5.0,1,female,2025-07-01,https://indianpadeltour.in/players/cc0d0226-d2bc-4c4a-ab6f-9225b03becc6
+Women's,64,76,4ea58301-befa-4fac-8bca-101214a186c8,4ea58301-befa-4fac-8bca-101214a186c8,Niti Mehta,25,25,,1,female,2025-07-01,https://indianpadeltour.in/players/4ea58301-befa-4fac-8bca-101214a186c8
+Women's,64,76,bc94050e-cb46-4042-90af-59816fe42f5b,bc94050e-cb46-4042-90af-59816fe42f5b,Sanaya Sabharwal,25,25,-5.0,1,female,2025-07-01,https://indianpadeltour.in/players/bc94050e-cb46-4042-90af-59816fe42f5b
+Women's,68,80,ranked-amogha-shettar,,Amogha Shettar,24,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-amogha-shettar
+Women's,68,80,ranked-ayushi-mukhopadhyay,,Ayushi Mukhopadhyay,24,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-ayushi-mukhopadhyay
+Women's,68,80,ranked-lakshya-sood,,Lakshya Sood,24,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-lakshya-sood
+Women's,68,80,ranked-rhea-rajan,,Rhea Rajan,24,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-rhea-rajan
+Women's,68,80,ranked-shloka-ambani,,Shloka Ambani,24,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-shloka-ambani
+Women's,68,80,ranked-shruti-ugrankar,,Shruti Ugrankar,24,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-shruti-ugrankar
+Women's,68,80,ranked-trisha-aggarwal,,Trisha Aggarwal,24,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-trisha-aggarwal
+Women's,75,93,ranked-karishma-singhal,,Karishma Singhal,20,20,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-karishma-singhal
+Women's,75,93,ranked-prabh-sifat-kaur,,Prabh Sifat Kaur,20,20,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-prabh-sifat-kaur
+Women's,75,93,ranked-tasveer-libra,,Tasveer Libra,20,20,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-tasveer-libra
+Women's,75,93,e8a4f77d-e880-4d53-b392-51dc1255d7cf,,Ustat Kharbanda,20,20,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/e8a4f77d-e880-4d53-b392-51dc1255d7cf
+Women's,79,53,739a853c-ae03-4719-ba64-a326c87ccd84,739a853c-ae03-4719-ba64-a326c87ccd84,Sahitra Ghurye,18,48,-6.0,4,female,2025-07-01,https://indianpadeltour.in/players/739a853c-ae03-4719-ba64-a326c87ccd84
+Women's,79,65,f2db3b3d-1aef-4968-a928-0797453d1f8b,f2db3b3d-1aef-4968-a928-0797453d1f8b,Ashwita Hosbettu,18,30,-6.0,3,female,2025-07-01,https://indianpadeltour.in/players/f2db3b3d-1aef-4968-a928-0797453d1f8b
+Women's,79,97,1f24a3aa-b8df-4886-bedf-6f62693316b9,1f24a3aa-b8df-4886-bedf-6f62693316b9,Anisha Aibara,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/1f24a3aa-b8df-4886-bedf-6f62693316b9
+Women's,79,97,ranked-anushka-doshi,,Anushka Doshi,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-anushka-doshi
+Women's,79,97,6e62c2a4-bd95-41f8-bd17-901a78994ae1,6e62c2a4-bd95-41f8-bd17-901a78994ae1,Armaan Mann,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/6e62c2a4-bd95-41f8-bd17-901a78994ae1
+Women's,79,97,ranked-arundhati-sheth,,Arundhati Sheth,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-arundhati-sheth
+Women's,79,97,c756f978-ba35-409f-86be-7892c3b38bea,c756f978-ba35-409f-86be-7892c3b38bea,Dinika Thomas,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/c756f978-ba35-409f-86be-7892c3b38bea
+Women's,79,97,b25938a4-d80d-442e-a68b-01ed3b1c27b9,b25938a4-d80d-442e-a68b-01ed3b1c27b9,Erika Lobo,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/b25938a4-d80d-442e-a68b-01ed3b1c27b9
+Women's,79,97,ranked-francina-thompson,,Francina Thompson,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-francina-thompson
+Women's,79,97,ranked-milla-rae,,Milla Rae,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-milla-rae
+Women's,79,97,ranked-pooja-shetty,,Pooja Shetty,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-pooja-shetty
+Women's,79,97,7d346033-c0e1-4672-8fd9-7d3361dc8f12,7d346033-c0e1-4672-8fd9-7d3361dc8f12,Rhea Mathews,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/7d346033-c0e1-4672-8fd9-7d3361dc8f12
+Women's,79,97,2be56e26-cc2a-4ecb-a502-ebb83a8212e3,2be56e26-cc2a-4ecb-a502-ebb83a8212e3,Sia Chawla,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/2be56e26-cc2a-4ecb-a502-ebb83a8212e3
+Women's,79,97,ranked-ziva-andersson,,Ziva Andersson,18,18,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-ziva-andersson
+Women's,93,111,7141790d-4b03-4a8c-b605-9a3273191dcd,7141790d-4b03-4a8c-b605-9a3273191dcd,Gayatri Nair,15,15,,1,female,2025-07-01,https://indianpadeltour.in/players/7141790d-4b03-4a8c-b605-9a3273191dcd
+Women's,93,111,97f6ab71-c2c1-47e8-a0b0-6b2a1eeef2c8,97f6ab71-c2c1-47e8-a0b0-6b2a1eeef2c8,Kimberly Fernandez,15,15,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/97f6ab71-c2c1-47e8-a0b0-6b2a1eeef2c8
+Women's,93,111,82a22690-4c94-47e8-99c1-8e1c89f71916,82a22690-4c94-47e8-99c1-8e1c89f71916,Manvi Chaudhary,15,15,-6.0,1,female,2025-07-01,https://indianpadeltour.in/players/82a22690-4c94-47e8-99c1-8e1c89f71916
+Women's,96,80,ranked-shruti-jain,,Shruti Jain,12,24,-7.0,2,female,2025-07-01,https://indianpadeltour.in/players/ranked-shruti-jain
+Women's,96,114,ranked-aanchal-vijan,,Aanchal Vijan,12,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-aanchal-vijan
+Women's,96,114,ranked-alia-bhatt,,Alia Bhatt,12,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-alia-bhatt
+Women's,96,114,ranked-anshuka-parwani,,Anshuka Parwani,12,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-anshuka-parwani
+Women's,96,114,ranked-maithili-parikh,,Maithili Parikh,12,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-maithili-parikh
+Women's,96,114,ranked-saba-ahmed,,Saba Ahmed,12,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-saba-ahmed
+Women's,96,114,ranked-sweta-zaveri,,Sweta Zaveri,12,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-sweta-zaveri
+Women's,96,114,477f11d3-787d-4419-b0f5-23b7f94a4a51,477f11d3-787d-4419-b0f5-23b7f94a4a51,Vanshika Kaji,12,12,-7.0,2,female,2025-07-01,https://indianpadeltour.in/players/477f11d3-787d-4419-b0f5-23b7f94a4a51
+Women's,104,123,ranked-alisha-gandhi,,Alisha Gandhi,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-alisha-gandhi
+Women's,104,123,e6544941-7855-4961-9952-2ab8b4731763,e6544941-7855-4961-9952-2ab8b4731763,Anam Sumar,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/e6544941-7855-4961-9952-2ab8b4731763
+Women's,104,123,9e152937-edcc-4e21-b44d-ae8474746725,9e152937-edcc-4e21-b44d-ae8474746725,Dheeya Somaiya,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/9e152937-edcc-4e21-b44d-ae8474746725
+Women's,104,123,ranked-ekta-phadke,,Ekta Phadke,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-ekta-phadke
+Women's,104,123,ranked-mrinalini-pandit,,Mrinalini Pandit,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-mrinalini-pandit
+Women's,104,123,e96f99c4-060b-4dc8-8800-155d8e8fdbbc,e96f99c4-060b-4dc8-8800-155d8e8fdbbc,Nikita Hingorani,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/e96f99c4-060b-4dc8-8800-155d8e8fdbbc
+Women's,104,123,ranked-pooja-bhansali,,Pooja Bhansali,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-pooja-bhansali
+Women's,104,123,ranked-pooja-jain,,Pooja Jain,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-pooja-jain
+Women's,104,123,ranked-richa-singhi,,Richa Singhi,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-richa-singhi
+Women's,104,123,ranked-saakshi-vithalani,,Saakshi Vithalani,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-saakshi-vithalani
+Women's,104,123,ranked-sonali-fabiani,,Sonali Fabiani,9,9,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-sonali-fabiani
+Women's,115,9,ranked-johann-fernandes,,Johann Fernandes,0,960,-7.0,2,female,2025-07-01,https://indianpadeltour.in/players/ranked-johann-fernandes
+Women's,115,16,ranked-chaitali-narde,,Chaitali Narde,0,360,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-chaitali-narde
+Women's,115,21,ranked-bhakti-mehta,,Bhakti Mehta,0,240,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-bhakti-mehta
+Women's,115,21,ranked-tapasya-pandey,,Tapasya Pandey,0,240,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-tapasya-pandey
+Women's,115,45,ranked-ummehani-khorakiwala,,Ummehani Khorakiwala,0,60,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-ummehani-khorakiwala
+Women's,115,60,ranked-ira-banerjee,,Ira Banerjee,0,36,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-ira-banerjee
+Women's,115,60,ranked-shilpi-kulshrestha,,Shilpi Kulshrestha,0,36,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-shilpi-kulshrestha
+Women's,115,65,ranked-alex-pedra,,Alex Pedra,0,30,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-alex-pedra
+Women's,115,65,ranked-mihika-yadav,,Mihika Yadav,0,30,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-mihika-yadav
+Women's,115,65,ranked-tanja-wurr,,Tanja Wurr,0,30,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-tanja-wurr
+Women's,115,80,ranked-amulya-a,,Amulya A,0,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-amulya-a
+Women's,115,80,ranked-divya-n,,Divya N,0,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-divya-n
+Women's,115,80,ranked-natalie-mankani,,Natalie Mankani,0,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-natalie-mankani
+Women's,115,80,ranked-varsha-swamy,,Varsha Swamy,0,24,-7.0,2,female,2025-07-01,https://indianpadeltour.in/players/ranked-varsha-swamy
+Women's,115,80,ranked-vibha-shetty,,Vibha Shetty,0,24,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-vibha-shetty
+Women's,115,97,0ac8bb0a-d25b-4a0d-8506-8955617d72fa,0ac8bb0a-d25b-4a0d-8506-8955617d72fa,Anandita Parekh,0,18,-7.0,2,female,2025-07-01,https://indianpadeltour.in/players/0ac8bb0a-d25b-4a0d-8506-8955617d72fa
+Women's,115,97,ranked-bharti-bhambwani,,Bharti Bhambwani,0,18,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-bharti-bhambwani
+Women's,115,114,ranked-beynaz-mistry,,Beynaz Mistry,0,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-beynaz-mistry
+Women's,115,114,ranked-heena-karla-thakkar,,Heena Karla Thakkar,0,12,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ranked-heena-karla-thakkar
+Women's,115,134,d2d7929c-5515-4860-bcc3-871b25fdf56e,d2d7929c-5515-4860-bcc3-871b25fdf56e,Aashna Sanghvi,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/d2d7929c-5515-4860-bcc3-871b25fdf56e
+Women's,115,134,fe2baf14-65fa-488a-aa52-602e4fa852e3,fe2baf14-65fa-488a-aa52-602e4fa852e3,Aditi Dugar,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/fe2baf14-65fa-488a-aa52-602e4fa852e3
+Women's,115,134,214fa58d-dcf2-4b0b-888f-f2a2341ae45b,214fa58d-dcf2-4b0b-888f-f2a2341ae45b,Amaya Kothari,0,0,-7.0,2,female,2025-07-01,https://indianpadeltour.in/players/214fa58d-dcf2-4b0b-888f-f2a2341ae45b
+Women's,115,134,553e7592-683c-4750-be8f-57098fc7d7bd,553e7592-683c-4750-be8f-57098fc7d7bd,Anmol Malhotra,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/553e7592-683c-4750-be8f-57098fc7d7bd
+Women's,115,134,dfcae58c-6114-4a58-ae65-0da63e435421,dfcae58c-6114-4a58-ae65-0da63e435421,Anna Biju,0,0,,1,female,2025-07-01,https://indianpadeltour.in/players/dfcae58c-6114-4a58-ae65-0da63e435421
+Women's,115,134,ee6b37d2-ebd5-4a1f-8287-6205907b6fe4,ee6b37d2-ebd5-4a1f-8287-6205907b6fe4,Ashni Kothari,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ee6b37d2-ebd5-4a1f-8287-6205907b6fe4
+Women's,115,134,906ad64f-35a3-46f3-ae7f-daab378c1e5c,906ad64f-35a3-46f3-ae7f-daab378c1e5c,Aswti Mannali,0,0,,1,female,2025-07-01,https://indianpadeltour.in/players/906ad64f-35a3-46f3-ae7f-daab378c1e5c
+Women's,115,134,ada1590f-1a1e-4731-8de2-57450fdc001d,ada1590f-1a1e-4731-8de2-57450fdc001d,Devi Nayar,0,0,,1,female,2025-07-01,https://indianpadeltour.in/players/ada1590f-1a1e-4731-8de2-57450fdc001d
+Women's,115,134,a8716cfd-5d35-417a-bf7f-cc12277c615b,a8716cfd-5d35-417a-bf7f-cc12277c615b,Dhwani Kumar,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/a8716cfd-5d35-417a-bf7f-cc12277c615b
+Women's,115,134,1729d84b-2971-4f94-b903-afcce8dc4619,1729d84b-2971-4f94-b903-afcce8dc4619,Diu Somani,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/1729d84b-2971-4f94-b903-afcce8dc4619
+Women's,115,134,dd73b3c0-a4c1-4c57-87f1-25fac864cce8,dd73b3c0-a4c1-4c57-87f1-25fac864cce8,Diya Chopra,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/dd73b3c0-a4c1-4c57-87f1-25fac864cce8
+Women's,115,134,aa66801a-85de-41fe-b8d3-c5deb7346bbe,aa66801a-85de-41fe-b8d3-c5deb7346bbe,Gabriella Demetriades,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/aa66801a-85de-41fe-b8d3-c5deb7346bbe
+Women's,115,134,a89dd697-d603-4ea7-a6b6-610d8328aabe,a89dd697-d603-4ea7-a6b6-610d8328aabe,Gayathri Sanjeev,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/a89dd697-d603-4ea7-a6b6-610d8328aabe
+Women's,115,134,ad10e469-9f1c-4814-a624-01e88f087c2e,ad10e469-9f1c-4814-a624-01e88f087c2e,Ishita Dharnidharka,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ad10e469-9f1c-4814-a624-01e88f087c2e
+Women's,115,134,5ecfdc1f-7bc4-4015-8d74-cd6d823ba635,5ecfdc1f-7bc4-4015-8d74-cd6d823ba635,Ishna Byramjee,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/5ecfdc1f-7bc4-4015-8d74-cd6d823ba635
+Women's,115,134,7ddc1ace-4a2d-41ea-89a5-f37a29752e63,7ddc1ace-4a2d-41ea-89a5-f37a29752e63,Janita Bhandari,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/7ddc1ace-4a2d-41ea-89a5-f37a29752e63
+Women's,115,134,ebb05833-4e36-4fbc-977b-1973a5845aba,ebb05833-4e36-4fbc-977b-1973a5845aba,Kyra Pereira,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ebb05833-4e36-4fbc-977b-1973a5845aba
+Women's,115,134,7a23263c-f0d4-4b39-a8ea-16d1a195f91e,7a23263c-f0d4-4b39-a8ea-16d1a195f91e,Leesha Shah,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/7a23263c-f0d4-4b39-a8ea-16d1a195f91e
+Women's,115,134,daca6104-e707-4880-85fe-ff16d3da0c57,daca6104-e707-4880-85fe-ff16d3da0c57,Meghna Biju,0,0,,1,female,2025-07-01,https://indianpadeltour.in/players/daca6104-e707-4880-85fe-ff16d3da0c57
+Women's,115,134,209435a7-517e-45e7-808c-3040c999398d,209435a7-517e-45e7-808c-3040c999398d,Neeti Nayak,0,0,,1,female,2025-07-01,https://indianpadeltour.in/players/209435a7-517e-45e7-808c-3040c999398d
+Women's,115,134,1d670f4c-32a6-4341-9321-cd7d9f173538,1d670f4c-32a6-4341-9321-cd7d9f173538,Nupur Gupta,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/1d670f4c-32a6-4341-9321-cd7d9f173538
+Women's,115,134,a84c245a-00fe-4ed3-b3a4-75028b634941,a84c245a-00fe-4ed3-b3a4-75028b634941,Pooja Bhammer,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/a84c245a-00fe-4ed3-b3a4-75028b634941
+Women's,115,134,78d5d429-c5f3-45a9-896b-b7f9346bbc83,78d5d429-c5f3-45a9-896b-b7f9346bbc83,Pooja Kharat,0,0,-7.0,2,female,2025-07-01,https://indianpadeltour.in/players/78d5d429-c5f3-45a9-896b-b7f9346bbc83
+Women's,115,134,fb9074c7-a16f-471f-89f8-13ead764d055,fb9074c7-a16f-471f-89f8-13ead764d055,Priyanka Kapadia,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/fb9074c7-a16f-471f-89f8-13ead764d055
+Women's,115,134,fc0eebf1-8d1a-4109-bd09-41bb7b9aedae,fc0eebf1-8d1a-4109-bd09-41bb7b9aedae,Ritika Choudhary,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/fc0eebf1-8d1a-4109-bd09-41bb7b9aedae
+Women's,115,134,d0b617f9-dfee-470a-9b18-020c2c90521e,d0b617f9-dfee-470a-9b18-020c2c90521e,Shabri Agarwal,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/d0b617f9-dfee-470a-9b18-020c2c90521e
+Women's,115,134,c70940a7-129d-4162-abf3-eec1f85f502c,c70940a7-129d-4162-abf3-eec1f85f502c,Sunaina Vasudev,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/c70940a7-129d-4162-abf3-eec1f85f502c
+Women's,115,134,70792b71-1549-46eb-bb7d-9b5f2a787281,70792b71-1549-46eb-bb7d-9b5f2a787281,Tammana Kalra,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/70792b71-1549-46eb-bb7d-9b5f2a787281
+Women's,115,134,9802f076-2946-4c70-b7af-2160f581c889,9802f076-2946-4c70-b7af-2160f581c889,Tara Alisha Berry,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/9802f076-2946-4c70-b7af-2160f581c889
+Women's,115,134,5e45411e-b0ef-4bea-b23f-c9a559a727dc,5e45411e-b0ef-4bea-b23f-c9a559a727dc,Trishina Kirpalani,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/5e45411e-b0ef-4bea-b23f-c9a559a727dc
+Women's,115,134,516fd38b-6201-44a3-8106-4f7f7425fe74,516fd38b-6201-44a3-8106-4f7f7425fe74,Urmi Kothari,0,0,,1,female,2025-07-01,https://indianpadeltour.in/players/516fd38b-6201-44a3-8106-4f7f7425fe74
+Women's,115,134,ae91f022-a8d7-4512-9c62-7ad7beb36a5c,ae91f022-a8d7-4512-9c62-7ad7beb36a5c,Veda Bhambhani,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/ae91f022-a8d7-4512-9c62-7ad7beb36a5c
+Women's,115,134,f56cac73-53ea-4e6c-86a7-9ab52222f4a0,f56cac73-53ea-4e6c-86a7-9ab52222f4a0,Vedika Chamria,0,0,-7.0,1,female,2025-07-01,https://indianpadeltour.in/players/f56cac73-53ea-4e6c-86a7-9ab52222f4a0
+Men's 40+,1,1,2c982f04-1a03-4d77-9359-5b44f4e5aed2,2c982f04-1a03-4d77-9359-5b44f4e5aed2,Vijay Chhabria,2380,2380,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/2c982f04-1a03-4d77-9359-5b44f4e5aed2
+Men's 40+,2,2,c6ad7320-117c-4e7a-a4a6-e4c99fb34e23,c6ad7320-117c-4e7a-a4a6-e4c99fb34e23,Rupen Jhaveri,2200,2200,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/c6ad7320-117c-4e7a-a4a6-e4c99fb34e23
+Men's 40+,3,3,16def632-d48e-4678-81b5-1316aedb049c,16def632-d48e-4678-81b5-1316aedb049c,Akshay Jalan,1248,1248,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/16def632-d48e-4678-81b5-1316aedb049c
+Men's 40+,4,4,0df50617-268c-477d-8351-fd6f8ed84a71,0df50617-268c-477d-8351-fd6f8ed84a71,Aditya Maheshwari,1060,1060,0.0,4,male,2025-07-01,https://indianpadeltour.in/players/0df50617-268c-477d-8351-fd6f8ed84a71
+Men's 40+,5,5,b4c1f987-ed1c-41b2-bed1-839e3b47d5ff,b4c1f987-ed1c-41b2-bed1-839e3b47d5ff,Syed Imran Yusoof,1020,1020,0.0,5,male,2025-07-01,https://indianpadeltour.in/players/b4c1f987-ed1c-41b2-bed1-839e3b47d5ff
+Men's 40+,6,6,7f57a645-a475-4ec7-9b29-0b7812a9931d,7f57a645-a475-4ec7-9b29-0b7812a9931d,Kunal Premnarayen,780,780,2.0,4,male,2025-07-01,https://indianpadeltour.in/players/7f57a645-a475-4ec7-9b29-0b7812a9931d
+Men's 40+,7,7,3b3fe796-88b7-4a76-a7e3-e67f0a4a5b7a,3b3fe796-88b7-4a76-a7e3-e67f0a4a5b7a,Pratik Doshi,588,588,-1.0,4,male,2025-07-01,https://indianpadeltour.in/players/3b3fe796-88b7-4a76-a7e3-e67f0a4a5b7a
+Men's 40+,8,8,d4d1cf44-7849-4baa-b956-c56e4613995b,,Ankit Agarwal,540,540,-1.0,2,male,2025-07-01,https://indianpadeltour.in/players/d4d1cf44-7849-4baa-b956-c56e4613995b
+Men's 40+,9,9,ranked-aakash-sachdev,,Aakash Sachdev,480,480,-1.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-aakash-sachdev
+Men's 40+,9,9,ranked-abedin-sham,,Abedin Sham,480,480,-1.0,2,male,2025-07-01,https://indianpadeltour.in/players/ranked-abedin-sham
+Men's 40+,9,9,ranked-varun-motasha,,Varun Motasha,480,480,-1.0,3,male,2025-07-01,https://indianpadeltour.in/players/ranked-varun-motasha
+Men's 40+,9,9,1ba7872b-25a9-4395-b046-84d1fdeff538,1ba7872b-25a9-4395-b046-84d1fdeff538,Viral Somaiya,480,480,-1.0,4,male,2025-07-01,https://indianpadeltour.in/players/1ba7872b-25a9-4395-b046-84d1fdeff538
+Men's 40+,13,13,6ec925af-f358-475a-9fd4-37dfcbb1795d,6ec925af-f358-475a-9fd4-37dfcbb1795d,Harsh Parekh,408,408,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/6ec925af-f358-475a-9fd4-37dfcbb1795d
+Men's 40+,14,14,6878b0c2-2144-404e-ad97-45159eca8fc8,6878b0c2-2144-404e-ad97-45159eca8fc8,Ankit Doshi,400,400,0.0,3,male,2025-07-01,https://indianpadeltour.in/players/6878b0c2-2144-404e-ad97-45159eca8fc8
+Men's 40+,15,15,3f2fcf21-952f-4b68-9b43-539d6b1ade27,3f2fcf21-952f-4b68-9b43-539d6b1ade27,Navin Shewakramani,348,348,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/3f2fcf21-952f-4b68-9b43-539d6b1ade27
+Men's 40+,16,16,8e2d5864-afb0-4dac-88da-4ff402bee428,8e2d5864-afb0-4dac-88da-4ff402bee428,Anand kothari,300,300,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/8e2d5864-afb0-4dac-88da-4ff402bee428
+Men's 40+,17,17,ranked-amit-lala,,Amit Lala,240,240,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-amit-lala
+Men's 40+,17,17,ranked-deepak-jaitly,,Deepak Jaitly,240,240,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-deepak-jaitly
+Men's 40+,17,17,ranked-karan-melwani,,Karan Melwani,240,240,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-karan-melwani
+Men's 40+,20,20,60389725-28d6-400f-82ff-ab2e9382e011,,Harshvardhan Sharma,216,216,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/60389725-28d6-400f-82ff-ab2e9382e011
+Men's 40+,20,20,171f1964-54fa-4532-b6e6-24bae76da0af,171f1964-54fa-4532-b6e6-24bae76da0af,Nikhil Khemka,216,216,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/171f1964-54fa-4532-b6e6-24bae76da0af
+Men's 40+,20,20,db64450c-aa4a-4b28-beeb-a84f6a75867b,db64450c-aa4a-4b28-beeb-a84f6a75867b,Premal Javeri,216,216,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/db64450c-aa4a-4b28-beeb-a84f6a75867b
+Men's 40+,20,20,d195aee3-c907-47fb-a0fa-ee78cb4af2f8,d195aee3-c907-47fb-a0fa-ee78cb4af2f8,Saurav Kankaria,216,216,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/d195aee3-c907-47fb-a0fa-ee78cb4af2f8
+Men's 40+,24,24,4a3ed922-b521-4c51-9346-83d47b493813,4a3ed922-b521-4c51-9346-83d47b493813,Ankit Zaveri,180,180,0.0,2,male,2025-07-01,https://indianpadeltour.in/players/4a3ed922-b521-4c51-9346-83d47b493813
+Men's 40+,24,24,ranked-cyrus-aga,,Cyrus Aga,180,180,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-cyrus-aga
+Men's 40+,24,24,3fec5bf1-2cb9-4cd6-a965-e0bb6f7079d8,3fec5bf1-2cb9-4cd6-a965-e0bb6f7079d8,Mahesh Shinde,180,180,,1,male,2025-07-01,https://indianpadeltour.in/players/3fec5bf1-2cb9-4cd6-a965-e0bb6f7079d8
+Men's 40+,24,24,fa1fe9c8-1531-42da-8355-e7a0052ab3a2,fa1fe9c8-1531-42da-8355-e7a0052ab3a2,Rajiv Dutt,180,180,,1,male,2025-07-01,https://indianpadeltour.in/players/fa1fe9c8-1531-42da-8355-e7a0052ab3a2
+Men's 40+,24,24,ranked-ronnie-fernandes,,Ronnie Fernandes,180,180,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-ronnie-fernandes
+Men's 40+,24,24,b63ed71b-e58d-4b28-a67e-2d0c64ed5f62,b63ed71b-e58d-4b28-a67e-2d0c64ed5f62,Sidraj Shah,180,180,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/b63ed71b-e58d-4b28-a67e-2d0c64ed5f62
+Men's 40+,24,24,ranked-sovin-hegde,,Sovin Hegde,180,180,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-sovin-hegde
+Men's 40+,24,24,ranked-tushar-raut,,Tushar Raut,180,180,0.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-tushar-raut
+Men's 40+,32,32,a66e6971-acb3-41a9-afd1-95c516c348ea,a66e6971-acb3-41a9-afd1-95c516c348ea,Atul Gupta,160,160,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/a66e6971-acb3-41a9-afd1-95c516c348ea
+Men's 40+,32,32,552316ca-e9d1-4efc-a4a6-c8cfec01f68d,552316ca-e9d1-4efc-a4a6-c8cfec01f68d,Navroze Marshall,160,160,-2.0,2,male,2025-07-01,https://indianpadeltour.in/players/552316ca-e9d1-4efc-a4a6-c8cfec01f68d
+Men's 40+,34,34,ranked-zaheer-adenwala,,Zaheer Adenwala,120,120,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/ranked-zaheer-adenwala
+Men's 40+,35,35,46f5ebb2-2b23-4e22-9c71-46c842dd2653,46f5ebb2-2b23-4e22-9c71-46c842dd2653,Abhilash Joshi,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/46f5ebb2-2b23-4e22-9c71-46c842dd2653
+Men's 40+,35,35,fa06f6d6-52b5-4d4f-a829-ff09c88c33d2,fa06f6d6-52b5-4d4f-a829-ff09c88c33d2,Arun Chery Jacob,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/fa06f6d6-52b5-4d4f-a829-ff09c88c33d2
+Men's 40+,35,35,cff6eb07-908a-4412-9f28-3ab5692a2977,,Arun Hemdev,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/cff6eb07-908a-4412-9f28-3ab5692a2977
+Men's 40+,35,35,facc6960-33ef-4c75-ab10-4a2a8ad00b6c,facc6960-33ef-4c75-ab10-4a2a8ad00b6c,Ashwin Saksena,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/facc6960-33ef-4c75-ab10-4a2a8ad00b6c
+Men's 40+,35,35,f9cbf2db-691e-4851-81e6-be9e05cc4c01,f9cbf2db-691e-4851-81e6-be9e05cc4c01,Atik Luthria,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/f9cbf2db-691e-4851-81e6-be9e05cc4c01
+Men's 40+,35,35,31049438-40d6-4def-9003-dd2997c61ba1,31049438-40d6-4def-9003-dd2997c61ba1,Gagan Singh,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/31049438-40d6-4def-9003-dd2997c61ba1
+Men's 40+,35,35,7cc8e1d3-0f7c-475e-aa64-eb5739c7d6f9,7cc8e1d3-0f7c-475e-aa64-eb5739c7d6f9,Hamir Desai,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/7cc8e1d3-0f7c-475e-aa64-eb5739c7d6f9
+Men's 40+,35,35,3cfbe0a0-f37c-4129-b3a5-157f4bf5b859,3cfbe0a0-f37c-4129-b3a5-157f4bf5b859,James Darbar,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/3cfbe0a0-f37c-4129-b3a5-157f4bf5b859
+Men's 40+,35,35,08fc8e21-4850-4e09-89e9-2ba0c2c8c9ef,08fc8e21-4850-4e09-89e9-2ba0c2c8c9ef,Jonas Spinoy,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/08fc8e21-4850-4e09-89e9-2ba0c2c8c9ef
+Men's 40+,35,35,65b6eb21-de8a-4528-8567-d6834dcfb20b,65b6eb21-de8a-4528-8567-d6834dcfb20b,Karan Mehrotra,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/65b6eb21-de8a-4528-8567-d6834dcfb20b
+Men's 40+,35,35,c4e5ac58-b4da-413a-b134-eba55f9a1c56,c4e5ac58-b4da-413a-b134-eba55f9a1c56,Prabhas Sharma,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/c4e5ac58-b4da-413a-b134-eba55f9a1c56
+Men's 40+,35,35,aa07326e-0383-4295-8cde-4e336a0dd7f7,aa07326e-0383-4295-8cde-4e336a0dd7f7,Praneet Chawla,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/aa07326e-0383-4295-8cde-4e336a0dd7f7
+Men's 40+,35,35,33ba8a38-6ea6-4a24-a6c2-539cda4a6089,33ba8a38-6ea6-4a24-a6c2-539cda4a6089,Priyesh Desai,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/33ba8a38-6ea6-4a24-a6c2-539cda4a6089
+Men's 40+,35,35,fe4d1fe1-6ad1-4942-901e-df8580b614d2,fe4d1fe1-6ad1-4942-901e-df8580b614d2,Raj Prajapati,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/fe4d1fe1-6ad1-4942-901e-df8580b614d2
+Men's 40+,35,35,1515a4f5-2ef1-4436-8c7b-4f92b1118f82,1515a4f5-2ef1-4436-8c7b-4f92b1118f82,Ram Raheja,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/1515a4f5-2ef1-4436-8c7b-4f92b1118f82
+Men's 40+,35,35,557faef2-dc4d-4dc3-bee0-5516fc58358f,557faef2-dc4d-4dc3-bee0-5516fc58358f,Ryan Tham,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/557faef2-dc4d-4dc3-bee0-5516fc58358f
+Men's 40+,35,35,f7839dcf-c6f8-47ef-ab89-7261268a37a2,f7839dcf-c6f8-47ef-ab89-7261268a37a2,Sandeep Louis,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/f7839dcf-c6f8-47ef-ab89-7261268a37a2
+Men's 40+,35,35,22f71241-5bf4-4dc7-ba33-683a2ea0f75b,22f71241-5bf4-4dc7-ba33-683a2ea0f75b,Sandip Sabharwal,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/22f71241-5bf4-4dc7-ba33-683a2ea0f75b
+Men's 40+,35,35,5602dbe5-4321-43e1-8b1c-e558a9fed127,5602dbe5-4321-43e1-8b1c-e558a9fed127,Saurabh Vijewargia,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/5602dbe5-4321-43e1-8b1c-e558a9fed127
+Men's 40+,35,35,9c5bc958-4151-4973-89f7-09068809dfb1,9c5bc958-4151-4973-89f7-09068809dfb1,Shashin Shah,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/9c5bc958-4151-4973-89f7-09068809dfb1
+Men's 40+,35,35,38994d00-4888-4d00-a61c-1a89cd8f69a5,38994d00-4888-4d00-a61c-1a89cd8f69a5,Sidharth Ugrankar,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/38994d00-4888-4d00-a61c-1a89cd8f69a5
+Men's 40+,35,35,9b9ab185-d5f9-4822-9f86-98dcee737260,9b9ab185-d5f9-4822-9f86-98dcee737260,Subal Anand,0,0,-2.0,1,male,2025-07-01,https://indianpadeltour.in/players/9b9ab185-d5f9-4822-9f86-98dcee737260
+Men's 40+,35,35,cf4e6dfa-ee51-4ee3-8b1c-cd6173e3955f,cf4e6dfa-ee51-4ee3-8b1c-cd6173e3955f,Vivek Venugopal,0,0,,1,male,2025-07-01,https://indianpadeltour.in/players/cf4e6dfa-ee51-4ee3-8b1c-cd6173e3955f

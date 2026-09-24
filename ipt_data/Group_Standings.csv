@@ -1,0 +1,352 @@
+tournament_slug,division,group,position,team,played,wins,losses,games_for,games_against,difference,bonus_points,points,qualification
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP A,1,Gautam Kaushal / Suvir Singh,3,3,0,24,5,19,1,7,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP A,2,Sandeep Dhand / Adesh Pratap Singh,3,2,1,20,10,10,1,5,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP A,3,Sidhannt Kalucha / Lokesh Dudeja,3,1,2,11,16,-5,1,3,best_third_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP A,4,Rajbir S Randhawa / Aaronbir S Randhawa,3,0,3,0,24,-24,0,0,eliminated
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP B,1,Ajitesh Kaushal / Vidur Ahuja,3,3,0,24,7,17,0,6,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP B,2,Shray Mehta / Atin Gupta,3,2,1,20,15,5,0,4,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP B,3,Mohit Sharma / Dhruv Malhotra,3,1,2,16,21,-5,0,2,eliminated
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP B,4,Sahil Dhingra / Udit Khaitan,3,0,3,7,24,-17,0,0,eliminated
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP C,1,Ankit Dhawan / Guru Singh,3,3,0,24,5,19,1,7,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP C,2,Ramnish Pal / Abhit Jhanji,3,2,1,20,18,2,0,4,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP C,3,Sandip Sabharwal / Shampy Mittal,3,1,2,15,19,-4,0,2,best_third_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP C,4,Nakul Mishra / Aditya Mehra,3,0,3,7,24,-17,0,0,eliminated
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP D,1,Arshdeep Singh / Sanam Singh,3,3,0,24,3,21,0,6,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP D,2,Hitesh Panwar / Shivam Garg,3,2,1,17,12,5,0,4,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP D,3,Surya Jain / Abhishek Slathia,3,1,2,12,17,-5,0,2,eliminated
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP D,4,Manav Jain / Thashakkriv Neelash,3,0,3,3,24,-21,0,0,eliminated
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP E,1,Satyam Pathak / Divyam Jain,3,3,0,24,5,19,0,6,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP E,2,Aarman Kler / Sahiljit Singh Sandhu,3,2,1,19,11,8,0,4,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP E,3,Saksham Dogra / Yuvraj Khullar,3,1,2,11,16,-5,1,3,best_third_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP E,4,Sahil Mahajan / Anuj Aggarwal,3,0,3,2,24,-22,0,0,eliminated
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP F,1,Yash Khajanchi / Abhiraj Singh,3,3,0,24,12,12,0,6,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP F,2,Rajat Garg / Nitesh Bharti,3,2,1,23,14,9,0,4,automatic_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP F,3,Vivek Sharma / Rahul Gupta,3,1,2,16,19,-3,0,2,best_third_qualifier
+ipt-chandigarh-city-open-2-0,Men's Beginner,GROUP F,4,Nikhil Doda / Jason P Sharma,3,0,3,6,24,-18,0,0,eliminated
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP A,1,Manav Malhotra / Varun Dattani,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP A,2,Raghav Garg / Sachit Nayyar,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP A,3,Rohail Pandohi / Ayush Gupta,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP B,1,Pruthvi Patel / Harshil Sheth,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP B,2,Tanveer Singh / Rahil Mahajan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP B,3,Sagar Ahuja / Nivesh Poddar,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP B,4,Vishav Bansal / Ajay Dhiman,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP C,1,Shanu Hazra / Parth Thakkar,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP C,2,Simar Chadha / Ikrab Ghai,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP C,3,Sahil Bakshi / Shivang Mahajan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP C,4,Love Pahal / Aarav Chawla,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP D,1,Karan Tandon / Sahil Parikh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP D,2,Sahil Kapoor / Yuvraj Singh Arora,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP D,3,Yashvardhan Sarda / Shreyas Dogial,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP D,4,Manan Gupta / Armaan Garg,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP E,1,Madhav Bajaj / Divanshu Nayyar,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP E,2,Akshay Dhawan / Animesh Gupta,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP E,3,Vaibhav Sahni / Ishaan Chandhok,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP E,4,Aayush Poddar / Anurag Agarwal,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP F,1,Mehul Bansal / Lakshay Bharti,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP F,2,Rishabh Gupta / Rijul Jain,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP F,3,Arjun Dhanda / Akhil Bansal,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP F,4,Rajkanwar Bhangoo / Harneet Singh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP G,1,Anav Shrish / Viraj Bhargava,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP G,2,Ramit Bhargava / Manjot Singh Ahuja,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP G,3,Udhay Mahajan / Hari Singh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP G,4,Anirudh Kaushal / Sartaj Singh Sudan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP H,1,Nikhil Bansal / Jansher Waraich,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP H,2,Ankush Puri / Sehaj Sehgal,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP H,3,Vansh Bhagtani / Yash Nagdev,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Intermediate,GROUP H,4,Japnaam Singh / Meet Ohlyan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP A,1,Aditya Jagtap / Rahul Motwani,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP A,2,Ankit Grover / Gaurav Gupta,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP A,3,Jasmer Kapany / Rohan Jain,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP A,4,Raaghav Sharma Bagga / Atul Sharma,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP B,1,Samar Malhotra / Paramveer Singh Bajwa,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP B,2,Ishaan Mehta / Chiraz Singh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP B,3,Adit Patel / Abhishek Gupta,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP B,4,Ashish Khemlani / Siddharth Nandal,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP C,1,Arjun Kapoor / Rohit Dhiman,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP C,2,Gautam Daluja / Darshan Dilbar Singh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP C,3,Swaraj Deshmukh / Krishna Teja,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP C,4,Tushar Jagota / Aryan Manchanda,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP D,1,Samin Bhargava / Yuvraj Singh Kooka,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP D,2,Bhavuk Dua / Jeetpal Singh Chauhan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP D,3,Advait Bahl / Kabir Anand,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's Advance,GROUP D,4,Pranav Chopra / Raghuraj Dewan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP A,1,Akshay Jalan / Ankit Agarwal,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP A,2,Mukul Kumar / Kanwar Dhillon,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP A,3,Sidharth Garg / Anuj Mehndiratta,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP A,4,Gagandeep Singh Wasu / Vikas Nayar,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP B,1,Prabhas Sharma / Muizz Khan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP B,2,Utsav Khanna / Supan Kalucha,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP B,3,Sidharth Daluja / Avish Sharma,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Men's 40+,GROUP B,4,Rakesh Kumar / Akash Chawla,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP A,1,Dishita Aggarwal / Avreet Dhillon,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP A,2,Armaan Mann / Amanat Mann,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP A,3,Nihar Khan / Priyanka Mahajan,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP A,4,Hridaya Patel / Rushali Singh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP B,1,Arnavaz Kollah / Ustat Kharbanda,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP B,2,Sara Daluja / Shuchi Bakshi,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP B,3,Tasveer Sohi / Prabhsifat Kaur,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP B,4,Bhavya Wadhawan / Shrawasti Kundilya,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Beginner,GROUP B,5,Muskaan Sundra / Hasrat Kaushal,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Intermediate,GROUP STAGE,1,Steisha Buddhala / Amy Bundhel,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Intermediate,GROUP STAGE,2,Mansi Malhotra / Vaibhavi Deshmukh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Intermediate,GROUP STAGE,3,Radhika Vasudeva / Aashna Mehra,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Intermediate,GROUP STAGE,4,Nandini Ghai / Ridhi Gupta,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Intermediate,GROUP STAGE,5,Amaya Kothari / Kyra Pereira,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Intermediate,GROUP STAGE,6,Ishika Kankaria / Gul Arora,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Advance,GROUP STAGE,1,Steisha Buddhala / Amy Bundhel,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Advance,GROUP STAGE,2,Mansi Malhotra / Vaibhavi Deshmukh,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Advance,GROUP STAGE,3,Radhika Vasudeva / Aashna Mehra,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Advance,GROUP STAGE,4,Nandini Ghai / Ridhi Gupta,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Advance,GROUP STAGE,5,Amaya Kothari / Kyra Pereira,0,0,0,0,0,0,0,0,pending
+ipt-chandigarh-city-open-2-0,Women's Advance,GROUP STAGE,6,Ishika Kankaria / Gul Arora,0,0,0,0,0,0,0,0,pending
+ipt-goa-grandslam-11-0,Men's Beginner,A,1,Udhay Mahajan / Mayank Oberoi,3,3,0,24,12,12,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,A,2,Aarman Kler / Angad Puar,3,2,1,23,19,4,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,A,3,Shaan Shah / Kushe Bahl,3,1,2,16,17,-1,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Beginner,A,4,Divy Kothari / Priynash Kothari,3,0,3,9,24,-15,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Beginner,B,1,Gautam Kaushal / Aman Goyal,3,3,0,24,9,15,1,7,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,B,2,Vijay Aakash Nemakal / Shashank Tiwari,3,2,1,20,11,9,1,5,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,B,3,Sahil Dhingra / Maurya Nagpal,3,1,2,13,23,-10,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Beginner,B,4,Rayaprolu Sagar / Gopi Reddy,3,0,3,10,24,-14,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Beginner,C,1,Abhi Panchu / Mukund Muthanna,3,3,0,24,13,11,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,C,2,Suvir Singh / Teyjas Chaudhary,3,2,1,21,17,4,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,C,3,Lokesh Chhabra / Vaibhav Malik,3,1,2,17,19,-2,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Beginner,C,4,Rajat Jain / Pratik Makkar,3,0,3,11,24,-13,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Beginner,D,1,Arnav Sanjeev / Sahil Kaushal,3,3,0,24,4,20,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,D,2,Shelton Mathew / Vishnu Shetty,3,2,1,18,10,8,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Beginner,D,3,Rudresh Shetye / Venctexa Burye,3,1,2,10,17,-7,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Beginner,D,4,Joshua Lobo / Joshua Lobo Partner,3,0,3,3,24,-21,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,A,1,Tammineedi Jayanth / Vineeth Mutyala,3,3,0,24,13,11,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,A,2,Pratham Jain / Hritesh Agarwal,3,2,1,22,11,11,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,A,3,Sharad Kanadje / Sidharth Gupta,3,1,2,14,21,-7,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,A,4,Arjun Chalotra / Jatin Dhingra,3,0,3,9,24,-15,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,B,1,Arjun Raju / Abhinav Grover,3,3,0,24,7,17,1,7,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,B,2,Rahul Chandwani / Rahul Khanna,3,2,1,21,15,6,1,5,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,B,3,R S Abhishek / Siddharth Satheesan,3,1,2,17,17,0,0,2,best_third_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,B,4,Sagar Patodia / Ronak Bhojani,3,0,3,1,24,-23,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,C,1,Tejas Shevde / Nishad Shevde,3,3,0,24,14,10,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,C,2,Mikhail Mehra / Akshay Rai,3,2,1,23,18,5,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,C,3,Rishabh Kalokhe / Kriday Sethi,3,1,2,17,22,-5,0,2,best_third_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,C,4,Sheehan Furtado / Arik Badami,3,0,3,14,24,-10,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,D,1,Ishan Maitreya / Anuj Vaghani,3,3,0,24,11,13,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,D,2,Manan Gupta / Akshit Chaudhary,3,2,1,19,18,1,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,D,3,Raghav Bansal / Karan Bansal,3,1,2,17,23,-6,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,D,4,Punit Chawla / Sandeep Chawla,3,0,3,16,24,-8,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,E,1,Tanveer Singh / Gandharv Bajaj,3,3,0,24,10,14,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,E,2,Eshant Uppal / Sheriar Mazda,3,2,1,17,16,1,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,E,3,Prateek Gambhir / Yugantar Malhotra,3,1,2,17,21,-4,0,2,best_third_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,E,4,Suhail Kapur / Parth Bhatia,3,0,3,13,24,-11,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Intermediate,F,1,Mehul Bansal / Vaibhav Sahni,3,3,0,24,12,12,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,F,2,Mayank Daga / Shikhar Kumar,3,2,1,19,16,3,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,F,3,Yashvardhan Sarda / Suyash Vishnoi,3,1,2,16,19,-3,0,2,best_third_qualifier
+ipt-goa-grandslam-11-0,Men's Intermediate,F,4,Raghul Arvind / Tushar Jain,3,0,3,12,24,-12,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,A,1,Aditya Jagtap / Krishiv Patel,3,3,0,24,2,22,1,7,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,A,2,Varshil Trambadiya / Antariksh Mohandas,3,2,1,17,18,-1,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,A,3,Adit Patel / Kavin Vendan,3,1,2,15,20,-5,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,A,4,Karan Medappa / Shane Biddaiah,3,0,3,8,24,-16,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,B,1,Aryan Hemdev / Samar Malhotra,3,3,0,24,12,12,1,7,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,B,2,Swaraj Deshmukh / Kaivalya Kalamse,3,2,1,21,13,8,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,B,3,Krishna Teja Ankam / Gundlapalle Yaswanth Reddy,3,1,2,19,18,1,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,B,4,Ashish Khemlani / Arjun Gupta,3,0,3,3,24,-21,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,C,1,Rahul Motwani / Ishaan Choubal,3,3,0,24,12,12,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,C,2,Arjun Jashani / Tanay Mehta,3,2,1,22,14,8,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,C,3,Ziaan Talab / Madhu Samtani,3,1,2,17,20,-3,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,C,4,Advait Bahl / Bhagya Popat,3,0,3,7,24,-17,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,D,1,Jasmer Kapany / Paramveer Bajwa,3,3,0,24,13,11,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,D,2,Saish Shelar / Mihir Akolkar,3,2,1,20,11,9,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's Advance,D,3,Pranay Merchant / Piyush Bansal,3,1,2,16,23,-7,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's Advance,D,4,Aakash Lalith / Famaz Shanavas,3,0,3,11,24,-13,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's 40+,A,1,Vijay Chhabria / Rupen Jhaveri,3,3,0,24,6,18,1,7,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's 40+,A,2,Saurav Kankaria / Nikhil Khemka,3,2,1,21,11,10,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's 40+,A,3,Sandip Sabharwal / Saurabh Vijewargia,3,1,2,11,21,-10,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's 40+,A,4,Karan Mehrotra / James Darbar,3,0,3,6,24,-18,0,0,eliminated
+ipt-goa-grandslam-11-0,Men's 40+,B,1,Aditya Maheshwari / Akshay Jalan,4,4,0,32,4,28,1,9,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's 40+,B,2,Premal Javeri / Harshvardhan Sharma,4,3,1,25,9,16,2,8,automatic_qualifier
+ipt-goa-grandslam-11-0,Men's 40+,B,3,Prabhas Sharma / Shashin Shah,4,2,2,19,17,2,1,5,eliminated
+ipt-goa-grandslam-11-0,Men's 40+,B,4,Raj Prajapati / Ashwin Saksena,4,1,3,8,31,-23,0,2,eliminated
+ipt-goa-grandslam-11-0,Men's 40+,B,5,Gagan Singh / Jonas Spinoy,4,0,4,9,32,-23,0,0,eliminated
+ipt-goa-grandslam-11-0,Women's Beginner,A,1,Shireen Mahajan / Sukhmani Grewal,2,2,0,16,6,10,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Beginner,A,2,Rhea Mathews / Dinika Thomas,2,1,1,11,11,0,0,2,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Beginner,A,3,Ritika Choudhary / Nupur Gupta,2,0,2,6,16,-10,0,0,eliminated
+ipt-goa-grandslam-11-0,Women's Beginner,B,1,Padma Veda Manikonda / Sameeksha Annem,1,1,0,8,4,4,0,2,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Beginner,B,2,Sia Chawla / Armaan Mann,1,0,1,4,8,-4,0,0,eliminated
+ipt-goa-grandslam-11-0,Women's Intermediate,A,1,Mansi Malhotra / Rubani Sidhu,3,2,1,23,14,9,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Intermediate,A,2,Suhani Sabharwal / Karina Phipps,3,2,1,19,15,4,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Intermediate,A,3,Pooja Kharat / Shabri Agarwal,3,1,2,15,20,-5,0,2,eliminated
+ipt-goa-grandslam-11-0,Women's Intermediate,A,4,Tammana Kalra / Anmol Malhotra,3,1,2,15,23,-8,0,2,eliminated
+ipt-goa-grandslam-11-0,Women's Advance,A,1,Steisha Buddhala / Amy Bundhel,3,3,0,24,13,11,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Advance,A,2,Tulsi Mehta / Shraddha Damani,3,2,1,22,22,0,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Advance,A,3,Shivani Manjanna / Prarthana Prathap,3,1,2,16,18,-2,0,2,eliminated
+ipt-goa-grandslam-11-0,Women's Advance,A,4,Radhika Vasudeva / Aashna Mehra,3,0,3,15,24,-9,0,0,eliminated
+ipt-goa-grandslam-11-0,Women's Advance,B,1,Vaibhavi Deshmukh / Namita Bal,3,3,0,24,7,17,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Advance,B,2,Sonashe Bhatnagar / Treta Bhattacharya,3,2,1,18,15,3,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Women's Advance,B,3,Estelle Mehta / Anisha Mirchandani,3,1,2,15,17,-2,0,2,eliminated
+ipt-goa-grandslam-11-0,Women's Advance,B,4,Kyra Pereira / Amaya Kothari,3,0,3,6,24,-18,0,0,eliminated
+ipt-goa-grandslam-11-0,Mixed Open,A,1,Tulsi Mehta / Samar Malhotra,3,3,0,24,3,21,1,7,automatic_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,A,2,Sonashe Bhatnagar / Siddharth Satheesan,3,2,1,18,15,3,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,A,3,Amaya Kothari / Parth Bhatia,3,1,2,15,20,-5,0,2,best_third_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,A,4,Ashwati Ramesh / Karan Mehrotra,3,0,3,5,24,-19,0,0,eliminated
+ipt-goa-grandslam-11-0,Mixed Open,B,1,Namita Bal / Aditya Jagtap,3,3,0,24,0,24,3,9,automatic_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,B,2,Anmol Malhotra / Yugantar Malhotra,3,2,1,16,12,4,1,5,automatic_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,B,3,Rhea Mathews / Joel Duarte,3,1,2,8,18,-10,0,2,eliminated
+ipt-goa-grandslam-11-0,Mixed Open,B,4,Ryan Carroll / Ryan Carroll Partner,3,0,3,6,24,-18,0,0,eliminated
+ipt-goa-grandslam-11-0,Mixed Open,C,1,Suhani Sabharwal / Bhagya Popat,3,3,0,24,12,12,0,6,automatic_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,C,2,Kyra Pereira / Adhiraj Bhattacharya,3,2,1,20,14,6,0,4,automatic_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,C,3,Rhea Jiandani / Mayank Daga,3,1,2,13,21,-8,0,2,best_third_qualifier
+ipt-goa-grandslam-11-0,Mixed Open,C,4,Kanchan Sharma / Mikhail Mehra,3,0,3,14,24,-10,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP A,1,Muhammed Ajmal / Aravind Kannan,3,3,0,24,6,18,1,7,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP A,2,Rajveer Patel / Arnav Tanna,3,2,1,20,8,12,2,6,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP A,3,Frederick Williams / Venkatesh Anilkumar,3,1,2,10,16,-6,1,3,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP A,4,Sanjay Davis Tony / Savio Zibi,3,0,3,0,24,-24,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP B,1,Shaan Shah / Sandip Sabharwal,3,3,0,24,9,15,0,6,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP B,2,Vishal Thomas / Terence Thomas,3,2,1,18,10,8,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP B,3,Glenn Renny / Renny Chacko,3,1,2,15,17,-2,0,2,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP B,4,Raghul Arvind / Subramanian Shivshankaran,3,0,3,3,24,-21,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP C,1,Arvind Sriram / Ananth Menon,3,3,0,24,11,13,0,6,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP C,2,Junaiz Odakkal / Aadil Abdul Azeez,3,2,1,22,12,10,1,5,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP C,3,Chacko Cherian / Joseph Korah,3,1,2,15,17,-2,0,2,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP C,4,Basudev Rai / Abhay Biswakarma,3,0,3,3,24,-21,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP D,1,Siddhant Gupta / Aman Makan,3,3,0,24,6,18,2,8,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP D,2,Royce Raju Beena / James Joseph,3,1,2,21,22,-1,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP D,3,Jinto Varghese / Steve Jacob Franco,3,1,2,14,22,-8,0,2,eliminated
+ipt-kochi-city-open-2-0,Men's Beginner,GROUP D,4,Vikaas Chhabria / Vedanth P Patel,3,1,2,14,23,-9,0,2,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP A,1,Kaiz Jaffer / Varun Dattani,2,2,0,16,5,11,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP A,2,Revano Wilson / Varghese Paul,2,1,1,9,12,-3,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP A,3,Afdhel Abdul Wahab / Salman Shaji,2,0,2,8,16,-8,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP B,1,Pranav Erinjery / Aldrith Fernandez,2,2,0,16,2,14,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP B,2,Azhar Seyad / Anoop KR,2,1,1,9,9,0,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP B,3,Mukund Muthanna / Mukund Muthanna Partner,2,0,2,2,16,-14,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP C,1,George Pottamkulam / Amit Krishnan,2,2,0,16,7,9,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP C,2,Sachin Thomas / Parthiv Anilkumar,2,1,1,13,15,-2,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP C,3,Bijon Kanabar / Pranay Shetty,2,0,2,9,16,-7,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP D,1,Akhil Bansal / Nikhil Bansal,2,2,0,16,13,3,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP D,2,Mohammed Farhan / Azim Yasir,2,1,1,15,14,1,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP D,3,Kaushik Gummuluru / Sai Ram Goud,2,0,2,12,16,-4,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP E,1,Mohamed Anzar / Dirsha Kalliyath,2,2,0,16,5,11,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP E,2,Ayaan Mishra / Viraj Dewan,2,1,1,12,9,3,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP E,3,Nikhil Kalro / Abhinav Grover,2,0,2,2,16,-14,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP F,1,Arjun Raju / Ganesh Raj,2,2,0,16,7,9,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP F,2,Anthony Grace Fernandes / Adarsh S,2,1,1,14,11,3,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP F,3,Gopal Mohan / Nikhil George,2,0,2,4,16,-12,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP G,1,John Paul / Falib Jaleel,2,2,0,16,11,5,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP G,2,Muhammed Saleem V / Arun Ratnakaran,2,1,1,15,11,4,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP G,3,Sanal K M / Nigel Paul,2,0,2,7,16,-9,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP H,1,Raaghav Sharma Bagga / Yuvraj mehta,2,2,0,16,3,13,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP H,2,Mithun Prabhu / Akshith Thomas,2,1,1,10,13,-3,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Intermediate,GROUP H,3,Sonu Vaidyan / Sadic Ashraf,2,0,2,6,16,-10,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Advance,GROUP A,1,Aditya Jagtap / Krishiv Patel,3,3,0,24,9,15,0,6,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP A,2,Varshil Trambadiya / Antariksh Mohandas,3,2,1,20,18,2,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP A,3,Naesar Jewoor / Siddharth Dabrai,3,1,2,13,22,-9,0,2,eliminated
+ipt-kochi-city-open-2-0,Men's Advance,GROUP A,4,Akash Wagh / Vinayak Kumar,3,0,3,16,24,-8,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Advance,GROUP B,1,Samar Malhotra / Aryan Goveas,3,3,0,24,4,20,1,7,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP B,2,Saish Shelar / Mihir Akolkar,3,2,1,18,16,2,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP B,3,Karan Medappa / Shane Biddaiah,3,1,2,14,23,-9,0,2,best_third_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP B,4,Advait Bahl / Kabir Anand,3,0,3,11,24,-13,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's Advance,GROUP C,1,Adit Patel / Kavin Vendan,3,3,0,24,13,11,0,6,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP C,2,Swaraj Deshmukh / Kaivalya Kalamse,3,2,1,22,16,6,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP C,3,Syed Imran Yusoof / Kunal Premnarayan,3,1,2,19,17,2,0,2,best_third_qualifier
+ipt-kochi-city-open-2-0,Men's Advance,GROUP C,4,Famas Shanavas / Naeem Shahul,3,0,3,5,24,-19,0,0,eliminated
+ipt-kochi-city-open-2-0,Men's 40+,GROUP A,1,Syed Imran Yusoof / Kunal Premnarayan,3,3,0,24,4,20,0,6,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's 40+,GROUP A,2,Rajiv Dutt / Mahesh Shinde,3,2,1,17,19,-2,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Men's 40+,GROUP A,3,Arun Chery Jacob / Abhilash Joshi,3,1,2,15,20,-5,0,2,eliminated
+ipt-kochi-city-open-2-0,Men's 40+,GROUP A,4,Sandeep Louis / Vivek Venugopal,3,0,3,11,24,-13,0,0,eliminated
+ipt-kochi-city-open-2-0,Women's Beginner,GROUP A,1,Niti Mehta / Alisha Aggarwal,3,3,0,24,2,22,2,8,automatic_qualifier
+ipt-kochi-city-open-2-0,Women's Beginner,GROUP A,2,Raksha Bhaskar / Gayatri Nair,3,2,1,18,9,9,1,5,automatic_qualifier
+ipt-kochi-city-open-2-0,Women's Beginner,GROUP A,3,Devi Nayar / Aswti Mannali,3,1,2,8,17,-9,0,2,eliminated
+ipt-kochi-city-open-2-0,Women's Beginner,GROUP A,4,Anna Biju / Meghna Biju,3,0,3,2,24,-22,0,0,eliminated
+ipt-kochi-city-open-2-0,Women's Intermediate,GROUP A,1,Rebecca Puthumana / Deepthi J S,2,2,0,16,7,9,0,4,automatic_qualifier
+ipt-kochi-city-open-2-0,Women's Intermediate,GROUP A,2,Sareeka John / Shubha Abhilash,2,1,1,9,10,-1,0,2,automatic_qualifier
+ipt-kochi-city-open-2-0,Women's Intermediate,GROUP A,3,Neeti Nayak / Urmi Kothari,2,0,2,8,16,-8,0,0,eliminated
+mumbai-city-open-5-01,Men's Beginner,A,1,Burhan Contractor / Advaith Anoop,3,3,0,24,12,12,0,6,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,A,2,Chirag Gaikwad / Harman Singh Tur,3,2,1,20,13,7,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,A,3,Ronak Daftary / Anirudh Jain,3,1,2,19,17,2,0,2,eliminated
+mumbai-city-open-5-01,Men's Beginner,A,4,Rahul Sachdeva / Jason Pereira,3,0,3,3,24,-21,0,0,eliminated
+mumbai-city-open-5-01,Men's Beginner,B,1,Siddhant Gupta / Naville Prakash,3,3,0,24,8,16,0,6,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,B,2,Shaan Javeri / Arjun Malhotra,3,2,1,17,16,1,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,B,3,Prem Mirchandani / Bipin Grewal,3,1,2,21,17,4,0,2,eliminated
+mumbai-city-open-5-01,Men's Beginner,B,4,Sahil Sharma / Umesh Padwal,3,0,3,3,24,-21,0,0,eliminated
+mumbai-city-open-5-01,Men's Beginner,C,1,Bhavik Talreja / Rohan Maniar,3,3,0,24,13,11,1,7,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,C,2,Shaan Shah / Kushe Bahl,3,2,1,23,15,8,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,C,3,Arjun Batra / Jashan Singh Arora,3,1,2,20,17,3,0,2,eliminated
+mumbai-city-open-5-01,Men's Beginner,C,4,Kriish Sakhuja / Jai Sakhuja,3,0,3,2,24,-22,0,0,eliminated
+mumbai-city-open-5-01,Men's Beginner,D,1,Rashank Kuckreja / Pratikraj Singh,3,3,0,24,10,14,0,6,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,D,2,Abhishek Yadev / Priyank Makwana,3,2,1,21,11,10,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Beginner,D,3,Rahil Patel / Rajveer Patel,3,1,2,11,22,-11,0,2,eliminated
+mumbai-city-open-5-01,Men's Beginner,D,4,Aahan Jhaveri / Devansh Somani,3,0,3,11,24,-13,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,A,1,Neville Wadia / Kabir Anand,2,2,0,16,3,13,1,5,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,A,2,Rishabh Rajani / Manav Shah,2,1,1,11,10,1,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,A,3,Jimit Sanghani / Rohit S,2,0,2,2,16,-14,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,B,1,Samkit Shah / Rahul Chandwani,2,2,0,16,6,10,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,B,2,Junaid Sopariwala / Tabrez Sopariwala,2,1,1,12,10,2,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,B,3,Mishal Mehta / Khushish Jain,2,0,2,4,16,-12,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,C,1,Nandish Shah / Farhan Patrawala,2,2,0,16,7,9,1,5,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,C,2,Habib Latif / Salman Damani,2,1,1,8,15,-7,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,C,3,Yashvardhan Sarda / Yash Maliwal,2,0,2,14,16,-2,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,D,1,Vansh Bhagtani / Yash Nagdev,2,2,0,16,6,10,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,D,2,Ankit Bhalwankar / Rajesh Shing,2,1,1,10,15,-5,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,D,3,Arnav Tanna / Qahhar Padamsee,2,0,2,11,16,-5,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,E,1,Pratik Bhatia / Kaustubh Thakur,2,2,0,16,4,12,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,E,2,Aldrith Fernandez / Dhruva Madhavan,2,1,1,11,9,2,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,E,3,Anshul Gosavi / Ronak Talati,2,0,2,2,16,-14,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,F,1,Ishan Maitreya / Anuj Vaghani,2,2,0,16,2,14,1,5,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,F,2,Karan Tandon / Anjan Vachhani,2,1,1,10,13,-3,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,F,3,Ahmed Merchant / Abdul Rehman,2,0,2,5,16,-11,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,G,1,Siddharth Sanghai / Annanya Agarwal,2,2,0,16,6,10,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,G,2,Rohan Dhoot / Karan Daftary,2,1,1,12,13,-1,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,G,3,Rahil Gala / Tanmay Anand,2,0,2,7,16,-9,0,0,eliminated
+mumbai-city-open-5-01,Men's Intermediate,H,1,Siddharth Kadam / Ishan Jindal,2,2,0,16,9,7,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Intermediate,H,2,Rahul Parkash / Ishaan Choksi,2,1,1,14,13,1,0,2,eliminated
+mumbai-city-open-5-01,Men's Intermediate,H,3,Virel Agarwal / Yugant Gupta,2,0,2,8,16,-8,0,0,eliminated
+mumbai-city-open-5-01,Men's Advance,A,1,Chaitanya Shah / Aditya Jagtap,3,3,0,24,6,18,1,7,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,A,2,Swaraj D / Kaivalya Kalamse,3,2,1,19,10,9,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,A,3,Rahil Saboo / Rehan Malik,3,1,2,12,23,-11,0,2,eliminated
+mumbai-city-open-5-01,Men's Advance,A,4,Advait Bahl / Bhagya Popat,3,0,3,8,24,-16,0,0,eliminated
+mumbai-city-open-5-01,Men's Advance,B,1,Adit Patel / Abhishek Gupta,3,3,0,24,17,7,0,6,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,B,2,Rahul Motwani / Aryan Goveas,3,2,1,22,10,12,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,B,3,Shashank Mittal / Tanay Gabhawala,3,1,2,13,19,-6,0,2,eliminated
+mumbai-city-open-5-01,Men's Advance,B,4,Aryaman Jajodia / Ankit Agarwal,3,0,3,11,24,-13,0,0,eliminated
+mumbai-city-open-5-01,Men's Advance,C,1,Parikshit Somani / Paramveer Singh Bajwa,3,3,0,24,9,15,1,7,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,C,2,Taran Mundkar / Samar Malhotra,3,2,1,22,18,4,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,C,3,Varshil Trambadiya / Antariksh Mohandas,3,1,2,16,18,-2,0,2,eliminated
+mumbai-city-open-5-01,Men's Advance,C,4,Aakarsh Gulati / Yash Shah,3,0,3,7,24,-17,0,0,eliminated
+mumbai-city-open-5-01,Men's Advance,D,1,Aryan Hemdev / Porus Shroff,3,3,0,24,7,17,0,6,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,D,2,Tanay Mehta / Jehan Mehta,3,2,1,19,17,2,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's Advance,D,3,Mihir Akolkar / Saish Shelkar,3,1,2,12,21,-9,0,2,eliminated
+mumbai-city-open-5-01,Men's Advance,D,4,Manav Sreekumar / Omar Sumar,3,0,3,14,24,-10,0,0,eliminated
+mumbai-city-open-5-01,Men's 40+,A,1,Vijay Chhabria / Sidraj Shah,2,2,0,16,6,10,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's 40+,A,2,Navroze Marshall / Subal Anand,2,1,1,13,11,2,0,2,eliminated
+mumbai-city-open-5-01,Men's 40+,A,3,Praneet Chawla / Sidharth Ugrankar,2,0,2,4,16,-12,0,0,eliminated
+mumbai-city-open-5-01,Men's 40+,B,1,Akshay Jalan / Navin Shewakramani,2,2,0,16,7,9,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's 40+,B,2,Ankit Zaveri / Viral Somaiya,2,1,1,13,8,5,1,3,eliminated
+mumbai-city-open-5-01,Men's 40+,B,3,Atik Luthria / Ram Raheja,2,0,2,2,16,-14,0,0,eliminated
+mumbai-city-open-5-01,Men's 40+,C,1,Aditya Maheshwari / Anand kothari,2,2,0,16,4,12,1,5,automatic_qualifier
+mumbai-city-open-5-01,Men's 40+,C,2,Syed Imran Yusoof / Kunal Premnarayen,2,1,1,12,8,4,1,3,eliminated
+mumbai-city-open-5-01,Men's 40+,C,3,Hamir Desai / Arun Hemdev,2,0,2,0,16,-16,0,0,eliminated
+mumbai-city-open-5-01,Men's 40+,D,1,Pratik Doshi / Harsh Parekh,2,2,0,16,13,3,0,4,automatic_qualifier
+mumbai-city-open-5-01,Men's 40+,D,2,Atul Gupta / Ankit Doshi,2,1,1,15,10,5,0,2,eliminated
+mumbai-city-open-5-01,Men's 40+,D,3,Priyesh Desai / Ryan Tham,2,0,2,8,16,-8,0,0,eliminated
+mumbai-city-open-5-01,Women's Beginner,A,1,Nikita Hingorani / Dheeya Somaiya,3,3,0,24,9,15,0,6,automatic_qualifier
+mumbai-city-open-5-01,Women's Beginner,A,2,Anam Sumar / Rasha Sumar,3,2,1,21,12,9,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Beginner,A,3,Janita Bhandari / Tara Alisha Berry,3,1,2,14,19,-5,0,2,eliminated
+mumbai-city-open-5-01,Women's Beginner,A,4,Gayathri Sanjeev / Sunaina Vasudev,3,0,3,5,24,-19,0,0,eliminated
+mumbai-city-open-5-01,Women's Beginner,B,1,Manvi Chaudhary / Kimberly Fernandez,3,3,0,24,13,11,0,6,automatic_qualifier
+mumbai-city-open-5-01,Women's Beginner,B,2,Gehna Datwani / Sanaya Sabharwal,3,2,1,18,13,5,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Beginner,B,3,Veda Bhambhani / Vedika Chamria,3,1,2,17,23,-6,0,2,eliminated
+mumbai-city-open-5-01,Women's Beginner,B,4,Pooja Bhammer / Ishita Dharnidharka,3,0,3,14,24,-10,0,0,eliminated
+mumbai-city-open-5-01,Women's Intermediate,A,1,Sanya Khan / Sonia Rathee,2,2,0,16,7,9,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Intermediate,A,2,Gabriella Demetriades / Amaya Kothari,2,1,1,13,10,3,0,2,eliminated
+mumbai-city-open-5-01,Women's Intermediate,A,3,Vanshika Kaji / Priyanka Kapadia,2,0,2,4,16,-12,0,0,eliminated
+mumbai-city-open-5-01,Women's Intermediate,B,1,Vera desai / Tanushri Biyani,2,2,0,16,6,10,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Intermediate,B,2,Leesha Shah / Diu Somani,2,1,1,13,13,0,0,2,eliminated
+mumbai-city-open-5-01,Women's Intermediate,B,3,Anandita Parekh / Trishina Kirpalani,2,0,2,6,16,-10,0,0,eliminated
+mumbai-city-open-5-01,Women's Intermediate,C,1,Roshni Dadachanji / Shahnaz Dubash,2,2,0,16,4,12,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Intermediate,C,2,Pooja Kharat / Diya Chopra,2,1,1,11,9,2,0,2,eliminated
+mumbai-city-open-5-01,Women's Intermediate,C,3,Ishna Byramjee / Aditi Dugar,2,0,2,2,16,-14,0,0,eliminated
+mumbai-city-open-5-01,Women's Intermediate,D,1,Erika Lobo / Anisha Aibara,2,2,0,16,8,8,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Intermediate,D,2,Sahitra Ghurye / Ashwita Hosbettu,2,1,1,12,13,-1,0,2,eliminated
+mumbai-city-open-5-01,Women's Intermediate,D,3,Aashna Sanghvi / Ashni Kothari,2,0,2,9,16,-7,0,0,eliminated
+mumbai-city-open-5-01,Women's Advance,A,1,Shraddha Damani / Tulsi Mehta,2,2,0,16,7,9,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Advance,A,2,Neha Mehta / Nikhila Palat,2,1,1,12,13,-1,0,2,automatic_qualifier
+mumbai-city-open-5-01,Women's Advance,A,3,Tishya Sagar / Suhani Sabharwal,2,0,2,8,16,-8,0,0,eliminated
+mumbai-city-open-5-01,Women's Advance,B,1,Estelle Mehta / Anisha Mirchandani,2,2,0,16,8,8,0,4,automatic_qualifier
+mumbai-city-open-5-01,Women's Advance,B,2,Kimaya Mehta / Pia Kothari,2,1,1,13,12,1,0,2,automatic_qualifier
+mumbai-city-open-5-01,Women's Advance,B,3,Sonashe Bhatnagar / Dhwani Kumar,2,0,2,7,16,-9,0,0,eliminated
