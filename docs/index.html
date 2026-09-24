@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPT, Analysed</title>
+<meta name="description" content="Ranking forecast and match predictions for the Indian Padel Tour, built from the tour's public data.">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --raised: #ffffff;
+  --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+  --neg: #e34948; --pos: #006300; --wash: #eef3fb; --chip: #f0efec;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --raised: #211f1e;
+    --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+    --neg: #e66767; --pos: #0ca30c; --wash: #17243a; --chip: #2a2927;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --raised: #211f1e;
+  --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+  --neg: #e66767; --pos: #0ca30c; --wash: #17243a; --chip: #2a2927;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--page); color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+header.hero { padding: 56px 0 28px; }
+.eyebrow { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+h1 { font-size: clamp(30px, 5vw, 46px); line-height: 1.08; margin: 0 0 14px; letter-spacing: -0.02em; max-width: 18ch; }
+.lede { font-size: 18px; color: var(--ink-2); max-width: 62ch; margin: 0 0 18px; }
+.meta { font-size: 13px; color: var(--muted); margin: 0 0 20px; }
+.btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 8px; font-size: 14px;
+  text-decoration: none; border: 1px solid var(--border); color: var(--ink); background: var(--raised); }
+.btn.primary { background: var(--s1); border-color: transparent; color: #fff; }
+.btn:hover { filter: brightness(0.96); }
+.tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 8px 0 8px; }
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.tile .v { font-size: 30px; font-weight: 650; letter-spacing: -0.02em; line-height: 1.1; }
+.tile .l { font-size: 13.5px; color: var(--ink-2); margin-top: 6px; }
+section { padding: 40px 0 8px; }
+h2 { font-size: 26px; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+h3 { font-size: 17px; margin: 26px 0 8px; }
+p { margin: 0 0 12px; max-width: 70ch; }
+.sub { color: var(--ink-2); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin: 14px 0; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 4px 0 14px; }
+.seg { display: inline-flex; background: var(--chip); border-radius: 9px; padding: 3px; gap: 2px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; color: var(--ink-2); padding: 6px 12px; border-radius: 7px;
+  font: inherit; font-size: 14px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--raised); color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--ink-2); margin: 0 0 8px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { fill: var(--ink-2); font-size: 12px; }
+.chart .lbl { fill: var(--ink); font-size: 12.5px; }
+.chart .tick { fill: var(--muted); font-size: 11px; }
+.tbl-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+th { font-weight: 600; font-size: 12.5px; color: var(--ink-2); white-space: nowrap; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.down { color: var(--neg); } .up { color: var(--pos); }
+.prob { display: flex; align-items: center; gap: 8px; min-width: 150px; }
+.prob .bar { flex: 1; height: 8px; border-radius: 4px; background: var(--chip); position: relative; overflow: hidden; }
+.prob .bar span { position: absolute; left: 0; top: 0; bottom: 0; background: var(--s1); border-radius: 4px 0 0 4px; }
+.prob b { font-weight: 600; font-variant-numeric: tabular-nums; min-width: 38px; text-align: right; }
+.tag { display: inline-block; font-size: 11.5px; padding: 1px 7px; border-radius: 999px; background: var(--chip); color: var(--ink-2); white-space: nowrap; }
+.tag.flag { background: var(--wash); color: var(--s1); }
+input[type=search], select { font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--raised); color: var(--ink); }
+input[type=search] { min-width: 220px; }
+.note { font-size: 13.5px; color: var(--ink-2); }
+ul.plain { padding-left: 18px; margin: 0 0 12px; } ul.plain li { margin: 0 0 6px; max-width: 70ch; }
+#tip { position: fixed; pointer-events: none; z-index: 10; background: var(--raised); color: var(--ink);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 13px; line-height: 1.45;
+  box-shadow: 0 6px 20px rgba(0,0,0,.14); max-width: 280px; opacity: 0; transition: opacity .08s; }
+#tip .t { font-weight: 600; margin-bottom: 2px; }
+#tip .r { display: flex; justify-content: space-between; gap: 14px; font-variant-numeric: tabular-nums; }
+#tip .r span:first-child { color: var(--ink-2); }
+footer { padding: 40px 0 60px; color: var(--muted); font-size: 13px; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 760px) {
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .two { grid-template-columns: 1fr; }
+  header.hero { padding-top: 36px; }
+  input[type=search] { min-width: 0; flex: 1; }
+}
+</style>
+</head>
+<body>
+<div id="tip" role="tooltip"></div>
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">Indian Padel Tour, independent analysis</p>
+    <h1>What the IPT rankings don't show you</h1>
+    <p class="lede">A forecast of how the rankings will shrink as points expire, a model that predicts match winners, and live odds for City Open Chandigarh 2.0. Built from the tour's public data.</p>
+    <p class="meta" id="meta"></p>
+    <div class="btns">
+      <a class="btn primary" href="IPT_Analysis_Report.docx" download>Download the full report (.docx)</a>
+      <a class="btn" id="repo" href="#" hidden>Code and data on GitHub</a>
+    </div>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section id="rankings">
+    <h2>Rankings are about to shrink</h2>
+    <p class="sub">Every result counting today was earned on or after <span data-f="window"></span>. The chart shows how many points each top player keeps if they earn nothing new, under the two rules the site could be using: points expiring 12 months after they are won (what the site's label says), or the whole 2025-26 season dropping out on 1 July 2027 (what the data behaves like).</p>
+    <div class="controls"><div class="seg" id="cat-seg" role="group" aria-label="Category"></div></div>
+    <div class="card">
+      <div class="legend">
+        <span><i style="background:var(--s1)"></i>Today</span>
+        <span><i style="background:var(--s4)"></i>31 Dec 2026, if points expire after 12 months</span>
+        <span><i style="background:var(--s2)"></i>1 Jul 2027, if the season window resets</span>
+      </div>
+      <div class="chart" id="dumbbell"></div>
+    </div>
+    <div class="card tbl-wrap"><table id="rank-tbl"></table></div>
+    <p class="note">"Needed to hold" is the least a player must earn by 1 July 2027 to keep today's rank, assuming nobody else scores. Real targets are higher.</p>
+
+    <h3>The new season pays less</h3>
+    <p class="sub">The 2026-27 season uses a lower points scale, so players cannot hold their totals even by repeating every 2025-26 result. Advance division:</p>
+    <div class="card tbl-wrap"><table id="scale-tbl"></table></div>
+  </section>
+
+  <section id="model">
+    <h2>How predictable are matches?</h2>
+    <p class="sub">Most IPT matches are a race to 8 games, so every game is a small contest. The model rates each player from their ranking points before the event plus what their past games show, then turns the difference between two teams into a win probability. It was tested only on tournaments it had never seen: trained on Mumbai 5.0 to predict Goa GS 11.0, then on both to predict Kochi 2.0.</p>
+    <div class="two">
+      <div class="card"><h3 style="margin-top:0">Winners picked correctly</h3><div class="chart" id="acc"></div>
+        <p class="note">Goa and Kochi pooled, <span data-f="pooledN"></span> matches.</p></div>
+      <div class="card"><h3 style="margin-top:0">Is the confidence right?</h3><div class="chart" id="cal"></div>
+        <p class="note">Each dot groups matches by how likely the model said the favourite was to win. On the dashed line, confidence matches reality.</p></div>
+    </div>
+  </section>
+
+  <section id="chandigarh">
+    <h2>City Open Chandigarh 2.0 forecast</h2>
+    <p class="sub">Each division was simulated <span data-f="nsims"></span> times using the site's own rules: 2 points per group win plus a bonus point for an 8-0 win, ties broken on game difference, and the knockout slots exactly as the draw lists them. Forecast frozen at <span data-f="frozen"></span>, after day 1. It will be scored against the results after the final.</p>
+    <div id="scorecard"></div>
+    <div class="controls"><div class="seg" id="div-seg" role="group" aria-label="Division"></div></div>
+    <div class="card"><div class="chart" id="odds"></div></div>
+    <div class="card tbl-wrap"><table id="odds-tbl"></table></div>
+
+    <h3>Every match</h3>
+    <div class="controls">
+      <select id="m-div" aria-label="Division"></select>
+      <input type="search" id="m-q" placeholder="Search a player or team" aria-label="Search">
+      <label class="note"><input type="checkbox" id="m-flag"> Only where the model disagrees with ranking points</label>
+    </div>
+    <div class="card tbl-wrap"><table id="m-tbl"></table></div>
+    <p class="note">Win chance is for the first team listed. 50% means the model has no information on any of the four players. Matches marked "played" were finished before the forecast was frozen and are not scored.</p>
+  </section>
+
+  <section id="method">
+    <h2>How this was made</h2>
+    <ul class="plain">
+      <li>All data comes from indianpadeltour.in and its public API, collected one page at a time with a 1.5 second pause. Match-level results exist for three finished tournaments; ranking results go back to December 2024.</li>
+      <li>The points shown next to each team in a draw are players' <em>current</em> points, so they already include the result. Every prediction here uses points rebuilt from dated ranking results instead.</li>
+      <li>The expiry rule is not published. Both plausible rules are shown rather than guessing between them.</li>
+      <li>Most players have played a single event, so for them the model relies on ranking points alone. Walkovers and retirements are excluded.</li>
+    </ul>
+    <p>The full write-up, with every table and the code for each analysis, is in the report.</p>
+  </section>
+  <footer>Data from indianpadeltour.in. Independent analysis, not affiliated with the Indian Padel Tour.</footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = (x, d = 0) => (x * 100).toFixed(d) + "%";
+const fmt = n => Number(n).toLocaleString("en-IN");
+// date-only strings ("2026-09-24") are calendar dates: format them in UTC so no timezone shifts the day
+const day = (s, o = { day: "numeric", month: "long", year: "numeric" }) => new Date(s + "T00:00:00Z").toLocaleDateString("en-GB", { ...o, timeZone: "UTC" });
+const NS = "http://www.w3.org/2000/svg";
+const tip = $("#tip");
+function showTip(e, html) {
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = e.clientX + pad, y = e.clientY + pad;
+  if (x + w > innerWidth - 8) x = e.clientX - w - pad;
+  if (y + h > innerHeight - 8) y = e.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => { tip.style.opacity = 0; };
+// tooltips follow mouse and pen, and open on tap for touch screens
+function tipOn(node, fn) {
+  ["pointermove", "mousemove", "click"].forEach(t => node.addEventListener(t, fn));
+  ["pointerleave", "mouseleave"].forEach(t => node.addEventListener(t, hideTip));
+}
+addEventListener("scroll", hideTip, { passive: true });
+const row = (k, v) => `<div class="r"><span>${esc(k)}</span><span>${esc(v)}</span></div>`;
+function el(tag, attrs = {}, parent) {
+  const n = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (parent) parent.appendChild(n);
+  return n;
+}
+function niceMax(v) { const p = Math.pow(10, Math.floor(Math.log10(v || 1))); return Math.ceil(v / p) * p; }
+function segmented(host, items, onPick) {
+  host.innerHTML = "";
+  items.forEach((it, i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = it; b.setAttribute("aria-pressed", i === 0);
+    b.onclick = () => { host.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b)); onPick(it); };
+    host.appendChild(b);
+  });
+}
+
+let D;
+fetch("data.json").then(r => r.json()).then(d => { D = d; init(); });
+
+function init() {
+  const frozen = new Date(D.frozen_at);
+  const frozenTxt = frozen.toLocaleString("en-GB", { timeZone: "Asia/Kolkata", day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }) + " IST";
+  $("#meta").textContent = `Data as of ${day(D.as_of)}.`;
+  document.querySelectorAll('[data-f="window"]').forEach(n => n.textContent = day(D.ranking.window_start));
+  document.querySelectorAll('[data-f="frozen"]').forEach(n => n.textContent = frozenTxt);
+  document.querySelectorAll('[data-f="nsims"]').forEach(n => n.textContent = fmt(D.chandigarh.n_sims));
+  document.querySelectorAll('[data-f="pooledN"]').forEach(n => n.textContent = D.model.pooled["coin flip"].matches);
+  // on GitHub Pages (<user>.github.io/<repo>/) link back to the repository automatically
+  const gh = location.hostname.match(/^([^.]+)\.github\.io$/);
+  const repoUrl = D.repo_url || (gh && location.pathname.split("/")[1] ? `https://github.com/${gh[1]}/${location.pathname.split("/")[1]}` : null);
+  if (repoUrl) { const a = $("#repo"); a.href = repoUrl; a.hidden = false; }
+
+  // tiles
+  const sc = D.ranking.scale.find(s => s.event_type === "city_open" && s.round === "winner");
+  const adv = D.chandigarh.odds.filter(o => o.division === "Men's Advance").sort((a, b) => b.p_title - a.p_title)[0];
+  $("#tiles").innerHTML = [
+    [pct(D.model.pooled["points + results"].accuracy), "of winners picked on tournaments the model had never seen (coin flip: 50%)"],
+    [`${fmt(sc.old)} → ${fmt(sc.new)}`, "points for a City Open title, 2025-26 vs 2026-27"],
+    [fmt(D.ranking.overdue_if_rolling.points), "points that would already have expired if the \"rolling 12 months\" label were applied"],
+    [pct(adv.p_title), `chance ${adv.team} win Men's Advance at Chandigarh`],
+  ].map(([v, l]) => `<div class="tile"><div class="v">${esc(v)}</div><div class="l">${esc(l)}</div></div>`).join("");
+
+  const cats = Object.keys(D.ranking.forecast);
+  segmented($("#cat-seg"), cats, c => drawRanking(c));
+  drawRanking(cats[0]);
+  drawScale();
+  drawModel();
+  const divs = [...new Set(D.chandigarh.odds.map(o => o.division))];
+  segmented($("#div-seg"), divs, d => drawOdds(d));
+  drawOdds(divs[0]);
+  setupMatches();
+  drawScorecard();
+  let t; addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => {
+    drawRanking(document.querySelector("#cat-seg [aria-pressed=true]").textContent);
+    drawOdds(document.querySelector("#div-seg [aria-pressed=true]").textContent); drawModel(); }, 120); });
+}
+
+// ---------- ranking dumbbell
+function drawRanking(cat) {
+  const rows = D.ranking.forecast[cat].slice(0, 15);
+  const host = $("#dumbbell"); host.innerHTML = "";
+  const W = host.clientWidth || 800, narrow = W < 560;
+  const L = narrow ? 128 : 190, R = 16, T = 8, rowH = 30, H = T + rows.length * rowH + 28;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": `${cat} points today and projected` }, host);
+  const max = niceMax(Math.max(...rows.map(r => r.pts)));
+  const x = v => L + (v / max) * (W - L - R);
+  for (let i = 0; i <= 4; i++) {
+    const v = max * i / 4, xx = x(v);
+    el("line", { x1: xx, x2: xx, y1: T, y2: H - 24, stroke: "var(--grid)" }, svg);
+    const t = el("text", { x: xx, y: H - 8, "text-anchor": "middle", class: "tick" }, svg); t.textContent = fmt(v);
+  }
+  rows.forEach((r, i) => {
+    const y = T + i * rowH + rowH / 2;
+    const g = el("g", {}, svg);
+    el("rect", { x: 0, y: y - rowH / 2, width: W, height: rowH, fill: "transparent" }, g);
+    const lab = el("text", { x: L - 10, y: y + 4, "text-anchor": "end", class: "lbl" }, g);
+    const nm = narrow && r.name.length > 16 ? r.name.slice(0, 15) + "…" : r.name;
+    lab.textContent = `#${r.rank} ${nm}`;
+    el("line", { x1: x(r.pts_jul), x2: x(r.pts), y1: y, y2: y, stroke: "var(--axis)", "stroke-width": 2, "stroke-linecap": "round" }, g);
+    el("circle", { cx: x(r.pts), cy: y, r: 7, fill: "var(--s1)", stroke: "var(--surface)", "stroke-width": 2 }, g);
+    el("circle", { cx: x(r.pts_dec), cy: y, r: 4.5, fill: "var(--s4)", stroke: "var(--surface)", "stroke-width": 1.5 }, g);
+    el("circle", { cx: x(r.pts_jul), cy: y, r: 4.5, fill: "var(--s2)", stroke: "var(--surface)", "stroke-width": 1.5 }, g);
+    tipOn(g, e => showTip(e, `<div class="t">${esc(r.name)}</div>` +
+      row("Today", `${fmt(r.pts)} (#${r.rank})`) + row("31 Dec 2026, 12-month rule", `${fmt(r.pts_dec)} (#${r.rank_dec})`) +
+      row("1 Jul 2027, season reset", `${fmt(r.pts_jul)} (#${r.rank_jul})`)));
+  });
+  const all = D.ranking.forecast[cat].slice(0, 20);
+  const mv = (a, b) => { const d = a - b; return d === 0 ? "" : d > 0 ? ` <span class="up">▲${d}</span>` : ` <span class="down">▼${-d}</span>`; };
+  $("#rank-tbl").innerHTML = `<thead><tr><th class="n">Rank</th><th>Player</th><th class="n">Points today</th><th class="n">31 Dec 2026 (12-month rule)</th><th class="n">1 Jul 2027 (season reset)</th><th class="n">Needed to hold</th></tr></thead><tbody>` +
+    all.map(r => `<tr><td class="n">${r.rank}</td><td>${esc(r.name)}</td><td class="n">${fmt(r.pts)}</td>
+      <td class="n">${fmt(r.pts_dec)} · #${r.rank_dec}${mv(r.rank, r.rank_dec)}</td>
+      <td class="n">${fmt(r.pts_jul)} · #${r.rank_jul}${mv(r.rank, r.rank_jul)}</td>
+      <td class="n">${r.need_jul == null ? "" : r.need_jul > 0 ? fmt(r.need_jul) : "already safe"}</td></tr>`).join("") + "</tbody>";
+}
+
+function drawScale() {
+  const name = { winner: "Winner", finalist: "Finalist", semi_finalist: "Semi-final", quarter_finalist: "Quarter-final" };
+  const tier = { city_open: "City Open", grand_slam: "Grand Slam" };
+  $("#scale-tbl").innerHTML = `<thead><tr><th>Tier</th><th>Finish</th><th class="n">2025-26</th><th class="n">2026-27</th><th class="n">Change</th></tr></thead><tbody>` +
+    D.ranking.scale.map(s => `<tr><td>${tier[s.event_type]}</td><td>${name[s.round]}</td><td class="n">${fmt(s.old)}</td><td class="n">${fmt(s.new)}</td>
+      <td class="n ${s.chg < -0.5 ? "down" : ""}">${Math.round(s.chg) === 0 ? "no change" : Math.round(s.chg) + "%"}</td></tr>`).join("") + "</tbody>";
+}
+
+// ---------- model charts
+function drawModel() {
+  const models = ["coin flip", "points only", "results only", "points + results"];
+  const host = $("#acc"); host.innerHTML = "";
+  const W = host.clientWidth || 440, L = 120, R = 44, rowH = 34, H = models.length * rowH + 24;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Share of winners picked by model" }, host);
+  const x = v => L + v * (W - L - R);
+  [0, .25, .5, .75, 1].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: 0, y2: H - 22, stroke: "var(--grid)" }, svg);
+    const t = el("text", { x: x(v), y: H - 6, "text-anchor": "middle", class: "tick" }, svg); t.textContent = pct(v); });
+  models.forEach((m, i) => {
+    const s = D.model.pooled[m], y = i * rowH + 6, bw = x(s.accuracy) - L;
+    const g = el("g", {}, svg);
+    const lab = el("text", { x: L - 10, y: y + 15, "text-anchor": "end", class: "lbl" }, g); lab.textContent = m;
+    el("path", { d: `M${L},${y} h${bw - 4} q4,0 4,4 v12 q0,4 -4,4 h${-(bw - 4)} z`, fill: m === "points + results" ? "var(--s1)" : "var(--axis)" }, g);
+    const v = el("text", { x: L + bw + 6, y: y + 15 }, g); v.textContent = pct(s.accuracy);
+    tipOn(g, e => showTip(e, `<div class="t">${esc(m)}</div>` + row("Winners picked", pct(s.accuracy, 1)) +
+      row("Log loss (lower is better)", s.log_loss.toFixed(3)) + row("Brier score", s.brier.toFixed(3)) + row("Matches", s.matches)));
+  });
+
+  const ch = $("#cal"); ch.innerHTML = "";
+  const CW = ch.clientWidth || 440, CH = Math.min(300, CW * 0.72), l = 44, r = 12, t = 10, b = 34;
+  const s2 = el("svg", { viewBox: `0 0 ${CW} ${CH}`, role: "img", "aria-label": "Calibration of the model" }, ch);
+  const cx = v => l + (v - .5) / .5 * (CW - l - r), cy = v => t + (1 - (v - .3) / .7) * (CH - t - b);
+  [.5, .6, .7, .8, .9, 1].forEach(v => { el("line", { x1: cx(v), x2: cx(v), y1: t, y2: CH - b, stroke: "var(--grid)" }, s2);
+    const tx = el("text", { x: cx(v), y: CH - b + 16, "text-anchor": "middle", class: "tick" }, s2); tx.textContent = pct(v); });
+  [.4, .6, .8, 1].forEach(v => { el("line", { x1: l, x2: CW - r, y1: cy(v), y2: cy(v), stroke: "var(--grid)" }, s2);
+    const ty = el("text", { x: l - 6, y: cy(v) + 4, "text-anchor": "end", class: "tick" }, s2); ty.textContent = pct(v); });
+  el("line", { x1: cx(.5), y1: cy(.5), x2: cx(1), y2: cy(1), stroke: "var(--axis)", "stroke-dasharray": "4 3" }, s2);
+  const pts = D.model.calibration;
+  el("polyline", { points: pts.map(p => `${cx(p.predicted)},${cy(p.actual)}`).join(" "), fill: "none", stroke: "var(--s1)", "stroke-width": 2 }, s2);
+  pts.forEach(p => {
+    const c = el("circle", { cx: cx(p.predicted), cy: cy(p.actual), r: 5 + Math.sqrt(p.matches) / 2, fill: "var(--s1)", stroke: "var(--surface)", "stroke-width": 2 }, s2);
+    tipOn(c, e => showTip(e, `<div class="t">Favourite given ${pct(p.predicted)}</div>` +
+      row("Favourite actually won", pct(p.actual)) + row("Matches", p.matches)));
+  });
+  const xl = el("text", { x: (l + CW - r) / 2, y: CH - 4, "text-anchor": "middle", class: "tick" }, s2); xl.textContent = "Model's chance for the favourite";
+}
+
+// ---------- Chandigarh odds
+function drawOdds(div) {
+  const all = D.chandigarh.odds.filter(o => o.division === div).sort((a, b) => b.p_title - a.p_title);
+  const rows = all.slice(0, 10);
+  const host = $("#odds"); host.innerHTML = "";
+  const W = host.clientWidth || 800, narrow = W < 560, L = narrow ? 150 : 270, R = 48, rowH = 28, H = rows.length * rowH + 26;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": `${div} title chances` }, host);
+  const max = Math.max(.1, Math.min(1, niceMax(rows[0].p_title * 100) / 100));
+  const x = v => L + v / max * (W - L - R);
+  for (let i = 0; i <= 4; i++) { const v = max * i / 4;
+    el("line", { x1: x(v), x2: x(v), y1: 0, y2: H - 22, stroke: "var(--grid)" }, svg);
+    const t = el("text", { x: x(v), y: H - 6, "text-anchor": "middle", class: "tick" }, svg); t.textContent = pct(v); }
+  rows.forEach((o, i) => {
+    const y = i * rowH + 5, bw = Math.max(2, x(o.p_title) - L);
+    const g = el("g", {}, svg);
+    el("rect", { x: 0, y: y - 3, width: W, height: rowH, fill: "transparent" }, g);
+    const lab = el("text", { x: L - 10, y: y + 13, "text-anchor": "end", class: "lbl" }, g);
+    lab.textContent = narrow && o.team.length > 22 ? o.team.slice(0, 21) + "…" : o.team;
+    el("path", { d: bw > 4 ? `M${L},${y} h${bw - 4} q4,0 4,4 v10 q0,4 -4,4 h${-(bw - 4)} z` : `M${L},${y} h${bw} v18 h${-bw} z`, fill: "var(--s1)" }, g);
+    const v = el("text", { x: L + bw + 6, y: y + 13 }, g); v.textContent = pct(o.p_title, o.p_title < .01 && o.p_title > 0 ? 1 : 0);
+    tipOn(g, e => showTip(e, `<div class="t">${esc(o.team)}</div>` +
+      row("Group", o.group ? o.group.replace(/^GROUP\s*/i, "") : "") + row("Ranking points", fmt(o.team_points)) +
+      row("Top 2 in group", pct(o.p_top2_in_group)) + (o.reached_SF >= 0 ? row("Reach semi-final", pct(o.reached_SF)) : "") +
+      (o.reached_final >= 0 ? row("Reach final", pct(o.reached_final)) : "") + row("Win title", pct(o.p_title, 1))));
+  });
+  const has = k => all.some(o => o[k] >= 0);
+  const cols = [["Team", o => esc(o.team)], ["Group", o => esc((o.group || "").replace(/^GROUP\s*/i, ""))],
+    ["Points", o => fmt(o.team_points), 1], ["Top 2 in group", o => pct(o.p_top2_in_group), 1]];
+  if (has("reached_R16")) cols.push(["Last 16", o => pct(o.reached_R16), 1]);
+  if (has("reached_QF")) cols.push(["Quarter-final", o => pct(o.reached_QF), 1]);
+  cols.push(["Semi-final", o => pct(o.reached_SF), 1], ["Final", o => pct(o.reached_final), 1], ["Title", o => pct(o.p_title, 1), 1]);
+  $("#odds-tbl").innerHTML = `<thead><tr>${cols.map(c => `<th class="${c[2] ? "n" : ""}">${c[0]}</th>`).join("")}</tr></thead><tbody>` +
+    all.map(o => `<tr>${cols.map(c => `<td class="${c[2] ? "n" : ""}">${c[1](o)}</td>`).join("")}</tr>`).join("") + "</tbody>";
+}
+
+function setupMatches() {
+  const sel = $("#m-div");
+  const divs = [...new Set(D.chandigarh.matches.map(m => m.division))];
+  sel.innerHTML = `<option value="">All divisions</option>` + divs.map(d => `<option>${esc(d)}</option>`).join("");
+  [sel, $("#m-q"), $("#m-flag")].forEach(n => n.addEventListener("input", drawMatches));
+  drawMatches();
+}
+function drawMatches() {
+  const d = $("#m-div").value, q = $("#m-q").value.trim().toLowerCase(), f = $("#m-flag").checked;
+  const ms = D.chandigarh.matches.filter(m => (!d || m.division === d) && (!q || (m.team1 + " " + m.team2).toLowerCase().includes(q)) && (!f || m.model_disagrees_with_points));
+  const when = m => m.date ? day(m.date, { day: "numeric", month: "short" }) + (m.time ? ", " + m.time : "") : "";
+  $("#m-tbl").innerHTML = `<thead><tr><th>When</th><th>Division</th><th>Round</th><th>Team 1</th><th>Team 1 win chance</th><th>Team 2</th><th></th></tr></thead><tbody>` +
+    (ms.length ? ms.map(m => {
+      const status = m.status_at_freeze === "completed"
+        ? `<span class="tag">played: ${m.winner_at_freeze === 1 ? "team 1" : "team 2"} won${(m.p_team1 > .5) === (m.winner_at_freeze === 1) || m.p_team1 === .5 ? "" : ", upset"}</span>`
+        : m.model_disagrees_with_points ? `<span class="tag flag">model differs from points</span>` : "";
+      return `<tr><td style="white-space:nowrap">${esc(when(m))}</td><td>${esc(m.division)}</td><td>${esc(m.round)}</td>
+        <td>${esc(m.team1)} <span class="note">(${fmt(m.team1_points)})</span></td>
+        <td><div class="prob"><div class="bar"><span style="width:${(m.p_team1 * 100).toFixed(1)}%"></span></div><b>${pct(m.p_team1)}</b></div></td>
+        <td>${esc(m.team2)} <span class="note">(${fmt(m.team2_points)})</span></td><td>${status}</td></tr>`; }).join("")
+      : `<tr><td colspan="7" class="note">No matches match these filters.</td></tr>`) + "</tbody>";
+}
+
+function drawScorecard() {
+  const s = D.scorecard;
+  if (!s || !s.scored_matches) return;
+  $("#scorecard").innerHTML = `<div class="card"><h3 style="margin-top:0">Scorecard</h3>
+    <p>${s.scored_matches} of ${s.of_predicted} predicted matches scored: <b>${pct(s.model.accuracy)}</b> of winners picked
+    (higher-points-wins rule: ${pct(s.higher_points_wins_accuracy)}). Log loss ${s.model.log_loss.toFixed(3)} against 0.693 for a coin flip.</p>
+    ${(s.champions || []).map(c => `<p class="note">${esc(c.division)}: ${esc(c.champion)} won; the model gave them ${c.our_title_chance == null ? "n/a" : pct(c.our_title_chance)}.</p>`).join("")}</div>`;
+}
+</script>
+</body>
+</html>
