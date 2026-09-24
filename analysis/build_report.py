@@ -171,7 +171,7 @@ def main():
               f"{ist(s3['frozen_at'])}, after day 1.", size=9.5, color=MUTED, space_after=14)
 
     # ---- 1. summary
-    doc.add_heading("1. Summary", level=1)
+    doc.add_heading("1. The short version", level=1)
     men = top[top["category"] == "Men's"]
     lead_m = men.iloc[0]
     fav = odds.sort_values("p_title", ascending=False).groupby("division").head(1).set_index("division")
@@ -183,29 +183,42 @@ def main():
     co_w = scale_all.loc[("city_open", "advance", "winner")]
     co_qf = scale_all.loc[("city_open", "advance", "quarter_finalist")]
     bullets(doc, [
-        ("Ranking points are about to shrink sharply. ",
-         f"Everything counting today dates from 1 Jul 2025 or later. If the window resets on 1 Jul 2027, "
-         f"{lead_m['name']} keeps {lead_m['points | 1 Jul 2027 (season reset)']:,} of {lead_m['points | today']:,} points "
-         f"without new results; the men's top 5 keep between {pct(kept5.min())} and {pct(kept5.max())} of today's total."),
-        ("The 2026-27 season pays fewer points. ",
-         f"A City Open win fell from {co_w['2025-26 and earlier']:.0f} to {co_w['2026-27']:.0f} points and a "
-         f"quarter-final from {co_qf['2025-26 and earlier']:.0f} to {co_qf['2026-27']:.0f}. Top players cannot hold "
-         "their totals even by repeating every 2025-26 result."),
-        ("The site does not apply its own \"rolling 12 months\" label. ",
-         f"Under a strict 12-month rule, {s1['overdue_if_rolling']['points']:,} points from "
-         f"{' and '.join(e.title() for e in s1['overdue_if_rolling']['events'])} would already have expired. "
-         f"Both rules are modelled."),
-        ("Matches are fairly predictable from ranking points plus past games. ",
-         f"On two tournaments the model had never seen, it picked the winner {pct(pooled['points + results']['accuracy'])} "
-         f"of the time, against 50% for a coin flip and {pct(pooled['points only']['accuracy'])} for points alone, "
-         f"and its stated confidence matched how often favourites actually won."),
+        ("Most ranking points have an expiry date. ",
+         f"If last season's points all drop off on 1 July 2027, No. 1 {lead_m['name']} keeps just "
+         f"{lead_m['points | 1 Jul 2027 (season reset)']:,} of his {lead_m['points | today']:,} points unless he wins more. "
+         f"The men's top 5 keep between {pct(kept5.min())} and {pct(kept5.max())} of what they have today."),
+        ("This season pays less. ",
+         f"Winning a City Open now earns {co_w['2026-27']:.0f} points, down from {co_w['2025-26 and earlier']:.0f}; "
+         f"a quarter-final earns {co_qf['2026-27']:.0f}, down from {co_qf['2025-26 and earlier']:.0f}. Repeating last "
+         "season's results is no longer enough to keep the same total."),
+        ("The site's \"12 months\" label isn't what happens. ",
+         f"If points really expired after 12 months, {s1['overdue_if_rolling']['points']:,} points would already be gone. "
+         "They still count, so this report shows both possible rules."),
+        ("Matches are fairly predictable. ",
+         f"Our model called about {round(pooled['points + results']['accuracy'] * 10)} in 10 matches correctly on "
+         f"tournaments it had never seen ({pct(pooled['points + results']['accuracy'])}). Tossing a coin gets 5 in 10, "
+         f"and simply backing the higher-ranked pair gets {pct(pooled['points only']['accuracy'])}. The model's extra value "
+         "is that its percentages can be trusted."),
         ("Chandigarh 2.0 favourites: ",
-         f"{adv['team']} in Men's Advance ({pct(adv['p_title'])} to win the title). The full odds for five divisions "
-         f"are in section 5 and on the website."),
+         f"{adv['team'].replace(' / ', ' & ')} in Men's Advance, with a {pct(adv['p_title'])} chance of winning the title "
+         "(a bit better than a coin flip). Odds for five divisions are in section 5 and on the website."),
     ])
+    doc.add_heading("How IPT rankings work, in 30 seconds", level=3)
+    gs_w = scale_all.loc[("grand_slam", "advance", "winner")]
+    bullets(doc, [
+        "At every tournament, players earn ranking points depending on how far they get. Winning earns the most.",
+        f"Bigger events pay more: in the top division, winning a Grand Slam is worth {gs_w['2026-27']:.0f} points and "
+        f"winning a City Open {co_w['2026-27']:.0f}.",
+        "Points don't last forever. After a while they drop off, and a player's ranking falls unless they win new ones.",
+        "A player's ranking is simply the total of the points they still have.",
+    ])
+    doc.add_heading("How to read the percentages", level=3)
+    para(doc, "A 57% chance means that if the same match were played 100 times, that pair would win about 57. "
+              "Favourites still lose often. Words like \"about 3 in 5\" are used alongside percentages throughout. "
+              "Technical terms are explained in the glossary at the end.")
 
     # ---- 2. data
-    doc.add_heading("2. Data and three things to know", level=1)
+    doc.add_heading("2. Where the numbers come from", level=1)
     para(doc, "All data comes from indianpadeltour.in and its public API, scraped politely (one request at a time) "
               "with ipt_scraper.py. Match-level data exists for only three tournaments (Mumbai City Open 5.0, Goa "
               "Grand Slam 11.0 and Kochi City Open 2.0) plus the live Chandigarh draw. Ranking results exist for "
@@ -223,7 +236,7 @@ def main():
     ])
 
     # ---- 3. forecast
-    doc.add_heading("3. Analysis 1: ranking forecast", level=1)
+    doc.add_heading("3. Whose points are about to disappear?", level=1)
     para(doc, "The site shows each player's current total and one \"defending points\" figure. It does not show "
               "when points fall away. This analysis projects every player's total forward, assuming no new points "
               "are earned, so it measures how much each player has to defend and by when. It is an exposure view, "
@@ -268,7 +281,7 @@ def main():
               "earned anything. Real targets are higher, since rivals will score too, so read this as a floor.")
     h = hold[(hold["checkpoint"] == "1 Jul 2027 (season reset)")]
     for cat in CATEGORIES:
-        hh = h[h["category"] == cat].sort_values("rank_today")
+        hh = h[(h["category"] == cat) & (h["rank_today"] <= 10)].sort_values("rank_today")
         doc.add_heading(cat, level=3)
         add_table(doc, pd.DataFrame({
             "Rank": hh["rank_today"], "Player": hh["name"], "Points today": hh["points_today"].astype(int).map("{:,}".format),
@@ -277,7 +290,7 @@ def main():
         }), [1.2, 5.0, 2.4, 2.4, 2.2, 2.4], {"Rank", "Points today", "Left at reset", "Rank at reset", "Needed to hold"})
 
     # ---- 4. model
-    doc.add_heading("4. Analysis 2: how predictable are matches?", level=1)
+    doc.add_heading("4. Can we predict who wins a match?", level=1)
     para(doc, "Most IPT matches are a race to 8 games, so every game is a small contest. The model gives each "
               "player a strength made of two parts: their ranking points before the event, and an adjustment "
               "learned from the games they have won and lost. The adjustment is held close to zero unless a "
@@ -290,14 +303,16 @@ def main():
               "is a clean test.")
     b = back[back["split"].str.startswith(("A", "B"))].copy()
     b["Test"] = b["split"].str.replace(r"^[AB]: test ", "", regex=True)
-    add_table(doc, pd.DataFrame({"Test tournament": b["Test"], "Model": b["model"], "Matches": b["matches"],
-                                 "Correct": b["accuracy"].map(lambda x: pct(x, 1)),
+    plain = {"coin flip": "Toss a coin", "points only": "Back the higher-ranked pair",
+             "results only": "Past games only", "points + results": "Our model"}
+    add_table(doc, pd.DataFrame({"Test tournament": b["Test"], "Method": b["model"].map(plain), "Matches": b["matches"],
+                                 "Called correctly": b["accuracy"].map(lambda x: pct(x, 1)),
                                  "Log loss": b["log_loss"].map("{:.3f}".format),
                                  "Brier": b["brier"].map("{:.3f}".format)}),
               [3.6, 3.6, 1.8, 2.0, 2.0, 2.0], {"Matches", "Correct", "Log loss", "Brier"})
-    para(doc, "Log loss and Brier score measure how good the probabilities are (lower is better); \"correct\" "
-              "only counts whether the favourite won. Ranking points carry most of the signal; learning from past "
-              "games adds a smaller, consistent improvement.", size=9.5, color=MUTED)
+    para(doc, "\"Called correctly\" counts how often the favourite won. Log loss and Brier score (see the glossary) "
+              "also reward honest percentages; lower is better. Ranking points carry most of the signal; learning "
+              "from past games adds a smaller, consistent improvement.", size=9.5, color=MUTED)
     figure(doc, A2 / "chart_backtest_logloss.png", "Figure: prediction error by model on the two unseen "
                                                    "tournaments. Source: outputs/a2_match_model/.", 15.5)
     figure(doc, A2 / "chart_calibration.png", "Figure: calibration. When the model gave the favourite about 75%, "
@@ -311,7 +326,7 @@ def main():
                   f"no past games, so the model has little to go on.")
 
     # ---- 5. Chandigarh
-    doc.add_heading("5. Analysis 3: City Open Chandigarh 2.0 forecast", level=1)
+    doc.add_heading("5. Who will win City Open Chandigarh 2.0?", level=1)
     para(doc, f"The model was refitted on all {s2['matches_used'] and sum(s2['matches_used'].values())} matches played "
               f"so far and the tournament was simulated {s3['n_sims']:,} times using the site's own rules, which "
               "were reverse-engineered from earlier events: 2 points per group win plus 1 bonus point for an 8-0 "
@@ -373,6 +388,25 @@ def main():
         f"{n_wo} walkovers and retirements at the finished tournaments were excluded from fitting and scoring.",
         "The Women's Intermediate and Advance combined format is not simulated.",
     ])
+
+    # ---- glossary
+    doc.add_heading("Glossary", level=1)
+    gloss = pd.DataFrame([
+        ("Ranking points", "Points earned for how far a player gets at a tournament. A player's ranking is the total that still counts."),
+        ("Grand Slam, City Open", "The two tournament tiers. Grand Slams pay more points than City Opens."),
+        ("Division", "The level a pair plays at: Beginner, Intermediate, Advance (top) or 40+. Each division has its own draw and points."),
+        ("Expiry, window", "Points only count for a limited time. The window is the period whose points still count."),
+        ("Race to 8", "The usual match format: the first pair to win 8 games wins the match."),
+        ("Model", "A set of rules, learned from past results, that turns ranking points and past games into a chance of winning."),
+        ("Tested on unseen tournaments", "The model was scored only on tournaments it had not learned from, so the test is fair."),
+        ("Honest percentages (calibration)", "When the model says 70%, the favourite should win about 70 times in 100. The model passes this check."),
+        ("Log loss", "A score for the quality of predicted percentages. It punishes confident wrong calls hard. Lower is better; a coin flip scores 0.693."),
+        ("Brier score", "Another score for percentages: the average squared gap between the prediction and what happened. Lower is better; a coin flip scores 0.250."),
+        ("Simulation", "Playing out the rest of a tournament many times on a computer, using the model's chances for each match, and counting how often each team wins."),
+        ("Toss-up, favourite", "Toss-up: no clear favourite (below 55%). Slight favourite 55-65%, favourite 65-80%, strong favourite above 80%."),
+        ("Walkover", "A match won without being played. Left out of the model."),
+    ], columns=["Term", "Meaning"])
+    add_table(doc, gloss, [4.4, 12.2], font=9)
 
     # ---- appendix
     doc.add_heading("Appendix: code and files", level=1)

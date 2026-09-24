@@ -30,13 +30,14 @@ def main():
     s1, s2, s3, s4 = js(A1 / "summary.json"), js(A2 / "summary.json"), js(A3 / "summary.json"), js(A4 / "summary.json")
     top = pd.read_csv(A1 / "top20_projection.csv")
     hold = pd.read_csv(A1 / "hold_rank.csv")
-    h = hold[hold["checkpoint"] == "1 Jul 2027 (season reset)"][["category", "name", "points_needed_to_hold_rank"]]
-    top = top.merge(h, on=["category", "name"], how="left")
+    for cp, col in (("1 Jul 2027 (season reset)", "need_jul"), ("31 Dec 2026", "need_dec")):
+        h = hold[hold["checkpoint"] == cp][["category", "name", "points_needed_to_hold_rank"]]
+        top = top.merge(h.rename(columns={"points_needed_to_hold_rank": col}), on=["category", "name"], how="left")
     forecast = {cat: records(top[top["category"] == cat].rename(columns={
         "rank | today": "rank", "points | today": "pts",
         "rank | 31 Dec 2026": "rank_dec", "points | 31 Dec 2026": "pts_dec",
-        "rank | 1 Jul 2027 (season reset)": "rank_jul", "points | 1 Jul 2027 (season reset)": "pts_jul",
-        "points_needed_to_hold_rank": "need_jul"})[["rank", "name", "pts", "pts_dec", "rank_dec", "pts_jul", "rank_jul", "need_jul"]])
+        "rank | 1 Jul 2027 (season reset)": "rank_jul", "points | 1 Jul 2027 (season reset)": "pts_jul"})
+        [["rank", "name", "pts", "pts_dec", "rank_dec", "need_dec", "pts_jul", "rank_jul", "need_jul"]])
         for cat in CATEGORIES}
 
     scale = pd.read_csv(A1 / "points_scale_change.csv").dropna()

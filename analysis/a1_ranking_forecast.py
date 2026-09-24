@@ -118,7 +118,7 @@ def main():
         cur = proj[(proj["checkpoint"] == "today") & (proj["ranking_category"] == cat)]
         for cp in ["31 Dec 2026", "1 Jul 2027 (season reset)"]:
             fut = proj[(proj["checkpoint"] == cp) & (proj["ranking_category"] == cat)].set_index("player_id")
-            for _, p in cur[cur["rank"] <= TOP].iterrows():
+            for _, p in cur[cur["rank"] <= 20].iterrows():  # the site lists the top 20
                 others = fut.drop(index=p["player_id"])["points"].sort_values(ascending=False)
                 target = others.iloc[p["rank"] - 1] if len(others) >= p["rank"] else 0
                 mine = fut.loc[p["player_id"], "points"]
