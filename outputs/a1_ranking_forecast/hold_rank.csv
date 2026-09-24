@@ -1,0 +1,65 @@
+category,checkpoint,name,rank_today,points_today,points_left,points_lost,projected_rank,points_needed_to_hold_rank
+Men's,31 Dec 2026,Aditya Jagtap,1,4168.0,3168.0,1000.0,1,0
+Men's,31 Dec 2026,Samar Malhotra,2,3660.0,2480.0,1180.0,2,0
+Men's,31 Dec 2026,Krishiv Patel,3,2460.0,1820.0,640.0,4,48
+Men's,31 Dec 2026,Rahul Motwani,4,2430.0,1430.0,1000.0,5,390
+Men's,31 Dec 2026,Aryan Goveas,5,2354.0,1354.0,1000.0,6,76
+Men's,31 Dec 2026,Aryan Hemdev,6,1868.0,1868.0,0.0,3,0
+Men's,31 Dec 2026,Chaitanya Shah,7,1468.0,1068.0,400.0,7,0
+Men's,31 Dec 2026,Paramveer Singh Bajwa,8,1276.0,876.0,400.0,9,24
+Men's,31 Dec 2026,Manav Sreekumar,9,1220.0,460.0,760.0,12,416
+Men's,31 Dec 2026,Vikram Shah,10,1160.0,400.0,760.0,18,420
+Men's,1 Jul 2027 (season reset),Aditya Jagtap,1,4168.0,888.0,3280.0,1,0
+Men's,1 Jul 2027 (season reset),Samar Malhotra,2,3660.0,840.0,2820.0,2,0
+Men's,1 Jul 2027 (season reset),Krishiv Patel,3,2460.0,780.0,1680.0,3,0
+Men's,1 Jul 2027 (season reset),Rahul Motwani,4,2430.0,270.0,2160.0,8,246
+Men's,1 Jul 2027 (season reset),Aryan Goveas,5,2354.0,354.0,2000.0,6,114
+Men's,1 Jul 2027 (season reset),Aryan Hemdev,6,1868.0,468.0,1400.0,5,0
+Men's,1 Jul 2027 (season reset),Chaitanya Shah,7,1468.0,108.0,1360.0,19,192
+Men's,1 Jul 2027 (season reset),Paramveer Singh Bajwa,8,1276.0,516.0,760.0,4,0
+Men's,1 Jul 2027 (season reset),Manav Sreekumar,9,1220.0,0.0,1220.0,152,270
+Men's,1 Jul 2027 (season reset),Vikram Shah,10,1160.0,0.0,1160.0,152,270
+Women's,31 Dec 2026,Amy Bundhel,1,2920.0,1960.0,960.0,1,0
+Women's,31 Dec 2026,Steisha Buddhala,1,2920.0,1960.0,960.0,1,0
+Women's,31 Dec 2026,Vaibhavi Deshmukh,3,2668.0,1068.0,1600.0,5,112
+Women's,31 Dec 2026,Jenai Bilimoria,4,2452.0,852.0,1600.0,6,328
+Women's,31 Dec 2026,Tulsi Mehta,5,1420.0,1180.0,240.0,3,0
+Women's,31 Dec 2026,Shraddha Damani,6,1180.0,1180.0,0.0,3,0
+Women's,31 Dec 2026,Tishya Sagar,7,516.0,276.0,240.0,10,204
+Women's,31 Dec 2026,Anisha Mirchandani,7,516.0,480.0,36.0,7,0
+Women's,31 Dec 2026,Estelle Mehta,9,480.0,480.0,0.0,7,0
+Women's,31 Dec 2026,Aarti Pandit,10,400.0,240.0,160.0,14,36
+Women's,1 Jul 2027 (season reset),Amy Bundhel,1,2920.0,600.0,2320.0,3,60
+Women's,1 Jul 2027 (season reset),Steisha Buddhala,1,2920.0,600.0,2320.0,3,60
+Women's,1 Jul 2027 (season reset),Vaibhavi Deshmukh,3,2668.0,216.0,2452.0,5,384
+Women's,1 Jul 2027 (season reset),Jenai Bilimoria,4,2452.0,0.0,2452.0,51,600
+Women's,1 Jul 2027 (season reset),Tulsi Mehta,5,1420.0,660.0,760.0,1,0
+Women's,1 Jul 2027 (season reset),Shraddha Damani,6,1180.0,660.0,520.0,1,0
+Women's,1 Jul 2027 (season reset),Tishya Sagar,7,516.0,0.0,516.0,51,216
+Women's,1 Jul 2027 (season reset),Anisha Mirchandani,7,516.0,180.0,336.0,9,36
+Women's,1 Jul 2027 (season reset),Estelle Mehta,9,480.0,180.0,300.0,9,0
+Women's,1 Jul 2027 (season reset),Aarti Pandit,10,400.0,0.0,400.0,51,180
+Men's 40+,31 Dec 2026,Vijay Chhabria,1,2380.0,1780.0,600.0,1,0
+Men's 40+,31 Dec 2026,Rupen Jhaveri,2,2200.0,1600.0,600.0,2,0
+Men's 40+,31 Dec 2026,Akshay Jalan,3,1248.0,1068.0,180.0,3,0
+Men's 40+,31 Dec 2026,Aditya Maheshwari,4,1060.0,820.0,240.0,4,0
+Men's 40+,31 Dec 2026,Syed Imran Yusoof,5,1020.0,660.0,360.0,5,0
+Men's 40+,31 Dec 2026,Kunal Premnarayen,6,780.0,420.0,360.0,6,0
+Men's 40+,31 Dec 2026,Pratik Doshi,7,588.0,408.0,180.0,7,0
+Men's 40+,31 Dec 2026,Ankit Agarwal,8,540.0,360.0,180.0,8,0
+Men's 40+,31 Dec 2026,Aakash Sachdev,9,480.0,300.0,180.0,10,48
+Men's 40+,31 Dec 2026,Abedin Sham,9,480.0,240.0,240.0,14,108
+Men's 40+,31 Dec 2026,Varun Motasha,9,480.0,300.0,180.0,10,48
+Men's 40+,31 Dec 2026,Viral Somaiya,9,480.0,300.0,180.0,10,48
+Men's 40+,1 Jul 2027 (season reset),Vijay Chhabria,1,2380.0,780.0,1600.0,1,0
+Men's 40+,1 Jul 2027 (season reset),Rupen Jhaveri,2,2200.0,600.0,1600.0,3,60
+Men's 40+,1 Jul 2027 (season reset),Akshay Jalan,3,1248.0,468.0,780.0,4,132
+Men's 40+,1 Jul 2027 (season reset),Aditya Maheshwari,4,1060.0,660.0,400.0,2,0
+Men's 40+,1 Jul 2027 (season reset),Syed Imran Yusoof,5,1020.0,300.0,720.0,5,0
+Men's 40+,1 Jul 2027 (season reset),Kunal Premnarayen,6,780.0,300.0,480.0,5,0
+Men's 40+,1 Jul 2027 (season reset),Pratik Doshi,7,588.0,108.0,480.0,15,192
+Men's 40+,1 Jul 2027 (season reset),Ankit Agarwal,8,540.0,0.0,540.0,18,216
+Men's 40+,1 Jul 2027 (season reset),Aakash Sachdev,9,480.0,0.0,480.0,18,216
+Men's 40+,1 Jul 2027 (season reset),Abedin Sham,9,480.0,0.0,480.0,18,216
+Men's 40+,1 Jul 2027 (season reset),Varun Motasha,9,480.0,0.0,480.0,18,216
+Men's 40+,1 Jul 2027 (season reset),Viral Somaiya,9,480.0,0.0,480.0,18,216

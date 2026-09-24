@@ -1,0 +1,357 @@
+{
+ "as_of": "2026-09-24",
+ "window_start_today": "2025-07-01",
+ "rebuild_rows_ok": 916,
+ "rebuild_rows": 916,
+ "overdue_if_rolling": {
+  "results": 96,
+  "points": 12512,
+  "events": [
+   "INDIAN PADEL TOUR 7.0",
+   "KOCHI CITY OPEN"
+  ]
+ },
+ "biggest_losers_by_1jul2027": [
+  {
+   "category": "Men's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Aditya Jagtap",
+   "rank_today": 1,
+   "points_today": 4168.0,
+   "points_left": 888.0,
+   "points_lost": 3280.0,
+   "projected_rank": 1,
+   "points_needed_to_hold_rank": 0
+  },
+  {
+   "category": "Men's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Samar Malhotra",
+   "rank_today": 2,
+   "points_today": 3660.0,
+   "points_left": 840.0,
+   "points_lost": 2820.0,
+   "projected_rank": 2,
+   "points_needed_to_hold_rank": 0
+  },
+  {
+   "category": "Women's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Jenai Bilimoria",
+   "rank_today": 4,
+   "points_today": 2452.0,
+   "points_left": 0.0,
+   "points_lost": 2452.0,
+   "projected_rank": 51,
+   "points_needed_to_hold_rank": 600
+  },
+  {
+   "category": "Women's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Vaibhavi Deshmukh",
+   "rank_today": 3,
+   "points_today": 2668.0,
+   "points_left": 216.0,
+   "points_lost": 2452.0,
+   "projected_rank": 5,
+   "points_needed_to_hold_rank": 384
+  },
+  {
+   "category": "Women's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Steisha Buddhala",
+   "rank_today": 1,
+   "points_today": 2920.0,
+   "points_left": 600.0,
+   "points_lost": 2320.0,
+   "projected_rank": 3,
+   "points_needed_to_hold_rank": 60
+  },
+  {
+   "category": "Women's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Amy Bundhel",
+   "rank_today": 1,
+   "points_today": 2920.0,
+   "points_left": 600.0,
+   "points_lost": 2320.0,
+   "projected_rank": 3,
+   "points_needed_to_hold_rank": 60
+  },
+  {
+   "category": "Men's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Rahul Motwani",
+   "rank_today": 4,
+   "points_today": 2430.0,
+   "points_left": 270.0,
+   "points_lost": 2160.0,
+   "projected_rank": 8,
+   "points_needed_to_hold_rank": 246
+  },
+  {
+   "category": "Men's",
+   "checkpoint": "1 Jul 2027 (season reset)",
+   "name": "Aryan Goveas",
+   "rank_today": 5,
+   "points_today": 2354.0,
+   "points_left": 354.0,
+   "points_lost": 2000.0,
+   "projected_rank": 6,
+   "points_needed_to_hold_rank": 114
+  }
+ ],
+ "points_table_consistency": 0.9696969696969697,
+ "scale_change": [
+  {
+   "event_type": "city_open",
+   "division": "advance",
+   "round": "finalist",
+   "2025-26 and earlier": 240.0,
+   "2026-27": 180.0,
+   "change_pct": -25.0
+  },
+  {
+   "event_type": "city_open",
+   "division": "advance",
+   "round": "quarter_finalist",
+   "2025-26 and earlier": 120.0,
+   "2026-27": 54.0,
+   "change_pct": -55.00000000000001
+  },
+  {
+   "event_type": "city_open",
+   "division": "advance",
+   "round": "semi_finalist",
+   "2025-26 and earlier": 160.0,
+   "2026-27": 108.0,
+   "change_pct": -32.49999999999999
+  },
+  {
+   "event_type": "city_open",
+   "division": "advance",
+   "round": "winner",
+   "2025-26 and earlier": 400.0,
+   "2026-27": 300.0,
+   "change_pct": -25.0
+  },
+  {
+   "event_type": "grand_slam",
+   "division": "advance",
+   "round": "finalist",
+   "2025-26 and earlier": 360.0,
+   "2026-27": 360.0,
+   "change_pct": 0.0
+  },
+  {
+   "event_type": "grand_slam",
+   "division": "advance",
+   "round": "quarter_finalist",
+   "2025-26 and earlier": 180.0,
+   "2026-27": 108.0,
+   "change_pct": -40.0
+  },
+  {
+   "event_type": "grand_slam",
+   "division": "advance",
+   "round": "semi_finalist",
+   "2025-26 and earlier": 240.0,
+   "2026-27": 216.0,
+   "change_pct": -9.999999999999998
+  },
+  {
+   "event_type": "grand_slam",
+   "division": "advance",
+   "round": "winner",
+   "2025-26 and earlier": 600.0,
+   "2026-27": 600.0,
+   "change_pct": 0.0
+  }
+ ],
+ "Men's top10 rank change by 31 Dec 2026 (rolling)": [
+  {
+   "name": "Aditya Jagtap",
+   "rank | today": 1,
+   "rank | 31 Dec 2026": 1,
+   "change": 0
+  },
+  {
+   "name": "Samar Malhotra",
+   "rank | today": 2,
+   "rank | 31 Dec 2026": 2,
+   "change": 0
+  },
+  {
+   "name": "Krishiv Patel",
+   "rank | today": 3,
+   "rank | 31 Dec 2026": 4,
+   "change": -1
+  },
+  {
+   "name": "Rahul Motwani",
+   "rank | today": 4,
+   "rank | 31 Dec 2026": 5,
+   "change": -1
+  },
+  {
+   "name": "Aryan Goveas",
+   "rank | today": 5,
+   "rank | 31 Dec 2026": 6,
+   "change": -1
+  },
+  {
+   "name": "Aryan Hemdev",
+   "rank | today": 6,
+   "rank | 31 Dec 2026": 3,
+   "change": 3
+  },
+  {
+   "name": "Chaitanya Shah",
+   "rank | today": 7,
+   "rank | 31 Dec 2026": 7,
+   "change": 0
+  },
+  {
+   "name": "Paramveer Singh Bajwa",
+   "rank | today": 8,
+   "rank | 31 Dec 2026": 9,
+   "change": -1
+  },
+  {
+   "name": "Manav Sreekumar",
+   "rank | today": 9,
+   "rank | 31 Dec 2026": 12,
+   "change": -3
+  },
+  {
+   "name": "Vikram Shah",
+   "rank | today": 10,
+   "rank | 31 Dec 2026": 18,
+   "change": -8
+  }
+ ],
+ "Women's top10 rank change by 31 Dec 2026 (rolling)": [
+  {
+   "name": "Steisha Buddhala",
+   "rank | today": 1,
+   "rank | 31 Dec 2026": 1,
+   "change": 0
+  },
+  {
+   "name": "Amy Bundhel",
+   "rank | today": 1,
+   "rank | 31 Dec 2026": 1,
+   "change": 0
+  },
+  {
+   "name": "Vaibhavi Deshmukh",
+   "rank | today": 3,
+   "rank | 31 Dec 2026": 5,
+   "change": -2
+  },
+  {
+   "name": "Jenai Bilimoria",
+   "rank | today": 4,
+   "rank | 31 Dec 2026": 6,
+   "change": -2
+  },
+  {
+   "name": "Tulsi Mehta",
+   "rank | today": 5,
+   "rank | 31 Dec 2026": 3,
+   "change": 2
+  },
+  {
+   "name": "Shraddha Damani",
+   "rank | today": 6,
+   "rank | 31 Dec 2026": 3,
+   "change": 3
+  },
+  {
+   "name": "Tishya Sagar",
+   "rank | today": 7,
+   "rank | 31 Dec 2026": 10,
+   "change": -3
+  },
+  {
+   "name": "Anisha Mirchandani",
+   "rank | today": 7,
+   "rank | 31 Dec 2026": 7,
+   "change": 0
+  },
+  {
+   "name": "Estelle Mehta",
+   "rank | today": 9,
+   "rank | 31 Dec 2026": 7,
+   "change": 2
+  },
+  {
+   "name": "Aarti Pandit",
+   "rank | today": 10,
+   "rank | 31 Dec 2026": 14,
+   "change": -4
+  }
+ ],
+ "Men's 40+ top10 rank change by 31 Dec 2026 (rolling)": [
+  {
+   "name": "Vijay Chhabria",
+   "rank | today": 1,
+   "rank | 31 Dec 2026": 1,
+   "change": 0
+  },
+  {
+   "name": "Rupen Jhaveri",
+   "rank | today": 2,
+   "rank | 31 Dec 2026": 2,
+   "change": 0
+  },
+  {
+   "name": "Akshay Jalan",
+   "rank | today": 3,
+   "rank | 31 Dec 2026": 3,
+   "change": 0
+  },
+  {
+   "name": "Aditya Maheshwari",
+   "rank | today": 4,
+   "rank | 31 Dec 2026": 4,
+   "change": 0
+  },
+  {
+   "name": "Syed Imran Yusoof",
+   "rank | today": 5,
+   "rank | 31 Dec 2026": 5,
+   "change": 0
+  },
+  {
+   "name": "Kunal Premnarayen",
+   "rank | today": 6,
+   "rank | 31 Dec 2026": 6,
+   "change": 0
+  },
+  {
+   "name": "Pratik Doshi",
+   "rank | today": 7,
+   "rank | 31 Dec 2026": 7,
+   "change": 0
+  },
+  {
+   "name": "Ankit Agarwal",
+   "rank | today": 8,
+   "rank | 31 Dec 2026": 8,
+   "change": 0
+  },
+  {
+   "name": "Abedin Sham",
+   "rank | today": 9,
+   "rank | 31 Dec 2026": 14,
+   "change": -5
+  },
+  {
+   "name": "Aakash Sachdev",
+   "rank | today": 9,
+   "rank | 31 Dec 2026": 10,
+   "change": -1
+  }
+ ]
+}
