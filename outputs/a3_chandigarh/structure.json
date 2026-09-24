@@ -1,0 +1,6645 @@
+{
+ "divisions": {
+  "Men's Advance": {
+   "ko_slots": [
+    {
+     "round": "QF 1",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.8988
+      },
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.0944
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.0069
+      }
+     ],
+     "team2": [
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.5457
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.2285
+      },
+      {
+       "team": "Advait Bahl / Kabir Anand",
+       "p": 0.1971
+      },
+      {
+       "team": "Bhavuk Dua / Jeetpal Singh Chauhan",
+       "p": 0.0288
+      }
+     ],
+     "winner": [
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.8625
+      },
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.0679
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.0321
+      },
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.0313
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.0032
+      }
+     ]
+    },
+    {
+     "round": "QF 2",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.7299
+      },
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.2334
+      },
+      {
+       "team": "Advait Bahl / Kabir Anand",
+       "p": 0.0347
+      },
+      {
+       "team": "Bhavuk Dua / Jeetpal Singh Chauhan",
+       "p": 0.0021
+      }
+     ],
+     "team2": [
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.7186
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.1789
+      },
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.0968
+      },
+      {
+       "team": "Ankit Grover / Gaurav Gupta",
+       "p": 0.0057
+      }
+     ],
+     "winner": [
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.4088
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.3829
+      },
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.0882
+      },
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.0707
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.0447
+      }
+     ]
+    },
+    {
+     "round": "QF 3",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.8134
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.1684
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.0182
+      }
+     ],
+     "team2": [
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.7025
+      },
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.1461
+      },
+      {
+       "team": "Tushar Jagota / Aryan Manchanda",
+       "p": 0.078
+      },
+      {
+       "team": "Gautam Daluja / Darshan Dilbar Singh",
+       "p": 0.0735
+      }
+     ],
+     "winner": [
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.7782
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.1363
+      },
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.0379
+      },
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.0348
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.012
+      }
+     ]
+    },
+    {
+     "round": "QF 4",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.8482
+      },
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.1468
+      },
+      {
+       "team": "Tushar Jagota / Aryan Manchanda",
+       "p": 0.0029
+      },
+      {
+       "team": "Gautam Daluja / Darshan Dilbar Singh",
+       "p": 0.0022
+      }
+     ],
+     "team2": [
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.6336
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.1946
+      },
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.1699
+      },
+      {
+       "team": "Ishaan Mehta / Chiraz Singh",
+       "p": 0.0019
+      }
+     ],
+     "winner": [
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.4269
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.3538
+      },
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.1415
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.0513
+      },
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.0265
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.8625
+      },
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.0679
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.0321
+      },
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.0313
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.0032
+      }
+     ],
+     "team2": [
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.4088
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.3829
+      },
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.0882
+      },
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.0707
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.0447
+      }
+     ],
+     "winner": [
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.8743
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.0615
+      },
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.0534
+      },
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.009
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.0015
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.7782
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.1363
+      },
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.0379
+      },
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.0348
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.012
+      }
+     ],
+     "team2": [
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.4269
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.3538
+      },
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.1415
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.0513
+      },
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.0265
+      }
+     ],
+     "winner": [
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.7741
+      },
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.1116
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.1052
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.0046
+      },
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.0044
+      }
+     ]
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "team1": [
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.8743
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.0615
+      },
+      {
+       "team": "Jasmer Kapany / Rohan Jain",
+       "p": 0.0534
+      },
+      {
+       "team": "Pranav Chopra / Raghuraj Dewan",
+       "p": 0.009
+      },
+      {
+       "team": "Raaghav Sharma Bagga / Atul Sharma",
+       "p": 0.0015
+      }
+     ],
+     "team2": [
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.7741
+      },
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.1116
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.1052
+      },
+      {
+       "team": "Ashish Khemlani / Siddharth Nandal",
+       "p": 0.0046
+      },
+      {
+       "team": "Swaraj Deshmukh / Krishna Teja",
+       "p": 0.0044
+      }
+     ],
+     "winner": [
+      {
+       "team": "Aditya Jagtap / Rahul Motwani",
+       "p": 0.5712
+      },
+      {
+       "team": "Samar Malhotra / Paramveer Singh Bajwa",
+       "p": 0.3652
+      },
+      {
+       "team": "Arjun Kapoor / Rohit Dhiman",
+       "p": 0.0205
+      },
+      {
+       "team": "Adit Patel / Abhishek Gupta",
+       "p": 0.0197
+      },
+      {
+       "team": "Samin Bhargava / Yuvraj Singh Kooka",
+       "p": 0.0118
+      }
+     ]
+    }
+   ],
+   "groups": {
+    "GROUP A": [
+     "Aditya Jagtap / Rahul Motwani",
+     "Ankit Grover / Gaurav Gupta",
+     "Jasmer Kapany / Rohan Jain",
+     "Raaghav Sharma Bagga / Atul Sharma"
+    ],
+    "GROUP B": [
+     "Samar Malhotra / Paramveer Singh Bajwa",
+     "Ishaan Mehta / Chiraz Singh",
+     "Adit Patel / Abhishek Gupta",
+     "Ashish Khemlani / Siddharth Nandal"
+    ],
+    "GROUP C": [
+     "Arjun Kapoor / Rohit Dhiman",
+     "Gautam Daluja / Darshan Dilbar Singh",
+     "Swaraj Deshmukh / Krishna Teja",
+     "Tushar Jagota / Aryan Manchanda"
+    ],
+    "GROUP D": [
+     "Samin Bhargava / Yuvraj Singh Kooka",
+     "Bhavuk Dua / Jeetpal Singh Chauhan",
+     "Advait Bahl / Kabir Anand",
+     "Pranav Chopra / Raghuraj Dewan"
+    ]
+   },
+   "standings": [
+    {
+     "group": "GROUP A",
+     "team": "Aditya Jagtap / Rahul Motwani",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Ankit Grover / Gaurav Gupta",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Jasmer Kapany / Rohan Jain",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Raaghav Sharma Bagga / Atul Sharma",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Samar Malhotra / Paramveer Singh Bajwa",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Ishaan Mehta / Chiraz Singh",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Adit Patel / Abhishek Gupta",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Ashish Khemlani / Siddharth Nandal",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Arjun Kapoor / Rohit Dhiman",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Gautam Daluja / Darshan Dilbar Singh",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Swaraj Deshmukh / Krishna Teja",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Tushar Jagota / Aryan Manchanda",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Samin Bhargava / Yuvraj Singh Kooka",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Bhavuk Dua / Jeetpal Singh Chauhan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Advait Bahl / Kabir Anand",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Pranav Chopra / Raghuraj Dewan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    }
+   ],
+   "group_matches": [
+    {
+     "t1": "Aditya Jagtap / Rahul Motwani",
+     "t2": "Ankit Grover / Gaurav Gupta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Jasmer Kapany / Rohan Jain",
+     "t2": "Raaghav Sharma Bagga / Atul Sharma",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Aditya Jagtap / Rahul Motwani",
+     "t2": "Raaghav Sharma Bagga / Atul Sharma",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Jasmer Kapany / Rohan Jain",
+     "t2": "Ankit Grover / Gaurav Gupta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Raaghav Sharma Bagga / Atul Sharma",
+     "t2": "Ankit Grover / Gaurav Gupta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Aditya Jagtap / Rahul Motwani",
+     "t2": "Jasmer Kapany / Rohan Jain",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Samar Malhotra / Paramveer Singh Bajwa",
+     "t2": "Ishaan Mehta / Chiraz Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arjun Kapoor / Rohit Dhiman",
+     "t2": "Gautam Daluja / Darshan Dilbar Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Samin Bhargava / Yuvraj Singh Kooka",
+     "t2": "Bhavuk Dua / Jeetpal Singh Chauhan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Adit Patel / Abhishek Gupta",
+     "t2": "Ashish Khemlani / Siddharth Nandal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Swaraj Deshmukh / Krishna Teja",
+     "t2": "Tushar Jagota / Aryan Manchanda",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Advait Bahl / Kabir Anand",
+     "t2": "Pranav Chopra / Raghuraj Dewan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Samar Malhotra / Paramveer Singh Bajwa",
+     "t2": "Ashish Khemlani / Siddharth Nandal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arjun Kapoor / Rohit Dhiman",
+     "t2": "Tushar Jagota / Aryan Manchanda",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Samin Bhargava / Yuvraj Singh Kooka",
+     "t2": "Pranav Chopra / Raghuraj Dewan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Adit Patel / Abhishek Gupta",
+     "t2": "Ishaan Mehta / Chiraz Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Swaraj Deshmukh / Krishna Teja",
+     "t2": "Gautam Daluja / Darshan Dilbar Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Advait Bahl / Kabir Anand",
+     "t2": "Bhavuk Dua / Jeetpal Singh Chauhan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Ashish Khemlani / Siddharth Nandal",
+     "t2": "Ishaan Mehta / Chiraz Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Tushar Jagota / Aryan Manchanda",
+     "t2": "Gautam Daluja / Darshan Dilbar Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Pranav Chopra / Raghuraj Dewan",
+     "t2": "Bhavuk Dua / Jeetpal Singh Chauhan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Samar Malhotra / Paramveer Singh Bajwa",
+     "t2": "Adit Patel / Abhishek Gupta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arjun Kapoor / Rohit Dhiman",
+     "t2": "Swaraj Deshmukh / Krishna Teja",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Samin Bhargava / Yuvraj Singh Kooka",
+     "t2": "Advait Bahl / Kabir Anand",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    }
+   ],
+   "ko": [
+    {
+     "round": "QF 1",
+     "stage": 1,
+     "t1": "Group A - 1st",
+     "t2": "Group D - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 2",
+     "stage": 1,
+     "t1": "Group D - 1st",
+     "t2": "Group A - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 3",
+     "stage": 1,
+     "t1": "Group B - 1st",
+     "t2": "Group C - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 4",
+     "stage": 1,
+     "t1": "Group C - 1st",
+     "t2": "Group B - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "t1": "Winner - QF 1",
+     "t2": "Winner - QF 2",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "t1": "Winner - QF 3",
+     "t2": "Winner - QF 4",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "t1": "Winner - SF 1",
+     "t2": "Winner - SF 2",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    }
+   ],
+   "strength": {
+    "Adit Patel / Abhishek Gupta": 1.0761,
+    "Aditya Jagtap / Rahul Motwani": 1.599,
+    "Advait Bahl / Kabir Anand": 0.3462,
+    "Ankit Grover / Gaurav Gupta": 0.0,
+    "Arjun Kapoor / Rohit Dhiman": 1.0782,
+    "Ashish Khemlani / Siddharth Nandal": 0.6885,
+    "Bhavuk Dua / Jeetpal Singh Chauhan": 0.0,
+    "Gautam Daluja / Darshan Dilbar Singh": 0.0,
+    "Ishaan Mehta / Chiraz Singh": 0.0,
+    "Jasmer Kapany / Rohan Jain": 0.98,
+    "Pranav Chopra / Raghuraj Dewan": 0.683,
+    "Raaghav Sharma Bagga / Atul Sharma": 0.5725,
+    "Samar Malhotra / Paramveer Singh Bajwa": 1.5078,
+    "Samin Bhargava / Yuvraj Singh Kooka": 0.99,
+    "Swaraj Deshmukh / Krishna Teja": 0.585,
+    "Tushar Jagota / Aryan Manchanda": 0.0181
+   }
+  },
+  "Men's Intermediate": {
+   "ko_slots": [
+    {
+     "round": "R16 1",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.5379
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.4143
+      },
+      {
+       "team": "Rohail Pandohi / Ayush Gupta",
+       "p": 0.0478
+      }
+     ],
+     "team2": [
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.4597
+      },
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.251
+      },
+      {
+       "team": "Japnaam Singh / Meet Ohlyan",
+       "p": 0.1452
+      },
+      {
+       "team": "Ankush Puri / Sehaj Sehgal",
+       "p": 0.1441
+      }
+     ],
+     "winner": [
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.3527
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.2544
+      },
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.1848
+      },
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.1461
+      },
+      {
+       "team": "Ankush Puri / Sehaj Sehgal",
+       "p": 0.0244
+      }
+     ]
+    },
+    {
+     "round": "R16 2",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.6677
+      },
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.269
+      },
+      {
+       "team": "Japnaam Singh / Meet Ohlyan",
+       "p": 0.0318
+      },
+      {
+       "team": "Ankush Puri / Sehaj Sehgal",
+       "p": 0.0314
+      }
+     ],
+     "team2": [
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.4534
+      },
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.3673
+      },
+      {
+       "team": "Rohail Pandohi / Ayush Gupta",
+       "p": 0.1794
+      }
+     ],
+     "winner": [
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.4285
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.2114
+      },
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.1935
+      },
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.1221
+      },
+      {
+       "team": "Rohail Pandohi / Ayush Gupta",
+       "p": 0.0307
+      }
+     ]
+    },
+    {
+     "round": "R16 3",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.7067
+      },
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.1462
+      },
+      {
+       "team": "Manan Gupta / Armaan Garg",
+       "p": 0.1152
+      },
+      {
+       "team": "Sahil Kapoor / Yuvraj Singh Arora",
+       "p": 0.0319
+      }
+     ],
+     "team2": [
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.3637
+      },
+      {
+       "team": "Vaibhav Sahni / Ishaan Chandhok",
+       "p": 0.3186
+      },
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.1829
+      },
+      {
+       "team": "Aayush Poddar / Anurag Agarwal",
+       "p": 0.1348
+      }
+     ],
+     "winner": [
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.5259
+      },
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.1159
+      },
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.1145
+      },
+      {
+       "team": "Vaibhav Sahni / Ishaan Chandhok",
+       "p": 0.0915
+      },
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.0686
+      }
+     ]
+    },
+    {
+     "round": "R16 4",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.7449
+      },
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.127
+      },
+      {
+       "team": "Vaibhav Sahni / Ishaan Chandhok",
+       "p": 0.1003
+      },
+      {
+       "team": "Aayush Poddar / Anurag Agarwal",
+       "p": 0.0278
+      }
+     ],
+     "team2": [
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.3576
+      },
+      {
+       "team": "Manan Gupta / Armaan Garg",
+       "p": 0.3122
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.1985
+      },
+      {
+       "team": "Sahil Kapoor / Yuvraj Singh Arora",
+       "p": 0.1317
+      }
+     ],
+     "winner": [
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.5773
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.1085
+      },
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.0989
+      },
+      {
+       "team": "Manan Gupta / Armaan Garg",
+       "p": 0.0795
+      },
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.0614
+      }
+     ]
+    },
+    {
+     "round": "R16 5",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.5516
+      },
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.3172
+      },
+      {
+       "team": "Sahil Bakshi / Shivang Mahajan",
+       "p": 0.0658
+      },
+      {
+       "team": "Love Pahal / Aarav Chawla",
+       "p": 0.0653
+      }
+     ],
+     "team2": [
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.2864
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.253
+      },
+      {
+       "team": "Rishabh Gupta / Rijul Jain",
+       "p": 0.2399
+      },
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.2207
+      }
+     ],
+     "winner": [
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.3015
+      },
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.1655
+      },
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.144
+      },
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.1368
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.1152
+      }
+     ]
+    },
+    {
+     "round": "R16 6",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.6427
+      },
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.1422
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.1163
+      },
+      {
+       "team": "Rishabh Gupta / Rijul Jain",
+       "p": 0.0988
+      }
+     ],
+     "team2": [
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.37
+      },
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.2797
+      },
+      {
+       "team": "Love Pahal / Aarav Chawla",
+       "p": 0.1767
+      },
+      {
+       "team": "Sahil Bakshi / Shivang Mahajan",
+       "p": 0.1736
+      }
+     ],
+     "winner": [
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.507
+      },
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.1235
+      },
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.1226
+      },
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.0784
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.0611
+      }
+     ]
+    },
+    {
+     "round": "R16 7",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.763
+      },
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.1823
+      },
+      {
+       "team": "Vishav Bansal / Ajay Dhiman",
+       "p": 0.0276
+      },
+      {
+       "team": "Sagar Ahuja / Nivesh Poddar",
+       "p": 0.0272
+      }
+     ],
+     "team2": [
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.3755
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.2922
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.2297
+      },
+      {
+       "team": "Anirudh Kaushal / Sartaj Singh Sudan",
+       "p": 0.1026
+      }
+     ],
+     "winner": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.5604
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.1252
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.1229
+      },
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.0848
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.0793
+      }
+     ]
+    },
+    {
+     "round": "R16 8",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.656
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.1985
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.1231
+      },
+      {
+       "team": "Anirudh Kaushal / Sartaj Singh Sudan",
+       "p": 0.0224
+      }
+     ],
+     "team2": [
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.4892
+      },
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.1892
+      },
+      {
+       "team": "Sagar Ahuja / Nivesh Poddar",
+       "p": 0.163
+      },
+      {
+       "team": "Vishav Bansal / Ajay Dhiman",
+       "p": 0.1587
+      }
+     ],
+     "winner": [
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.4851
+      },
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.1663
+      },
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.1176
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.112
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.0609
+      }
+     ]
+    },
+    {
+     "round": "QF 1",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.3527
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.2544
+      },
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.1848
+      },
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.1461
+      },
+      {
+       "team": "Ankush Puri / Sehaj Sehgal",
+       "p": 0.0244
+      }
+     ],
+     "team2": [
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.4285
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.2114
+      },
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.1935
+      },
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.1221
+      },
+      {
+       "team": "Rohail Pandohi / Ayush Gupta",
+       "p": 0.0307
+      }
+     ],
+     "winner": [
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.3585
+      },
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.3008
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.2104
+      },
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.115
+      },
+      {
+       "team": "Rohail Pandohi / Ayush Gupta",
+       "p": 0.0066
+      }
+     ]
+    },
+    {
+     "round": "QF 2",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.5259
+      },
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.1159
+      },
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.1145
+      },
+      {
+       "team": "Vaibhav Sahni / Ishaan Chandhok",
+       "p": 0.0915
+      },
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.0686
+      }
+     ],
+     "team2": [
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.5773
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.1085
+      },
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.0989
+      },
+      {
+       "team": "Manan Gupta / Armaan Garg",
+       "p": 0.0795
+      },
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.0614
+      }
+     ],
+     "winner": [
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.4662
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.3775
+      },
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.0436
+      },
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.0421
+      },
+      {
+       "team": "Vaibhav Sahni / Ishaan Chandhok",
+       "p": 0.0326
+      }
+     ]
+    },
+    {
+     "round": "QF 3",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.3015
+      },
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.1655
+      },
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.144
+      },
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.1368
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.1152
+      }
+     ],
+     "team2": [
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.507
+      },
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.1235
+      },
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.1226
+      },
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.0784
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.0611
+      }
+     ],
+     "winner": [
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.51
+      },
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.1998
+      },
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.094
+      },
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.0747
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.0557
+      }
+     ]
+    },
+    {
+     "round": "QF 4",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.5604
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.1252
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.1229
+      },
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.0848
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.0793
+      }
+     ],
+     "team2": [
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.4851
+      },
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.1663
+      },
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.1176
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.112
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.0609
+      }
+     ],
+     "winner": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.4497
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.3621
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.0728
+      },
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.0703
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.0342
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.3585
+      },
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.3008
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.2104
+      },
+      {
+       "team": "Nikhil Bansal / Jansher Waraich",
+       "p": 0.115
+      },
+      {
+       "team": "Rohail Pandohi / Ayush Gupta",
+       "p": 0.0066
+      }
+     ],
+     "team2": [
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.4662
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.3775
+      },
+      {
+       "team": "Yashvardhan Sarda / Shreyas Dogial",
+       "p": 0.0436
+      },
+      {
+       "team": "Akshay Dhawan / Animesh Gupta",
+       "p": 0.0421
+      },
+      {
+       "team": "Vaibhav Sahni / Ishaan Chandhok",
+       "p": 0.0326
+      }
+     ],
+     "winner": [
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.293
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.2251
+      },
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.1847
+      },
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.1343
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.0845
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.51
+      },
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.1998
+      },
+      {
+       "team": "Simar Chadha / Ikrab Ghai",
+       "p": 0.094
+      },
+      {
+       "team": "Rajkanwar Bhangoo / Harneet Singh",
+       "p": 0.0747
+      },
+      {
+       "team": "Arjun Dhanda / Akhil Bansal",
+       "p": 0.0557
+      }
+     ],
+     "team2": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.4497
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.3621
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.0728
+      },
+      {
+       "team": "Tanveer Singh / Rahil Mahajan",
+       "p": 0.0703
+      },
+      {
+       "team": "Ramit Bhargava / Manjot Singh Ahuja",
+       "p": 0.0342
+      }
+     ],
+     "winner": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.2925
+      },
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.2814
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.2198
+      },
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.0719
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.0261
+      }
+     ]
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "team1": [
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.293
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.2251
+      },
+      {
+       "team": "Vansh Bhagtani / Yash Nagdev",
+       "p": 0.1847
+      },
+      {
+       "team": "Raghav Garg / Sachit Nayyar",
+       "p": 0.1343
+      },
+      {
+       "team": "Manav Malhotra / Varun Dattani",
+       "p": 0.0845
+      }
+     ],
+     "team2": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.2925
+      },
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.2814
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.2198
+      },
+      {
+       "team": "Shanu Hazra / Parth Thakkar",
+       "p": 0.0719
+      },
+      {
+       "team": "Udhay Mahajan / Hari Singh",
+       "p": 0.0261
+      }
+     ],
+     "winner": [
+      {
+       "team": "Pruthvi Patel / Harshil Sheth",
+       "p": 0.1718
+      },
+      {
+       "team": "Madhav Bajaj / Divanshu Nayyar",
+       "p": 0.1659
+      },
+      {
+       "team": "Mehul Bansal / Lakshay Bharti",
+       "p": 0.1596
+      },
+      {
+       "team": "Karan Tandon / Sahil Parikh",
+       "p": 0.1195
+      },
+      {
+       "team": "Anav Shrish / Viraj Bhargava",
+       "p": 0.1162
+      }
+     ]
+    }
+   ],
+   "groups": {
+    "GROUP A": [
+     "Manav Malhotra / Varun Dattani",
+     "Raghav Garg / Sachit Nayyar",
+     "Rohail Pandohi / Ayush Gupta"
+    ],
+    "GROUP B": [
+     "Pruthvi Patel / Harshil Sheth",
+     "Tanveer Singh / Rahil Mahajan",
+     "Sagar Ahuja / Nivesh Poddar",
+     "Vishav Bansal / Ajay Dhiman"
+    ],
+    "GROUP C": [
+     "Shanu Hazra / Parth Thakkar",
+     "Simar Chadha / Ikrab Ghai",
+     "Sahil Bakshi / Shivang Mahajan",
+     "Love Pahal / Aarav Chawla"
+    ],
+    "GROUP D": [
+     "Karan Tandon / Sahil Parikh",
+     "Sahil Kapoor / Yuvraj Singh Arora",
+     "Yashvardhan Sarda / Shreyas Dogial",
+     "Manan Gupta / Armaan Garg"
+    ],
+    "GROUP E": [
+     "Madhav Bajaj / Divanshu Nayyar",
+     "Akshay Dhawan / Animesh Gupta",
+     "Vaibhav Sahni / Ishaan Chandhok",
+     "Aayush Poddar / Anurag Agarwal"
+    ],
+    "GROUP F": [
+     "Mehul Bansal / Lakshay Bharti",
+     "Rishabh Gupta / Rijul Jain",
+     "Arjun Dhanda / Akhil Bansal",
+     "Rajkanwar Bhangoo / Harneet Singh"
+    ],
+    "GROUP G": [
+     "Anav Shrish / Viraj Bhargava",
+     "Ramit Bhargava / Manjot Singh Ahuja",
+     "Udhay Mahajan / Hari Singh",
+     "Anirudh Kaushal / Sartaj Singh Sudan"
+    ],
+    "GROUP H": [
+     "Nikhil Bansal / Jansher Waraich",
+     "Ankush Puri / Sehaj Sehgal",
+     "Vansh Bhagtani / Yash Nagdev",
+     "Japnaam Singh / Meet Ohlyan"
+    ]
+   },
+   "standings": [
+    {
+     "group": "GROUP A",
+     "team": "Manav Malhotra / Varun Dattani",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Raghav Garg / Sachit Nayyar",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Rohail Pandohi / Ayush Gupta",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Pruthvi Patel / Harshil Sheth",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Tanveer Singh / Rahil Mahajan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Sagar Ahuja / Nivesh Poddar",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Vishav Bansal / Ajay Dhiman",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Shanu Hazra / Parth Thakkar",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Simar Chadha / Ikrab Ghai",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Sahil Bakshi / Shivang Mahajan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP C",
+     "team": "Love Pahal / Aarav Chawla",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Karan Tandon / Sahil Parikh",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Sahil Kapoor / Yuvraj Singh Arora",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Yashvardhan Sarda / Shreyas Dogial",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP D",
+     "team": "Manan Gupta / Armaan Garg",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP E",
+     "team": "Madhav Bajaj / Divanshu Nayyar",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP E",
+     "team": "Akshay Dhawan / Animesh Gupta",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP E",
+     "team": "Vaibhav Sahni / Ishaan Chandhok",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP E",
+     "team": "Aayush Poddar / Anurag Agarwal",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP F",
+     "team": "Mehul Bansal / Lakshay Bharti",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP F",
+     "team": "Rishabh Gupta / Rijul Jain",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP F",
+     "team": "Arjun Dhanda / Akhil Bansal",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP F",
+     "team": "Rajkanwar Bhangoo / Harneet Singh",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP G",
+     "team": "Anav Shrish / Viraj Bhargava",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP G",
+     "team": "Ramit Bhargava / Manjot Singh Ahuja",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP G",
+     "team": "Udhay Mahajan / Hari Singh",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP G",
+     "team": "Anirudh Kaushal / Sartaj Singh Sudan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP H",
+     "team": "Nikhil Bansal / Jansher Waraich",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP H",
+     "team": "Ankush Puri / Sehaj Sehgal",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP H",
+     "team": "Vansh Bhagtani / Yash Nagdev",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP H",
+     "team": "Japnaam Singh / Meet Ohlyan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    }
+   ],
+   "group_matches": [
+    {
+     "t1": "Manav Malhotra / Varun Dattani",
+     "t2": "Raghav Garg / Sachit Nayyar",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Pruthvi Patel / Harshil Sheth",
+     "t2": "Tanveer Singh / Rahil Mahajan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Shanu Hazra / Parth Thakkar",
+     "t2": "Simar Chadha / Ikrab Ghai",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Sagar Ahuja / Nivesh Poddar",
+     "t2": "Vishav Bansal / Ajay Dhiman",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Sahil Bakshi / Shivang Mahajan",
+     "t2": "Love Pahal / Aarav Chawla",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Manav Malhotra / Varun Dattani",
+     "t2": "Rohail Pandohi / Ayush Gupta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Pruthvi Patel / Harshil Sheth",
+     "t2": "Sagar Ahuja / Nivesh Poddar",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Shanu Hazra / Parth Thakkar",
+     "t2": "Sahil Bakshi / Shivang Mahajan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Tanveer Singh / Rahil Mahajan",
+     "t2": "Vishav Bansal / Ajay Dhiman",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Simar Chadha / Ikrab Ghai",
+     "t2": "Love Pahal / Aarav Chawla",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Pruthvi Patel / Harshil Sheth",
+     "t2": "Vishav Bansal / Ajay Dhiman",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Shanu Hazra / Parth Thakkar",
+     "t2": "Love Pahal / Aarav Chawla",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Raghav Garg / Sachit Nayyar",
+     "t2": "Rohail Pandohi / Ayush Gupta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Tanveer Singh / Rahil Mahajan",
+     "t2": "Sagar Ahuja / Nivesh Poddar",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Simar Chadha / Ikrab Ghai",
+     "t2": "Sahil Bakshi / Shivang Mahajan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Madhav Bajaj / Divanshu Nayyar",
+     "t2": "Akshay Dhawan / Animesh Gupta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Mehul Bansal / Lakshay Bharti",
+     "t2": "Rishabh Gupta / Rijul Jain",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Nikhil Bansal / Jansher Waraich",
+     "t2": "Ankush Puri / Sehaj Sehgal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Vaibhav Sahni / Ishaan Chandhok",
+     "t2": "Aayush Poddar / Anurag Agarwal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arjun Dhanda / Akhil Bansal",
+     "t2": "Rajkanwar Bhangoo / Harneet Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Vansh Bhagtani / Yash Nagdev",
+     "t2": "Japnaam Singh / Meet Ohlyan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Madhav Bajaj / Divanshu Nayyar",
+     "t2": "Vaibhav Sahni / Ishaan Chandhok",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Mehul Bansal / Lakshay Bharti",
+     "t2": "Arjun Dhanda / Akhil Bansal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Nikhil Bansal / Jansher Waraich",
+     "t2": "Vansh Bhagtani / Yash Nagdev",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Akshay Dhawan / Animesh Gupta",
+     "t2": "Aayush Poddar / Anurag Agarwal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Rishabh Gupta / Rijul Jain",
+     "t2": "Rajkanwar Bhangoo / Harneet Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Ankush Puri / Sehaj Sehgal",
+     "t2": "Japnaam Singh / Meet Ohlyan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Madhav Bajaj / Divanshu Nayyar",
+     "t2": "Aayush Poddar / Anurag Agarwal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Mehul Bansal / Lakshay Bharti",
+     "t2": "Rajkanwar Bhangoo / Harneet Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Nikhil Bansal / Jansher Waraich",
+     "t2": "Japnaam Singh / Meet Ohlyan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Akshay Dhawan / Animesh Gupta",
+     "t2": "Vaibhav Sahni / Ishaan Chandhok",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Rishabh Gupta / Rijul Jain",
+     "t2": "Arjun Dhanda / Akhil Bansal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Ankush Puri / Sehaj Sehgal",
+     "t2": "Vansh Bhagtani / Yash Nagdev",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Karan Tandon / Sahil Parikh",
+     "t2": "Sahil Kapoor / Yuvraj Singh Arora",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Anav Shrish / Viraj Bhargava",
+     "t2": "Ramit Bhargava / Manjot Singh Ahuja",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Yashvardhan Sarda / Shreyas Dogial",
+     "t2": "Manan Gupta / Armaan Garg",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Udhay Mahajan / Hari Singh",
+     "t2": "Anirudh Kaushal / Sartaj Singh Sudan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Karan Tandon / Sahil Parikh",
+     "t2": "Yashvardhan Sarda / Shreyas Dogial",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Anav Shrish / Viraj Bhargava",
+     "t2": "Udhay Mahajan / Hari Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Manan Gupta / Armaan Garg",
+     "t2": "Sahil Kapoor / Yuvraj Singh Arora",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Ramit Bhargava / Manjot Singh Ahuja",
+     "t2": "Anirudh Kaushal / Sartaj Singh Sudan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Yashvardhan Sarda / Shreyas Dogial",
+     "t2": "Sahil Kapoor / Yuvraj Singh Arora",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Anav Shrish / Viraj Bhargava",
+     "t2": "Anirudh Kaushal / Sartaj Singh Sudan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Karan Tandon / Sahil Parikh",
+     "t2": "Manan Gupta / Armaan Garg",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Ramit Bhargava / Manjot Singh Ahuja",
+     "t2": "Udhay Mahajan / Hari Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    }
+   ],
+   "ko": [
+    {
+     "round": "R16 1",
+     "stage": 0,
+     "t1": "Group A - 1st",
+     "t2": "Group H - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 2",
+     "stage": 0,
+     "t1": "Group H - 1st",
+     "t2": "Group A - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 3",
+     "stage": 0,
+     "t1": "Group D - 1st",
+     "t2": "Group E - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 4",
+     "stage": 0,
+     "t1": "Group E - 1st",
+     "t2": "Group D - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 5",
+     "stage": 0,
+     "t1": "Group C - 1st",
+     "t2": "Group F - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 6",
+     "stage": 0,
+     "t1": "Group F - 1st",
+     "t2": "Group C - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 7",
+     "stage": 0,
+     "t1": "Group B - 1st",
+     "t2": "Group G - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 8",
+     "stage": 0,
+     "t1": "Group G - 1st",
+     "t2": "Group B - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 1",
+     "stage": 1,
+     "t1": "Winner - R16 1",
+     "t2": "Winner - R16 2",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 2",
+     "stage": 1,
+     "t1": "Winner - R16 3",
+     "t2": "Winner - R16 4",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 3",
+     "stage": 1,
+     "t1": "Winner - R16 5",
+     "t2": "Winner - R16 6",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 4",
+     "stage": 1,
+     "t1": "Winner - R16 7",
+     "t2": "Winner - R16 8",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "t1": "Winner - QF 1",
+     "t2": "Winner - QF 2",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "t1": "Winner - QF 3",
+     "t2": "Winner - QF 4",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "t1": "Winner - SF 1",
+     "t2": "Winner - SF 2",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    }
+   ],
+   "strength": {
+    "Aayush Poddar / Anurag Agarwal": 0.0,
+    "Akshay Dhawan / Animesh Gupta": 0.2506,
+    "Anav Shrish / Viraj Bhargava": 0.6332,
+    "Anirudh Kaushal / Sartaj Singh Sudan": 0.0,
+    "Ankush Puri / Sehaj Sehgal": 0.0,
+    "Arjun Dhanda / Akhil Bansal": 0.2781,
+    "Japnaam Singh / Meet Ohlyan": 0.0,
+    "Karan Tandon / Sahil Parikh": 0.6208,
+    "Love Pahal / Aarav Chawla": 0.0,
+    "Madhav Bajaj / Divanshu Nayyar": 0.6692,
+    "Manan Gupta / Armaan Garg": 0.216,
+    "Manav Malhotra / Varun Dattani": 0.46,
+    "Mehul Bansal / Lakshay Bharti": 0.6566,
+    "Nikhil Bansal / Jansher Waraich": 0.3638,
+    "Pruthvi Patel / Harshil Sheth": 0.6775,
+    "Raghav Garg / Sachit Nayyar": 0.533,
+    "Rajkanwar Bhangoo / Harneet Singh": 0.316,
+    "Ramit Bhargava / Manjot Singh Ahuja": 0.2591,
+    "Rishabh Gupta / Rijul Jain": 0.2591,
+    "Rohail Pandohi / Ayush Gupta": 0.0,
+    "Sagar Ahuja / Nivesh Poddar": 0.0,
+    "Sahil Bakshi / Shivang Mahajan": 0.0,
+    "Sahil Kapoor / Yuvraj Singh Arora": 0.0,
+    "Shanu Hazra / Parth Thakkar": 0.427,
+    "Simar Chadha / Ikrab Ghai": 0.2922,
+    "Tanveer Singh / Rahil Mahajan": 0.3145,
+    "Udhay Mahajan / Hari Singh": 0.3478,
+    "Vaibhav Sahni / Ishaan Chandhok": 0.2124,
+    "Vansh Bhagtani / Yash Nagdev": 0.5943,
+    "Vishav Bansal / Ajay Dhiman": 0.0,
+    "Yashvardhan Sarda / Shreyas Dogial": 0.253
+   }
+  },
+  "Men's Beginner": {
+   "ko_slots": [
+    {
+     "round": "R16 1",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Sandip Sabharwal / Shampy Mittal",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 0.8865
+      },
+      {
+       "team": "Sandip Sabharwal / Shampy Mittal",
+       "p": 0.1134
+      }
+     ]
+    },
+    {
+     "round": "R16 2",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Hitesh Panwar / Shivam Garg",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 0.7433
+      },
+      {
+       "team": "Hitesh Panwar / Shivam Garg",
+       "p": 0.2566
+      }
+     ]
+    },
+    {
+     "round": "R16 3",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Arshdeep Singh / Sanam Singh",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Saksham Dogra / Yuvraj Khullar",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Arshdeep Singh / Sanam Singh",
+       "p": 0.6794
+      },
+      {
+       "team": "Saksham Dogra / Yuvraj Khullar",
+       "p": 0.3206
+      }
+     ]
+    },
+    {
+     "round": "R16 4",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Satyam Pathak / Divyam Jain",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Sandeep Dhand / Adesh Pratap Singh",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Satyam Pathak / Divyam Jain",
+       "p": 0.5679
+      },
+      {
+       "team": "Sandeep Dhand / Adesh Pratap Singh",
+       "p": 0.432
+      }
+     ]
+    },
+    {
+     "round": "R16 5",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Sidhannt Kalucha / Lokesh Dudeja",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 0.7181
+      },
+      {
+       "team": "Sidhannt Kalucha / Lokesh Dudeja",
+       "p": 0.2818
+      }
+     ]
+    },
+    {
+     "round": "R16 6",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Yash Khajanchi / Abhiraj Singh",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 0.7352
+      },
+      {
+       "team": "Yash Khajanchi / Abhiraj Singh",
+       "p": 0.2647
+      }
+     ]
+    },
+    {
+     "round": "R16 7",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Vivek Sharma / Rahul Gupta",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 0.7131
+      },
+      {
+       "team": "Vivek Sharma / Rahul Gupta",
+       "p": 0.2868
+      }
+     ]
+    },
+    {
+     "round": "R16 8",
+     "stage": 0,
+     "team1": [
+      {
+       "team": "Ramnish Pal / Abhit Jhanji",
+       "p": 1.0
+      }
+     ],
+     "team2": [
+      {
+       "team": "Rajat Garg / Nitesh Bharti",
+       "p": 1.0
+      }
+     ],
+     "winner": [
+      {
+       "team": "Rajat Garg / Nitesh Bharti",
+       "p": 0.5569
+      },
+      {
+       "team": "Ramnish Pal / Abhit Jhanji",
+       "p": 0.443
+      }
+     ]
+    },
+    {
+     "round": "QF 1",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 0.8865
+      },
+      {
+       "team": "Sandip Sabharwal / Shampy Mittal",
+       "p": 0.1134
+      }
+     ],
+     "team2": [
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 0.7433
+      },
+      {
+       "team": "Hitesh Panwar / Shivam Garg",
+       "p": 0.2566
+      }
+     ],
+     "winner": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 0.754
+      },
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 0.1726
+      },
+      {
+       "team": "Sandip Sabharwal / Shampy Mittal",
+       "p": 0.0493
+      },
+      {
+       "team": "Hitesh Panwar / Shivam Garg",
+       "p": 0.024
+      }
+     ]
+    },
+    {
+     "round": "QF 2",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Arshdeep Singh / Sanam Singh",
+       "p": 0.6794
+      },
+      {
+       "team": "Saksham Dogra / Yuvraj Khullar",
+       "p": 0.3206
+      }
+     ],
+     "team2": [
+      {
+       "team": "Satyam Pathak / Divyam Jain",
+       "p": 0.5679
+      },
+      {
+       "team": "Sandeep Dhand / Adesh Pratap Singh",
+       "p": 0.432
+      }
+     ],
+     "winner": [
+      {
+       "team": "Satyam Pathak / Divyam Jain",
+       "p": 0.3418
+      },
+      {
+       "team": "Arshdeep Singh / Sanam Singh",
+       "p": 0.3257
+      },
+      {
+       "team": "Sandeep Dhand / Adesh Pratap Singh",
+       "p": 0.2349
+      },
+      {
+       "team": "Saksham Dogra / Yuvraj Khullar",
+       "p": 0.0977
+      }
+     ]
+    },
+    {
+     "round": "QF 3",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 0.7181
+      },
+      {
+       "team": "Sidhannt Kalucha / Lokesh Dudeja",
+       "p": 0.2818
+      }
+     ],
+     "team2": [
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 0.7352
+      },
+      {
+       "team": "Yash Khajanchi / Abhiraj Singh",
+       "p": 0.2647
+      }
+     ],
+     "winner": [
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 0.5218
+      },
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 0.2858
+      },
+      {
+       "team": "Yash Khajanchi / Abhiraj Singh",
+       "p": 0.1283
+      },
+      {
+       "team": "Sidhannt Kalucha / Lokesh Dudeja",
+       "p": 0.0641
+      }
+     ]
+    },
+    {
+     "round": "QF 4",
+     "stage": 1,
+     "team1": [
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 0.7131
+      },
+      {
+       "team": "Vivek Sharma / Rahul Gupta",
+       "p": 0.2868
+      }
+     ],
+     "team2": [
+      {
+       "team": "Rajat Garg / Nitesh Bharti",
+       "p": 0.5569
+      },
+      {
+       "team": "Ramnish Pal / Abhit Jhanji",
+       "p": 0.443
+      }
+     ],
+     "winner": [
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 0.4459
+      },
+      {
+       "team": "Rajat Garg / Nitesh Bharti",
+       "p": 0.2576
+      },
+      {
+       "team": "Ramnish Pal / Abhit Jhanji",
+       "p": 0.1775
+      },
+      {
+       "team": "Vivek Sharma / Rahul Gupta",
+       "p": 0.119
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 0.754
+      },
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 0.1726
+      },
+      {
+       "team": "Sandip Sabharwal / Shampy Mittal",
+       "p": 0.0493
+      },
+      {
+       "team": "Hitesh Panwar / Shivam Garg",
+       "p": 0.024
+      }
+     ],
+     "team2": [
+      {
+       "team": "Satyam Pathak / Divyam Jain",
+       "p": 0.3418
+      },
+      {
+       "team": "Arshdeep Singh / Sanam Singh",
+       "p": 0.3257
+      },
+      {
+       "team": "Sandeep Dhand / Adesh Pratap Singh",
+       "p": 0.2349
+      },
+      {
+       "team": "Saksham Dogra / Yuvraj Khullar",
+       "p": 0.0977
+      }
+     ],
+     "winner": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 0.6495
+      },
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 0.1024
+      },
+      {
+       "team": "Satyam Pathak / Divyam Jain",
+       "p": 0.0868
+      },
+      {
+       "team": "Arshdeep Singh / Sanam Singh",
+       "p": 0.0689
+      },
+      {
+       "team": "Sandeep Dhand / Adesh Pratap Singh",
+       "p": 0.0503
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 0.5218
+      },
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 0.2858
+      },
+      {
+       "team": "Yash Khajanchi / Abhiraj Singh",
+       "p": 0.1283
+      },
+      {
+       "team": "Sidhannt Kalucha / Lokesh Dudeja",
+       "p": 0.0641
+      }
+     ],
+     "team2": [
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 0.4459
+      },
+      {
+       "team": "Rajat Garg / Nitesh Bharti",
+       "p": 0.2576
+      },
+      {
+       "team": "Ramnish Pal / Abhit Jhanji",
+       "p": 0.1775
+      },
+      {
+       "team": "Vivek Sharma / Rahul Gupta",
+       "p": 0.119
+      }
+     ],
+     "winner": [
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 0.384
+      },
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 0.1949
+      },
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 0.1671
+      },
+      {
+       "team": "Rajat Garg / Nitesh Bharti",
+       "p": 0.0871
+      },
+      {
+       "team": "Yash Khajanchi / Abhiraj Singh",
+       "p": 0.0639
+      }
+     ]
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "team1": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 0.6495
+      },
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 0.1024
+      },
+      {
+       "team": "Satyam Pathak / Divyam Jain",
+       "p": 0.0868
+      },
+      {
+       "team": "Arshdeep Singh / Sanam Singh",
+       "p": 0.0689
+      },
+      {
+       "team": "Sandeep Dhand / Adesh Pratap Singh",
+       "p": 0.0503
+      }
+     ],
+     "team2": [
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 0.384
+      },
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 0.1949
+      },
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 0.1671
+      },
+      {
+       "team": "Rajat Garg / Nitesh Bharti",
+       "p": 0.0871
+      },
+      {
+       "team": "Yash Khajanchi / Abhiraj Singh",
+       "p": 0.0639
+      }
+     ],
+     "winner": [
+      {
+       "team": "Gautam Kaushal / Suvir Singh",
+       "p": 0.5384
+      },
+      {
+       "team": "Shray Mehta / Atin Gupta",
+       "p": 0.161
+      },
+      {
+       "team": "Ajitesh Kaushal / Vidur Ahuja",
+       "p": 0.0518
+      },
+      {
+       "team": "Aarman Kler / Sahiljit Singh Sandhu",
+       "p": 0.0515
+      },
+      {
+       "team": "Ankit Dhawan / Guru Singh",
+       "p": 0.0452
+      }
+     ]
+    }
+   ],
+   "groups": {
+    "GROUP A": [
+     "Gautam Kaushal / Suvir Singh",
+     "Sandeep Dhand / Adesh Pratap Singh",
+     "Sidhannt Kalucha / Lokesh Dudeja",
+     "Rajbir S Randhawa / Aaronbir S Randhawa"
+    ],
+    "GROUP B": [
+     "Ajitesh Kaushal / Vidur Ahuja",
+     "Shray Mehta / Atin Gupta",
+     "Mohit Sharma / Dhruv Malhotra",
+     "Sahil Dhingra / Udit Khaitan"
+    ],
+    "GROUP C": [
+     "Ankit Dhawan / Guru Singh",
+     "Ramnish Pal / Abhit Jhanji",
+     "Sandip Sabharwal / Shampy Mittal",
+     "Nakul Mishra / Aditya Mehra"
+    ],
+    "GROUP D": [
+     "Arshdeep Singh / Sanam Singh",
+     "Hitesh Panwar / Shivam Garg",
+     "Surya Jain / Abhishek Slathia",
+     "Manav Jain / Thashakkriv Neelash"
+    ],
+    "GROUP E": [
+     "Satyam Pathak / Divyam Jain",
+     "Aarman Kler / Sahiljit Singh Sandhu",
+     "Saksham Dogra / Yuvraj Khullar",
+     "Sahil Mahajan / Anuj Aggarwal"
+    ],
+    "GROUP F": [
+     "Yash Khajanchi / Abhiraj Singh",
+     "Rajat Garg / Nitesh Bharti",
+     "Vivek Sharma / Rahul Gupta",
+     "Nikhil Doda / Jason P Sharma"
+    ]
+   },
+   "standings": [
+    {
+     "group": "GROUP A",
+     "team": "Gautam Kaushal / Suvir Singh",
+     "played": 3,
+     "wins": 3,
+     "points": 7,
+     "difference": 19
+    },
+    {
+     "group": "GROUP A",
+     "team": "Sandeep Dhand / Adesh Pratap Singh",
+     "played": 3,
+     "wins": 2,
+     "points": 5,
+     "difference": 10
+    },
+    {
+     "group": "GROUP A",
+     "team": "Sidhannt Kalucha / Lokesh Dudeja",
+     "played": 3,
+     "wins": 1,
+     "points": 3,
+     "difference": -5
+    },
+    {
+     "group": "GROUP A",
+     "team": "Rajbir S Randhawa / Aaronbir S Randhawa",
+     "played": 3,
+     "wins": 0,
+     "points": 0,
+     "difference": -24
+    },
+    {
+     "group": "GROUP B",
+     "team": "Ajitesh Kaushal / Vidur Ahuja",
+     "played": 3,
+     "wins": 3,
+     "points": 6,
+     "difference": 17
+    },
+    {
+     "group": "GROUP B",
+     "team": "Shray Mehta / Atin Gupta",
+     "played": 3,
+     "wins": 2,
+     "points": 4,
+     "difference": 5
+    },
+    {
+     "group": "GROUP B",
+     "team": "Mohit Sharma / Dhruv Malhotra",
+     "played": 3,
+     "wins": 1,
+     "points": 2,
+     "difference": -5
+    },
+    {
+     "group": "GROUP B",
+     "team": "Sahil Dhingra / Udit Khaitan",
+     "played": 3,
+     "wins": 0,
+     "points": 0,
+     "difference": -17
+    },
+    {
+     "group": "GROUP C",
+     "team": "Ankit Dhawan / Guru Singh",
+     "played": 3,
+     "wins": 3,
+     "points": 7,
+     "difference": 19
+    },
+    {
+     "group": "GROUP C",
+     "team": "Ramnish Pal / Abhit Jhanji",
+     "played": 3,
+     "wins": 2,
+     "points": 4,
+     "difference": 2
+    },
+    {
+     "group": "GROUP C",
+     "team": "Sandip Sabharwal / Shampy Mittal",
+     "played": 3,
+     "wins": 1,
+     "points": 2,
+     "difference": -4
+    },
+    {
+     "group": "GROUP C",
+     "team": "Nakul Mishra / Aditya Mehra",
+     "played": 3,
+     "wins": 0,
+     "points": 0,
+     "difference": -17
+    },
+    {
+     "group": "GROUP D",
+     "team": "Arshdeep Singh / Sanam Singh",
+     "played": 3,
+     "wins": 3,
+     "points": 6,
+     "difference": 21
+    },
+    {
+     "group": "GROUP D",
+     "team": "Hitesh Panwar / Shivam Garg",
+     "played": 3,
+     "wins": 2,
+     "points": 4,
+     "difference": 5
+    },
+    {
+     "group": "GROUP D",
+     "team": "Surya Jain / Abhishek Slathia",
+     "played": 3,
+     "wins": 1,
+     "points": 2,
+     "difference": -5
+    },
+    {
+     "group": "GROUP D",
+     "team": "Manav Jain / Thashakkriv Neelash",
+     "played": 3,
+     "wins": 0,
+     "points": 0,
+     "difference": -21
+    },
+    {
+     "group": "GROUP E",
+     "team": "Satyam Pathak / Divyam Jain",
+     "played": 3,
+     "wins": 3,
+     "points": 6,
+     "difference": 19
+    },
+    {
+     "group": "GROUP E",
+     "team": "Aarman Kler / Sahiljit Singh Sandhu",
+     "played": 3,
+     "wins": 2,
+     "points": 4,
+     "difference": 8
+    },
+    {
+     "group": "GROUP E",
+     "team": "Saksham Dogra / Yuvraj Khullar",
+     "played": 3,
+     "wins": 1,
+     "points": 3,
+     "difference": -5
+    },
+    {
+     "group": "GROUP E",
+     "team": "Sahil Mahajan / Anuj Aggarwal",
+     "played": 3,
+     "wins": 0,
+     "points": 0,
+     "difference": -22
+    },
+    {
+     "group": "GROUP F",
+     "team": "Yash Khajanchi / Abhiraj Singh",
+     "played": 3,
+     "wins": 3,
+     "points": 6,
+     "difference": 12
+    },
+    {
+     "group": "GROUP F",
+     "team": "Rajat Garg / Nitesh Bharti",
+     "played": 3,
+     "wins": 2,
+     "points": 4,
+     "difference": 9
+    },
+    {
+     "group": "GROUP F",
+     "team": "Vivek Sharma / Rahul Gupta",
+     "played": 3,
+     "wins": 1,
+     "points": 2,
+     "difference": -3
+    },
+    {
+     "group": "GROUP F",
+     "team": "Nikhil Doda / Jason P Sharma",
+     "played": 3,
+     "wins": 0,
+     "points": 0,
+     "difference": -18
+    }
+   ],
+   "group_matches": [
+    {
+     "t1": "Gautam Kaushal / Suvir Singh",
+     "t2": "Sidhannt Kalucha / Lokesh Dudeja",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      1
+     ]
+    },
+    {
+     "t1": "Shray Mehta / Atin Gupta",
+     "t2": "Mohit Sharma / Dhruv Malhotra",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      6
+     ]
+    },
+    {
+     "t1": "Sandip Sabharwal / Shampy Mittal",
+     "t2": "Ramnish Pal / Abhit Jhanji",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      6,
+      8
+     ]
+    },
+    {
+     "t1": "Sandeep Dhand / Adesh Pratap Singh",
+     "t2": "Rajbir S Randhawa / Aaronbir S Randhawa",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      0
+     ]
+    },
+    {
+     "t1": "Sahil Dhingra / Udit Khaitan",
+     "t2": "Ajitesh Kaushal / Vidur Ahuja",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Ankit Dhawan / Guru Singh",
+     "t2": "Nakul Mishra / Aditya Mehra",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      0
+     ]
+    },
+    {
+     "t1": "Gautam Kaushal / Suvir Singh",
+     "t2": "Sandeep Dhand / Adesh Pratap Singh",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      4
+     ]
+    },
+    {
+     "t1": "Shray Mehta / Atin Gupta",
+     "t2": "Sahil Dhingra / Udit Khaitan",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      1
+     ]
+    },
+    {
+     "t1": "Sandip Sabharwal / Shampy Mittal",
+     "t2": "Ankit Dhawan / Guru Singh",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Sidhannt Kalucha / Lokesh Dudeja",
+     "t2": "Rajbir S Randhawa / Aaronbir S Randhawa",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      0
+     ]
+    },
+    {
+     "t1": "Mohit Sharma / Dhruv Malhotra",
+     "t2": "Ajitesh Kaushal / Vidur Ahuja",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      2,
+      8
+     ]
+    },
+    {
+     "t1": "Ramnish Pal / Abhit Jhanji",
+     "t2": "Nakul Mishra / Aditya Mehra",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      4
+     ]
+    },
+    {
+     "t1": "Gautam Kaushal / Suvir Singh",
+     "t2": "Rajbir S Randhawa / Aaronbir S Randhawa",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      0
+     ]
+    },
+    {
+     "t1": "Shray Mehta / Atin Gupta",
+     "t2": "Ajitesh Kaushal / Vidur Ahuja",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      4,
+      8
+     ]
+    },
+    {
+     "t1": "Sandip Sabharwal / Shampy Mittal",
+     "t2": "Nakul Mishra / Aditya Mehra",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      3
+     ]
+    },
+    {
+     "t1": "Sidhannt Kalucha / Lokesh Dudeja",
+     "t2": "Sandeep Dhand / Adesh Pratap Singh",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      2,
+      8
+     ]
+    },
+    {
+     "t1": "Mohit Sharma / Dhruv Malhotra",
+     "t2": "Sahil Dhingra / Udit Khaitan",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      5
+     ]
+    },
+    {
+     "t1": "Ramnish Pal / Abhit Jhanji",
+     "t2": "Ankit Dhawan / Guru Singh",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      4,
+      8
+     ]
+    },
+    {
+     "t1": "Manav Jain / Thashakkriv Neelash",
+     "t2": "Surya Jain / Abhishek Slathia",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Aarman Kler / Sahiljit Singh Sandhu",
+     "t2": "Sahil Mahajan / Anuj Aggarwal",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      1
+     ]
+    },
+    {
+     "t1": "Yash Khajanchi / Abhiraj Singh",
+     "t2": "Vivek Sharma / Rahul Gupta",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      3
+     ]
+    },
+    {
+     "t1": "Arshdeep Singh / Sanam Singh",
+     "t2": "Hitesh Panwar / Shivam Garg",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      1
+     ]
+    },
+    {
+     "t1": "Satyam Pathak / Divyam Jain",
+     "t2": "Saksham Dogra / Yuvraj Khullar",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      1
+     ]
+    },
+    {
+     "t1": "Nikhil Doda / Jason P Sharma",
+     "t2": "Rajat Garg / Nitesh Bharti",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Manav Jain / Thashakkriv Neelash",
+     "t2": "Arshdeep Singh / Sanam Singh",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Aarman Kler / Sahiljit Singh Sandhu",
+     "t2": "Satyam Pathak / Divyam Jain",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      3,
+      8
+     ]
+    },
+    {
+     "t1": "Yash Khajanchi / Abhiraj Singh",
+     "t2": "Nikhil Doda / Jason P Sharma",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      2
+     ]
+    },
+    {
+     "t1": "Surya Jain / Abhishek Slathia",
+     "t2": "Hitesh Panwar / Shivam Garg",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      3,
+      8
+     ]
+    },
+    {
+     "t1": "Sahil Mahajan / Anuj Aggarwal",
+     "t2": "Saksham Dogra / Yuvraj Khullar",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      0,
+      8
+     ]
+    },
+    {
+     "t1": "Vivek Sharma / Rahul Gupta",
+     "t2": "Rajat Garg / Nitesh Bharti",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      5,
+      8
+     ]
+    },
+    {
+     "t1": "Manav Jain / Thashakkriv Neelash",
+     "t2": "Hitesh Panwar / Shivam Garg",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Aarman Kler / Sahiljit Singh Sandhu",
+     "t2": "Saksham Dogra / Yuvraj Khullar",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      2
+     ]
+    },
+    {
+     "t1": "Yash Khajanchi / Abhiraj Singh",
+     "t2": "Rajat Garg / Nitesh Bharti",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      7
+     ]
+    },
+    {
+     "t1": "Surya Jain / Abhishek Slathia",
+     "t2": "Arshdeep Singh / Sanam Singh",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Sahil Mahajan / Anuj Aggarwal",
+     "t2": "Satyam Pathak / Divyam Jain",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 2,
+     "games": [
+      1,
+      8
+     ]
+    },
+    {
+     "t1": "Vivek Sharma / Rahul Gupta",
+     "t2": "Nikhil Doda / Jason P Sharma",
+     "format": "Race to 8",
+     "status": "completed",
+     "winner": 1,
+     "games": [
+      8,
+      3
+     ]
+    }
+   ],
+   "ko": [
+    {
+     "round": "R16 1",
+     "stage": 0,
+     "t1": "Gautam Kaushal / Suvir Singh",
+     "t2": "Sandip Sabharwal / Shampy Mittal",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 2",
+     "stage": 0,
+     "t1": "Aarman Kler / Sahiljit Singh Sandhu",
+     "t2": "Hitesh Panwar / Shivam Garg",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 3",
+     "stage": 0,
+     "t1": "Arshdeep Singh / Sanam Singh",
+     "t2": "Saksham Dogra / Yuvraj Khullar",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 4",
+     "stage": 0,
+     "t1": "Satyam Pathak / Divyam Jain",
+     "t2": "Sandeep Dhand / Adesh Pratap Singh",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 5",
+     "stage": 0,
+     "t1": "Ankit Dhawan / Guru Singh",
+     "t2": "Sidhannt Kalucha / Lokesh Dudeja",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 6",
+     "stage": 0,
+     "t1": "Shray Mehta / Atin Gupta",
+     "t2": "Yash Khajanchi / Abhiraj Singh",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 7",
+     "stage": 0,
+     "t1": "Ajitesh Kaushal / Vidur Ahuja",
+     "t2": "Vivek Sharma / Rahul Gupta",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "R16 8",
+     "stage": 0,
+     "t1": "Ramnish Pal / Abhit Jhanji",
+     "t2": "Rajat Garg / Nitesh Bharti",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 1",
+     "stage": 1,
+     "t1": "Winner - R16 1",
+     "t2": "Winner - R16 2",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 2",
+     "stage": 1,
+     "t1": "Winner - R16 3",
+     "t2": "Winner - R16 4",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 3",
+     "stage": 1,
+     "t1": "Winner - R16 5",
+     "t2": "Winner - R16 6",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "QF 4",
+     "stage": 1,
+     "t1": "Winner - R16 7",
+     "t2": "Winner - R16 8",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "t1": "Winner - QF 1",
+     "t2": "Winner - QF 2",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "t1": "Winner - QF 3",
+     "t2": "Winner - QF 4",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "t1": "Winner - SF 1",
+     "t2": "Winner - SF 2",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    }
+   ],
+   "strength": {
+    "Aarman Kler / Sahiljit Singh Sandhu": 0.2842,
+    "Ajitesh Kaushal / Vidur Ahuja": 0.2334,
+    "Ankit Dhawan / Guru Singh": 0.2436,
+    "Arshdeep Singh / Sanam Singh": 0.1809,
+    "Gautam Kaushal / Suvir Singh": 0.7173,
+    "Hitesh Panwar / Shivam Garg": -0.0275,
+    "Manav Jain / Thashakkriv Neelash": 0.2506,
+    "Mohit Sharma / Dhruv Malhotra": -0.0271,
+    "Nakul Mishra / Aditya Mehra": -0.1898,
+    "Nikhil Doda / Jason P Sharma": -0.2155,
+    "Rajat Garg / Nitesh Bharti": 0.1077,
+    "Rajbir S Randhawa / Aaronbir S Randhawa": -0.2752,
+    "Ramnish Pal / Abhit Jhanji": 0.0395,
+    "Sahil Dhingra / Udit Khaitan": -0.2154,
+    "Sahil Mahajan / Anuj Aggarwal": -0.2585,
+    "Saksham Dogra / Yuvraj Khullar": -0.0455,
+    "Sandeep Dhand / Adesh Pratap Singh": 0.1647,
+    "Sandip Sabharwal / Shampy Mittal": 0.1362,
+    "Satyam Pathak / Divyam Jain": 0.2452,
+    "Shray Mehta / Atin Gupta": 0.4368,
+    "Sidhannt Kalucha / Lokesh Dudeja": -0.0283,
+    "Surya Jain / Abhishek Slathia": -0.1534,
+    "Vivek Sharma / Rahul Gupta": -0.0333,
+    "Yash Khajanchi / Abhiraj Singh": 0.1411
+   }
+  },
+  "Men's 40+": {
+   "ko_slots": [
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Akshay Jalan / Ankit Agarwal",
+       "p": 0.9839
+      },
+      {
+       "team": "Gagandeep Singh Wasu / Vikas Nayar",
+       "p": 0.0057
+      },
+      {
+       "team": "Mukul Kumar / Kanwar Dhillon",
+       "p": 0.0053
+      },
+      {
+       "team": "Sidharth Garg / Anuj Mehndiratta",
+       "p": 0.005
+      }
+     ],
+     "team2": [
+      {
+       "team": "Prabhas Sharma / Muizz Khan",
+       "p": 0.2579
+      },
+      {
+       "team": "Rakesh Kumar / Akash Chawla",
+       "p": 0.251
+      },
+      {
+       "team": "Utsav Khanna / Supan Kalucha",
+       "p": 0.2477
+      },
+      {
+       "team": "Sidharth Daluja / Avish Sharma",
+       "p": 0.2435
+      }
+     ],
+     "winner": [
+      {
+       "team": "Akshay Jalan / Ankit Agarwal",
+       "p": 0.9745
+      },
+      {
+       "team": "Prabhas Sharma / Muizz Khan",
+       "p": 0.0053
+      },
+      {
+       "team": "Sidharth Daluja / Avish Sharma",
+       "p": 0.0046
+      },
+      {
+       "team": "Utsav Khanna / Supan Kalucha",
+       "p": 0.0039
+      },
+      {
+       "team": "Rakesh Kumar / Akash Chawla",
+       "p": 0.0037
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Prabhas Sharma / Muizz Khan",
+       "p": 0.2855
+      },
+      {
+       "team": "Utsav Khanna / Supan Kalucha",
+       "p": 0.2407
+      },
+      {
+       "team": "Sidharth Daluja / Avish Sharma",
+       "p": 0.2382
+      },
+      {
+       "team": "Rakesh Kumar / Akash Chawla",
+       "p": 0.2356
+      }
+     ],
+     "team2": [
+      {
+       "team": "Sidharth Garg / Anuj Mehndiratta",
+       "p": 0.3298
+      },
+      {
+       "team": "Mukul Kumar / Kanwar Dhillon",
+       "p": 0.3291
+      },
+      {
+       "team": "Gagandeep Singh Wasu / Vikas Nayar",
+       "p": 0.3257
+      },
+      {
+       "team": "Akshay Jalan / Ankit Agarwal",
+       "p": 0.0152
+      }
+     ],
+     "winner": [
+      {
+       "team": "Sidharth Garg / Anuj Mehndiratta",
+       "p": 0.1618
+      },
+      {
+       "team": "Gagandeep Singh Wasu / Vikas Nayar",
+       "p": 0.1605
+      },
+      {
+       "team": "Mukul Kumar / Kanwar Dhillon",
+       "p": 0.1595
+      },
+      {
+       "team": "Prabhas Sharma / Muizz Khan",
+       "p": 0.1506
+      },
+      {
+       "team": "Sidharth Daluja / Avish Sharma",
+       "p": 0.1186
+      }
+     ]
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "team1": [
+      {
+       "team": "Akshay Jalan / Ankit Agarwal",
+       "p": 0.9745
+      },
+      {
+       "team": "Prabhas Sharma / Muizz Khan",
+       "p": 0.0053
+      },
+      {
+       "team": "Sidharth Daluja / Avish Sharma",
+       "p": 0.0046
+      },
+      {
+       "team": "Utsav Khanna / Supan Kalucha",
+       "p": 0.0039
+      },
+      {
+       "team": "Rakesh Kumar / Akash Chawla",
+       "p": 0.0037
+      }
+     ],
+     "team2": [
+      {
+       "team": "Sidharth Garg / Anuj Mehndiratta",
+       "p": 0.1618
+      },
+      {
+       "team": "Gagandeep Singh Wasu / Vikas Nayar",
+       "p": 0.1605
+      },
+      {
+       "team": "Mukul Kumar / Kanwar Dhillon",
+       "p": 0.1595
+      },
+      {
+       "team": "Prabhas Sharma / Muizz Khan",
+       "p": 0.1506
+      },
+      {
+       "team": "Sidharth Daluja / Avish Sharma",
+       "p": 0.1186
+      }
+     ],
+     "winner": [
+      {
+       "team": "Akshay Jalan / Ankit Agarwal",
+       "p": 0.979
+      },
+      {
+       "team": "Prabhas Sharma / Muizz Khan",
+       "p": 0.0046
+      },
+      {
+       "team": "Utsav Khanna / Supan Kalucha",
+       "p": 0.0034
+      },
+      {
+       "team": "Rakesh Kumar / Akash Chawla",
+       "p": 0.0032
+      },
+      {
+       "team": "Sidharth Daluja / Avish Sharma",
+       "p": 0.0029
+      }
+     ]
+    }
+   ],
+   "groups": {
+    "GROUP A": [
+     "Akshay Jalan / Ankit Agarwal",
+     "Mukul Kumar / Kanwar Dhillon",
+     "Sidharth Garg / Anuj Mehndiratta",
+     "Gagandeep Singh Wasu / Vikas Nayar"
+    ],
+    "GROUP B": [
+     "Prabhas Sharma / Muizz Khan",
+     "Utsav Khanna / Supan Kalucha",
+     "Sidharth Daluja / Avish Sharma",
+     "Rakesh Kumar / Akash Chawla"
+    ]
+   },
+   "standings": [
+    {
+     "group": "GROUP A",
+     "team": "Akshay Jalan / Ankit Agarwal",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Mukul Kumar / Kanwar Dhillon",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Sidharth Garg / Anuj Mehndiratta",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Gagandeep Singh Wasu / Vikas Nayar",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Prabhas Sharma / Muizz Khan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Utsav Khanna / Supan Kalucha",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Sidharth Daluja / Avish Sharma",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Rakesh Kumar / Akash Chawla",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    }
+   ],
+   "group_matches": [
+    {
+     "t1": "Akshay Jalan / Ankit Agarwal",
+     "t2": "Mukul Kumar / Kanwar Dhillon",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Prabhas Sharma / Muizz Khan",
+     "t2": "Utsav Khanna / Supan Kalucha",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Sidharth Garg / Anuj Mehndiratta",
+     "t2": "Gagandeep Singh Wasu / Vikas Nayar",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Sidharth Daluja / Avish Sharma",
+     "t2": "Rakesh Kumar / Akash Chawla",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Akshay Jalan / Ankit Agarwal",
+     "t2": "Sidharth Garg / Anuj Mehndiratta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Prabhas Sharma / Muizz Khan",
+     "t2": "Sidharth Daluja / Avish Sharma",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Mukul Kumar / Kanwar Dhillon",
+     "t2": "Gagandeep Singh Wasu / Vikas Nayar",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Utsav Khanna / Supan Kalucha",
+     "t2": "Rakesh Kumar / Akash Chawla",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Akshay Jalan / Ankit Agarwal",
+     "t2": "Gagandeep Singh Wasu / Vikas Nayar",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Prabhas Sharma / Muizz Khan",
+     "t2": "Rakesh Kumar / Akash Chawla",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Mukul Kumar / Kanwar Dhillon",
+     "t2": "Sidharth Garg / Anuj Mehndiratta",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Utsav Khanna / Supan Kalucha",
+     "t2": "Sidharth Daluja / Avish Sharma",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    }
+   ],
+   "ko": [
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "t1": "Group A - 1st",
+     "t2": "Group B - 2nd",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "t1": "Group B - 1st",
+     "t2": "Group A - 2nd",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "t1": "Winner - SF 1",
+     "t2": "Winner - SF 2",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    }
+   ],
+   "strength": {
+    "Akshay Jalan / Ankit Agarwal": 1.0847,
+    "Gagandeep Singh Wasu / Vikas Nayar": 0.0,
+    "Mukul Kumar / Kanwar Dhillon": 0.0,
+    "Prabhas Sharma / Muizz Khan": 0.04,
+    "Rakesh Kumar / Akash Chawla": 0.0,
+    "Sidharth Daluja / Avish Sharma": 0.0,
+    "Sidharth Garg / Anuj Mehndiratta": 0.0,
+    "Utsav Khanna / Supan Kalucha": 0.0
+   }
+  },
+  "Women's Beginner": {
+   "ko_slots": [
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Dishita Aggarwal / Avreet Dhillon",
+       "p": 0.5156
+      },
+      {
+       "team": "Armaan Mann / Amanat Mann",
+       "p": 0.2847
+      },
+      {
+       "team": "Hridaya Patel / Rushali Singh",
+       "p": 0.1002
+      },
+      {
+       "team": "Nihar Khan / Priyanka Mahajan",
+       "p": 0.0996
+      }
+     ],
+     "team2": [
+      {
+       "team": "Sara Daluja / Shuchi Bakshi",
+       "p": 0.2203
+      },
+      {
+       "team": "Bhavya Wadhawan / Shrawasti Kundilya",
+       "p": 0.2185
+      },
+      {
+       "team": "Tasveer Sohi / Prabhsifat Kaur",
+       "p": 0.2172
+      },
+      {
+       "team": "Muskaan Sundra / Hasrat Kaushal",
+       "p": 0.2137
+      },
+      {
+       "team": "Arnavaz Kollah / Ustat Kharbanda",
+       "p": 0.1304
+      }
+     ],
+     "winner": [
+      {
+       "team": "Dishita Aggarwal / Avreet Dhillon",
+       "p": 0.3613
+      },
+      {
+       "team": "Armaan Mann / Amanat Mann",
+       "p": 0.1721
+      },
+      {
+       "team": "Arnavaz Kollah / Ustat Kharbanda",
+       "p": 0.097
+      },
+      {
+       "team": "Muskaan Sundra / Hasrat Kaushal",
+       "p": 0.0707
+      },
+      {
+       "team": "Tasveer Sohi / Prabhsifat Kaur",
+       "p": 0.0707
+      }
+     ]
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "team1": [
+      {
+       "team": "Arnavaz Kollah / Ustat Kharbanda",
+       "p": 0.8098
+      },
+      {
+       "team": "Bhavya Wadhawan / Shrawasti Kundilya",
+       "p": 0.0486
+      },
+      {
+       "team": "Sara Daluja / Shuchi Bakshi",
+       "p": 0.0477
+      },
+      {
+       "team": "Muskaan Sundra / Hasrat Kaushal",
+       "p": 0.0476
+      },
+      {
+       "team": "Tasveer Sohi / Prabhsifat Kaur",
+       "p": 0.0463
+      }
+     ],
+     "team2": [
+      {
+       "team": "Armaan Mann / Amanat Mann",
+       "p": 0.3263
+      },
+      {
+       "team": "Dishita Aggarwal / Avreet Dhillon",
+       "p": 0.2722
+      },
+      {
+       "team": "Hridaya Patel / Rushali Singh",
+       "p": 0.2011
+      },
+      {
+       "team": "Nihar Khan / Priyanka Mahajan",
+       "p": 0.2003
+      }
+     ],
+     "winner": [
+      {
+       "team": "Arnavaz Kollah / Ustat Kharbanda",
+       "p": 0.6366
+      },
+      {
+       "team": "Dishita Aggarwal / Avreet Dhillon",
+       "p": 0.1094
+      },
+      {
+       "team": "Armaan Mann / Amanat Mann",
+       "p": 0.1036
+      },
+      {
+       "team": "Nihar Khan / Priyanka Mahajan",
+       "p": 0.0411
+      },
+      {
+       "team": "Hridaya Patel / Rushali Singh",
+       "p": 0.0396
+      }
+     ]
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "team1": [
+      {
+       "team": "Dishita Aggarwal / Avreet Dhillon",
+       "p": 0.3613
+      },
+      {
+       "team": "Armaan Mann / Amanat Mann",
+       "p": 0.1721
+      },
+      {
+       "team": "Arnavaz Kollah / Ustat Kharbanda",
+       "p": 0.097
+      },
+      {
+       "team": "Muskaan Sundra / Hasrat Kaushal",
+       "p": 0.0707
+      },
+      {
+       "team": "Tasveer Sohi / Prabhsifat Kaur",
+       "p": 0.0707
+      }
+     ],
+     "team2": [
+      {
+       "team": "Arnavaz Kollah / Ustat Kharbanda",
+       "p": 0.6366
+      },
+      {
+       "team": "Dishita Aggarwal / Avreet Dhillon",
+       "p": 0.1094
+      },
+      {
+       "team": "Armaan Mann / Amanat Mann",
+       "p": 0.1036
+      },
+      {
+       "team": "Nihar Khan / Priyanka Mahajan",
+       "p": 0.0411
+      },
+      {
+       "team": "Hridaya Patel / Rushali Singh",
+       "p": 0.0396
+      }
+     ],
+     "winner": [
+      {
+       "team": "Arnavaz Kollah / Ustat Kharbanda",
+       "p": 0.5788
+      },
+      {
+       "team": "Dishita Aggarwal / Avreet Dhillon",
+       "p": 0.2245
+      },
+      {
+       "team": "Armaan Mann / Amanat Mann",
+       "p": 0.0967
+      },
+      {
+       "team": "Nihar Khan / Priyanka Mahajan",
+       "p": 0.0183
+      },
+      {
+       "team": "Muskaan Sundra / Hasrat Kaushal",
+       "p": 0.0175
+      }
+     ]
+    }
+   ],
+   "groups": {
+    "GROUP A": [
+     "Dishita Aggarwal / Avreet Dhillon",
+     "Armaan Mann / Amanat Mann",
+     "Nihar Khan / Priyanka Mahajan",
+     "Hridaya Patel / Rushali Singh"
+    ],
+    "GROUP B": [
+     "Arnavaz Kollah / Ustat Kharbanda",
+     "Sara Daluja / Shuchi Bakshi",
+     "Tasveer Sohi / Prabhsifat Kaur",
+     "Bhavya Wadhawan / Shrawasti Kundilya",
+     "Muskaan Sundra / Hasrat Kaushal"
+    ]
+   },
+   "standings": [
+    {
+     "group": "GROUP A",
+     "team": "Dishita Aggarwal / Avreet Dhillon",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Armaan Mann / Amanat Mann",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Nihar Khan / Priyanka Mahajan",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP A",
+     "team": "Hridaya Patel / Rushali Singh",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Arnavaz Kollah / Ustat Kharbanda",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Sara Daluja / Shuchi Bakshi",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Tasveer Sohi / Prabhsifat Kaur",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Bhavya Wadhawan / Shrawasti Kundilya",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    },
+    {
+     "group": "GROUP B",
+     "team": "Muskaan Sundra / Hasrat Kaushal",
+     "played": 0,
+     "wins": 0,
+     "points": 0,
+     "difference": 0
+    }
+   ],
+   "group_matches": [
+    {
+     "t1": "Dishita Aggarwal / Avreet Dhillon",
+     "t2": "Armaan Mann / Amanat Mann",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Nihar Khan / Priyanka Mahajan",
+     "t2": "Hridaya Patel / Rushali Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Dishita Aggarwal / Avreet Dhillon",
+     "t2": "Nihar Khan / Priyanka Mahajan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Armaan Mann / Amanat Mann",
+     "t2": "Hridaya Patel / Rushali Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Dishita Aggarwal / Avreet Dhillon",
+     "t2": "Hridaya Patel / Rushali Singh",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Armaan Mann / Amanat Mann",
+     "t2": "Nihar Khan / Priyanka Mahajan",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arnavaz Kollah / Ustat Kharbanda",
+     "t2": "Sara Daluja / Shuchi Bakshi",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Tasveer Sohi / Prabhsifat Kaur",
+     "t2": "Bhavya Wadhawan / Shrawasti Kundilya",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Bhavya Wadhawan / Shrawasti Kundilya",
+     "t2": "Muskaan Sundra / Hasrat Kaushal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arnavaz Kollah / Ustat Kharbanda",
+     "t2": "Tasveer Sohi / Prabhsifat Kaur",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Sara Daluja / Shuchi Bakshi",
+     "t2": "Muskaan Sundra / Hasrat Kaushal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arnavaz Kollah / Ustat Kharbanda",
+     "t2": "Bhavya Wadhawan / Shrawasti Kundilya",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Sara Daluja / Shuchi Bakshi",
+     "t2": "Tasveer Sohi / Prabhsifat Kaur",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Arnavaz Kollah / Ustat Kharbanda",
+     "t2": "Muskaan Sundra / Hasrat Kaushal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Sara Daluja / Shuchi Bakshi",
+     "t2": "Bhavya Wadhawan / Shrawasti Kundilya",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    },
+    {
+     "t1": "Tasveer Sohi / Prabhsifat Kaur",
+     "t2": "Muskaan Sundra / Hasrat Kaushal",
+     "format": "Race to 8",
+     "status": "scheduled",
+     "winner": null,
+     "games": null
+    }
+   ],
+   "ko": [
+    {
+     "round": "Semi Final 1",
+     "stage": 2,
+     "t1": "Group A - 1st",
+     "t2": "Group B - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Semi Final 2",
+     "stage": 2,
+     "t1": "Group B - 1st",
+     "t2": "Group A - 2nd",
+     "format": "Race to 9",
+     "status": "scheduled",
+     "winner": null
+    },
+    {
+     "round": "Final",
+     "stage": 3,
+     "t1": "Winner - SF 1",
+     "t2": "Winner - SF 2",
+     "format": "Best of 3 sets",
+     "status": "scheduled",
+     "winner": null
+    }
+   ],
+   "strength": {
+    "Armaan Mann / Amanat Mann": 0.1978,
+    "Arnavaz Kollah / Ustat Kharbanda": 0.5513,
+    "Bhavya Wadhawan / Shrawasti Kundilya": 0.0,
+    "Dishita Aggarwal / Avreet Dhillon": 0.3346,
+    "Hridaya Patel / Rushali Singh": 0.0,
+    "Muskaan Sundra / Hasrat Kaushal": 0.0,
+    "Nihar Khan / Priyanka Mahajan": 0.0,
+    "Sara Daluja / Shuchi Bakshi": 0.0,
+    "Tasveer Sohi / Prabhsifat Kaur": 0.0
+   }
+  }
+ },
+ "teams": [
+  {
+   "team": "Gautam Kaushal / Suvir Singh",
+   "division": "Men's Beginner",
+   "points": 45.0,
+   "strength": 0.7173,
+   "players": [
+    {
+     "name": "Gautam Kaushal",
+     "points": 27.0,
+     "theta": 0.3661
+    },
+    {
+     "name": "Suvir Singh",
+     "points": 18.0,
+     "theta": 0.3512
+    }
+   ]
+  },
+  {
+   "team": "Sidhannt Kalucha / Lokesh Dudeja",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.0283,
+   "players": [
+    {
+     "name": "Sidhannt Kalucha",
+     "points": 0.0,
+     "theta": -0.0142
+    },
+    {
+     "name": "Lokesh Dudeja",
+     "points": 0.0,
+     "theta": -0.0142
+    }
+   ]
+  },
+  {
+   "team": "Shray Mehta / Atin Gupta",
+   "division": "Men's Beginner",
+   "points": 30.0,
+   "strength": 0.4368,
+   "players": [
+    {
+     "name": "Shray Mehta",
+     "points": 15.0,
+     "theta": 0.2184
+    },
+    {
+     "name": "Atin Gupta",
+     "points": 15.0,
+     "theta": 0.2184
+    }
+   ]
+  },
+  {
+   "team": "Mohit Sharma / Dhruv Malhotra",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.0271,
+   "players": [
+    {
+     "name": "Mohit Sharma",
+     "points": 0.0,
+     "theta": -0.0136
+    },
+    {
+     "name": "Dhruv Malhotra",
+     "points": 0.0,
+     "theta": -0.0136
+    }
+   ]
+  },
+  {
+   "team": "Sandip Sabharwal / Shampy Mittal",
+   "division": "Men's Beginner",
+   "points": 20.0,
+   "strength": 0.1362,
+   "players": [
+    {
+     "name": "Sandip Sabharwal",
+     "points": 20.0,
+     "theta": 0.1828
+    },
+    {
+     "name": "Shampy Mittal",
+     "points": 0.0,
+     "theta": -0.0466
+    }
+   ]
+  },
+  {
+   "team": "Ramnish Pal / Abhit Jhanji",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.0395,
+   "players": [
+    {
+     "name": "Ramnish Pal",
+     "points": 0.0,
+     "theta": 0.0197
+    },
+    {
+     "name": "Abhit Jhanji",
+     "points": 0.0,
+     "theta": 0.0197
+    }
+   ]
+  },
+  {
+   "team": "Sandeep Dhand / Adesh Pratap Singh",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.1647,
+   "players": [
+    {
+     "name": "Sandeep Dhand",
+     "points": 0.0,
+     "theta": 0.0823
+    },
+    {
+     "name": "Adesh Pratap Singh",
+     "points": 0.0,
+     "theta": 0.0823
+    }
+   ]
+  },
+  {
+   "team": "Rajbir S Randhawa / Aaronbir S Randhawa",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.2752,
+   "players": [
+    {
+     "name": "Rajbir S Randhawa",
+     "points": 0.0,
+     "theta": -0.1376
+    },
+    {
+     "name": "Aaronbir S Randhawa",
+     "points": 0.0,
+     "theta": -0.1376
+    }
+   ]
+  },
+  {
+   "team": "Sahil Dhingra / Udit Khaitan",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.2154,
+   "players": [
+    {
+     "name": "Sahil Dhingra",
+     "points": 0.0,
+     "theta": -0.1298
+    },
+    {
+     "name": "Udit Khaitan",
+     "points": 0.0,
+     "theta": -0.0856
+    }
+   ]
+  },
+  {
+   "team": "Ajitesh Kaushal / Vidur Ahuja",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.2334,
+   "players": [
+    {
+     "name": "Ajitesh Kaushal",
+     "points": 0.0,
+     "theta": 0.1167
+    },
+    {
+     "name": "Vidur Ahuja",
+     "points": 0.0,
+     "theta": 0.1167
+    }
+   ]
+  },
+  {
+   "team": "Ankit Dhawan / Guru Singh",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.2436,
+   "players": [
+    {
+     "name": "Ankit Dhawan",
+     "points": 0.0,
+     "theta": 0.1218
+    },
+    {
+     "name": "Guru Singh",
+     "points": 0.0,
+     "theta": 0.1218
+    }
+   ]
+  },
+  {
+   "team": "Nakul Mishra / Aditya Mehra",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.1898,
+   "players": [
+    {
+     "name": "Nakul Mishra",
+     "points": 0.0,
+     "theta": -0.0949
+    },
+    {
+     "name": "Aditya Mehra",
+     "points": 0.0,
+     "theta": -0.0949
+    }
+   ]
+  },
+  {
+   "team": "Manav Jain / Thashakkriv Neelash",
+   "division": "Men's Beginner",
+   "points": 18.0,
+   "strength": 0.2506,
+   "players": [
+    {
+     "name": "Manav Jain",
+     "points": 18.0,
+     "theta": 0.2506
+    },
+    {
+     "name": "Thashakkriv Neelash",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Surya Jain / Abhishek Slathia",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.1534,
+   "players": [
+    {
+     "name": "Surya Jain",
+     "points": 0.0,
+     "theta": -0.0767
+    },
+    {
+     "name": "Abhishek Slathia",
+     "points": 0.0,
+     "theta": -0.0767
+    }
+   ]
+  },
+  {
+   "team": "Aarman Kler / Sahiljit Singh Sandhu",
+   "division": "Men's Beginner",
+   "points": 9.0,
+   "strength": 0.2842,
+   "players": [
+    {
+     "name": "Aarman Kler",
+     "points": 9.0,
+     "theta": 0.2548
+    },
+    {
+     "name": "Sahiljit Singh Sandhu",
+     "points": 0.0,
+     "theta": 0.0294
+    }
+   ]
+  },
+  {
+   "team": "Sahil Mahajan / Anuj Aggarwal",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.2585,
+   "players": [
+    {
+     "name": "Sahil Mahajan",
+     "points": 0.0,
+     "theta": -0.1293
+    },
+    {
+     "name": "Anuj Aggarwal",
+     "points": 0.0,
+     "theta": -0.1293
+    }
+   ]
+  },
+  {
+   "team": "Yash Khajanchi / Abhiraj Singh",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.1411,
+   "players": [
+    {
+     "name": "Yash Khajanchi",
+     "points": 0.0,
+     "theta": 0.0705
+    },
+    {
+     "name": "Abhiraj Singh",
+     "points": 0.0,
+     "theta": 0.0705
+    }
+   ]
+  },
+  {
+   "team": "Vivek Sharma / Rahul Gupta",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.0333,
+   "players": [
+    {
+     "name": "Vivek Sharma",
+     "points": 0.0,
+     "theta": -0.0166
+    },
+    {
+     "name": "Rahul Gupta",
+     "points": 0.0,
+     "theta": -0.0166
+    }
+   ]
+  },
+  {
+   "team": "Arshdeep Singh / Sanam Singh",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.1809,
+   "players": [
+    {
+     "name": "Arshdeep Singh",
+     "points": 0.0,
+     "theta": 0.0904
+    },
+    {
+     "name": "Sanam Singh",
+     "points": 0.0,
+     "theta": 0.0904
+    }
+   ]
+  },
+  {
+   "team": "Hitesh Panwar / Shivam Garg",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.0275,
+   "players": [
+    {
+     "name": "Hitesh Panwar",
+     "points": 0.0,
+     "theta": -0.0137
+    },
+    {
+     "name": "Shivam Garg",
+     "points": 0.0,
+     "theta": -0.0137
+    }
+   ]
+  },
+  {
+   "team": "Satyam Pathak / Divyam Jain",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.2452,
+   "players": [
+    {
+     "name": "Satyam Pathak",
+     "points": 0.0,
+     "theta": 0.1226
+    },
+    {
+     "name": "Divyam Jain",
+     "points": 0.0,
+     "theta": 0.1226
+    }
+   ]
+  },
+  {
+   "team": "Saksham Dogra / Yuvraj Khullar",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.0455,
+   "players": [
+    {
+     "name": "Saksham Dogra",
+     "points": 0.0,
+     "theta": -0.0228
+    },
+    {
+     "name": "Yuvraj Khullar",
+     "points": 0.0,
+     "theta": -0.0228
+    }
+   ]
+  },
+  {
+   "team": "Nikhil Doda / Jason P Sharma",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": -0.2155,
+   "players": [
+    {
+     "name": "Nikhil Doda",
+     "points": 0.0,
+     "theta": -0.1078
+    },
+    {
+     "name": "Jason P Sharma",
+     "points": 0.0,
+     "theta": -0.1078
+    }
+   ]
+  },
+  {
+   "team": "Rajat Garg / Nitesh Bharti",
+   "division": "Men's Beginner",
+   "points": 0.0,
+   "strength": 0.1077,
+   "players": [
+    {
+     "name": "Rajat Garg",
+     "points": 0.0,
+     "theta": 0.0539
+    },
+    {
+     "name": "Nitesh Bharti",
+     "points": 0.0,
+     "theta": 0.0539
+    }
+   ]
+  },
+  {
+   "team": "Manav Malhotra / Varun Dattani",
+   "division": "Men's Intermediate",
+   "points": 301.0,
+   "strength": 0.46,
+   "players": [
+    {
+     "name": "Manav Malhotra",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Varun Dattani",
+     "points": 301.0,
+     "theta": 0.46
+    }
+   ]
+  },
+  {
+   "team": "Raghav Garg / Sachit Nayyar",
+   "division": "Men's Intermediate",
+   "points": 44.0,
+   "strength": 0.533,
+   "players": [
+    {
+     "name": "Raghav Garg",
+     "points": 20.0,
+     "theta": 0.2591
+    },
+    {
+     "name": "Sachit Nayyar",
+     "points": 24.0,
+     "theta": 0.2739
+    }
+   ]
+  },
+  {
+   "team": "Pruthvi Patel / Harshil Sheth",
+   "division": "Men's Intermediate",
+   "points": 168.0,
+   "strength": 0.6775,
+   "players": [
+    {
+     "name": "Pruthvi Patel",
+     "points": 18.0,
+     "theta": 0.2506
+    },
+    {
+     "name": "Harshil Sheth",
+     "points": 150.0,
+     "theta": 0.427
+    }
+   ]
+  },
+  {
+   "team": "Tanveer Singh / Rahil Mahajan",
+   "division": "Men's Intermediate",
+   "points": 39.0,
+   "strength": 0.3145,
+   "players": [
+    {
+     "name": "Tanveer Singh",
+     "points": 39.0,
+     "theta": 0.3145
+    },
+    {
+     "name": "Rahil Mahajan",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Shanu Hazra / Parth Thakkar",
+   "division": "Men's Intermediate",
+   "points": 150.0,
+   "strength": 0.427,
+   "players": [
+    {
+     "name": "Shanu Hazra",
+     "points": 150.0,
+     "theta": 0.427
+    },
+    {
+     "name": "Parth Thakkar",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Simar Chadha / Ikrab Ghai",
+   "division": "Men's Intermediate",
+   "points": 30.0,
+   "strength": 0.2922,
+   "players": [
+    {
+     "name": "Simar Chadha",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Ikrab Ghai",
+     "points": 30.0,
+     "theta": 0.2922
+    }
+   ]
+  },
+  {
+   "team": "Sagar Ahuja / Nivesh Poddar",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Sagar Ahuja",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Nivesh Poddar",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Vishav Bansal / Ajay Dhiman",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Vishav Bansal",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Ajay Dhiman",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Sahil Bakshi / Shivang Mahajan",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Sahil Bakshi",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Shivang Mahajan",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Love Pahal / Aarav Chawla",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Love Pahal",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Aarav Chawla",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Rohail Pandohi / Ayush Gupta",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Rohail Pandohi",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Ayush Gupta",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Madhav Bajaj / Divanshu Nayyar",
+   "division": "Men's Intermediate",
+   "points": 100.0,
+   "strength": 0.6692,
+   "players": [
+    {
+     "name": "Madhav Bajaj",
+     "points": 50.0,
+     "theta": 0.3346
+    },
+    {
+     "name": "Divanshu Nayyar",
+     "points": 50.0,
+     "theta": 0.3346
+    }
+   ]
+  },
+  {
+   "team": "Akshay Dhawan / Animesh Gupta",
+   "division": "Men's Intermediate",
+   "points": 18.0,
+   "strength": 0.2506,
+   "players": [
+    {
+     "name": "Akshay Dhawan",
+     "points": 18.0,
+     "theta": 0.2506
+    },
+    {
+     "name": "Animesh Gupta",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Mehul Bansal / Lakshay Bharti",
+   "division": "Men's Intermediate",
+   "points": 85.0,
+   "strength": 0.6566,
+   "players": [
+    {
+     "name": "Mehul Bansal",
+     "points": 49.0,
+     "theta": 0.3494
+    },
+    {
+     "name": "Lakshay Bharti",
+     "points": 36.0,
+     "theta": 0.3073
+    }
+   ]
+  },
+  {
+   "team": "Rishabh Gupta / Rijul Jain",
+   "division": "Men's Intermediate",
+   "points": 20.0,
+   "strength": 0.2591,
+   "players": [
+    {
+     "name": "Rishabh Gupta",
+     "points": 20.0,
+     "theta": 0.2591
+    },
+    {
+     "name": "Rijul Jain",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Nikhil Bansal / Jansher Waraich",
+   "division": "Men's Intermediate",
+   "points": 51.0,
+   "strength": 0.3638,
+   "players": [
+    {
+     "name": "Nikhil Bansal",
+     "points": 51.0,
+     "theta": 0.3638
+    },
+    {
+     "name": "Jansher Waraich",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Ankush Puri / Sehaj Sehgal",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Ankush Puri",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Sehaj Sehgal",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Vaibhav Sahni / Ishaan Chandhok",
+   "division": "Men's Intermediate",
+   "points": 9.0,
+   "strength": 0.2124,
+   "players": [
+    {
+     "name": "Vaibhav Sahni",
+     "points": 9.0,
+     "theta": 0.2124
+    },
+    {
+     "name": "Ishaan Chandhok",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Aayush Poddar / Anurag Agarwal",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Aayush Poddar",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Anurag Agarwal",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Arjun Dhanda / Akhil Bansal",
+   "division": "Men's Intermediate",
+   "points": 18.0,
+   "strength": 0.2781,
+   "players": [
+    {
+     "name": "Arjun Dhanda",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Akhil Bansal",
+     "points": 18.0,
+     "theta": 0.2781
+    }
+   ]
+  },
+  {
+   "team": "Rajkanwar Bhangoo / Harneet Singh",
+   "division": "Men's Intermediate",
+   "points": 40.0,
+   "strength": 0.316,
+   "players": [
+    {
+     "name": "Rajkanwar Bhangoo",
+     "points": 40.0,
+     "theta": 0.316
+    },
+    {
+     "name": "Harneet Singh",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Vansh Bhagtani / Yash Nagdev",
+   "division": "Men's Intermediate",
+   "points": 18.0,
+   "strength": 0.5943,
+   "players": [
+    {
+     "name": "Vansh Bhagtani",
+     "points": 9.0,
+     "theta": 0.2971
+    },
+    {
+     "name": "Yash Nagdev",
+     "points": 9.0,
+     "theta": 0.2971
+    }
+   ]
+  },
+  {
+   "team": "Japnaam Singh / Meet Ohlyan",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Japnaam Singh",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Meet Ohlyan",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Karan Tandon / Sahil Parikh",
+   "division": "Men's Intermediate",
+   "points": 114.0,
+   "strength": 0.6208,
+   "players": [
+    {
+     "name": "Karan Tandon",
+     "points": 90.0,
+     "theta": 0.3469
+    },
+    {
+     "name": "Sahil Parikh",
+     "points": 24.0,
+     "theta": 0.2739
+    }
+   ]
+  },
+  {
+   "team": "Sahil Kapoor / Yuvraj Singh Arora",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Sahil Kapoor",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Yuvraj Singh Arora",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Anav Shrish / Viraj Bhargava",
+   "division": "Men's Intermediate",
+   "points": 84.0,
+   "strength": 0.6332,
+   "players": [
+    {
+     "name": "Anav Shrish",
+     "points": 54.0,
+     "theta": 0.341
+    },
+    {
+     "name": "Viraj Bhargava",
+     "points": 30.0,
+     "theta": 0.2922
+    }
+   ]
+  },
+  {
+   "team": "Ramit Bhargava / Manjot Singh Ahuja",
+   "division": "Men's Intermediate",
+   "points": 20.0,
+   "strength": 0.2591,
+   "players": [
+    {
+     "name": "Ramit Bhargava",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Manjot Singh Ahuja",
+     "points": 20.0,
+     "theta": 0.2591
+    }
+   ]
+  },
+  {
+   "team": "Yashvardhan Sarda / Shreyas Dogial",
+   "division": "Men's Intermediate",
+   "points": 29.0,
+   "strength": 0.253,
+   "players": [
+    {
+     "name": "Yashvardhan Sarda",
+     "points": 29.0,
+     "theta": 0.253
+    },
+    {
+     "name": "Shreyas Dogial",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Manan Gupta / Armaan Garg",
+   "division": "Men's Intermediate",
+   "points": 9.0,
+   "strength": 0.216,
+   "players": [
+    {
+     "name": "Manan Gupta",
+     "points": 9.0,
+     "theta": 0.216
+    },
+    {
+     "name": "Armaan Garg",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Udhay Mahajan / Hari Singh",
+   "division": "Men's Intermediate",
+   "points": 18.0,
+   "strength": 0.3478,
+   "players": [
+    {
+     "name": "Udhay Mahajan",
+     "points": 18.0,
+     "theta": 0.3478
+    },
+    {
+     "name": "Hari Singh",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Anirudh Kaushal / Sartaj Singh Sudan",
+   "division": "Men's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Anirudh Kaushal",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Sartaj Singh Sudan",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Aditya Jagtap / Rahul Motwani",
+   "division": "Men's Advance",
+   "points": 6598.0,
+   "strength": 1.599,
+   "players": [
+    {
+     "name": "Aditya Jagtap",
+     "points": 4168.0,
+     "theta": 0.9265
+    },
+    {
+     "name": "Rahul Motwani",
+     "points": 2430.0,
+     "theta": 0.6725
+    }
+   ]
+  },
+  {
+   "team": "Ankit Grover / Gaurav Gupta",
+   "division": "Men's Advance",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Ankit Grover",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Gaurav Gupta",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Jasmer Kapany / Rohan Jain",
+   "division": "Men's Advance",
+   "points": 856.0,
+   "strength": 0.98,
+   "players": [
+    {
+     "name": "Jasmer Kapany",
+     "points": 676.0,
+     "theta": 0.5376
+    },
+    {
+     "name": "Rohan Jain",
+     "points": 180.0,
+     "theta": 0.4424
+    }
+   ]
+  },
+  {
+   "team": "Raaghav Sharma Bagga / Atul Sharma",
+   "division": "Men's Advance",
+   "points": 50.0,
+   "strength": 0.5725,
+   "players": [
+    {
+     "name": "Raaghav Sharma Bagga",
+     "points": 50.0,
+     "theta": 0.5725
+    },
+    {
+     "name": "Atul Sharma",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Samar Malhotra / Paramveer Singh Bajwa",
+   "division": "Men's Advance",
+   "points": 4936.0,
+   "strength": 1.5078,
+   "players": [
+    {
+     "name": "Samar Malhotra",
+     "points": 3660.0,
+     "theta": 0.8123
+    },
+    {
+     "name": "Paramveer Singh Bajwa",
+     "points": 1276.0,
+     "theta": 0.6955
+    }
+   ]
+  },
+  {
+   "team": "Ishaan Mehta / Chiraz Singh",
+   "division": "Men's Advance",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Ishaan Mehta",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Chiraz Singh",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Arjun Kapoor / Rohit Dhiman",
+   "division": "Men's Advance",
+   "points": 1240.0,
+   "strength": 1.0782,
+   "players": [
+    {
+     "name": "Arjun Kapoor",
+     "points": 880.0,
+     "theta": 0.5771
+    },
+    {
+     "name": "Rohit Dhiman",
+     "points": 360.0,
+     "theta": 0.5011
+    }
+   ]
+  },
+  {
+   "team": "Gautam Daluja / Darshan Dilbar Singh",
+   "division": "Men's Advance",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Gautam Daluja",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Darshan Dilbar Singh",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Samin Bhargava / Yuvraj Singh Kooka",
+   "division": "Men's Advance",
+   "points": 860.0,
+   "strength": 0.99,
+   "players": [
+    {
+     "name": "Samin Bhargava",
+     "points": 700.0,
+     "theta": 0.5576
+    },
+    {
+     "name": "Yuvraj Singh Kooka",
+     "points": 160.0,
+     "theta": 0.4324
+    }
+   ]
+  },
+  {
+   "team": "Bhavuk Dua / Jeetpal Singh Chauhan",
+   "division": "Men's Advance",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Bhavuk Dua",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Jeetpal Singh Chauhan",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Adit Patel / Abhishek Gupta",
+   "division": "Men's Advance",
+   "points": 682.0,
+   "strength": 1.0761,
+   "players": [
+    {
+     "name": "Adit Patel",
+     "points": 628.0,
+     "theta": 0.6572
+    },
+    {
+     "name": "Abhishek Gupta",
+     "points": 54.0,
+     "theta": 0.419
+    }
+   ]
+  },
+  {
+   "team": "Ashish Khemlani / Siddharth Nandal",
+   "division": "Men's Advance",
+   "points": 240.0,
+   "strength": 0.6885,
+   "players": [
+    {
+     "name": "Ashish Khemlani",
+     "points": 120.0,
+     "theta": 0.2804
+    },
+    {
+     "name": "Siddharth Nandal",
+     "points": 120.0,
+     "theta": 0.4081
+    }
+   ]
+  },
+  {
+   "team": "Swaraj Deshmukh / Krishna Teja",
+   "division": "Men's Advance",
+   "points": 570.0,
+   "strength": 0.585,
+   "players": [
+    {
+     "name": "Swaraj Deshmukh",
+     "points": 570.0,
+     "theta": 0.585
+    },
+    {
+     "name": "Krishna Teja",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Tushar Jagota / Aryan Manchanda",
+   "division": "Men's Advance",
+   "points": 0.0,
+   "strength": 0.0181,
+   "players": [
+    {
+     "name": "Tushar Jagota",
+     "points": 0.0,
+     "theta": 0.0181
+    },
+    {
+     "name": "Aryan Manchanda",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Advait Bahl / Kabir Anand",
+   "division": "Men's Advance",
+   "points": 213.0,
+   "strength": 0.3462,
+   "players": [
+    {
+     "name": "Advait Bahl",
+     "points": 204.0,
+     "theta": 0.1889
+    },
+    {
+     "name": "Kabir Anand",
+     "points": 9.0,
+     "theta": 0.1574
+    }
+   ]
+  },
+  {
+   "team": "Pranav Chopra / Raghuraj Dewan",
+   "division": "Men's Advance",
+   "points": 178.0,
+   "strength": 0.683,
+   "players": [
+    {
+     "name": "Pranav Chopra",
+     "points": 160.0,
+     "theta": 0.4324
+    },
+    {
+     "name": "Raghuraj Dewan",
+     "points": 18.0,
+     "theta": 0.2506
+    }
+   ]
+  },
+  {
+   "team": "Akshay Jalan / Ankit Agarwal",
+   "division": "Men's 40+",
+   "points": 1788.0,
+   "strength": 1.0847,
+   "players": [
+    {
+     "name": "Akshay Jalan",
+     "points": 1248.0,
+     "theta": 0.5727
+    },
+    {
+     "name": "Ankit Agarwal",
+     "points": 540.0,
+     "theta": 0.512
+    }
+   ]
+  },
+  {
+   "team": "Mukul Kumar / Kanwar Dhillon",
+   "division": "Men's 40+",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Mukul Kumar",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Kanwar Dhillon",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Prabhas Sharma / Muizz Khan",
+   "division": "Men's 40+",
+   "points": 0.0,
+   "strength": 0.04,
+   "players": [
+    {
+     "name": "Prabhas Sharma",
+     "points": 0.0,
+     "theta": 0.04
+    },
+    {
+     "name": "Muizz Khan",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Utsav Khanna / Supan Kalucha",
+   "division": "Men's 40+",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Utsav Khanna",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Supan Kalucha",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Sidharth Garg / Anuj Mehndiratta",
+   "division": "Men's 40+",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Sidharth Garg",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Anuj Mehndiratta",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Gagandeep Singh Wasu / Vikas Nayar",
+   "division": "Men's 40+",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Gagandeep Singh Wasu",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Vikas Nayar",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Sidharth Daluja / Avish Sharma",
+   "division": "Men's 40+",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Sidharth Daluja",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Avish Sharma",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Rakesh Kumar / Akash Chawla",
+   "division": "Men's 40+",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Rakesh Kumar",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Akash Chawla",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Dishita Aggarwal / Avreet Dhillon",
+   "division": "Women's Beginner",
+   "points": 50.0,
+   "strength": 0.3346,
+   "players": [
+    {
+     "name": "Dishita Aggarwal",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Avreet Dhillon",
+     "points": 50.0,
+     "theta": 0.3346
+    }
+   ]
+  },
+  {
+   "team": "Armaan Mann / Amanat Mann",
+   "division": "Women's Beginner",
+   "points": 18.0,
+   "strength": 0.1978,
+   "players": [
+    {
+     "name": "Armaan Mann",
+     "points": 18.0,
+     "theta": 0.1978
+    },
+    {
+     "name": "Amanat Mann",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Nihar Khan / Priyanka Mahajan",
+   "division": "Women's Beginner",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Nihar Khan",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Priyanka Mahajan",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Hridaya Patel / Rushali Singh",
+   "division": "Women's Beginner",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Hridaya Patel",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Rushali Singh",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Arnavaz Kollah / Ustat Kharbanda",
+   "division": "Women's Beginner",
+   "points": 50.0,
+   "strength": 0.5513,
+   "players": [
+    {
+     "name": "Arnavaz Kollah",
+     "points": 30.0,
+     "theta": 0.2922
+    },
+    {
+     "name": "Ustat Kharbanda",
+     "points": 20.0,
+     "theta": 0.2591
+    }
+   ]
+  },
+  {
+   "team": "Sara Daluja / Shuchi Bakshi",
+   "division": "Women's Beginner",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Sara Daluja",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Shuchi Bakshi",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Tasveer Sohi / Prabhsifat Kaur",
+   "division": "Women's Beginner",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Tasveer Sohi",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Prabhsifat Kaur",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Bhavya Wadhawan / Shrawasti Kundilya",
+   "division": "Women's Beginner",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Bhavya Wadhawan",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Shrawasti Kundilya",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Muskaan Sundra / Hasrat Kaushal",
+   "division": "Women's Beginner",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Muskaan Sundra",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Hasrat Kaushal",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  },
+  {
+   "team": "Steisha Buddhala / Amy Bundhel",
+   "division": "Women's Intermediate",
+   "points": 5840.0,
+   "strength": 1.4406,
+   "players": [
+    {
+     "name": "Steisha Buddhala",
+     "points": 2920.0,
+     "theta": 0.7203
+    },
+    {
+     "name": "Amy Bundhel",
+     "points": 2920.0,
+     "theta": 0.7203
+    }
+   ]
+  },
+  {
+   "team": "Mansi Malhotra / Vaibhavi Deshmukh",
+   "division": "Women's Intermediate",
+   "points": 2808.0,
+   "strength": 1.2655,
+   "players": [
+    {
+     "name": "Mansi Malhotra",
+     "points": 140.0,
+     "theta": 0.4884
+    },
+    {
+     "name": "Vaibhavi Deshmukh",
+     "points": 2668.0,
+     "theta": 0.777
+    }
+   ]
+  },
+  {
+   "team": "Radhika Vasudeva / Aashna Mehra",
+   "division": "Women's Intermediate",
+   "points": 340.0,
+   "strength": 0.8173,
+   "players": [
+    {
+     "name": "Radhika Vasudeva",
+     "points": 240.0,
+     "theta": 0.4456
+    },
+    {
+     "name": "Aashna Mehra",
+     "points": 100.0,
+     "theta": 0.3716
+    }
+   ]
+  },
+  {
+   "team": "Nandini Ghai / Ridhi Gupta",
+   "division": "Women's Intermediate",
+   "points": 40.0,
+   "strength": 0.316,
+   "players": [
+    {
+     "name": "Nandini Ghai",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Ridhi Gupta",
+     "points": 40.0,
+     "theta": 0.316
+    }
+   ]
+  },
+  {
+   "team": "Amaya Kothari / Kyra Pereira",
+   "division": "Women's Intermediate",
+   "points": 0.0,
+   "strength": 0.0521,
+   "players": [
+    {
+     "name": "Amaya Kothari",
+     "points": 0.0,
+     "theta": 0.0322
+    },
+    {
+     "name": "Kyra Pereira",
+     "points": 0.0,
+     "theta": 0.02
+    }
+   ]
+  },
+  {
+   "team": "Ishika Kankaria / Gul Arora",
+   "division": "Women's Intermediate",
+   "points": 0.0,
+   "strength": 0.0,
+   "players": [
+    {
+     "name": "Ishika Kankaria",
+     "points": 0.0,
+     "theta": 0.0
+    },
+    {
+     "name": "Gul Arora",
+     "points": 0.0,
+     "theta": 0.0
+    }
+   ]
+  }
+ ]
+}
