@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chandigarh Predictions</title>
+<meta name="description" content="Title odds, bracket, group heatmaps, a match predictor and a tournament simulator for City Open Chandigarh 2.0 (Indian Padel Tour).">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="tip" role="tooltip"></div>
+<nav class="topbar" aria-label="Site">
+  <div class="wrap">
+    <a class="brand" href="index.html">IPT, <span>Explained</span></a>
+    <a class="tab" href="index.html">Overview</a>
+    <a class="tab" href="predictions.html" aria-current="page">Predictions</a>
+    <a class="gh" id="repo" href="#" hidden>GitHub</a>
+  </div>
+</nav>
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">City Open Chandigarh 2.0 · 24 to 27 September 2026</p>
+    <h1>Who's going to win Chandigarh?</h1>
+    <p class="lede">Every division and every match, predicted by a model that called <span data-f="acc"></span> of matches correctly on tournaments it had never seen. Explore the odds, check the bracket, pit any two pairs against each other, or play the tournament out yourself.</p>
+    <p class="meta" id="meta"></p>
+    <div id="scorecard"></div>
+    <div class="four" id="tiles"></div>
+    <nav class="toc" aria-label="Sections">
+      <a href="#odds">Title odds</a><a href="#groups">Groups</a><a href="#bracket">Bracket</a>
+      <a href="#simulate">Play it out</a><a href="#predictor">Match predictor</a><a href="#matches">Every match</a><a href="#model">How good is the model?</a>
+    </nav>
+  </header>
+
+  <div id="div-scope">
+    <div class="sticky-controls"><div class="controls" style="margin:0">
+      <span class="lab">Division</span><div class="seg" id="div-seg" role="group" aria-label="Division"></div>
+    </div></div>
+
+    <section class="first" id="odds">
+      <h2>Title odds</h2>
+      <p class="sub">We played out the rest of the tournament <span data-f="nsims"></span> times on a computer, using the real draw and the IPT's own rules. A team's chance is how often it came out on top.</p>
+      <div class="favs" id="favs"></div>
+      <div class="card">
+        <h3 style="margin-top:0">Road to the title</h3>
+        <p class="how">How each of the top six teams' chances shrink round by round. Hover or tap a line to follow one team.</p>
+        <div class="legend" id="road-legend"></div>
+        <div class="chart" id="road"></div>
+      </div>
+      <div class="card tbl-wrap">
+        <div class="controls" style="margin-top:0"><label class="chk"><input type="checkbox" id="all-rounds"> Show every round</label></div>
+        <table id="odds-tbl"></table>
+      </div>
+    </section>
+
+    <section id="groups">
+      <h2>Group stage</h2>
+      <p class="sub">Each team's chance of finishing in each position of its group. The top two go through to the knockouts. Darker means more likely.</p>
+      <div class="groups" id="group-grid"></div>
+      <p class="note" id="group-note"></p>
+    </section>
+
+    <section id="bracket">
+      <h2>The knockout bracket</h2>
+      <p class="sub" id="bracket-sub"></p>
+      <div class="controls"><span class="lab">Show</span><div class="seg" id="bracket-mode" role="group" aria-label="Bracket view"></div></div>
+      <div class="bracket" id="bracket-view"></div>
+    </section>
+
+    <section id="simulate">
+      <h2>Play it out yourself</h2>
+      <p class="sub">Run the rest of the tournament in your browser with exactly the same rules and chances we used. Play it once to see one possible story, or a thousand times to watch the odds settle.</p>
+      <div class="btns">
+        <button class="btn primary" id="sim-once" type="button">Play the tournament once</button>
+        <button class="btn" id="sim-many" type="button">Run it 1,000 times</button>
+      </div>
+      <div class="progress" id="sim-progress" hidden><span></span></div>
+      <div class="sim-out">
+        <div class="card" id="sim-story"><p class="note">Press "Play the tournament once" to see one possible outcome.</p></div>
+        <div class="card">
+          <h3 style="margin-top:0">Your runs vs our <span data-f="nsims"></span></h3>
+          <p class="how">Bars show how often each team won the title in your runs. The black tick is our full simulation.</p>
+          <div class="chart" id="sim-bars"></div>
+          <p class="note" id="sim-count">No runs yet.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="predictor">
+    <h2>Match predictor</h2>
+    <p class="sub">Pick any two pairs and see who the model favours, and which scores are most likely. Choose from the Chandigarh draw or build a pair from any two ranked players.</p>
+    <div class="controls">
+      <div class="seg" id="pred-mode" role="group" aria-label="Choose from"></div>
+      <span class="lab">Format</span>
+      <select id="pred-format"><option>Race to 8</option><option>Race to 9</option><option>Best of 3 sets</option></select>
+    </div>
+    <div class="card">
+      <div class="vs">
+        <div class="pick" id="pick-a"></div>
+        <div class="mid">vs</div>
+        <div class="pick" id="pick-b"></div>
+      </div>
+    </div>
+    <div class="card" id="pred-out"></div>
+  </section>
+
+  <section id="matches">
+    <h2>Every match</h2>
+    <div class="controls">
+      <select id="m-div" aria-label="Division"></select>
+      <input type="search" id="m-q" placeholder="Search a player" aria-label="Search a player">
+      <label class="chk"><input type="checkbox" id="m-flag"> Only surprises (the lower-ranked pair is favoured)</label>
+    </div>
+    <div class="card tbl-wrap"><table id="m-tbl"></table></div>
+    <p class="note">"Toss-up" means neither side is favoured. Many beginner matches are toss-ups because none of the four players has ranking points or past matches to go on.</p>
+  </section>
+
+  <section id="model">
+    <h2>How good is the model?</h2>
+    <p class="sub">The model rates every player from their ranking points before the event and how they've played in past matches, then works out each pair's chance. To test it fairly, it was only scored on tournaments it had never seen: trained on Mumbai to predict Goa, then on Mumbai and Goa to predict Kochi.</p>
+    <div class="two">
+      <div class="card">
+        <h3 style="margin-top:0">How often it picks the winner</h3>
+        <div class="bigstat"><span class="v" id="acc-big"></span><span class="l">matches called correctly</span></div>
+        <div class="chart grow" id="acc"></div>
+        <p class="note" id="acc-note"></p>
+      </div>
+      <div class="card">
+        <h3 style="margin-top:0">Can you trust its percentages?</h3>
+        <p class="how">When the model gives the favourite a chance, how often do they actually win? Matching bars mean honest percentages.</p>
+        <div class="legend"><span><i style="background:var(--c1)"></i>What the model said</span><span><i style="background:var(--c2)"></i>What actually happened</span></div>
+        <div class="chart grow" id="cal"></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">How sure is it about Chandigarh?</h3>
+      <p class="how">The <span data-f="inScore"></span> matches still to play when the predictions were locked, grouped by how clear the favourite is.</p>
+      <div class="chart" id="conf"></div>
+    </div>
+    <details><summary>Technical details</summary><ul id="tech"></ul></details>
+  </section>
+  <footer>Data from indianpadeltour.in. Independent analysis, not affiliated with the Indian Padel Tour. <a href="index.html" style="color:var(--s1)">Back to the overview</a>.</footer>
+</div>
+
+<script src="common.js"></script>
+<script>
+let P, div = null, lastSim = null, bracketMode = "odds", runs = null;
+const COLORS = ["var(--c1)", "var(--c2)", "var(--c3)", "var(--c4)", "var(--c5)", "var(--c6)"];
+const norm = s => String(s).trim().toLowerCase().replace(/\s+/g, " ");
+const grp = g => String(g || "").replace(/^GROUP\s*/i, "Group ");
+const stageName = { 0: "Last 16", 1: "Quarter-finals", 2: "Semi-finals", 3: "Final" };
+const ordinal = n => n + ({ 1: "st", 2: "nd", 3: "rd" }[n] || "th");
+// "Aditya Jagtap / Rahul Motwani" -> "Jagtap & Motwani" (full names stay in the tooltip)
+const short = t => String(t).split(" / ").map(n => n.trim().split(/\s+/).slice(-1)[0]).join(" & ");
+fetch("predictions.json").then(r => r.json()).then(d => { P = d; init(); });
+
+function init() {
+  linkRepo($("#repo"));
+  const acc = P.model.pooled["points + results"].accuracy;
+  const frozen = new Date(P.frozen_at).toLocaleString("en-GB", { timeZone: "Asia/Kolkata", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" }) + " IST";
+  const set = (k, v) => $$(`[data-f="${k}"]`).forEach(n => n.textContent = v);
+  set("acc", pct(acc)); set("nsims", fmt(P.n_sims)); set("inScore", P.in_scorecard);
+  $("#meta").textContent = `Predictions locked on ${frozen}, after day 1. They will be checked against the real results after the final.`;
+  const upcoming = P.matches.filter(m => m.status_at_freeze !== "completed");
+  const tossups = upcoming.filter(m => Math.abs(m.p_team1 - 0.5) < 0.05).length;
+  $("#tiles").innerHTML = [
+    [pct(acc), "of matches called correctly on tournaments the model had never seen"],
+    [fmt(P.n_sims), "simulated tournaments per division"],
+    [fmt(P.matches.length), `matches predicted, ${fmt(upcoming.length)} of them before they were played`],
+    [pct(tossups / upcoming.length), "of the remaining matches are toss-ups: no data on any of the four players"],
+  ].map(([v, l]) => `<div class="tile"><div class="v">${esc(v)}</div><div class="l">${esc(l)}</div></div>`).join("");
+
+  const divs = Object.keys(P.divisions); div = divs[0];
+  segmented($("#div-seg"), divs, d => { div = d; lastSim = null; runs = null; drawDivision(); });
+  segmented($("#bracket-mode"), ["odds", "sim"], m => { bracketMode = m; drawBracket(); }, ["Most likely", "Your simulation"]);
+  $("#all-rounds").addEventListener("input", drawTable);
+  $("#sim-once").onclick = playOnce;
+  $("#sim-many").onclick = runMany;
+  drawDivision();
+  setupPredictor(); setupMatches(); drawModel(); drawScorecard();
+  let t; addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => { drawRoad(); drawModel(); drawSimBars(); drawPrediction(); }, 150); });
+}
+
+const divOdds = () => P.odds.filter(o => o.division === div).sort((a, b) => b.p_title - a.p_title);
+
+function drawDivision() {
+  const all = divOdds();
+  $("#favs").innerHTML = all.slice(0, 3).map((o, i) => `<div class="fav"><div class="rk">${["Favourite", "Second favourite", "Third favourite"][i]}</div>
+    <div class="tm">${esc(pair(o.team))}</div><div class="pc">${pct(o.p_title)}</div><div class="wd">${esc(odds(o.p_title))} to win the title</div></div>`).join("");
+  drawRoad(); drawTable(); drawGroups(); drawBracket(); drawSimStory(); drawSimBars();
+}
+
+// ---------- road to the title (line chart)
+function stagesFor(all) {
+  const st = [["p_top2_in_group", "Out of group"], ["reached_R16", "Last 16"], ["reached_QF", "Quarter-final"],
+    ["reached_SF", "Semi-final"], ["reached_final", "Final"], ["p_title", "Champion"]];
+  return st.filter(([k]) => all.some(o => o[k] >= 0));
+}
+function drawRoad() {
+  const all = divOdds(), top = all.slice(0, 6), stages = stagesFor(all);
+  const host = $("#road"); host.innerHTML = "";
+  $("#road-legend").innerHTML = top.map((o, i) => `<span><i style="background:${COLORS[i]}"></i>${esc(pair(o.team))}</span>`).join("");
+  const W = host.clientWidth || 800, narrow = W < 560, L = 40, R = narrow ? 16 : 24, T = 12, B = 30, H = narrow ? 260 : 300;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Chance of reaching each round" }, host);
+  const x = i => L + i * (W - L - R) / (stages.length - 1), y = v => T + (1 - v) * (H - T - B);
+  [0, .25, .5, .75, 1].forEach(v => { el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), stroke: "var(--grid)" }, svg);
+    txt(svg, { x: L - 6, y: y(v) + 4, "text-anchor": "end", class: "tick" }, pct(v)); });
+  stages.forEach(([, lab], i) => txt(svg, { x: x(i), y: H - 8, "text-anchor": i === 0 ? "start" : i === stages.length - 1 ? "end" : "middle", class: "tick" }, narrow && lab.length > 9 ? lab.split(" ")[0] : lab));
+  const lines = [];
+  top.slice().reverse().forEach((o, ri) => {
+    const i = top.length - 1 - ri, g = el("g", { "data-i": i }, svg);
+    const pts = stages.map(([k], j) => [x(j), y(Math.max(0, o[k]))]);
+    el("polyline", { points: pts.map(p => p.join(",")).join(" "), fill: "none", stroke: COLORS[i], "stroke-width": 2.5, "stroke-linejoin": "round" }, g);
+    el("polyline", { points: pts.map(p => p.join(",")).join(" "), fill: "none", stroke: "transparent", "stroke-width": 16 }, g);
+    pts.forEach(p => el("circle", { cx: p[0], cy: p[1], r: 4.5, fill: COLORS[i], stroke: "var(--surface)", "stroke-width": 2 }, g));
+    lines.push(g);
+    tipOn(g, e => {
+      lines.forEach(l => l.style.opacity = l === g ? 1 : 0.2);
+      showTip(e, `<div class="t">${esc(pair(o.team))}</div>` + stages.map(([k, lab]) => row(lab, pct(o[k], o[k] < 0.01 && o[k] > 0 ? 1 : 0))).join(""));
+    });
+    g.addEventListener("mouseleave", () => lines.forEach(l => l.style.opacity = 1));
+  });
+}
+
+function drawTable() {
+  const all = divOdds(), full = $("#all-rounds").checked, has = k => all.some(o => o[k] >= 0);
+  const cols = [["Team", o => esc(pair(o.team))], ["Group", o => esc(grp(o.group).replace("Group ", ""))]];
+  if (full) cols.push(["Ranking points", o => fmt(o.team_points), 1]);
+  cols.push(["Out of group", o => pct(o.p_top2_in_group), 1]);
+  if (full && has("reached_R16")) cols.push(["Last 16", o => pct(o.reached_R16), 1]);
+  if (full && has("reached_QF")) cols.push(["Quarter-finals", o => pct(o.reached_QF), 1]);
+  if (full) cols.push(["Semi-finals", o => pct(o.reached_SF), 1]);
+  cols.push(["Final", o => pct(o.reached_final), 1], ["Title", o => `<b>${pct(o.p_title, o.p_title < .01 && o.p_title > 0 ? 1 : 0)}</b>`, 1]);
+  $("#odds-tbl").innerHTML = `<thead><tr>${cols.map(c => `<th class="${c[2] ? "n" : ""}">${c[0]}</th>`).join("")}</tr></thead><tbody>` +
+    all.map(o => `<tr>${cols.map(c => `<td class="${c[2] ? "n" : ""}">${c[1](o)}</td>`).join("")}</tr>`).join("") + "</tbody>";
+}
+
+// ---------- group heatmaps
+function drawGroups() {
+  const dv = P.divisions[div], byTeam = Object.fromEntries(divOdds().map(o => [o.team, o]));
+  const standing = Object.fromEntries(dv.standings.map(s => [s.team, s]));
+  const done = dv.group_matches.every(m => m.status === "completed");
+  $("#group-grid").innerHTML = Object.entries(dv.groups).map(([g, teams]) => {
+    const n = teams.length;
+    const rows = teams.map(t => {
+      const o = byTeam[t] || {}, ps = Array.from({ length: n }, (_, i) => o[`p_pos_${i + 1}`] || 0);
+      return { t, ps, exp: ps.reduce((s, p, i) => s + p * (i + 1), 0), st: standing[t] };
+    }).sort((a, b) => a.exp - b.exp);
+    const cell = p => { const mix = p <= 0 ? 0 : Math.round(8 + p * 88);
+      return `<td class="cell${p > 0.55 ? " hi" : ""}" style="background:color-mix(in srgb, var(--s1) ${mix}%, var(--surface))" title="${pct(p, 1)}">${p >= 0.995 ? "✓" : p < 0.005 ? "" : pct(p)}</td>`; };
+    return `<div class="card" style="margin:0"><h3 style="margin:0 0 8px">${esc(grp(g))}</h3><table class="heat"><thead><tr><th>Team</th><th class="n" title="Points so far (matches played)">Now</th>
+      ${Array.from({ length: n }, (_, i) => `<th class="n${i < 2 ? " q" : ""}">${ordinal(i + 1)}</th>`).join("")}</tr></thead><tbody>` +
+      rows.map(r => `<tr><td title="${esc(pair(r.t))}" style="white-space:nowrap">${esc(short(r.t))}</td><td class="n note">${r.st ? `${r.st.points} (${r.st.played})` : ""}</td>${r.ps.map(cell).join("")}</tr>`).join("") + "</tbody></table></div>";
+  }).join("");
+  $("#group-note").textContent = done ? "The group stage in this division is finished, so these are the final positions." :
+    "\"Now\" shows points so far, with matches played in brackets. Group points: 2 for a win, plus 1 bonus for winning 8-0. Ties are split on game difference.";
+}
+
+// ---------- bracket
+function drawBracket() {
+  const dv = P.divisions[div], host = $("#bracket-view");
+  const simBtn = $("#bracket-mode").querySelector('[data-v="sim"]');
+  simBtn.disabled = !lastSim; simBtn.title = lastSim ? "" : "Play the tournament once first";
+  if (bracketMode === "sim" && !lastSim) { bracketMode = "odds"; $("#bracket-mode").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === "odds")); }
+  $("#bracket-sub").textContent = bracketMode === "odds"
+    ? "The most likely team in every slot of the knockout draw, and how often it ended up there. Highlighted is the most likely winner of each match."
+    : "One possible tournament, from your last simulation. Winners are highlighted.";
+  const stages = [...new Set(dv.ko.map(k => k.stage))].sort();
+  const label = s => s.replace(/^Group (\w+) - (\d)\w+$/i, (_, g, n) => `${n === "1" ? "Winner" : "Runner-up"}, Group ${g}`).replace(/^Winner - /i, "Winner of ");
+  let html = "";
+  stages.forEach(stg => {
+    const ms = dv.ko.filter(k => k.stage === stg);
+    html += `<div class="col"><h4>${stageName[stg] || "Round"}</h4><div class="stack">` + ms.map(m => {
+      if (bracketMode === "sim") {
+        const r = lastSim.ko.find(k => k.round === m.round);
+        if (!r) return "";
+        const s = (t, win) => `<div class="slot${win ? " win" : ""}"><span>${esc(pair(t))}</span><span class="p">${win && r.score ? esc(r.score) : ""}</span></div>`;
+        return `<div class="match-box">${s(r.a, r.w === r.a)}${s(r.b, r.w === r.b)}</div>`;
+      }
+      const slot = dv.ko_slots.find(k => k.round === m.round);
+      if (!slot) return `<div class="match-box"><div class="slot"><span class="note">${esc(label(m.t1))}</span></div><div class="slot"><span class="note">${esc(label(m.t2))}</span></div></div>`;
+      const w = slot.winner[0];
+      const s = (occ, lab) => { const o = occ[0]; const sure = o.p >= 0.995;
+        return `<div class="slot${o.team === w.team ? " win" : ""}" title="${esc(label(lab))}"><span>${esc(pair(o.team))}</span><span class="p">${sure ? "" : pct(o.p)}</span></div>`; };
+      return `<div class="match-box">${s(slot.team1, m.t1)}${s(slot.team2, m.t2)}<div class="alt">Likely winner: ${esc(pair(w.team))}, ${pct(w.p)}</div></div>`;
+    }).join("") + "</div></div>";
+  });
+  const fin = dv.ko_slots.find(k => k.stage === 3);
+  if (bracketMode === "sim") {
+    html += `<div class="col"><h4>Champion</h4><div class="stack"><div class="champ"><div class="trophy">🏆</div><div class="nm">${esc(pair(lastSim.champion))}</div><div class="note">in this simulation</div></div></div></div>`;
+  } else if (fin) {
+    html += `<div class="col"><h4>Champion</h4><div class="stack"><div class="champ"><div class="trophy">🏆</div>` +
+      fin.winner.slice(0, 3).map((w, i) => `<div class="${i ? "note" : "nm"}">${esc(pair(w.team))} ${pct(w.p)}</div>`).join("") + "</div></div></div>";
+  }
+  host.innerHTML = html;
+}
+
+// ---------- in-browser simulator (same rules as analysis/a3_chandigarh_forecast.py)
+function raceN(fmt) { const m = /Race to (\d+)/.exec(fmt || ""); return m ? +m[1] : null; }
+function pick(dist, r) { let c = 0; for (const d of dist) { c += d.p; if (r < c) return d; } return dist[dist.length - 1]; }
+function playMatch(a, b, fmt, S) {
+  const q = sigmoid((S[a] || 0) - (S[b] || 0)), n = raceN(fmt);
+  if (n) { const tot = raceScores(q, n), z = tot.reduce((s, d) => s + d.p, 0);
+    const d = pick(tot.map(x => ({ ...x, p: x.p / z })), Math.random()); return { g1: d.a, g2: d.b, w1: d.a > d.b, score: `${Math.max(d.a, d.b)}-${Math.min(d.a, d.b)}` }; }
+  const b3 = bestOf3(q), d = pick([{ k: "2-0", p: b3.s20, w: 1 }, { k: "2-1", p: b3.s21, w: 1 }, { k: "2-1", p: b3.s12, w: 0 }, { k: "2-0", p: b3.s02, w: 0 }], Math.random());
+  return { w1: !!d.w, score: `${d.k} sets` };
+}
+function simulate(dv) {
+  const S = dv.strength, st = {};
+  Object.entries(dv.groups).forEach(([g, ts]) => ts.forEach(t => st[t] = { t, g, pts: 0, gd: 0, gf: 0 }));
+  let upsets = 0;
+  for (const m of dv.group_matches) {
+    if (!st[m.t1] || !st[m.t2]) continue;
+    let g1, g2, w1, scored = true;
+    if (m.status === "completed") { scored = !!m.games; [g1, g2] = m.games || [0, 0]; w1 = m.winner === 1; }
+    else { const r = playMatch(m.t1, m.t2, m.format, S); g1 = r.g1; g2 = r.g2; w1 = r.w1;
+      if ((S[m.t1] || 0) !== (S[m.t2] || 0) && w1 !== ((S[m.t1] || 0) > (S[m.t2] || 0))) upsets++; }
+    const A = st[m.t1], B = st[m.t2];
+    if (w1) A.pts += 2 + (scored && g2 === 0 ? 1 : 0); else B.pts += 2 + (scored && g1 === 0 ? 1 : 0);
+    A.gd += g1 - g2; B.gd += g2 - g1; A.gf += g1; B.gf += g2;
+  }
+  const slot = {}, tables = {};
+  Object.entries(dv.groups).forEach(([g, ts]) => {
+    const order = ts.map(t => ({ ...st[t], r: Math.random() })).sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || b.r - a.r);
+    tables[g] = order;
+    const gn = g.replace(/^group\s*/i, "").toLowerCase();
+    order.forEach((o, i) => slot[`group ${gn} - ${ordinal(i + 1)}`] = o.t);
+  });
+  const resolve = lab => { const n = norm(lab); if (slot[n]) return slot[n];
+    const m = /^winner - (r16|qf|sf) (\d+)$/.exec(n);
+    if (m) return slot[`winner:${{ r16: "r16", qf: "qf", sf: "semi final" }[m[1]]} ${m[2]}`];
+    return S[lab] !== undefined ? lab : null; };
+  const ko = []; let champion = null;
+  for (const m of [...dv.ko].sort((a, b) => a.stage - b.stage)) {
+    const a = resolve(m.t1), b = resolve(m.t2);
+    if (!a || !b) continue;
+    let w, score = null;
+    if (m.status === "completed") w = m.winner === 1 ? a : b;
+    else { const r = playMatch(a, b, m.format, S); w = r.w1 ? a : b; score = r.score;
+      if ((S[a] || 0) !== (S[b] || 0) && (w === a) !== ((S[a] || 0) > (S[b] || 0))) upsets++; }
+    slot[`winner:${norm(m.round)}`] = w;
+    ko.push({ round: m.round, stage: m.stage, a, b, w, score });
+    if (m.stage === 3) champion = w;
+  }
+  return { tables, ko, champion, upsets };
+}
+function playOnce() {
+  lastSim = simulate(P.divisions[div]);
+  runs = runs || {}; runs[lastSim.champion] = (runs[lastSim.champion] || 0) + 1; runs._n = (runs._n || 0) + 1;
+  bracketMode = "sim"; $("#bracket-mode").querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === "sim"));
+  drawSimStory(); drawBracket(); drawSimBars();
+}
+function drawSimStory() {
+  const host = $("#sim-story");
+  if (!lastSim) { host.innerHTML = `<p class="note">Press "Play the tournament once" to see one possible outcome for ${esc(div)}.</p>`; return; }
+  const s = lastSim, fin = s.ko.find(k => k.stage === 3), our = divOdds().find(o => o.team === s.champion);
+  const runner = fin ? (fin.w === fin.a ? fin.b : fin.a) : null;
+  const winners = Object.entries(s.tables).map(([g, t]) => `<li>${esc(grp(g))}: ${esc(pair(t[0].t))} <span class="note">(${t[0].pts} pts)</span></li>`).join("");
+  host.innerHTML = `<div class="champ" style="text-align:left"><div class="note">Champion in this run</div><div class="nm" style="font-size:22px">🏆 ${esc(pair(s.champion))}</div>
+    <div class="note">${fin && fin.score ? `Beat ${esc(pair(runner))} ${esc(fin.score)} in the final.` : runner ? `Beat ${esc(pair(runner))} in the final.` : ""}
+    Our odds for them: ${our ? pct(our.p_title, our.p_title < .01 ? 1 : 0) : "n/a"}${our && our.p_title < 0.1 ? ". A real surprise!" : "."}</div></div>
+    <h3>Group winners</h3><ul style="margin:0;padding-left:18px">${winners}</ul>
+    <p class="note" style="margin-top:10px">${s.upsets} upset${s.upsets === 1 ? "" : "s"} in this run (the weaker pair won). See the full bracket above.</p>`;
+}
+function runMany() {
+  const dv = P.divisions[div], total = 1000, btns = [$("#sim-once"), $("#sim-many")], prog = $("#sim-progress");
+  runs = { _n: 0 }; btns.forEach(b => b.disabled = true); prog.hidden = false;
+  const step = () => {
+    for (let i = 0; i < 40 && runs._n < total; i++) { const c = simulate(dv).champion; runs[c] = (runs[c] || 0) + 1; runs._n++; }
+    prog.firstElementChild.style.width = pct(runs._n / total); drawSimBars();
+    // setTimeout (not requestAnimationFrame) so runs keep going in a background tab
+    if (runs._n < total) setTimeout(step, 16); else { btns.forEach(b => b.disabled = false); setTimeout(() => prog.hidden = true, 600); }
+  };
+  setTimeout(step, 0);
+}
+function drawSimBars() {
+  const host = $("#sim-bars"); host.innerHTML = "";
+  const top = divOdds().slice(0, 8), n = runs ? runs._n : 0;
+  const W = host.clientWidth || 400, narrow = W < 420, L = narrow ? 120 : 170, R = 44, rh = 26, H = top.length * rh + 20;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Title share in your runs" }, host);
+  const max = Math.max(0.1, Math.min(1, niceMax(Math.max(top[0].p_title, ...top.map(o => n ? (runs[o.team] || 0) / n : 0)) * 100) / 100));
+  const x = v => L + v / max * (W - L - R);
+  [0, max / 2, max].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: 0, y2: H - 18, stroke: "var(--grid)" }, svg);
+    txt(svg, { x: x(v), y: H - 4, "text-anchor": "middle", class: "tick" }, pct(v)); });
+  top.forEach((o, i) => {
+    const y = i * rh + 4, share = n ? (runs[o.team] || 0) / n : 0, nm = pair(o.team);
+    txt(svg, { x: L - 8, y: y + 12, "text-anchor": "end", class: "lbl" }, nm.length > (narrow ? 16 : 24) ? nm.slice(0, narrow ? 15 : 23) + "…" : nm);
+    if (share > 0) el("path", { d: bar(L, y, x(share) - L, 16, 3), fill: "var(--c1)" }, svg);
+    el("line", { x1: x(o.p_title), x2: x(o.p_title), y1: y - 2, y2: y + 18, stroke: "var(--ink)", "stroke-width": 2 }, svg);
+    if (n) txt(svg, { x: Math.max(x(share), x(o.p_title)) + 6, y: y + 12 }, pct(share));
+  });
+  $("#sim-count").textContent = n ? `${fmt(n)} run${n === 1 ? "" : "s"} so far.${n >= 1000 ? " With this many runs your bars should sit close to our ticks." : ""}` : "No runs yet.";
+}
+
+// ---------- match predictor
+let predMode = "teams";
+const players = () => P.players;
+function setupPredictor() {
+  segmented($("#pred-mode"), ["teams", "players"], m => { predMode = m; buildPickers(); }, ["Chandigarh teams", "Any four players"]);
+  $("#pred-format").addEventListener("input", drawPrediction);
+  const dl = document.createElement("datalist"); dl.id = "player-list";
+  dl.innerHTML = players().map(p => `<option value="${esc(p.name)}">`).join("");
+  document.body.appendChild(dl);
+  buildPickers();
+}
+function buildPickers() {
+  const byDiv = {}; P.teams.forEach(t => (byDiv[t.division] = byDiv[t.division] || []).push(t));
+  const adv = P.odds.filter(o => o.division === "Men's Advance").sort((a, b) => b.p_title - a.p_title);
+  if (predMode === "teams") {
+    const sel = (id, def) => `<label for="${id}">Pair</label><select id="${id}">${Object.entries(byDiv).map(([d, ts]) =>
+      `<optgroup label="${esc(d)}">${ts.sort((a, b) => b.strength - a.strength).map(t => `<option value="${esc(t.team)}"${t.team === def ? " selected" : ""}>${esc(pair(t.team))}</option>`).join("")}</optgroup>`).join("")}</select>`;
+    $("#pick-a").innerHTML = sel("team-a", adv[0].team); $("#pick-b").innerHTML = sel("team-b", adv[1].team);
+    ["team-a", "team-b"].forEach(id => $("#" + id).addEventListener("input", drawPrediction));
+  } else {
+    const [a1, a2] = adv[0].team.split(" / "), [b1, b2] = adv[1].team.split(" / ");
+    const inp = (id, v, lab) => `<label for="${id}">${lab}</label><input type="text" id="${id}" list="player-list" value="${esc(v)}" autocomplete="off"><span class="note" id="${id}-hint"></span>`;
+    $("#pick-a").innerHTML = inp("pa1", a1, "Player 1") + inp("pa2", a2, "Player 2");
+    $("#pick-b").innerHTML = inp("pb1", b1, "Player 1") + inp("pb2", b2, "Player 2");
+    ["pa1", "pa2", "pb1", "pb2"].forEach(id => $("#" + id).addEventListener("input", drawPrediction));
+  }
+  drawPrediction();
+}
+function sideStrength(ids) {
+  let s = 0, names = [];
+  ids.forEach(id => {
+    const v = $("#" + id).value.trim(), p = players().find(x => x.name.toLowerCase() === v.toLowerCase());
+    $("#" + id + "-hint").textContent = !v ? "" : p ? `${p.cat}, ${fmt(p.points)} pts` : "Not found: rated as a new player";
+    s += p ? p.theta : 0; names.push(p ? p.name : v || "?");
+  });
+  return { s, name: names.join(" & ") };
+}
+function drawPrediction() {
+  if (!P) return;
+  let A, B;
+  if (predMode === "teams") {
+    const f = id => P.teams.find(t => t.team === $("#" + id).value);
+    const ta = f("team-a"), tb = f("team-b"); if (!ta || !tb) return;
+    A = { s: ta.strength, name: pair(ta.team) }; B = { s: tb.strength, name: pair(tb.team) };
+  } else { A = sideStrength(["pa1", "pa2"]); B = sideStrength(["pb1", "pb2"]); }
+  const fmtv = $("#pred-format").value, q = sigmoid(A.s - B.s), p = pMatch(q, fmtv), [lbl] = strength(p);
+  const fav = p >= 0.5 ? A.name : B.name, fp = Math.max(p, 1 - p);
+  const verdict = A.name === B.name ? "Pick two different pairs." : lbl === "Toss-up" ? "Too close to call: a toss-up." :
+    `${esc(fav)}: ${lbl.toLowerCase()}, ${odds(fp)} to win.`;
+  let dist;
+  const n = raceN(fmtv);
+  if (n) dist = raceScores(q, n).sort((x, y) => (y.a - y.b) - (x.a - x.b)).map(d => ({ k: d.a > d.b ? `${d.a}-${d.b}` : `${d.a}-${d.b}`, p: d.p, a: d.a > d.b }));
+  else { const b = bestOf3(q); dist = [{ k: "2-0", p: b.s20, a: true }, { k: "2-1", p: b.s21, a: true }, { k: "1-2", p: b.s12, a: false }, { k: "0-2", p: b.s02, a: false }]; }
+  const best = dist.reduce((m, d) => d.p > m.p ? d : m, dist[0]);
+  $("#pred-out").innerHTML = `<div class="split"><div class="a" style="width:${(p * 100).toFixed(1)}%">${p >= 0.12 ? pct(p) : ""}</div><div class="b" style="width:${((1 - p) * 100).toFixed(1)}%">${p <= 0.88 ? pct(1 - p) : ""}</div></div>
+    <div style="display:flex;justify-content:space-between;gap:12px;margin:6px 0 12px" class="note"><span>${esc(A.name)}</span><span style="text-align:right">${esc(B.name)}</span></div>
+    <p style="font-size:18px;font-weight:600;margin:0 0 4px">${verdict}</p>
+    <p class="note">Most likely score: <b>${esc(best.k)}</b>${n ? "" : " in sets"} (${pct(best.p)}). ${esc(A.name.split(" & ")[0])}'s pair wins each game ${pct(q)} of the time.</p>
+    <h3 style="margin:14px 0 6px;font-size:15px">Every possible score (${esc(A.name.split(" & ")[0])}'s pair first)</h3><div class="chart" id="score-chart"></div>`;
+  const host = $("#score-chart"), W = host.clientWidth || 700, H = 170, L = 8, R = 8, T = 18, Bt = 26;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Chance of each final score" }, host);
+  const bw = (W - L - R) / dist.length, mx = Math.max(...dist.map(d => d.p));
+  dist.forEach((d, i) => {
+    const h = (d.p / mx) * (H - T - Bt), x0 = L + i * bw + 2, g = el("g", {}, svg);
+    el("rect", { x: x0, y: T, width: bw - 4, height: H - T - Bt, fill: "transparent" }, g);
+    el("rect", { x: x0, y: H - Bt - h, width: bw - 4, height: h, rx: 3, fill: d.a ? "var(--c1)" : "var(--c2)" }, g);
+    if (bw > 26 || i % 2 === 0) txt(g, { x: x0 + (bw - 4) / 2, y: H - 8, "text-anchor": "middle", class: "tick" }, d.k);
+    if (d === best) txt(g, { x: x0 + (bw - 4) / 2, y: H - Bt - h - 5, "text-anchor": "middle", class: "lbl" }, pct(d.p));
+    tipOn(g, e => showTip(e, `<div class="t">${esc(d.k)}</div>` + row("Chance", pct(d.p, 1)) + row("Winner", d.a ? A.name : B.name)));
+  });
+}
+
+// ---------- every match
+function setupMatches() {
+  const sel = $("#m-div"), divs = [...new Set(P.matches.map(m => m.division))];
+  sel.innerHTML = `<option value="">All divisions</option>` + divs.map(d => `<option>${esc(d)}</option>`).join("");
+  [sel, $("#m-q"), $("#m-flag")].forEach(n => n.addEventListener("input", drawMatches));
+  drawMatches();
+}
+function drawMatches() {
+  const d = $("#m-div").value, q = $("#m-q").value.trim().toLowerCase(), f = $("#m-flag").checked;
+  const ms = P.matches.filter(m => (!d || m.division === d) && (!q || (m.team1 + " " + m.team2).toLowerCase().includes(q)) && (!f || m.model_disagrees_with_points));
+  const whenTxt = m => m.date ? day(m.date, { weekday: "short", day: "numeric", month: "short" }) + (m.time ? ", " + m.time : "") : "";
+  const round = r => String(r).replace(/^GROUP\s*/i, "Group ").replace(/^Group STAGE$/i, "Group stage");
+  $("#m-tbl").innerHTML = `<thead><tr><th>When</th><th class="hide-sm">Division</th><th>Match</th><th>Who's favoured</th><th>Result</th></tr></thead><tbody>` +
+    (ms.length ? ms.map(m => {
+      const p = m.p_team1, favTeam = p >= 0.5 ? m.team1 : m.team2, favP = Math.max(p, 1 - p), [lbl, cls] = strength(p);
+      const favTxt = lbl === "Toss-up" ? `<span class="tag">Toss-up</span>` : `<span class="tag ${cls}">${lbl}</span><br>${esc(pair(favTeam))}, ${pct(favP)}`;
+      let res = `<span class="note">to be played</span>`;
+      if (m.status_at_freeze === "completed") {
+        const w = m.winner_at_freeze === 1 ? m.team1 : m.team2, called = lbl === "Toss-up" ? null : w === favTeam;
+        const miss = lbl === "Slight favourite" ? "surprise" : "upset";
+        res = `${esc(pair(w))} won` + (called === null ? "" : called ? ` <span class="tag won">as expected</span>` : ` <span class="tag lost">${miss}</span>`) + `<br><span class="note">played before predictions were locked</span>`;
+      }
+      return `<tr><td style="white-space:nowrap">${esc(whenTxt(m))}<br><span class="note">${esc(round(m.round))}</span></td><td class="hide-sm">${esc(m.division)}</td>
+        <td>${esc(pair(m.team1))}<br><span class="note">vs</span> ${esc(pair(m.team2))}</td><td>${favTxt}</td><td>${res}</td></tr>`; }).join("")
+      : `<tr><td colspan="5" class="note">No matches match these filters.</td></tr>`) + "</tbody>";
+}
+
+// ---------- model quality
+function drawModel() {
+  const PP = P.model.pooled;
+  $("#acc-big").textContent = pct(PP["points + results"].accuracy);
+  const items = [["Tossing a coin", PP["coin flip"].accuracy], ["Picking the higher-ranked pair", PP["points only"].accuracy], ["Our model", PP["points + results"].accuracy]];
+  let host = $("#acc"); host.innerHTML = "";
+  let W = host.clientWidth || 440; const narrow = W < 400, L = narrow ? 130 : 200, R = 44, rowH = 34, H = items.length * rowH + 22;
+  let svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Share of matches called correctly" }, host);
+  const x = v => L + v * (W - L - R);
+  [0, .5, 1].forEach(v => { el("line", { x1: x(v), x2: x(v), y1: 0, y2: H - 20, stroke: "var(--grid)" }, svg); txt(svg, { x: x(v), y: H - 5, "text-anchor": "middle", class: "tick" }, pct(v)); });
+  items.forEach(([m, a], i) => { const y = i * rowH + 6;
+    txt(svg, { x: L - 10, y: y + 14, "text-anchor": "end", class: "lbl" }, narrow ? m.replace("Picking the higher-ranked pair", "Higher-ranked pair") : m);
+    el("path", { d: bar(L, y, x(a) - L, 20), fill: i === 2 ? "var(--c1)" : "var(--axis)", class: "bar-fill" }, svg);
+    txt(svg, { x: x(a) + 6, y: y + 14 }, pct(a)); });
+  $("#acc-note").textContent = `Tested on ${PP["coin flip"].matches} matches from Goa Grand Slam 11.0 and Kochi City Open 2.0. Backing the higher-ranked pair does almost as well at picking winners; the model's edge is that its percentages can be trusted.`;
+
+  const cal = P.model.calibration; host = $("#cal"); host.innerHTML = "";
+  W = host.clientWidth || 440; const cl = 92, cr = 40, rh = 40, CH = cal.length * rh + 22;
+  svg = el("svg", { viewBox: `0 0 ${W} ${CH}`, role: "img", "aria-label": "Predicted versus actual win rate" }, host);
+  const cx = v => cl + v * (W - cl - cr);
+  [0, .5, 1].forEach(v => { el("line", { x1: cx(v), x2: cx(v), y1: 0, y2: CH - 20, stroke: "var(--grid)" }, svg); txt(svg, { x: cx(v), y: CH - 5, "text-anchor": "middle", class: "tick" }, pct(v)); });
+  cal.forEach((c, i) => { const y = i * rh + 4, g = el("g", {}, svg);
+    el("rect", { x: 0, y: y - 2, width: W, height: rh, fill: "transparent" }, g);
+    txt(g, { x: cl - 10, y: y + 18, "text-anchor": "end", class: "lbl" }, `Said ~${pct(c.predicted)}`);
+    el("path", { d: bar(cl, y + 2, cx(c.predicted) - cl, 13, 3), fill: "var(--c1)", class: "bar-fill" }, g);
+    el("path", { d: bar(cl, y + 17, cx(c.actual) - cl, 13, 3), fill: "var(--c2)", class: "bar-fill" }, g);
+    txt(g, { x: cx(Math.max(c.predicted, c.actual)) + 6, y: y + 20 }, pct(c.actual));
+    tipOn(g, e => showTip(e, `<div class="t">${c.matches} matches</div>` + row("Model said the favourite had", pct(c.predicted)) + row("Favourite actually won", pct(c.actual)))); });
+
+  // confidence mix for the matches still to play
+  const up = P.matches.filter(m => m.status_at_freeze !== "completed");
+  const bands = [["Toss-up", "var(--axis)"], ["Slight favourite", "var(--c4)"], ["Favourite", "var(--c3)"], ["Strong favourite", "var(--c1)"]];
+  const counts = bands.map(([b]) => up.filter(m => strength(m.p_team1)[0] === b).length);
+  host = $("#conf"); host.innerHTML = ""; W = host.clientWidth || 800;
+  svg = el("svg", { viewBox: `0 0 ${W} 74`, role: "img", "aria-label": "Remaining matches by confidence" }, host);
+  let x0 = 0;
+  counts.forEach((c, i) => { if (!c) return; const w = c / up.length * W, g = el("g", {}, svg);
+    el("rect", { x: x0 + (x0 ? 1 : 0), y: 0, width: Math.max(0, w - (x0 ? 1 : 0) - 1), height: 34, rx: 4, fill: bands[i][1] }, g);
+    if (w > 70) txt(g, { x: x0 + 8, y: 22, class: "lbl", style: "fill:#fff;font-weight:600" }, `${c}`);
+    txt(g, { x: x0 + 2, y: 54, class: "tick" }, w > 90 ? bands[i][0] : "");
+    tipOn(g, e => showTip(e, `<div class="t">${bands[i][0]}</div>` + row("Matches", c) + row("Share", pct(c / up.length))));
+    x0 += w; });
+
+  const m = PP["points + results"];
+  $("#tech").innerHTML = [
+    `Each game in a match is treated as a small contest. A pair's strength is the sum of its two players' ratings; a rating comes from ranking points before the event plus an adjustment learned from games won and lost (kept small for players with few games).`,
+    `Ranking points shown next to each team in a draw already include that tournament's result, so the model rebuilds each player's points as they were before the event.`,
+    `Group stage: 2 points per win plus 1 bonus for an 8-0 win, ties split on game difference then games won (this reproduces every group table at earlier events). Knockout slots follow the draw exactly.`,
+    `Scores on the ${m.matches} test matches: ${pct(m.accuracy, 1)} correct, log loss ${m.log_loss.toFixed(3)} (coin flip 0.693, lower is better), Brier score ${m.brier.toFixed(3)} (coin flip 0.250).`,
+    `The simulator and match predictor on this page run the same formulas in your browser, so your runs should match our ${fmt(P.n_sims)} closely once you run enough of them.`,
+  ].map(s => `<li>${esc(s)}</li>`).join("");
+}
+
+function drawScorecard() {
+  const s = P.scorecard;
+  if (!s || !s.scored_matches) return;
+  $("#scorecard").innerHTML = `<div class="explain"><h3>How did the predictions do?</h3>
+    <p>Of ${s.scored_matches} matches predicted before they were played, the model called <b>${pct(s.model.accuracy)}</b> correctly
+    (backing the higher-ranked pair: ${pct(s.higher_points_wins_accuracy)}).</p>
+    ${(s.champions || []).map(c => `<p class="note">${esc(c.division)}: ${esc(pair(c.champion))} won. We gave them ${c.our_title_chance == null ? "no rating" : pct(c.our_title_chance)}.</p>`).join("")}</div>`;
+}
+</script>
+</body>
+</html>
